@@ -1,0 +1,43 @@
+name: Build CyberSignal Today
+
+on:
+  schedule:
+    # 10:00 UTC -- morning pull, gives you the candidate list
+    - cron: "0 10 * * 1-5"
+    # 12:00 UTC -- republish, picking up whatever you wrote in the Sheet
+    - cron: "0 12 * * 1-5"
+  workflow_dispatch:        # lets you run it by hand from the Actions tab
+
+permissions:
+  contents: write           # required so the job can commit data.json
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build data.json
+        env:
+          NVD_API_KEY: ${{ secrets.NVD_API_KEY }}
+          SHEET_CSV_URL: ${{ secrets.SHEET_CSV_URL }}
+        run: python scripts/build.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "cybersignal-bot"
+          git config user.email "actions@github.com"
+          git add site/data.json
+          if git diff --staged --quiet; then
+            echo "No change today."
+          else
+            git commit -m "data: $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
