@@ -1,1 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Today &middot; The CyberSignal</title>
+<meta name="description" content="Every vulnerability disclosed in the last 72 hours, ranked against the stack you actually run. Updated daily by The CyberSignal.">
+<meta property="og:title" content="Today &middot; The CyberSignal">
+<meta property="og:description" content="Every vulnerability disclosed in the last 72 hours, ranked against the stack you actually run.">
+<meta property="og:type" content="website">
+<link rel="canonical" href="https://today.thecybersignal.com/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F1F2F4; --surface:#fff; --ink:#14151A; --muted:#6B6F7B;
+    --faint:#9AA0AC; --rule:#DDE0E5; --brand:#4D4AE5; --brandsoft:#EEEEFD;
+    --hot:#C2312C; --warm:#B4690E;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--paper);color:var(--ink);
+       font-family:'IBM Plex Sans',ui-sans-serif,system-ui,sans-serif;
+       -webkit-font-smoothing:antialiased;line-height:1.5}
+  .mono{font-family:'IBM Plex Mono',ui-monospace,Menlo,monospace;
+        font-variant-numeric:tabular-nums}
+  .wrap{max-width:900px;margin:0 auto;padding:0 20px}
+  a{color:var(--brand)}
 
+  header{background:var(--surface);border-bottom:1px solid var(--rule)}
+  .mast{display:flex;justify-content:space-between;align-items:baseline;
+        gap:16px;padding:14px 0;flex-wrap:wrap}
+  .brandmark{font-size:11px;letter-spacing:.16em;text-transform:uppercase;font-weight:600}
+  .brandmark span{color:var(--brand)}
+  .stamp{font-size:11px;color:var(--muted)}
+
+  .thesis{padding:32px 0 24px;border-bottom:1px solid var(--rule)}
+  .thesis-row{display:flex;align-items:flex-end;gap:14px;flex-wrap:wrap}
+  .bignum{font-size:58px;line-height:.86;font-weight:600;letter-spacing:-.02em}
+  .thesis p{font-size:15px;color:var(--muted);max-width:42ch;margin:0 0 4px}
+  .thesis p b{color:var(--ink);font-weight:600}
+  .ticks{display:flex;align-items:flex-end;gap:2px;height:28px;margin-top:20px;overflow:hidden}
+  .tick{width:2px;height:7px;background:var(--rule);flex:0 0 auto}
+  .tick.on{height:28px;background:var(--hot)}
+  .tickcap{font-size:11px;color:var(--faint);margin-top:8px}
+
+  .picker{padding:22px 0 6px}
+  .picker label{font-size:10.5px;letter-spacing:.13em;text-transform:uppercase;
+                color:var(--faint);font-weight:600;display:block;margin-bottom:8px}
+  .segs{display:flex;flex-wrap:wrap;gap:6px}
+  .seg{font-family:'IBM Plex Mono',monospace;font-size:11.5px;padding:6px 11px;
+       border:1px solid var(--rule);background:#fff;color:var(--muted);
+       border-radius:2px;cursor:pointer}
+  .seg[aria-pressed="true"]{background:var(--brand);border-color:var(--brand);color:#fff}
+  .seg:focus-visible{outline:2px solid var(--brand);outline-offset:2px}
+  .segblurb{font-size:13px;color:var(--muted);margin:14px 0 20px}
+
+  .row{display:flex;background:var(--surface);border:1px solid var(--rule);border-bottom:none}
+  .row:last-child{border-bottom:1px solid var(--rule)}
+  .rail{width:4px;flex:0 0 4px}
+  .score{width:62px;flex:0 0 62px;padding:14px 0 0;text-align:center;
+         border-right:1px solid var(--rule)}
+  .score b{display:block;font-size:20px;font-weight:600;line-height:1}
+  .score i{display:block;font-size:9px;font-style:normal;color:var(--faint);
+           letter-spacing:.1em;margin-top:5px}
+  .body{flex:1;padding:13px 16px 14px;min-width:0}
+  .meta{display:flex;gap:9px;align-items:center;flex-wrap:wrap;margin-bottom:5px}
+  .idtag{font-size:11px;color:var(--muted)}
+  .prod{font-size:11px;padding:1px 7px;border:1px solid var(--rule);
+        border-radius:2px;color:var(--muted)}
+  .flag{font-size:9.5px;letter-spacing:.09em;text-transform:uppercase;
+        padding:2px 6px;border-radius:2px;font-weight:500}
+  .flag.kev{background:var(--hot);color:#fff}
+  .flag.ranso{background:#fff;border:1px solid var(--hot);color:var(--hot)}
+  h2.title{font-size:14.5px;font-weight:500;line-height:1.4;margin:0 0 5px}
+  .take{font-size:13.5px;margin:8px 0 0;padding:9px 12px;background:var(--brandsoft);
+        border-left:2px solid var(--brand)}
+  .take em{font-style:normal;font-size:10px;letter-spacing:.11em;text-transform:uppercase;
+           color:var(--brand);display:block;margin-bottom:3px;font-weight:600}
+  .acts{display:flex;gap:14px;margin-top:10px;align-items:center}
+  .acts button,.acts a{background:none;border:none;padding:0;cursor:pointer;
+        font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.06em;
+        text-transform:uppercase;color:var(--brand);text-decoration:none}
+  .expand{margin-top:12px;padding-top:11px;border-top:1px dashed var(--rule)}
+  .fac{display:flex;align-items:center;gap:10px;font-size:12px;padding:3px 0}
+  .fac span:first-child{flex:0 0 26px;text-align:right;color:var(--brand);font-weight:500}
+  .facbar{height:3px;background:var(--brand);opacity:.28;border-radius:2px}
+  .fac span:last-child{color:var(--muted)}
+
+  .cut{display:flex;align-items:center;gap:12px;margin:24px 0 12px}
+  .cut hr{flex:1;border:none;border-top:1px solid var(--rule)}
+  .cut span{font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--faint)}
+  .dim{opacity:.62}
+
+  .cta{background:var(--surface);border:1px solid var(--rule);padding:22px;
+       margin:34px 0 0;text-align:center}
+  .cta h3{margin:0 0 6px;font-size:17px}
+  .cta p{margin:0 0 14px;font-size:14px;color:var(--muted)}
+  .cta a.btn{display:inline-block;background:var(--brand);color:#fff;padding:10px 20px;
+             text-decoration:none;font-size:13.5px;font-weight:500;border-radius:2px}
+  footer{font-size:11.5px;color:var(--faint);padding:26px 0 60px;line-height:1.7}
+  .loading{padding:60px 0;text-align:center;color:var(--faint);font-size:14px}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap mast">
+    <div class="brandmark mono">The CyberSignal <span>/ Today</span></div>
+    <div class="stamp mono" id="stamp">&nbsp;</div>
+  </div>
+</header>
+
+<div class="wrap">
+  <div id="app"><div class="loading">Loading today&rsquo;s triage&hellip;</div></div>
+
+  <div class="cta">
+    <h3>Want this in your inbox, matched to your stack?</h3>
+    <p>One short email each weekday. Only what touches what you actually run.</p>
+    <a class="btn" href="https://thecybersignal.com/#/portal/signup">Subscribe free</a>
+  </div>
+
+  <footer>
+    Ranking combines CISA KEV listing, FIRST EPSS exploit-likelihood scores, CVSS severity,
+    and whether the affected product appears in the selected stack. Every score on this page
+    shows its own arithmetic &mdash; open &ldquo;why this rank&rdquo; on any item.
+    Data from NVD, CISA and FIRST. Built and edited by
+    <a href="https://thecybersignal.com">The CyberSignal</a>.
+  </footer>
+</div>
+
+<script>
+const CUT = 60;
+let DATA = null, current = null;
+
+function bandColor(s){ return s >= 85 ? 'var(--hot)' : s >= CUT ? 'var(--warm)' : 'var(--faint)'; }
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+function rowHTML(it, idx){
+  const color = bandColor(it.score);
+  const max = Math.max(...it.factors.map(f => f.points), 1);
+  return `
+  <div class="row">
+    <div class="rail" style="background:${color}"></div>
+    <div class="score">
+      <b class="mono" style="color:${color}">${it.score}</b><i class="mono">RANK</i>
+    </div>
+    <div class="body">
+      <div class="meta">
+        <span class="idtag mono">${esc(it.id)}</span>
+        ${it.products.slice(0,2).map(p => `<span class="prod mono">${esc(p)}</span>`).join('')}
+        ${it.kev ? '<span class="flag kev mono">Exploited</span>' : ''}
+        ${it.ransomware ? '<span class="flag ranso mono">Ransomware</span>' : ''}
+      </div>
+      <h2 class="title">${esc(it.headline)}</h2>
+      ${it.take ? `<p class="take"><em>Editor&rsquo;s note</em>${esc(it.take)}</p>` : ''}
+      <div class="acts">
+        <button onclick="toggle(${idx})" aria-expanded="false" id="btn${idx}">Why this rank</button>
+        <a href="${esc(it.url)}" target="_blank" rel="noopener">NVD detail</a>
+      </div>
+      <div class="expand" id="exp${idx}" hidden>
+        ${it.action ? `<p style="font-size:13.5px;margin:0 0 11px">${esc(it.action)}</p>` : ''}
+        ${it.factors.map(f => `
+          <div class="fac">
+            <span class="mono">+${f.points}</span>
+            <div class="facbar" style="width:${(f.points/max)*96}px"></div>
+            <span>${esc(f.label)}</span>
+          </div>`).join('')}
+      </div>
+    </div>
+  </div>`;
+}
+
+function toggle(i){
+  const e = document.getElementById('exp'+i), b = document.getElementById('btn'+i);
+  const open = e.hidden;
+  e.hidden = !open;
+  b.textContent = open ? 'Hide reasoning' : 'Why this rank';
+  b.setAttribute('aria-expanded', open);
+}
+
+function render(){
+  const seg = DATA.segments[current];
+  const above = seg.items.filter(i => i.score >= CUT);
+  const below = seg.items.filter(i => i.score < CUT);
+  let n = 0;
+
+  const ticks = Array.from({length:140}, (_,i) =>
+    `<div class="tick${(i % 28 === 9 && Math.floor(i/28) < above.length) ? ' on' : ''}"></div>`).join('');
+
+  document.getElementById('app').innerHTML = `
+    <div class="thesis">
+      <div class="thesis-row">
+        <div class="bignum mono">${above.length}</div>
+        <p><b>${above.length} of ${DATA.scanned} vulnerabilities</b> disclosed or updated in the
+        last ${DATA.window_hours} hours need attention in this environment. The rest do not.</p>
+      </div>
+      <div class="ticks" aria-hidden="true">${ticks}</div>
+      <div class="tickcap mono">Each mark is one advisory. Tall marks concern you.</div>
+    </div>
+
+    <div class="picker">
+      <label>Pick the stack closest to yours</label>
+      <div class="segs">
+        ${Object.entries(DATA.segments).map(([id, s]) =>
+          `<button class="seg" aria-pressed="${id===current}" onclick="pick('${id}')">${esc(s.label)}</button>`
+        ).join('')}
+      </div>
+      <p class="segblurb">${esc(seg.blurb)}</p>
+    </div>
+
+    ${above.length ? above.map(it => rowHTML(it, n++)).join('')
+      : `<div class="row"><div class="rail" style="background:var(--faint)"></div>
+         <div class="body"><h2 class="title">Nothing urgent here today.</h2>
+         <p style="font-size:13.5px;color:var(--muted);margin:0">
+         No vulnerability in this stack cleared the attention threshold in the last
+         ${DATA.window_hours} hours. That is a real result, not an empty page.</p></div></div>`}
+
+    ${below.length ? `<div class="cut"><span class="mono">Below the line &middot; worth knowing, not worth today</span><hr></div>
+      <div class="dim">${below.map(it => rowHTML(it, n++)).join('')}</div>` : ''}
+  `;
+}
+
+function pick(id){ current = id; render(); window.scrollTo({top:0,behavior:'smooth'}); }
+
+fetch('data.json?v=' + Date.now())
+  .then(r => r.json())
+  .then(d => {
+    DATA = d;
+    document.getElementById('stamp').textContent =
+      'Updated ' + new Date(d.generated).toLocaleString(undefined,
+        {dateStyle:'medium', timeStyle:'short'});
+    current = Object.keys(d.segments)[0];
+    render();
+  })
+  .catch(e => {
+    document.getElementById('app').innerHTML =
+      '<div class="loading">Today&rsquo;s data has not been generated yet. Check back shortly.</div>';
+  });
+</script>
+</body>
+</html>
