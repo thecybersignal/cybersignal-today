@@ -1,13 +1,336 @@
 {
- "generated": "2026-08-11T12:30:58+00:00",
+ "generated": "2026-08-11T15:31:12+00:00",
  "window_hours": 72,
- "scanned": 2037,
+ "scanned": 2358,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
    "label": "Edge & remote access",
    "blurb": "VPN concentrators, SSL gateways, and anything you publish to the internet.",
-   "items": [],
+   "items": [
+    {
+     "id": "CVE-2026-18125",
+     "headline": "An out-of-bounds\u00a0read in\u00a0the\u00a0Agent of\u00a0Ivanti Endpoint Manager\u00a0before\u00a0version 2024 SU7\u00a0allows a\u00a0remote unauthenticated\u00a0attacker to\u00a0crash an agent service",
+     "products": [],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 7.5",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 7.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18125",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-18127",
+     "headline": "External control of a filename in the Core of Ivanti Endpoint Manager before version 2024 SU7 allows a remote authenticated attacker full write control over ...",
+     "products": [],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 7.7",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 7.7,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18127",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-18129",
+     "headline": "Cleartext transmission of sensitive information in the Core of Ivanti Endpoint Manager before version 2024 SU7 allows a remote unauthenticated attacker in a ...",
+     "products": [],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 8.1",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 8.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18129",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-0287",
+     "headline": "Multiple denial of service vulnerabilities in Palo Alto Networks PAN-OS\u00ae software allow an unauthenticated attacker with network access to cause a denial of ...",
+     "products": [
+      "cloud ngfw",
+      "pan-os"
+     ],
+     "score": 37,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 6.6",
+       "points": 7
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.003,
+     "cvss": 6.6,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0287",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-0288",
+     "headline": "Multiple buffer overflow vulnerabilities in the User-ID Terminal Server Agent (TSA) component of Palo Alto Networks PAN-OS software allow an unauthenticated ...",
+     "products": [
+      "pan-os"
+     ],
+     "score": 37,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.2",
+       "points": 7
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.008,
+     "cvss": 7.2,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0288",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-59837",
+     "headline": "A stack-based buffer overflow vulnerability in Fortinet FortiOS 7.4.0 through 7.4.1, FortiOS 7.2 all versions, FortiPAM 1.8.0 through 1.8.2, FortiPAM 1.7 all...",
+     "products": [
+      "fortios",
+      "fortipam",
+      "fortiproxy"
+     ],
+     "score": 37,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 6.6",
+       "points": 7
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.006,
+     "cvss": 6.6,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59837",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-0286",
+     "headline": "A command injection vulnerability in the management plane of Palo Alto Networks PAN-OS\u00ae software enables an authenticated administrator to execute arbitrary ...",
+     "products": [
+      "pan-os"
+     ],
+     "score": 36,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 6.0",
+       "points": 6
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.01,
+     "cvss": 6.0,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0286",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-23573",
+     "headline": "An Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability [CWE-79] vulnerability in Fortinet FortiOS 7.6.0 throug...",
+     "products": [
+      "fortios",
+      "fortipam",
+      "fortiproxy"
+     ],
+     "score": 36,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 6.1",
+       "points": 6
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.003,
+     "cvss": 6.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23573",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-59839",
+     "headline": "A improper limitation of a pathname to a restricted directory ('path traversal') vulnerability in Fortinet FortiOS 7.6.0 through 7.6.6, FortiOS 7.4.0 through...",
+     "products": [
+      "fortios",
+      "fortipam",
+      "fortiproxy"
+     ],
+     "score": 36,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 5.5",
+       "points": 6
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 5.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59839",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-0284",
+     "headline": "An XML injection vulnerability in the Large Scale VPN (LSVPN) functionality of Palo Alto Networks PAN-OS\u00ae software enables an unauthenticated attacker with n...",
+     "products": [
+      "pan-os"
+     ],
+     "score": 35,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 4.7",
+       "points": 5
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 4.7,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0284",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-0285",
+     "headline": "A server-side request forgery (SSRF) vulnerability in Palo Alto Networks PAN-OS software enables an authenticated administrator with network access to the ma...",
+     "products": [
+      "pan-os"
+     ],
+     "score": 35,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 4.7",
+       "points": 5
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 4.7,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0285",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2025-43892",
+     "headline": "A buffer over-read vulnerability in Fortinet FortiOS 7.6.0 through 7.6.3, FortiOS 7.4.0 through 7.4.8, FortiOS 7.2 all versions, FortiOS 7.0 all versions, Fo...",
+     "products": [
+      "fortios",
+      "fortiproxy"
+     ],
+     "score": 34,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 4.3",
+       "points": 4
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 4.3,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-43892",
+     "take": "",
+     "action": ""
+    }
+   ],
    "above": 0
   },
   "microsoft-smb": {
@@ -48,7 +371,7 @@
      ],
      "kev": true,
      "ransomware": true,
-     "epss": 0.997,
+     "epss": 0.999,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-38647",
      "take": "",
@@ -202,7 +525,7 @@
      ],
      "kev": true,
      "ransomware": true,
-     "epss": 0.972,
+     "epss": 0.975,
      "cvss": 8.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-40444",
      "take": "",
@@ -557,13 +880,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
        "label": "Severity 9.9",
        "points": 10
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.007,
      "cvss": 9.9,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18948",
      "take": "",
@@ -722,6 +1049,166 @@
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-13444",
      "take": "",
      "action": ""
+    },
+    {
+     "id": "CVE-2026-59686",
+     "headline": "An OS Command Injection vulnerability in Progress Software LoadMaster, ECS Connection Manager, Object Scale Connection Manager, and MOVEit WAF allows an auth...",
+     "products": [
+      "connection manager for objectscale",
+      "ecs connection manager",
+      "loadmaster",
+      "moveit web application firewall"
+     ],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.4",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.007,
+     "cvss": 8.4,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59686",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-59687",
+     "headline": "An OS Command Injection vulnerability in Progress Software LoadMaster, ECS Connection Manager, Object Scale Connection Manager, and MOVEit WAF allows an auth...",
+     "products": [
+      "connection manager for objectscale",
+      "ecs connection manager",
+      "loadmaster",
+      "moveit web application firewall"
+     ],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.4",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.007,
+     "cvss": 8.4,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59687",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-59688",
+     "headline": "An OS Command Injection vulnerability in Progress Software LoadMaster, ECS Connection Manager, Object Scale Connection Manager, and MOVEit WAF allows an auth...",
+     "products": [
+      "connection manager for objectscale",
+      "ecs connection manager",
+      "loadmaster",
+      "moveit web application firewall"
+     ],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.4",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.007,
+     "cvss": 8.4,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59688",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-59689",
+     "headline": "An Incorrect Authorization vulnerability in Progress Software LoadMaster, ECS Connection Manager, Object Scale Connection Manager, and MOVEit WAF allows an a...",
+     "products": [
+      "connection manager for objectscale",
+      "ecs connection manager",
+      "loadmaster",
+      "moveit web application firewall"
+     ],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.0",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.002,
+     "cvss": 8.0,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59689",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-59690",
+     "headline": "A Missing Authorization vulnerability in Progress Software LoadMaster, ECS Connection Manager, Object Scale Connection Manager, MOVEit WAF, and Multi Tenant ...",
+     "products": [
+      "connection manager for objectscale",
+      "ecs connection manager",
+      "loadmaster",
+      "moveit web application firewall"
+     ],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.0",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.002,
+     "cvss": 8.0,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59690",
+     "take": "",
+     "action": ""
     }
    ],
    "above": 1
@@ -756,6 +1243,35 @@
      "epss": 0.015,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-21401",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2025-4334",
+     "headline": "The Simple User Registration plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 6.3",
+     "products": [
+      "memberhero"
+     ],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.02",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.021,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-4334",
      "take": "",
      "action": ""
     },
@@ -807,7 +1323,7 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.002,
+     "epss": 0.004,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15038",
      "take": "",
@@ -824,13 +1340,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
        "label": "Severity 9.9",
        "points": 10
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.005,
      "cvss": 9.9,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72867",
      "take": "",
@@ -847,13 +1367,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
        "label": "Severity 9.9",
        "points": 10
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.004,
      "cvss": 9.9,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72872",
      "take": "",
@@ -907,7 +1431,7 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.002,
+     "epss": 0.003,
      "cvss": 9.1,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18473",
      "take": "",
@@ -951,13 +1475,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
        "label": "Severity 9.4",
        "points": 9
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.007,
      "cvss": 9.4,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19429",
      "take": "",
@@ -986,7 +1514,7 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.005,
+     "epss": 0.006,
      "cvss": 8.6,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21570",
      "take": "",
@@ -1018,33 +1546,6 @@
      "epss": 0.013,
      "cvss": 9.4,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21571",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-14206",
-     "headline": "The HT Contact Form  WordPress plugin before 2.9.3 does not perform any authorization check on the endpoint that returns a saved form draft, allowing unauthe...",
-     "products": [],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 7.5",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.002,
-     "cvss": 7.5,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14206",
      "take": "",
      "action": ""
     }
