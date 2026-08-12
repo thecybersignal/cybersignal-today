@@ -1,7 +1,7 @@
 {
- "generated": "2026-08-12T12:35:55+00:00",
+ "generated": "2026-08-12T15:31:28+00:00",
  "window_hours": 72,
- "scanned": 3658,
+ "scanned": 3745,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
@@ -1178,13 +1178,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
        "label": "Severity 9.2",
        "points": 9
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.004,
      "cvss": 9.2,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13737",
      "take": "",
@@ -1201,13 +1205,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
        "label": "Severity 9.2",
        "points": 9
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.005,
      "cvss": 9.2,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13738",
      "take": "",
@@ -1414,7 +1422,7 @@
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.25",
+       "label": "Exploit likelihood 0.26",
        "points": 5
       },
       {
@@ -1424,7 +1432,7 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.254,
+     "epss": 0.265,
      "cvss": 8.4,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-13444",
      "take": "",
@@ -1756,13 +1764,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
        "label": "Severity 9.8",
        "points": 10
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.005,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16230",
      "take": "",
@@ -1789,7 +1801,7 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.001,
+     "epss": 0.003,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16298",
      "take": "",
@@ -1816,7 +1828,7 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.001,
+     "epss": 0.003,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16299",
      "take": "",
@@ -1924,7 +1936,7 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.002,
+     "epss": 0.003,
      "cvss": 8.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14293",
      "take": "",
