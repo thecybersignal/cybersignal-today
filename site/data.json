@@ -1,7 +1,7 @@
 {
- "generated": "2026-08-13T12:41:45+00:00",
+ "generated": "2026-08-13T15:35:47+00:00",
  "window_hours": 72,
- "scanned": 4552,
+ "scanned": 4378,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
@@ -1543,7 +1543,7 @@
      "id": "CVE-2026-14973",
      "headline": "IBM Aspera Desktop App 1.0.5 through 1.0.19 IBM Aspera for desktop can allow files to be written outside of the user's selected download destination",
      "products": [
-      "aspera desktop app",
+      "aspera",
       "linux kernel",
       "macos",
       "windows"
@@ -1735,7 +1735,7 @@
      "id": "CVE-2026-11980",
      "headline": "IBM Aspera Desktop App 1.0.5 through 1.0.19 can allow arbitrary code execution by loading DLL files at start-up",
      "products": [
-      "aspera desktop app",
+      "aspera",
       "linux kernel",
       "macos",
       "windows"
@@ -1861,6 +1861,33 @@
      "epss": 0.021,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-4334",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-14182",
+     "headline": "The Customer Email Verification for WooCommerce WordPress plugin before 3.2.6 does not correctly validate the email-verification activation code, relying on ...",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.001,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14182",
      "take": "",
      "action": ""
     },
@@ -2010,7 +2037,7 @@
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.00",
+       "label": "Exploit likelihood 0.01",
        "points": 0
       },
       {
@@ -2020,7 +2047,7 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.002,
+     "epss": 0.006,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15039",
      "take": "",
@@ -2037,13 +2064,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
        "label": "Severity 10.0",
        "points": 10
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.003,
      "cvss": 10.0,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15413",
      "take": "",
@@ -2073,33 +2104,6 @@
      "epss": 0.005,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15964",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-16051",
-     "headline": "The wpmudev-updates WordPress plugin before 5.0.1 does not verify the integrity of the packages installed through its remote management interface, nor protec...",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.002,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16051",
      "take": "",
      "action": ""
     }
