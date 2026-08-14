@@ -1,7 +1,7 @@
 {
- "generated": "2026-08-14T12:34:05+00:00",
+ "generated": "2026-08-14T15:08:07+00:00",
  "window_hours": 72,
- "scanned": 4155,
+ "scanned": 3896,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
@@ -1456,6 +1456,35 @@
      "action": ""
     },
     {
+     "id": "CVE-2026-43001",
+     "headline": "An issue was discovered in OpenStack Keystone before 29.0.2",
+     "products": [
+      "keystone"
+     ],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.9",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.005,
+     "cvss": 7.9,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-43001",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2021-30119",
      "headline": "Authenticated reflective XSS in HelpDeskTab/rcResults.asp The parameter result of /HelpDeskTab/rcResults.asp is insecurely returned in the requested web page...",
      "products": [
@@ -1543,166 +1572,6 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-59686",
-     "headline": "An OS Command Injection vulnerability in Progress Software LoadMaster, ECS Connection Manager, Object Scale Connection Manager, and MOVEit WAF allows an auth...",
-     "products": [
-      "connection manager for objectscale",
-      "ecs connection manager",
-      "loadmaster",
-      "moveit web application firewall"
-     ],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.4",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.007,
-     "cvss": 8.4,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59686",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-59687",
-     "headline": "An OS Command Injection vulnerability in Progress Software LoadMaster, ECS Connection Manager, Object Scale Connection Manager, and MOVEit WAF allows an auth...",
-     "products": [
-      "connection manager for objectscale",
-      "ecs connection manager",
-      "loadmaster",
-      "moveit web application firewall"
-     ],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.4",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.007,
-     "cvss": 8.4,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59687",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-59688",
-     "headline": "An OS Command Injection vulnerability in Progress Software LoadMaster, ECS Connection Manager, Object Scale Connection Manager, and MOVEit WAF allows an auth...",
-     "products": [
-      "connection manager for objectscale",
-      "ecs connection manager",
-      "loadmaster",
-      "moveit web application firewall"
-     ],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.4",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.007,
-     "cvss": 8.4,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59688",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-59689",
-     "headline": "An Incorrect Authorization vulnerability in Progress Software LoadMaster, ECS Connection Manager, Object Scale Connection Manager, and MOVEit WAF allows an a...",
-     "products": [
-      "connection manager for objectscale",
-      "ecs connection manager",
-      "loadmaster",
-      "moveit web application firewall"
-     ],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.0",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.002,
-     "cvss": 8.0,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59689",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-59690",
-     "headline": "A Missing Authorization vulnerability in Progress Software LoadMaster, ECS Connection Manager, Object Scale Connection Manager, MOVEit WAF, and Multi Tenant ...",
-     "products": [
-      "connection manager for objectscale",
-      "ecs connection manager",
-      "loadmaster",
-      "moveit web application firewall"
-     ],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.0",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.002,
-     "cvss": 8.0,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59690",
-     "take": "",
-     "action": ""
-    },
-    {
      "id": "CVE-2026-11980",
      "headline": "IBM Aspera Desktop App 1.0.5 through 1.0.19 can allow arbitrary code execution by loading DLL files at start-up",
      "products": [
@@ -1778,35 +1647,6 @@
      "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
     },
     {
-     "id": "CVE-2025-4334",
-     "headline": "The Simple User Registration plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 6.3",
-     "products": [
-      "memberhero"
-     ],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.02",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.021,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-4334",
-     "take": "",
-     "action": ""
-    },
-    {
      "id": "CVE-2026-12949",
      "headline": "The Wishlist Member plugin for WordPress is vulnerable to Account Takeover via Insufficient Verification of Data Authenticity in versions up to and including...",
      "products": [],
@@ -1817,13 +1657,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
        "label": "Severity 9.8",
        "points": 10
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.003,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12949",
      "take": "",
@@ -1850,7 +1694,7 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.001,
+     "epss": 0.003,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14182",
      "take": "",
@@ -2069,6 +1913,33 @@
      "epss": 0.006,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16051",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-16230",
+     "headline": "The Formidable Digital Signatures plugin for WordPress is vulnerable to file deletion due to insufficient file path validation in the delete_file function in...",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.005,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16230",
      "take": "",
      "action": ""
     }
