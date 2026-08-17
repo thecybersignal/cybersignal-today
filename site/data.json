@@ -1,7 +1,7 @@
 {
- "generated": "2026-08-17T11:01:52+00:00",
+ "generated": "2026-08-17T14:00:59+00:00",
  "window_hours": 72,
- "scanned": 3138,
+ "scanned": 3193,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
@@ -350,38 +350,6 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-13084",
-     "headline": "A null pointer dereference vulnerability in WatchGuard Fireware OS may allow a remote unauthenticated attacker to create a denial-of-service (DoS) condition ...",
-     "products": [
-      "firebox cloud",
-      "firebox m270",
-      "firebox m290",
-      "firebox m295"
-     ],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.7",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.005,
-     "cvss": 8.7,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13084",
-     "take": "",
-     "action": ""
-    },
-    {
      "id": "CVE-2026-49179",
      "headline": "Improper neutralization of special elements used in a command ('command injection') in Windows Active Directory allows an unauthorized attacker to execute co...",
      "products": [
@@ -416,7 +384,9 @@
     {
      "id": "CVE-2026-57104",
      "headline": "Improper neutralization of input during web page generation ('cross-site scripting') in Azure Storage Explorer allows an unauthorized attacker to elevate pri...",
-     "products": [],
+     "products": [
+      "azure storage explorer"
+     ],
      "score": 39,
      "factors": [
       {
@@ -437,6 +407,35 @@
      "epss": 0.008,
      "cvss": 8.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57104",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-59113",
+     "headline": "Missing authorization in Visual Studio Code allows an unauthorized attacker to execute code over a network",
+     "products": [
+      "visual studio code"
+     ],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.007,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59113",
      "take": "",
      "action": ""
     },
@@ -515,35 +514,6 @@
      "epss": 0.007,
      "cvss": 9.9,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18948",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-43001",
-     "headline": "An issue was discovered in OpenStack Keystone before 29.0.2",
-     "products": [
-      "keystone"
-     ],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 7.9",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.005,
-     "cvss": 7.9,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-43001",
      "take": "",
      "action": ""
     }
