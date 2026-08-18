@@ -1,13 +1,37 @@
 {
- "generated": "2026-08-18T11:02:32+00:00",
+ "generated": "2026-08-18T14:12:43+00:00",
  "window_hours": 72,
- "scanned": 3161,
+ "scanned": 3243,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
    "label": "Edge & remote access",
    "blurb": "VPN concentrators, SSL gateways, and anything you publish to the internet.",
-   "items": [],
+   "items": [
+    {
+     "id": "CVE-2026-18751",
+     "headline": "External control of file name or path vulnerability in Citrix WorkSpace App on MacOS.\n\nThis issue affects WorkSpace App: 2607",
+     "products": [],
+     "score": 35,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 5.2",
+       "points": 5
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 5.2,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18751",
+     "take": "",
+     "action": ""
+    }
+   ],
    "above": 0
   },
   "microsoft-smb": {
@@ -172,6 +196,38 @@
      "epss": 0.006,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65791",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-11707",
+     "headline": "IBM Tivoli System Automation Application Manager 4.1 and IBM WebSphere Application Server is affected by a cross-site scripting vulnerability in the administ...",
+     "products": [
+      "aix",
+      "i",
+      "tivoli system automation application manager",
+      "websphere application server"
+     ],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.3",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.002,
+     "cvss": 9.3,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11707",
      "take": "",
      "action": ""
     },
@@ -350,38 +406,6 @@
      "epss": 0.013,
      "cvss": 9.3,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59864",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-61358",
-     "headline": "Improper link resolution before file access ('link following') in Windows Accessibility Infrastructure (ATBroker.exe) allows an authorized attacker to elevat...",
-     "products": [
-      "windows 10 1809",
-      "windows 10 21h2",
-      "windows 10 22h2",
-      "windows 11 23h2"
-     ],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.04",
-       "points": 1
-      },
-      {
-       "label": "Severity 7.8",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.037,
-     "cvss": 7.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61358",
      "take": "",
      "action": ""
     }
