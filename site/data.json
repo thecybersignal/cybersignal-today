@@ -1,7 +1,7 @@
 {
- "generated": "2026-08-19T11:01:55+00:00",
+ "generated": "2026-08-19T14:10:03+00:00",
  "window_hours": 72,
- "scanned": 4883,
+ "scanned": 4965,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
@@ -34,6 +34,52 @@
      "epss": 0.603,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-25256",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-19489",
+     "headline": "Vulnerability in NetScaler ADC and NetScaler Gateway.\n\nThis issue affects ADC: from 14.1 through 73.32 and from 13.1 through 63.21; Gateway: from 14.1 throug...",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19489",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-19490",
+     "headline": "Vulnerability in NetScaler ADC and NetScaler Gateway.\n\nThis issue affects ADC: from 14.1 through 73.32 and from 13.1 through 63.21; Gateway: from 14.1 throug...",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 9.3",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 9.3,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19490",
      "take": "",
      "action": ""
     },
@@ -637,6 +683,33 @@
    "blurb": "RMM and remote-support platforms with reach into every client.",
    "items": [
     {
+     "id": "CVE-2026-18948",
+     "headline": "A flaw was found in Feast",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.9",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.007,
+     "cvss": 9.9,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18948",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2026-28323",
      "headline": "SolarWinds Web Help Desk is found to be affected by a SAML authentication bypass vulnerability",
      "products": [
@@ -662,6 +735,64 @@
      "epss": 0.006,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28323",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-5241",
+     "headline": "A vulnerability in the LightGlue model loading path of huggingface/transformers version 5.2.0 allows an attacker-controlled model repository to execute arbit...",
+     "products": [
+      "transformers"
+     ],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.6",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.005,
+     "cvss": 9.6,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5241",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-2229",
+     "headline": "ImpactThe undici WebSocket client is vulnerable to a denial-of-service attack due to improper validation of the\u00a0server_max_window_bits\u00a0parameter in the perme...",
+     "products": [
+      "undici"
+     ],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.5",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.009,
+     "cvss": 7.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2229",
      "take": "",
      "action": ""
     },
@@ -999,6 +1130,29 @@
      "action": ""
     },
     {
+     "id": "CVE-2026-12983",
+     "headline": "The Dinatur WordPress plugin through 1.18 does not sanitize and escape user input before using it in a SQL query, allowing unauthenticated users to perform S...",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 8.6",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 8.6,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12983",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2026-14279",
      "headline": "The Wholesale Market plugin for WordPress is vulnerable to privilege escalation in versions up to, and including, 2.2.2 via the ced_wholesale_request_send AJ...",
      "products": [],
@@ -1022,33 +1176,6 @@
      "epss": 0.003,
      "cvss": 8.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14279",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-14484",
-     "headline": "The RapiSafe \u2013 Secure Multi File Upload for Contact Form 7 plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path valida...",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.1",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.008,
-     "cvss": 9.1,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14484",
      "take": "",
      "action": ""
     }
