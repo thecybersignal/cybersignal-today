@@ -1,7 +1,7 @@
 {
- "generated": "2026-08-19T14:10:03+00:00",
+ "generated": "2026-08-20T11:04:10+00:00",
  "window_hours": 72,
- "scanned": 4965,
+ "scanned": 4615,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
@@ -252,6 +252,348 @@
    "blurb": "Windows Server, Exchange, Entra, and the Microsoft 365 estate.",
    "items": [
     {
+     "id": "CVE-2021-26855",
+     "headline": "Microsoft Exchange Server Remote Code Execution Vulnerability",
+     "products": [
+      "exchange server"
+     ],
+     "score": 114,
+     "factors": [
+      {
+       "label": "Listed as actively exploited",
+       "points": 40
+      },
+      {
+       "label": "Used in ransomware campaigns",
+       "points": 15
+      },
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 1.00",
+       "points": 20
+      },
+      {
+       "label": "Severity 9.1",
+       "points": 9
+      }
+     ],
+     "kev": true,
+     "ransomware": true,
+     "epss": 1.0,
+     "cvss": 9.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-26855",
+     "take": "",
+     "action": "Apply updates per vendor instructions."
+    },
+    {
+     "id": "CVE-2021-27065",
+     "headline": "Microsoft Exchange Server Remote Code Execution Vulnerability",
+     "products": [
+      "exchange server"
+     ],
+     "score": 113,
+     "factors": [
+      {
+       "label": "Listed as actively exploited",
+       "points": 40
+      },
+      {
+       "label": "Used in ransomware campaigns",
+       "points": 15
+      },
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 1.00",
+       "points": 20
+      },
+      {
+       "label": "Severity 7.8",
+       "points": 8
+      }
+     ],
+     "kev": true,
+     "ransomware": true,
+     "epss": 0.999,
+     "cvss": 7.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-27065",
+     "take": "",
+     "action": "Apply updates per vendor instructions."
+    },
+    {
+     "id": "CVE-2021-26857",
+     "headline": "Microsoft Exchange Server Remote Code Execution Vulnerability",
+     "products": [
+      "exchange server"
+     ],
+     "score": 112,
+     "factors": [
+      {
+       "label": "Listed as actively exploited",
+       "points": 40
+      },
+      {
+       "label": "Used in ransomware campaigns",
+       "points": 15
+      },
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.94",
+       "points": 19
+      },
+      {
+       "label": "Severity 7.8",
+       "points": 8
+      }
+     ],
+     "kev": true,
+     "ransomware": true,
+     "epss": 0.94,
+     "cvss": 7.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-26857",
+     "take": "",
+     "action": "Apply updates per vendor instructions."
+    },
+    {
+     "id": "CVE-2021-42321",
+     "headline": "Microsoft Exchange Server Remote Code Execution Vulnerability",
+     "products": [
+      "exchange server"
+     ],
+     "score": 112,
+     "factors": [
+      {
+       "label": "Listed as actively exploited",
+       "points": 40
+      },
+      {
+       "label": "Used in ransomware campaigns",
+       "points": 15
+      },
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.90",
+       "points": 18
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": true,
+     "ransomware": true,
+     "epss": 0.904,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-42321",
+     "take": "",
+     "action": "Apply updates per vendor instructions."
+    },
+    {
+     "id": "CVE-2021-26858",
+     "headline": "Microsoft Exchange Server Remote Code Execution Vulnerability",
+     "products": [
+      "exchange server"
+     ],
+     "score": 111,
+     "factors": [
+      {
+       "label": "Listed as actively exploited",
+       "points": 40
+      },
+      {
+       "label": "Used in ransomware campaigns",
+       "points": 15
+      },
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.90",
+       "points": 18
+      },
+      {
+       "label": "Severity 7.8",
+       "points": 8
+      }
+     ],
+     "kev": true,
+     "ransomware": true,
+     "epss": 0.895,
+     "cvss": 7.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-26858",
+     "take": "",
+     "action": "Apply updates per vendor instructions."
+    },
+    {
+     "id": "CVE-2021-26411",
+     "headline": "Internet Explorer Memory Corruption Vulnerability",
+     "products": [
+      "edge",
+      "internet explorer",
+      "windows 10 1507",
+      "windows 10 1607"
+     ],
+     "score": 110,
+     "factors": [
+      {
+       "label": "Listed as actively exploited",
+       "points": 40
+      },
+      {
+       "label": "Used in ransomware campaigns",
+       "points": 15
+      },
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.81",
+       "points": 16
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": true,
+     "ransomware": true,
+     "epss": 0.807,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-26411",
+     "take": "",
+     "action": "Apply updates per vendor instructions."
+    },
+    {
+     "id": "CVE-2021-42287",
+     "headline": "Active Directory Domain Services Elevation of Privilege Vulnerability",
+     "products": [
+      "windows server 2004",
+      "windows server 2008",
+      "windows server 2012",
+      "windows server 2016"
+     ],
+     "score": 108,
+     "factors": [
+      {
+       "label": "Listed as actively exploited",
+       "points": 40
+      },
+      {
+       "label": "Used in ransomware campaigns",
+       "points": 15
+      },
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.74",
+       "points": 15
+      },
+      {
+       "label": "Severity 7.5",
+       "points": 8
+      }
+     ],
+     "kev": true,
+     "ransomware": true,
+     "epss": 0.743,
+     "cvss": 7.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-42287",
+     "take": "",
+     "action": "Apply updates per vendor instructions."
+    },
+    {
+     "id": "CVE-2021-42278",
+     "headline": "Active Directory Domain Services Elevation of Privilege Vulnerability",
+     "products": [
+      "windows server 2004",
+      "windows server 2008",
+      "windows server 2012",
+      "windows server 2016"
+     ],
+     "score": 107,
+     "factors": [
+      {
+       "label": "Listed as actively exploited",
+       "points": 40
+      },
+      {
+       "label": "Used in ransomware campaigns",
+       "points": 15
+      },
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.70",
+       "points": 14
+      },
+      {
+       "label": "Severity 7.5",
+       "points": 8
+      }
+     ],
+     "kev": true,
+     "ransomware": true,
+     "epss": 0.702,
+     "cvss": 7.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-42278",
+     "take": "",
+     "action": "Apply updates per vendor instructions."
+    },
+    {
+     "id": "CVE-2023-21529",
+     "headline": "Microsoft Exchange Server Remote Code Execution Vulnerability",
+     "products": [
+      "exchange server"
+     ],
+     "score": 106,
+     "factors": [
+      {
+       "label": "Listed as actively exploited",
+       "points": 40
+      },
+      {
+       "label": "Used in ransomware campaigns",
+       "points": 15
+      },
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.62",
+       "points": 12
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": true,
+     "ransomware": true,
+     "epss": 0.621,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-21529",
+     "take": "",
+     "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
+    },
+    {
      "id": "CVE-2026-33824",
      "headline": "Double free in Windows IKE Extension allows an unauthorized attacker to execute code over a network",
      "products": [
@@ -260,7 +602,7 @@
       "windows 10 21h2",
       "windows 10 22h2"
      ],
-     "score": 91,
+     "score": 96,
      "factors": [
       {
        "label": "Listed as actively exploited",
@@ -271,8 +613,8 @@
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.56",
-       "points": 11
+       "label": "Exploit likelihood 0.78",
+       "points": 16
       },
       {
        "label": "Severity 9.8",
@@ -281,353 +623,94 @@
      ],
      "kev": true,
      "ransomware": false,
-     "epss": 0.558,
+     "epss": 0.779,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33824",
      "take": "",
      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
     },
     {
-     "id": "CVE-2026-55040",
-     "headline": "Weak authentication in Microsoft Office SharePoint allows an unauthorized attacker to bypass a security feature over a network",
+     "id": "CVE-2021-41379",
+     "headline": "Windows Installer Elevation of Privilege Vulnerability",
      "products": [
-      "sharepoint server"
+      "windows 10 1507",
+      "windows 10 1607",
+      "windows 10 1809",
+      "windows 10 1909"
      ],
-     "score": 80,
+     "score": 95,
      "factors": [
       {
        "label": "Listed as actively exploited",
        "points": 40
       },
       {
+       "label": "Used in ransomware campaigns",
+       "points": 15
+      },
+      {
        "label": "Runs in this environment",
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.04",
-       "points": 1
+       "label": "Exploit likelihood 0.20",
+       "points": 4
       },
       {
-       "label": "Severity 9.1",
-       "points": 9
+       "label": "Severity 5.5",
+       "points": 6
       }
      ],
      "kev": true,
-     "ransomware": false,
-     "epss": 0.04,
-     "cvss": 9.1,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55040",
+     "ransomware": true,
+     "epss": 0.201,
+     "cvss": 5.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-41379",
      "take": "",
-     "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+     "action": "Apply updates per vendor instructions."
     },
     {
-     "id": "CVE-2026-68820",
-     "headline": "Use after free in Windows Ancillary Function Driver for WinSock allows an authorized attacker to elevate privileges locally",
+     "id": "CVE-2023-23376",
+     "headline": "Windows Common Log File System Driver Elevation of Privilege Vulnerability",
      "products": [
+      "windows 10 1507",
       "windows 10 1607",
       "windows 10 1809",
-      "windows 10 21h2",
-      "windows 10 22h2"
+      "windows 10 20h2"
      ],
-     "score": 77,
+     "score": 95,
      "factors": [
       {
        "label": "Listed as actively exploited",
        "points": 40
       },
       {
+       "label": "Used in ransomware campaigns",
+       "points": 15
+      },
+      {
        "label": "Runs in this environment",
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
+       "label": "Exploit likelihood 0.11",
+       "points": 2
       },
       {
-       "label": "Severity 7.0",
-       "points": 7
+       "label": "Severity 7.8",
+       "points": 8
       }
      ],
      "kev": true,
-     "ransomware": false,
-     "epss": 0.003,
-     "cvss": 7.0,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-68820",
+     "ransomware": true,
+     "epss": 0.109,
+     "cvss": 7.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-23376",
      "take": "",
-     "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
-    },
-    {
-     "id": "CVE-2026-59124",
-     "headline": "Deserialization of untrusted data in Microsoft High Performance Computing (HPC) Pack allows an unauthorized attacker to execute code over a network",
-     "products": [
-      "windows app"
-     ],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.02",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.017,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59124",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-62878",
-     "headline": "Stack-based buffer overflow in Windows DNS allows an unauthorized attacker to execute code over a network",
-     "products": [
-      "windows 10 1607",
-      "windows 10 1809",
-      "windows server 2012",
-      "windows server 2016"
-     ],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.009,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62878",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-62893",
-     "headline": "Use after free in Windows Deployment Services allows an unauthorized attacker to execute code over a network",
-     "products": [
-      "windows 10 1607",
-      "windows 10 1809",
-      "windows server 2012",
-      "windows server 2016"
-     ],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.02",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.018,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62893",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-65791",
-     "headline": "Heap-based buffer overflow in Windows iSCSI Target Service allows an unauthorized attacker to execute code over a network",
-     "products": [
-      "windows 10 1607",
-      "windows 10 1809",
-      "windows server 2012",
-      "windows server 2016"
-     ],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.006,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65791",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-11707",
-     "headline": "IBM Tivoli System Automation Application Manager 4.1 and IBM WebSphere Application Server is affected by a cross-site scripting vulnerability in the administ...",
-     "products": [
-      "aix",
-      "i",
-      "tivoli system automation application manager",
-      "websphere application server"
-     ],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.3",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.002,
-     "cvss": 9.3,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11707",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-14525",
-     "headline": "IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.8 IBM WebSphere Application Server Liberty is vulnerable to an authentication bypass when ...",
-     "products": [
-      "aix",
-      "i",
-      "macos",
-      "websphere application server"
-     ],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.4",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.006,
-     "cvss": 9.4,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14525",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-24301",
-     "headline": "Improper neutralization of special elements used in a command ('command injection') in Microsoft Copilot allows an unauthorized attacker to disclose informat...",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Severity 8.8",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.0,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24301",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-47632",
-     "headline": "Improper certificate validation in Azure Connected Machine Agent allows an unauthorized attacker to elevate privileges over an adjacent network",
-     "products": [
-      "azure connected machine agent"
-     ],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.8",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.003,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47632",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-49163",
-     "headline": "Improper limitation of a pathname to a restricted directory ('path traversal') in Application Insights Profiler allows an authorized attacker to elevate priv...",
-     "products": [
-      "application insights profiler"
-     ],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.8",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.006,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-49163",
-     "take": "",
-     "action": ""
+     "action": "Apply updates per vendor instructions."
     }
    ],
-   "above": 3
+   "above": 12
   },
   "virtualization": {
    "label": "Virtualization & hypervisor",
@@ -653,7 +736,7 @@
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.01",
+       "label": "Exploit likelihood 0.02",
        "points": 0
       },
       {
@@ -663,7 +746,7 @@
      ],
      "kev": true,
      "ransomware": false,
-     "epss": 0.011,
+     "epss": 0.024,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59310",
      "take": "",
@@ -768,6 +851,29 @@
      "action": ""
     },
     {
+     "id": "CVE-2026-12633",
+     "headline": "The IPv6 neighbor-discovery code in subsys/net/ip/ipv6_nbr.c processes the 6LoWPAN Context Option (6CO, RFC 6775) carried inside ICMPv6 Router Advertisements",
+     "products": [],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 8.1",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 8.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12633",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2026-2229",
      "headline": "ImpactThe undici WebSocket client is vulnerable to a denial-of-service attack due to improper validation of the\u00a0server_max_window_bits\u00a0parameter in the perme...",
      "products": [
@@ -807,13 +913,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
        "label": "Severity 6.3",
        "points": 6
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.002,
      "cvss": 6.3,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55163",
      "take": "",
@@ -850,7 +960,31 @@
   "file-transfer": {
    "label": "Managed file transfer",
    "blurb": "The category with the worst mass-extortion track record in the business.",
-   "items": [],
+   "items": [
+    {
+     "id": "CVE-2026-22306",
+     "headline": "Download of code without integrity check, inclusion of functionality from untrusted control sphere, and cleartext \ntransmission of sensitive information vuln...",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 10.0",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 10.0,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22306",
+     "take": "",
+     "action": ""
+    }
+   ],
    "above": 0
   },
   "devstack": {
@@ -1076,6 +1210,83 @@
      "action": ""
     },
     {
+     "id": "CVE-2026-18031",
+     "headline": "The TabaPay Gateway WordPress plugin through 1.4.0 does not validate the payment callback before establishing a session for the account associated with the r...",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.001,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18031",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-18051",
+     "headline": "The W3 Total Cache WordPress plugin before 2.10.5 does not properly validate the request path it uses to build cache file names, allowing unauthenticated att...",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 10.0",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.002,
+     "cvss": 10.0,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18051",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-18315",
+     "headline": "The TrueBooker \u2013 Appointment Booking and Scheduler System plugin for WordPress is vulnerable to Authorization Bypass Through User-Controlled Key leading to A...",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18315",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2026-18432",
      "headline": "The Frontend Admin by DynamiApps plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 3.29.9",
      "products": [],
@@ -1099,83 +1310,6 @@
      "epss": 0.004,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18432",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-19598",
-     "headline": "The Pods \u2013 Custom Content Types and Fields plugin for WordPress is vulnerable to Privilege Escalation via Authorization Bypass in all versions up to, and inc...",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.004,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19598",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-12983",
-     "headline": "The Dinatur WordPress plugin through 1.18 does not sanitize and escape user input before using it in a SQL query, allowing unauthenticated users to perform S...",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Severity 8.6",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.0,
-     "cvss": 8.6,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12983",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-14279",
-     "headline": "The Wholesale Market plugin for WordPress is vulnerable to privilege escalation in versions up to, and including, 2.2.2 via the ced_wholesale_request_send AJ...",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.8",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.003,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14279",
      "take": "",
      "action": ""
     }
