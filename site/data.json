@@ -1,7 +1,7 @@
 {
- "generated": "2026-08-20T14:11:21+00:00",
+ "generated": "2026-08-21T11:02:58+00:00",
  "window_hours": 72,
- "scanned": 4622,
+ "scanned": 4395,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
@@ -48,13 +48,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
        "label": "Severity 8.8",
        "points": 9
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.003,
      "cvss": 8.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19489",
      "take": "",
@@ -71,13 +75,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
        "label": "Severity 9.3",
        "points": 9
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.003,
      "cvss": 9.3,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19490",
      "take": "",
@@ -346,6 +354,43 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.96",
+       "points": 19
+      },
+      {
+       "label": "Severity 7.8",
+       "points": 8
+      }
+     ],
+     "kev": true,
+     "ransomware": true,
+     "epss": 0.958,
+     "cvss": 7.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-26857",
+     "take": "",
+     "action": "Apply updates per vendor instructions."
+    },
+    {
+     "id": "CVE-2021-26858",
+     "headline": "Microsoft Exchange Server Remote Code Execution Vulnerability",
+     "products": [
+      "exchange server"
+     ],
+     "score": 112,
+     "factors": [
+      {
+       "label": "Listed as actively exploited",
+       "points": 40
+      },
+      {
+       "label": "Used in ransomware campaigns",
+       "points": 15
+      },
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
        "label": "Exploit likelihood 0.94",
        "points": 19
       },
@@ -356,9 +401,9 @@
      ],
      "kev": true,
      "ransomware": true,
-     "epss": 0.94,
+     "epss": 0.937,
      "cvss": 7.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-26857",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-26858",
      "take": "",
      "action": "Apply updates per vendor instructions."
     },
@@ -383,7 +428,7 @@
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.90",
+       "label": "Exploit likelihood 0.92",
        "points": 18
       },
       {
@@ -393,46 +438,9 @@
      ],
      "kev": true,
      "ransomware": true,
-     "epss": 0.904,
+     "epss": 0.917,
      "cvss": 8.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-42321",
-     "take": "",
-     "action": "Apply updates per vendor instructions."
-    },
-    {
-     "id": "CVE-2021-26858",
-     "headline": "Microsoft Exchange Server Remote Code Execution Vulnerability",
-     "products": [
-      "exchange server"
-     ],
-     "score": 111,
-     "factors": [
-      {
-       "label": "Listed as actively exploited",
-       "points": 40
-      },
-      {
-       "label": "Used in ransomware campaigns",
-       "points": 15
-      },
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.90",
-       "points": 18
-      },
-      {
-       "label": "Severity 7.8",
-       "points": 8
-      }
-     ],
-     "kev": true,
-     "ransomware": true,
-     "epss": 0.895,
-     "cvss": 7.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-26858",
      "take": "",
      "action": "Apply updates per vendor instructions."
     },
@@ -470,7 +478,7 @@
      ],
      "kev": true,
      "ransomware": true,
-     "epss": 0.807,
+     "epss": 0.808,
      "cvss": 8.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-26411",
      "take": "",
@@ -500,7 +508,7 @@
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.74",
+       "label": "Exploit likelihood 0.76",
        "points": 15
       },
       {
@@ -510,7 +518,7 @@
      ],
      "kev": true,
      "ransomware": true,
-     "epss": 0.743,
+     "epss": 0.758,
      "cvss": 7.5,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-42287",
      "take": "",
@@ -540,7 +548,7 @@
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.70",
+       "label": "Exploit likelihood 0.72",
        "points": 14
       },
       {
@@ -550,7 +558,7 @@
      ],
      "kev": true,
      "ransomware": true,
-     "epss": 0.702,
+     "epss": 0.72,
      "cvss": 7.5,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-42278",
      "take": "",
@@ -653,7 +661,7 @@
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.20",
+       "label": "Exploit likelihood 0.19",
        "points": 4
       },
       {
@@ -663,7 +671,7 @@
      ],
      "kev": true,
      "ransomware": true,
-     "epss": 0.201,
+     "epss": 0.194,
      "cvss": 5.5,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-41379",
      "take": "",
@@ -751,6 +759,209 @@
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59310",
      "take": "",
      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+    },
+    {
+     "id": "CVE-2026-47865",
+     "headline": "VMware Avi Load Balancer contains an authentication bypass vulnerability",
+     "products": [
+      "vmware avi load balancer"
+     ],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.009,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47865",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-47867",
+     "headline": "VMware Avi Load Balancer contains a remote code execution vulnerability",
+     "products": [
+      "vmware avi load balancer"
+     ],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.7",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.004,
+     "cvss": 8.7,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47867",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-47869",
+     "headline": "VMware Avi Load Balancer contains a remote code execution vulnerability",
+     "products": [
+      "vmware avi load balancer"
+     ],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.7",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.004,
+     "cvss": 8.7,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47869",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-47871",
+     "headline": "VMware Avi Load Balancer contains a directory traversal vulnerability",
+     "products": [
+      "vmware avi load balancer"
+     ],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.007,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47871",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-47866",
+     "headline": "VMware Avi Load Balancer contains an authorization bypass vulnerability",
+     "products": [
+      "vmware avi load balancer"
+     ],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.3",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.003,
+     "cvss": 8.3,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47866",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-47868",
+     "headline": "VMware Avi Load Balancer contains a local privilege escalation vulnerability",
+     "products": [
+      "vmware avi load balancer"
+     ],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.8",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.001,
+     "cvss": 7.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47868",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-47870",
+     "headline": "VMware Avi Load Balancer contains a privilege escalation vulnerability",
+     "products": [
+      "vmware avi load balancer"
+     ],
+     "score": 37,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.1",
+       "points": 7
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.003,
+     "cvss": 7.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47870",
+     "take": "",
+     "action": ""
     }
    ],
    "above": 1
@@ -789,35 +1000,6 @@
      "epss": 0.007,
      "cvss": 9.9,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18948",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-28323",
-     "headline": "SolarWinds Web Help Desk is found to be affected by a SAML authentication bypass vulnerability",
-     "products": [
-      "web help desk"
-     ],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.006,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28323",
      "take": "",
      "action": ""
     },
@@ -861,13 +1043,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
        "label": "Severity 8.1",
        "points": 8
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.002,
      "cvss": 8.1,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12633",
      "take": "",
@@ -953,6 +1139,25 @@
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11596",
      "take": "",
      "action": ""
+    },
+    {
+     "id": "CVE-2026-61400",
+     "headline": "Improper Neutralization of Special Elements used in a Command ('Command Injection') vulnerability in Apache CloudStack's run and get diagnostics functionalit...",
+     "products": [],
+     "score": 30,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 0.0,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61400",
+     "take": "",
+     "action": ""
     }
    ],
    "above": 0
@@ -972,13 +1177,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
        "label": "Severity 10.0",
        "points": 10
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.002,
      "cvss": 10.0,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22306",
      "take": "",
@@ -992,31 +1201,29 @@
    "blurb": "Confluence, Jenkins, GitLab, and the internal tools nobody patches.",
    "items": [
     {
-     "id": "CVE-2019-10869",
-     "headline": "Path Traversal and Unrestricted File Upload exists in the Ninja Forms plugin before 3.0.23 for WordPress (when the Uploads add-on is activated)",
-     "products": [
-      "ninja forms file uploads"
-     ],
-     "score": 40,
+     "id": "CVE-2026-15748",
+     "headline": "The Forminator Forms plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 1.56.1 via the handle_file_upload func...",
+     "products": [],
+     "score": 41,
      "factors": [
       {
        "label": "Runs in this environment",
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.08",
-       "points": 2
+       "label": "Exploit likelihood 0.03",
+       "points": 1
       },
       {
-       "label": "Severity 8.1",
-       "points": 8
+       "label": "Severity 9.8",
+       "points": 10
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.08,
-     "cvss": 8.1,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-10869",
+     "epss": 0.035,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15748",
      "take": "",
      "action": ""
     },
@@ -1102,33 +1309,6 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-15748",
-     "headline": "The Forminator Forms plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 1.56.1 via the handle_file_upload func...",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.012,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15748",
-     "take": "",
-     "action": ""
-    },
-    {
      "id": "CVE-2026-15826",
      "headline": "The User Profile Builder plugin for WordPress is vulnerable to Authentication Bypass via Type Confusion in versions up to, and including, 3.16.4",
      "products": [],
@@ -1139,7 +1319,7 @@
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.01",
+       "label": "Exploit likelihood 0.02",
        "points": 0
       },
       {
@@ -1149,7 +1329,7 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.008,
+     "epss": 0.025,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15826",
      "take": "",
@@ -1230,7 +1410,7 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.001,
+     "epss": 0.003,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18031",
      "take": "",
@@ -1257,7 +1437,7 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.002,
+     "epss": 0.004,
      "cvss": 10.0,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18051",
      "take": "",
@@ -1274,13 +1454,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
        "label": "Severity 9.8",
        "points": 10
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.004,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18315",
      "take": "",
@@ -1310,6 +1494,33 @@
      "epss": 0.004,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18432",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-18776",
+     "headline": "The TrueBooker  WordPress plugin before 1.2.7 does not have proper authorisation checks in some of its AJAX actions, allowing unauthenticated users to change...",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.003,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18776",
      "take": "",
      "action": ""
     }
