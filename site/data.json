@@ -1,13 +1,39 @@
 {
- "generated": "2026-08-24T11:13:44+00:00",
+ "generated": "2026-08-24T14:27:24+00:00",
  "window_hours": 72,
- "scanned": 1653,
+ "scanned": 1589,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
    "label": "Edge & remote access",
    "blurb": "VPN concentrators, SSL gateways, and anything you publish to the internet.",
-   "items": [],
+   "items": [
+    {
+     "id": "CVE-2023-50176",
+     "headline": "A session fixation vulnerability in Fortinet FortiOS 7.4.0 through 7.4.3, FortiOS 7.2.0 through 7.2.7, FortiOS 7.0.0 through 7.0.13 allows attacker to execut...",
+     "products": [
+      "fortios"
+     ],
+     "score": 34,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 4.2",
+       "points": 4
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 4.2,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-50176",
+     "take": "",
+     "action": ""
+    }
+   ],
    "above": 0
   },
   "microsoft-smb": {
@@ -451,6 +477,29 @@
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15580",
      "take": "",
      "action": ""
+    },
+    {
+     "id": "CVE-2026-21751",
+     "headline": "HCL Hive is affected by a cryptographic primitive with a risky implementation which could allow an attacker unauthorized lateral compromise or widespread cre...",
+     "products": [],
+     "score": 37,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 7.4",
+       "points": 7
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 7.4,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21751",
+     "take": "",
+     "action": ""
     }
    ],
    "above": 0
@@ -489,6 +538,29 @@
      "epss": 0.004,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18315",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-32558",
+     "headline": "Unauthenticated Privilege Escalation in Affiliate Pro - Affiliate Program for WooCommerce & WordPress <= 8.9.1 versions",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32558",
      "take": "",
      "action": ""
     },
@@ -597,33 +669,6 @@
      "epss": 0.001,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77002",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-77264",
-     "headline": "The Automation Web Platform \u2013 Notifications and OTP for WooCommerce, Advanced Country Code plugin for WordPress is vulnerable to Authentication Bypass in ver...",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.005,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77264",
      "take": "",
      "action": ""
     },
