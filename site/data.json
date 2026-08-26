@@ -1,13 +1,41 @@
 {
- "generated": "2026-08-25T14:29:29+00:00",
+ "generated": "2026-08-26T11:15:42+00:00",
  "window_hours": 72,
- "scanned": 2064,
+ "scanned": 3002,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
    "label": "Edge & remote access",
    "blurb": "VPN concentrators, SSL gateways, and anything you publish to the internet.",
    "items": [
+    {
+     "id": "CVE-2021-45105",
+     "headline": "Apache Log4j2 versions 2.0-alpha1 through 2.16.0 (excluding 2.12.3 and 2.3.1) did not protect from uncontrolled recursion from self-referential lookups",
+     "products": [
+      "agile engineering data management",
+      "cloud manager",
+      "debian linux",
+      "log4j"
+     ],
+     "score": 36,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 5.9",
+       "points": 6
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 5.9,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-45105",
+     "take": "",
+     "action": ""
+    },
     {
      "id": "CVE-2023-50176",
      "headline": "A session fixation vulnerability in Fortinet FortiOS 7.4.0 through 7.4.3, FortiOS 7.2.0 through 7.2.7, FortiOS 7.0.0 through 7.0.13 allows attacker to execut...",
@@ -32,6 +60,71 @@
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-50176",
      "take": "",
      "action": ""
+    },
+    {
+     "id": "CVE-2026-0301",
+     "headline": "An information disclosure vulnerability in the URL Filtering feature of Palo Alto Networks PAN-OS\u00ae software enables an unauthenticated user with network acce...",
+     "products": [
+      "cloud ngfw",
+      "pan-os",
+      "prisma access"
+     ],
+     "score": 32,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 1.7",
+       "points": 2
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 1.7,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0301",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-66152",
+     "headline": "A Path traversal vulnerability in OPSWAT tarball in the SonicWall NetExtender Linux client allows an attacker to write arbitrary file as root",
+     "products": [],
+     "score": 30,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 0.0,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66152",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-66153",
+     "headline": "The NEService auto-upgrade process insecurely handles temporary files in SonicWall NetExtender Linux client which allows an attacker to manipulate file paths",
+     "products": [],
+     "score": 30,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 0.0,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66153",
+     "take": "",
+     "action": ""
     }
    ],
    "above": 0
@@ -40,6 +133,74 @@
    "label": "Microsoft-first shop",
    "blurb": "Windows Server, Exchange, Entra, and the Microsoft 365 estate.",
    "items": [
+    {
+     "id": "CVE-2017-12617",
+     "headline": "When running Apache Tomcat versions 9.0.0.M1 to 9.0.0, 8.5.0 to 8.5.22, 8.0.0.RC1 to 8.0.46 and 7.0.0 to 7.0.81 with HTTP PUTs enabled (e.g",
+     "products": [
+      "active iq unified manager",
+      "debian linux",
+      "tomcat",
+      "ubuntu linux"
+     ],
+     "score": 98,
+     "factors": [
+      {
+       "label": "Listed as actively exploited",
+       "points": 40
+      },
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 1.00",
+       "points": 20
+      },
+      {
+       "label": "Severity 8.1",
+       "points": 8
+      }
+     ],
+     "kev": true,
+     "ransomware": false,
+     "epss": 1.0,
+     "cvss": 8.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-12617",
+     "take": "",
+     "action": "Apply updates per vendor instructions."
+    },
+    {
+     "id": "CVE-2019-10086",
+     "headline": "In Apache Commons Beanutils 1.9.2, a special BeanIntrospector class was added which allows suppressing the ability for an attacker to access the classloader ...",
+     "products": [
+      "commons beanutils",
+      "debian linux",
+      "fedora",
+      "nifi"
+     ],
+     "score": 43,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.30",
+       "points": 6
+      },
+      {
+       "label": "Severity 7.3",
+       "points": 7
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.3,
+     "cvss": 7.3,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-10086",
+     "take": "",
+     "action": ""
+    },
     {
      "id": "CVE-2021-21009",
      "headline": "Adobe Campaign Classic Gold Standard 10 (and earlier), 20.3.1 (and earlier), 20.2.3 (and earlier), 20.1.3 (and earlier), 19.2.3 (and earlier) and 19.1.7 (and...",
@@ -126,6 +287,35 @@
      "epss": 0.012,
      "cvss": 10.0,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48286",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-65770",
+     "headline": "Improper neutralization of argument delimiters in a command ('argument injection') in Azure Managed Instance for Apache Cassandra allows an unauthorized atta...",
+     "products": [
+      "azure managed instance for apache cassandra"
+     ],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 10.0",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.006,
+     "cvss": 10.0,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65770",
      "take": "",
      "action": ""
     },
@@ -300,12 +490,54 @@
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69502",
      "take": "",
      "action": ""
+    }
+   ],
+   "above": 1
+  },
+  "virtualization": {
+   "label": "Virtualization & hypervisor",
+   "blurb": "VMware, Proxmox, and the layer everything else runs on.",
+   "items": [
+    {
+     "id": "CVE-2026-59309",
+     "headline": "VMware vCenter contains an authentication bypass vulnerability in the VMware Directory Service.\u00a0A malicious actor with network access to vCenter\u00a0may exploit ...",
+     "products": [
+      "cloud foundation",
+      "telco cloud infrastructure",
+      "telco cloud platform",
+      "vcenter server"
+     ],
+     "score": 42,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.08",
+       "points": 2
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.082,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59309",
+     "take": "",
+     "action": ""
     },
     {
-     "id": "CVE-2026-69555",
-     "headline": "Incorrect authorization in Azure Arc allows an unauthorized attacker to elevate privileges over a network",
+     "id": "CVE-2018-15756",
+     "headline": "Spring Framework, version 5.1, versions 5.0.x prior to 5.0.10, versions 4.3.x prior to 4.3.20, and older unsupported versions on the 4.2.x branch provide sup...",
      "products": [
-      "azure arc"
+      "agile product lifecycle management",
+      "communications brm - elastic charging engine",
+      "communications converged application server - service controller",
+      "debian linux"
      ],
      "score": 40,
      "factors": [
@@ -314,27 +546,30 @@
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
+       "label": "Exploit likelihood 0.10",
+       "points": 2
       },
       {
-       "label": "Severity 10.0",
-       "points": 10
+       "label": "Severity 7.5",
+       "points": 8
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.004,
-     "cvss": 10.0,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69555",
+     "epss": 0.095,
+     "cvss": 7.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-15756",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2026-62834",
-     "headline": "Improper verification of cryptographic signature in Azure Data Factory allows an unauthorized attacker to elevate privileges over a network",
+     "id": "CVE-2018-1258",
+     "headline": "Spring Framework version 5.0.5 when used in combination with any versions of Spring Security contains an authorization bypass when using method security",
      "products": [
-      "azure data factory"
+      "oncommand insight",
+      "oncommand unified manager",
+      "oncommand workflow automation",
+      "snapcenter"
      ],
      "score": 39,
      "factors": [
@@ -343,58 +578,51 @@
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.00",
+       "label": "Exploit likelihood 0.02",
        "points": 0
       },
       {
-       "label": "Severity 9.3",
+       "label": "Severity 8.8",
        "points": 9
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.003,
-     "cvss": 9.3,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62834",
+     "epss": 0.025,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-1258",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2026-66309",
-     "headline": "Improper access control in Azure SQL Database allows an authorized attacker to elevate privileges over a network",
+     "id": "CVE-2018-11039",
+     "headline": "Spring Framework (versions 5.0.x prior to 5.0.7, versions 4.3.x prior to 4.3.18, and older unsupported versions) allow web applications to change the HTTP re...",
      "products": [
-      "azure sql database"
+      "agile product lifecycle management",
+      "application testing suite",
+      "communications diameter signaling router",
+      "debian linux"
      ],
-     "score": 39,
+     "score": 36,
      "factors": [
       {
        "label": "Runs in this environment",
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.1",
-       "points": 9
+       "label": "Severity 5.9",
+       "points": 6
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.005,
-     "cvss": 9.1,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66309",
+     "epss": 0.0,
+     "cvss": 5.9,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-11039",
      "take": "",
      "action": ""
     }
    ],
-   "above": 0
-  },
-  "virtualization": {
-   "label": "Virtualization & hypervisor",
-   "blurb": "VMware, Proxmox, and the layer everything else runs on.",
-   "items": [],
    "above": 0
   },
   "backup": {
