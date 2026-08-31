@@ -1,7 +1,7 @@
 {
- "generated": "2026-08-31T10:03:59+00:00",
+ "generated": "2026-08-31T12:10:34+00:00",
  "window_hours": 72,
- "scanned": 2323,
+ "scanned": 2347,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
@@ -1002,6 +1002,33 @@
      "action": ""
     },
     {
+     "id": "CVE-2026-12965",
+     "headline": "The Super Store Finder WordPress plugin before 7.11 does not sanitize a parameter of an unauthenticated AJAX action before using it in a SQL query, allowing ...",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.1",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.003,
+     "cvss": 9.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12965",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2026-16061",
      "headline": "The Rest Routes  WordPress plugin through 5.5.5 does not sanitize and validate a value taken from the URL of one of its public REST routes before using it in...",
      "products": [],
@@ -1052,33 +1079,6 @@
      "epss": 0.002,
      "cvss": 9.1,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16947",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-77012",
-     "headline": "The \u7231\u91c7\u96c6\u6570\u636e\u91c7\u96c6\u548c\u53d1\u5e03\u63d2\u4ef6 WordPress plugin through 1.0.0 does not require a per-install secret for one of its unauthenticated endpoints, relying on a hardcoded defaul...",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.3",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.002,
-     "cvss": 9.3,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77012",
      "take": "",
      "action": ""
     }
