@@ -1,7 +1,7 @@
 {
- "generated": "2026-09-01T14:26:42+00:00",
+ "generated": "2026-09-01T16:20:43+00:00",
  "window_hours": 72,
- "scanned": 2161,
+ "scanned": 2310,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
@@ -198,7 +198,7 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.012,
+     "epss": 0.011,
      "cvss": 7.2,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-31104",
      "take": "",
@@ -249,13 +249,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
        "label": "Severity 9.9",
        "points": 10
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.003,
      "cvss": 9.9,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79748",
      "take": "",
@@ -312,7 +316,7 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.003,
+     "epss": 0.004,
      "cvss": 8.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79240",
      "take": "",
@@ -329,13 +333,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
        "label": "Severity 8.8",
        "points": 9
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.003,
      "cvss": 8.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79744",
      "take": "",
@@ -394,7 +402,7 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.009,
+     "epss": 0.012,
      "cvss": 8.0,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62911",
      "take": "",
@@ -411,13 +419,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
        "label": "Severity 8.1",
        "points": 8
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.003,
      "cvss": 8.1,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79746",
      "take": "",
@@ -434,13 +446,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
        "label": "Severity 7.6",
        "points": 8
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.003,
      "cvss": 7.6,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79749",
      "take": "",
@@ -457,13 +473,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
        "label": "Severity 7.7",
        "points": 8
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.003,
      "cvss": 7.7,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79750",
      "take": "",
@@ -499,9 +519,12 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-42014",
-     "headline": "A flaw was found in GnuTLS",
-     "products": [],
+     "id": "CVE-2026-19696",
+     "headline": "Ixia IxVeriWave and Vector Informatik BLF file parser crashes in 4.6.0 to 4.6.7 allows denial of service on Windows",
+     "products": [
+      "windows",
+      "wireshark"
+     ],
      "score": 37,
      "factors": [
       {
@@ -519,9 +542,9 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.002,
+     "epss": 0.001,
      "cvss": 6.6,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42014",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19696",
      "take": "",
      "action": ""
     }
@@ -558,6 +581,35 @@
      "epss": 0.004,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59313",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-59354",
+     "headline": "In versions of Spring Security's OAuth2 Authorization Server module 7.0.0 through 7.0.4, when Dynamic Client Registration is explicitly enabled, the registra...",
+     "products": [
+      "spring security"
+     ],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.6",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.004,
+     "cvss": 9.6,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59354",
      "take": "",
      "action": ""
     },
@@ -640,7 +692,7 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.004,
+     "epss": 0.005,
      "cvss": 8.1,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59285",
      "take": "",
@@ -669,7 +721,7 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.001,
+     "epss": 0.002,
      "cvss": 8.1,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59286",
      "take": "",
@@ -698,7 +750,7 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.002,
+     "epss": 0.003,
      "cvss": 7.5,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59289",
      "take": "",
@@ -734,6 +786,35 @@
      "action": ""
     },
     {
+     "id": "CVE-2026-59272",
+     "headline": "Any application shipping logs to RabbitMQ over TLS via the Log4j2 appender, relying on the documented default, is exposed to man-in-the-middle interception o...",
+     "products": [
+      "spring advanced message queuing protocol"
+     ],
+     "score": 37,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 6.8",
+       "points": 7
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.002,
+     "cvss": 6.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59272",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2026-59288",
      "headline": "The GraphiQL page bundled with Spring for GraphQL sends requests to the GraphQL endpoints of the application",
      "products": [
@@ -756,7 +837,7 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.001,
+     "epss": 0.003,
      "cvss": 7.4,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59288",
      "take": "",
@@ -814,59 +895,9 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.003,
+     "epss": 0.004,
      "cvss": 6.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59311",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-59287",
-     "headline": "Spring for GraphQL is vulnerable to Denial of Service attacks when using the WebSocket client with keepAlive enabled.\nSpring for GraphQL 2.0.0 - 2.0.4\nSpring...",
-     "products": [
-      "spring for graphql"
-     ],
-     "score": 36,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Severity 5.9",
-       "points": 6
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.0,
-     "cvss": 5.9,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59287",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-59294",
-     "headline": "ResourceCacheService.getCacheName() builds the on-disk filename by appending the URI fragment verbatim, without stripping path separators or ",
-     "products": [
-      "spring ai"
-     ],
-     "score": 36,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Severity 5.9",
-       "points": 6
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.0,
-     "cvss": 5.9,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59294",
      "take": "",
      "action": ""
     }
@@ -915,6 +946,52 @@
      "epss": 0.012,
      "cvss": 9.3,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79657",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-84115",
+     "headline": "A vulnerability was found in Cleo Harmony up to 5.8.1.10",
+     "products": [],
+     "score": 36,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 5.5",
+       "points": 6
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 5.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84115",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-84114",
+     "headline": "A vulnerability has been found in Cleo Harmony up to 5.8.1.10",
+     "products": [],
+     "score": 32,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 2.1",
+       "points": 2
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 2.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84114",
      "take": "",
      "action": ""
     }
@@ -1067,15 +1144,42 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
        "label": "Severity 9.8",
        "points": 10
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.005,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75865",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-10195",
+     "headline": "The FS-Poster plugin for WordPress is vulnerable to Remote Code Execution in versions up to and including 8.0.1",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10195",
      "take": "",
      "action": ""
     },
@@ -1171,13 +1275,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
        "label": "Severity 8.8",
        "points": 9
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.004,
      "cvss": 8.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19806",
      "take": "",
@@ -1194,42 +1302,19 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
        "label": "Severity 9.2",
        "points": 9
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.005,
      "cvss": 9.2,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66047",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-70426",
-     "headline": "In Remoting 3384.v60d89463d9e0 and earlier, except 3355.3357.v931d3c992987, included in Jenkins 2.575 and earlier, LTS 2.568.1 and earlier, the JEP-200 class...",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.0",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.003,
-     "cvss": 9.0,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70426",
      "take": "",
      "action": ""
     }
