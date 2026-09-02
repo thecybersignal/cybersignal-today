@@ -1,7 +1,7 @@
 {
- "generated": "2026-09-01T16:20:43+00:00",
+ "generated": "2026-09-02T14:01:00+00:00",
  "window_hours": 72,
- "scanned": 2310,
+ "scanned": 3060,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
@@ -37,6 +37,60 @@
      "epss": 0.995,
      "cvss": 8.1,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-6387",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-19490",
+     "headline": "Vulnerability in NetScaler ADC and NetScaler Gateway.\n\nThis issue affects ADC: from 14.1 through 73.32 and from 13.1 through 63.21; Gateway: from 14.1 throug...",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.03",
+       "points": 1
+      },
+      {
+       "label": "Severity 9.3",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.034,
+     "cvss": 9.3,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19490",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-19489",
+     "headline": "Vulnerability in NetScaler ADC and NetScaler Gateway.\n\nThis issue affects ADC: from 14.1 through 73.32 and from 13.1 through 63.21; Gateway: from 14.1 throug...",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.004,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19489",
      "take": "",
      "action": ""
     },
@@ -239,6 +293,99 @@
      "action": ""
     },
     {
+     "id": "CVE-2026-76193",
+     "headline": "Adobe Campaign Classic (ACC) is affected by a Server-Side Request Forgery (SSRF) vulnerability that could result in arbitrary code execution in the context o...",
+     "products": [
+      "campaign",
+      "linux kernel",
+      "windows"
+     ],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 10.0",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.007,
+     "cvss": 10.0,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76193",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-76195",
+     "headline": "Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability that ...",
+     "products": [
+      "campaign",
+      "linux kernel",
+      "windows"
+     ],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.02",
+       "points": 0
+      },
+      {
+       "label": "Severity 10.0",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.016,
+     "cvss": 10.0,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76195",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-76197",
+     "headline": "Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability that ...",
+     "products": [
+      "campaign",
+      "linux kernel",
+      "windows"
+     ],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.02",
+       "points": 0
+      },
+      {
+       "label": "Severity 10.0",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.016,
+     "cvss": 10.0,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76197",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2026-79748",
      "headline": "MCPHub is a unified hub for centrally managing and dynamically orchestrating multiple MCP servers/APIs into separate endpoints with flexible routing strategies",
      "products": [],
@@ -268,7 +415,9 @@
     {
      "id": "CVE-2026-72984",
      "headline": "Access of resource using incompatible type ('type confusion') in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network",
-     "products": [],
+     "products": [
+      "edge chromium"
+     ],
      "score": 39,
      "factors": [
       {
@@ -461,92 +610,6 @@
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79749",
      "take": "",
      "action": ""
-    },
-    {
-     "id": "CVE-2026-79750",
-     "headline": "MCPHub is a unified hub for centrally managing and dynamically orchestrating multiple MCP servers/APIs into separate endpoints with flexible routing strategies",
-     "products": [],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 7.7",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.003,
-     "cvss": 7.7,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79750",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-10848",
-     "headline": "The OCPP 1.6 client in subsys/net/lib/ocpp parsed inbound WAMP RPC frames in parse_rpc_msg() (subsys/net/lib/ocpp/ocpp_j.c) using a hand-rolled helper, extra...",
-     "products": [
-      "zephyr"
-     ],
-     "score": 37,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 7.0",
-       "points": 7
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.003,
-     "cvss": 7.0,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10848",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-19696",
-     "headline": "Ixia IxVeriWave and Vector Informatik BLF file parser crashes in 4.6.0 to 4.6.7 allows denial of service on Windows",
-     "products": [
-      "windows",
-      "wireshark"
-     ],
-     "score": 37,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 6.6",
-       "points": 7
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.001,
-     "cvss": 6.6,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19696",
-     "take": "",
-     "action": ""
     }
    ],
    "above": 0
@@ -555,6 +618,35 @@
    "label": "Virtualization & hypervisor",
    "blurb": "VMware, Proxmox, and the layer everything else runs on.",
    "items": [
+    {
+     "id": "CVE-2026-47892",
+     "headline": "A WebFlux application using functional endpoints and deployed with DispatcherServlet may be vulnerable to a header predicate bypass in a pre-flight request.\n...",
+     "products": [
+      "spring framework"
+     ],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.004,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47892",
+     "take": "",
+     "action": ""
+    },
     {
      "id": "CVE-2026-59313",
      "headline": "Spring MVC applications using the functional web framework are vulnerable to stream corruption when using Server-Sent Events (SSE).\nSpring Framework 7.0.0 - ...",
@@ -614,6 +706,58 @@
      "action": ""
     },
     {
+     "id": "CVE-2023-54391",
+     "headline": "Proxmox Virtual Environment (VE) 7.0 through 8.0 contains an authentication bypass vulnerability in libpve-access-control before 8.0.4 that allows unauthenti...",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 9.3",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 9.3,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-54391",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-59270",
+     "headline": "Spring Security's embedded UnboundID LDAP server (UnboundIdContainer) unconditionally registers an administrative credential and binds its listener to all av...",
+     "products": [
+      "spring security"
+     ],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.4",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.003,
+     "cvss": 9.4,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59270",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2026-59283",
      "headline": "Applications that evaluate Spring Expression Language (SpEL) expressions using SimpleEvaluationContext may be vulnerable to a safety guard bypass when the Sp...",
      "products": [
@@ -666,6 +810,35 @@
      "epss": 0.001,
      "cvss": 7.7,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41012",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-47893",
+     "headline": "A Spring WebFlux application that supports WebSocket connections may expose indirectly sensitive user information by including request headers in an exceptio...",
+     "products": [
+      "spring framework"
+     ],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.5",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.002,
+     "cvss": 7.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47893",
      "take": "",
      "action": ""
     },
@@ -784,122 +957,6 @@
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59307",
      "take": "",
      "action": ""
-    },
-    {
-     "id": "CVE-2026-59272",
-     "headline": "Any application shipping logs to RabbitMQ over TLS via the Log4j2 appender, relying on the documented default, is exposed to man-in-the-middle interception o...",
-     "products": [
-      "spring advanced message queuing protocol"
-     ],
-     "score": 37,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 6.8",
-       "points": 7
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.002,
-     "cvss": 6.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59272",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-59288",
-     "headline": "The GraphiQL page bundled with Spring for GraphQL sends requests to the GraphQL endpoints of the application",
-     "products": [
-      "spring for graphql"
-     ],
-     "score": 37,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 7.4",
-       "points": 7
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.003,
-     "cvss": 7.4,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59288",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-59293",
-     "headline": "Unless the application explicitly raises smbMinVersion, the jCIFS client will negotiate down to SMB1/CIFS, which lacks mandatory signing/encryption and is vu...",
-     "products": [
-      "spring integration"
-     ],
-     "score": 37,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 6.6",
-       "points": 7
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.002,
-     "cvss": 6.6,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59293",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-59311",
-     "headline": "A local unprivileged user on the same host can redirect all Zip/UnZip transformer output into a directory of their choosing by pre-creating /tmp/ziptransform...",
-     "products": [
-      "spring integration"
-     ],
-     "score": 37,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 6.8",
-       "points": 7
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.004,
-     "cvss": 6.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59311",
-     "take": "",
-     "action": ""
     }
    ],
    "above": 0
@@ -913,13 +970,95 @@
   "msp-fleet": {
    "label": "MSP tooling",
    "blurb": "RMM and remote-support platforms with reach into every client.",
-   "items": [],
+   "items": [
+    {
+     "id": "CVE-2026-19042",
+     "headline": "A command injection vulnerability in TeamViewer Full\nClient and Host for Linux prior to version 15.81.5 allows a remote attacker to\nexecute arbitrary command...",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.02",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.02,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19042",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-16444",
+     "headline": "Improper\nneutralization of path traversal sequences in TeamViewer Desktop Clients prior\nVersion 15.81.5 allows an authenticated remote session participant to...",
+     "products": [],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.5",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.003,
+     "cvss": 7.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16444",
+     "take": "",
+     "action": ""
+    }
+   ],
    "above": 0
   },
   "file-transfer": {
    "label": "Managed file transfer",
    "blurb": "The category with the worst mass-extortion track record in the business.",
    "items": [
+    {
+     "id": "CVE-2026-22306",
+     "headline": "Download of code without integrity check, inclusion of functionality from untrusted control sphere, and cleartext \ntransmission of sensitive information vuln...",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 10.0",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.002,
+     "cvss": 10.0,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22306",
+     "take": "",
+     "action": ""
+    },
     {
      "id": "CVE-2026-79657",
      "headline": "NLTK versions before 3.10.3 contain a remote code execution vulnerability in allowlisted pickle loaders that trust entire module namespaces instead of specif...",
@@ -1134,6 +1273,35 @@
      "action": ""
     },
     {
+     "id": "CVE-2026-19478",
+     "headline": "GitLab has remediated an issue in GitLab CE/EE affecting all versions from 18.2 before 18.11.11, 19.0 before 19.0.8, 19.1 before 19.1.6, and 19.2 before 19.2...",
+     "products": [
+      "gitlab"
+     ],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.06",
+       "points": 1
+      },
+      {
+       "label": "Severity 9.4",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.06,
+     "cvss": 9.4,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19478",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2026-75865",
      "headline": "The WPLP Cookie Consent \u2013 Cookie Banner & Consent Management for GDPR, CCPA & Google Consent Mode plugin for WordPress is vulnerable to arbitrary file upload...",
      "products": [],
@@ -1157,6 +1325,52 @@
      "epss": 0.005,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75865",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-78657",
+     "headline": "The SigmaForms Pro \u2013 AI Generated Forms plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the delete_...",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78657",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-9055",
+     "headline": "The Booking for Appointments and Events Calendar \u2013 Amelia (Premium) plugin for WordPress is vulnerable to Privilege Escalation in versions 8.0 - 9.6.2",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9055",
      "take": "",
      "action": ""
     },
@@ -1211,72 +1425,14 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-16061",
-     "headline": "The Rest Routes  WordPress plugin through 5.5.5 does not sanitize and validate a value taken from the URL of one of its public REST routes before using it in...",
+     "id": "CVE-2026-14357",
+     "headline": "The DevKit Pro plugin for WordPress is vulnerable to Missing Authorization in versions up to, and including, 2.3.0",
      "products": [],
      "score": 39,
      "factors": [
       {
        "label": "Runs in this environment",
        "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.6",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.003,
-     "cvss": 8.6,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16061",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-16947",
-     "headline": "The Total processing card payments for WooCommerce WordPress plugin through 7.3 does not validate a user-supplied path before using it to build a server-side...",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.1",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.002,
-     "cvss": 9.1,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16947",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-19806",
-     "headline": "The Support Genix \u2013 Helpdesk, AI Chatbot, Knowledge Base & Customer Support Ticketing System plugin for WordPress is vulnerable to Authentication Bypass lead...",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
       },
       {
        "label": "Severity 8.8",
@@ -1285,36 +1441,9 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.004,
+     "epss": 0.0,
      "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19806",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-66047",
-     "headline": "ProfilePress (wp-user-avatar) WordPress plugin before 4.17.2 contains an unauthenticated remote code execution vulnerability that allows unauthenticated atta...",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.2",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.005,
-     "cvss": 9.2,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66047",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14357",
      "take": "",
      "action": ""
     }
