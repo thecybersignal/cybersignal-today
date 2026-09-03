@@ -1,13 +1,85 @@
 {
- "generated": "2026-09-02T16:18:38+00:00",
+ "generated": "2026-09-03T14:02:07+00:00",
  "window_hours": 72,
- "scanned": 3172,
+ "scanned": 3526,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
    "label": "Edge & remote access",
    "blurb": "VPN concentrators, SSL gateways, and anything you publish to the internet.",
    "items": [
+    {
+     "id": "CVE-2026-83548",
+     "headline": "A Pre-authentication SSRF vulnerability exists in the SMA1000 Appliance Work Place interface due to an unintended alternate access path",
+     "products": [
+      "sma6210",
+      "sma6210 firmware",
+      "sma7210",
+      "sma7210 firmware"
+     ],
+     "score": 80,
+     "factors": [
+      {
+       "label": "Listed as actively exploited",
+       "points": 40
+      },
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 10.0",
+       "points": 10
+      }
+     ],
+     "kev": true,
+     "ransomware": false,
+     "epss": 0.003,
+     "cvss": 10.0,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-83548",
+     "take": "",
+     "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+    },
+    {
+     "id": "CVE-2026-83549",
+     "headline": "Post-authentication Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability has been identified in the SMA10...",
+     "products": [
+      "sma6210",
+      "sma6210 firmware",
+      "sma7210",
+      "sma7210 firmware"
+     ],
+     "score": 78,
+     "factors": [
+      {
+       "label": "Listed as actively exploited",
+       "points": 40
+      },
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.8",
+       "points": 8
+      }
+     ],
+     "kev": true,
+     "ransomware": false,
+     "epss": 0.009,
+     "cvss": 7.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-83549",
+     "take": "",
+     "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+    },
     {
      "id": "CVE-2024-6387",
      "headline": "A security regression (CVE-2006-5051) was discovered in OpenSSH's server (sshd)",
@@ -228,43 +300,46 @@
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55841",
      "take": "",
      "action": ""
-    },
+    }
+   ],
+   "above": 2
+  },
+  "microsoft-smb": {
+   "label": "Microsoft-first shop",
+   "blurb": "Windows Server, Exchange, Entra, and the Microsoft 365 estate.",
+   "items": [
     {
-     "id": "CVE-2025-31104",
-     "headline": "A improper neutralization of special elements used in an os command ('os command injection') vulnerability in Fortinet FortiADC 7.6.0 through 7.6.1, FortiADC...",
+     "id": "CVE-2026-62893",
+     "headline": "Use after free in Windows Deployment Services allows an unauthorized attacker to execute code over a network",
      "products": [
-      "fortiadc"
+      "windows 10 1607",
+      "windows 10 1809",
+      "windows server 2012",
+      "windows server 2016"
      ],
-     "score": 37,
+     "score": 41,
      "factors": [
       {
        "label": "Runs in this environment",
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
+       "label": "Exploit likelihood 0.03",
+       "points": 1
       },
       {
-       "label": "Severity 7.2",
-       "points": 7
+       "label": "Severity 9.8",
+       "points": 10
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.011,
-     "cvss": 7.2,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-31104",
+     "epss": 0.027,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62893",
      "take": "",
      "action": ""
-    }
-   ],
-   "above": 0
-  },
-  "microsoft-smb": {
-   "label": "Microsoft-first shop",
-   "blurb": "Windows Server, Exchange, Entra, and the Microsoft 365 estate.",
-   "items": [
+    },
     {
      "id": "CVE-2026-12571",
      "headline": "An authentication bypass in ManageEngine DDI Central's password-reset workflow allows account takeover",
@@ -289,6 +364,38 @@
      "epss": 0.016,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12571",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-62878",
+     "headline": "Stack-based buffer overflow in Windows DNS allows an unauthorized attacker to execute code over a network",
+     "products": [
+      "windows 10 1607",
+      "windows 10 1809",
+      "windows server 2012",
+      "windows server 2016"
+     ],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.013,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62878",
      "take": "",
      "action": ""
     },
@@ -413,39 +520,11 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-72984",
-     "headline": "Access of resource using incompatible type ('type confusion') in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network",
+     "id": "CVE-2026-12878",
+     "headline": "In affected versions of the Codefresh platform an authenticated user can utilize an API endpoint to elevate to Admin permissions",
      "products": [
-      "edge chromium"
-     ],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.8",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.004,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72984",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-79240",
-     "headline": "Out of bounds write in ANGLE in Google Chrome on on Windows prior to 152.0.7977.65 allowed a remote attacker to potentially execute arbitrary code inside the...",
-     "products": [
-      "chrome",
+      "codefresh",
+      "linux kernel",
       "windows"
      ],
      "score": 39,
@@ -459,22 +538,117 @@
        "points": 0
       },
       {
-       "label": "Severity 8.8",
+       "label": "Severity 8.6",
        "points": 9
       }
      ],
      "kev": false,
      "ransomware": false,
      "epss": 0.004,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79240",
+     "cvss": 8.6,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12878",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2026-79744",
-     "headline": "MCPHub is a unified hub for centrally managing and dynamically orchestrating multiple MCP servers/APIs into separate endpoints with flexible routing strategies",
-     "products": [],
+     "id": "CVE-2026-59113",
+     "headline": "Missing authorization in Visual Studio Code allows an unauthorized attacker to execute code over a network",
+     "products": [
+      "visual studio code"
+     ],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.007,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59113",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-62817",
+     "headline": "Out-of-bounds write in Windows DNS allows an unauthorized attacker to execute code over an adjacent network",
+     "products": [
+      "windows 10 1809",
+      "windows 10 21h2",
+      "windows 10 22h2",
+      "windows 11 23h2"
+     ],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.007,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62817",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-62823",
+     "headline": "Heap-based buffer overflow in Windows DHCP Server allows an unauthorized attacker to execute code over an adjacent network",
+     "products": [
+      "windows 10 1607",
+      "windows 10 1809",
+      "windows server 2012",
+      "windows server 2016"
+     ],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.007,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62823",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-69320",
+     "headline": "Improper neutralization of special elements used in an os command ('os command injection') in Visual Studio Code allows an unauthorized attacker to execute c...",
+     "products": [
+      "visual studio code"
+     ],
      "score": 39,
      "factors": [
       {
@@ -492,122 +666,9 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.003,
+     "epss": 0.005,
      "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79744",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-42151",
-     "headline": "Prometheus is an open-source monitoring system and time series database",
-     "products": [
-      "prometheus"
-     ],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 7.5",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.004,
-     "cvss": 7.5,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42151",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-62911",
-     "headline": "Authentication bypass by capture-replay in Microsoft Exchange Server allows an authorized attacker to elevate privileges over a network",
-     "products": [
-      "exchange server",
-      "exchange server subscription edition"
-     ],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.0",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.013,
-     "cvss": 8.0,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62911",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-79746",
-     "headline": "MCPHub is a unified hub for centrally managing and dynamically orchestrating multiple MCP servers/APIs into separate endpoints with flexible routing strategies",
-     "products": [],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.1",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.003,
-     "cvss": 8.1,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79746",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-79749",
-     "headline": "MCPHub is a unified hub for centrally managing and dynamically orchestrating multiple MCP servers/APIs into separate endpoints with flexible routing strategies",
-     "products": [],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 7.6",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.003,
-     "cvss": 7.6,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79749",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69320",
      "take": "",
      "action": ""
     }
@@ -618,6 +679,64 @@
    "label": "Virtualization & hypervisor",
    "blurb": "VMware, Proxmox, and the layer everything else runs on.",
    "items": [
+    {
+     "id": "CVE-2026-47890",
+     "headline": "Spring MVC and WebFlux applications are vulnerable to stream corruption when using Server-Sent Events (SSE) with view fragments.\nSpring Framework 7.0.0 - 7.0...",
+     "products": [
+      "spring framework"
+     ],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.003,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47890",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-47891",
+     "headline": "A Spring WebFlux application that relies on the Aalto XML processor to parse XML input does not correctly enforce the maxInMemorySize limit.\nSpring Framework...",
+     "products": [
+      "spring framework"
+     ],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.003,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47891",
+     "take": "",
+     "action": ""
+    },
     {
      "id": "CVE-2026-47892",
      "headline": "A WebFlux application using functional endpoints and deployed with DispatcherServlet may be vulnerable to a header predicate bypass in a pre-flight request.\n...",
@@ -876,68 +995,10 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-59285",
-     "headline": "Spring for GraphQL applications are vulnerable to Unsafe Deserialization when processing paginated GraphQL queries.\nSpring for GraphQL 2.0.0 - 2.0.4",
+     "id": "CVE-2026-59282",
+     "headline": "Spring Framework applications that use Spring's data binding infrastructure to apply user-supplied property paths onto a target object may be vulnerable to a...",
      "products": [
-      "spring for graphql"
-     ],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.1",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.005,
-     "cvss": 8.1,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59285",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-59286",
-     "headline": "The GraphiQL page bundled with Spring for GraphQL loads JavaScript libraries from a public CDN, without Subresource Integrity checks",
-     "products": [
-      "spring for graphql"
-     ],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.1",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.002,
-     "cvss": 8.1,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59286",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-59289",
-     "headline": "Spring for GraphQL's Spring Data pagination support resolves arguments of a scrollable query and forwards the client-supplied values to the underlying reposi...",
-     "products": [
-      "spring for graphql"
+      "spring framework"
      ],
      "score": 38,
      "factors": [
@@ -958,7 +1019,7 @@
      "ransomware": false,
      "epss": 0.003,
      "cvss": 7.5,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59289",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59282",
      "take": "",
      "action": ""
     }
@@ -968,7 +1029,62 @@
   "backup": {
    "label": "Backup & recovery",
    "blurb": "The systems ransomware crews hit before they encrypt anything.",
-   "items": [],
+   "items": [
+    {
+     "id": "CVE-2026-13737",
+     "headline": "CommServe contained an allowlist bypass vulnerability affecting command execution authorization",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.2",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.005,
+     "cvss": 9.2,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13737",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-13738",
+     "headline": "CommServe contained an authorization bypass vulnerability affecting a limited set of command execution operations",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.2",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.005,
+     "cvss": 9.2,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13738",
+     "take": "",
+     "action": ""
+    }
+   ],
    "above": 0
   },
   "msp-fleet": {
@@ -1003,6 +1119,33 @@
      "action": ""
     },
     {
+     "id": "CVE-2026-25550",
+     "headline": "Seagull Software BarTender 2010, 2016, and 2019 contain an unauthenticated remote code execution vulnerability in the .NET Remoting service exposed on TCP po...",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.3",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.007,
+     "cvss": 9.3,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25550",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2026-16444",
      "headline": "Improper\nneutralization of path traversal sequences in TeamViewer Desktop Clients prior\nVersion 15.81.5 allows an authenticated remote session participant to...",
      "products": [],
@@ -1026,6 +1169,35 @@
      "epss": 0.003,
      "cvss": 7.5,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16444",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-2229",
+     "headline": "ImpactThe undici WebSocket client is vulnerable to a denial-of-service attack due to improper validation of the\u00a0server_max_window_bits\u00a0parameter in the perme...",
+     "products": [
+      "undici"
+     ],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.5",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.009,
+     "cvss": 7.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2229",
      "take": "",
      "action": ""
     }
