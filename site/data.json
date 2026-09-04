@@ -1,7 +1,7 @@
 {
- "generated": "2026-09-04T13:57:32+00:00",
+ "generated": "2026-09-04T16:03:43+00:00",
  "window_hours": 72,
- "scanned": 3161,
+ "scanned": 3088,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
@@ -241,13 +241,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
        "label": "Severity 10.0",
        "points": 10
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.006,
      "cvss": 10.0,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70352",
      "take": "",
@@ -357,13 +361,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
        "label": "Severity 10.0",
        "points": 10
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.006,
      "cvss": 10.0,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-83711",
      "take": "",
@@ -504,13 +512,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
        "label": "Severity 9.1",
        "points": 9
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.006,
      "cvss": 9.1,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62916",
      "take": "",
@@ -611,35 +623,6 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-59354",
-     "headline": "In versions of Spring Security's OAuth2 Authorization Server module 7.0.0 through 7.0.4, when Dynamic Client Registration is explicitly enabled, the registra...",
-     "products": [
-      "spring security"
-     ],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.6",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.005,
-     "cvss": 9.6,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59354",
-     "take": "",
-     "action": ""
-    },
-    {
      "id": "CVE-2023-54391",
      "headline": "Proxmox Virtual Environment (VE) 7.0 through 8.0 contains an authentication bypass vulnerability in libpve-access-control before 8.0.4 that allows unauthenti...",
      "products": [],
@@ -692,35 +675,6 @@
      "epss": 0.003,
      "cvss": 9.4,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59270",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-59283",
-     "headline": "Applications that evaluate Spring Expression Language (SpEL) expressions using SimpleEvaluationContext may be vulnerable to a safety guard bypass when the Sp...",
-     "products": [
-      "spring framework"
-     ],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.1",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.004,
-     "cvss": 9.1,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59283",
      "take": "",
      "action": ""
     },
@@ -864,6 +818,64 @@
      "epss": 0.005,
      "cvss": 8.1,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59285",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-59286",
+     "headline": "The GraphiQL page bundled with Spring for GraphQL loads JavaScript libraries from a public CDN, without Subresource Integrity checks",
+     "products": [
+      "spring for graphql"
+     ],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.1",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.002,
+     "cvss": 8.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59286",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-59289",
+     "headline": "Spring for GraphQL's Spring Data pagination support resolves arguments of a scrollable query and forwards the client-supplied values to the underlying reposi...",
+     "products": [
+      "spring for graphql"
+     ],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.5",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.003,
+     "cvss": 7.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59289",
      "take": "",
      "action": ""
     }
@@ -1338,7 +1350,7 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.001,
+     "epss": 0.003,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10522",
      "take": "",
@@ -1355,13 +1367,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
        "label": "Severity 9.8",
        "points": 10
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.005,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11613",
      "take": "",
@@ -1378,13 +1394,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
        "label": "Severity 9.8",
        "points": 10
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.003,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15354",
      "take": "",
@@ -1565,13 +1585,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
        "label": "Severity 9.8",
        "points": 10
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.008,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82923",
      "take": "",
