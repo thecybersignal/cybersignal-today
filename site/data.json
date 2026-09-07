@@ -1,7 +1,7 @@
 {
- "generated": "2026-09-07T15:26:12+00:00",
+ "generated": "2026-09-07T17:36:26+00:00",
  "window_hours": 72,
- "scanned": 1362,
+ "scanned": 1171,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
@@ -236,6 +236,35 @@
      "action": ""
     },
     {
+     "id": "CVE-2026-43391",
+     "headline": "In the Linux kernel, the following vulnerability has been resolved:\n\nnsfs: tighten permission checks for handle opening\n\nEven privileged services should not ...",
+     "products": [
+      "linux kernel"
+     ],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.001,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-43391",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2026-62916",
      "headline": "Authentication bypass using an alternate path or channel in Microsoft Entra ID allows an unauthorized attacker to elevate privileges over a network",
      "products": [],
@@ -398,33 +427,6 @@
      "epss": 0.002,
      "cvss": 7.6,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85533",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-86207",
-     "headline": "An authentication bypass in N-central < 2026.3 HF 3 leads to authentication bypass in internal only APIs",
-     "products": [],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 7.7",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.003,
-     "cvss": 7.7,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86207",
      "take": "",
      "action": ""
     }
