@@ -1,7 +1,7 @@
 {
- "generated": "2026-09-04T16:03:43+00:00",
+ "generated": "2026-09-07T15:26:12+00:00",
  "window_hours": 72,
- "scanned": 3088,
+ "scanned": 1362,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
@@ -9,20 +9,130 @@
    "blurb": "VPN concentrators, SSL gateways, and anything you publish to the internet.",
    "items": [
     {
-     "id": "CVE-2026-83548",
-     "headline": "A Pre-authentication SSRF vulnerability exists in the SMA1000 Appliance Work Place interface due to an unintended alternate access path",
-     "products": [
-      "sma6210",
-      "sma6210 firmware",
-      "sma7210",
-      "sma7210 firmware"
-     ],
-     "score": 80,
+     "id": "CVE-2026-78327",
+     "headline": "An Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability in the SonicWall Network Security Manager (NSM) O...",
+     "products": [],
+     "score": 39,
      "factors": [
       {
-       "label": "Listed as actively exploited",
-       "points": 40
+       "label": "Runs in this environment",
+       "points": 30
       },
+      {
+       "label": "Exploit likelihood 0.02",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.1",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.016,
+     "cvss": 9.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78327",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-78328",
+     "headline": "A missing authorization vulnerability in the SonicWall Network Security Manager (NSM) On-Prem Management interface allows a lower-privileged Admin user to es...",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.1",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.005,
+     "cvss": 9.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78328",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-81939",
+     "headline": "A Zip Slip vulnerability in the SonicWall Network Security Manager (NSM) On-Prem file upload and archive processing functionality allows an attacker to extra...",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.1",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.007,
+     "cvss": 9.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81939",
+     "take": "",
+     "action": ""
+    }
+   ],
+   "above": 0
+  },
+  "microsoft-smb": {
+   "label": "Microsoft-first shop",
+   "blurb": "Windows Server, Exchange, Entra, and the Microsoft 365 estate.",
+   "items": [
+    {
+     "id": "CVE-2026-63509",
+     "headline": "Relative path traversal in Microsoft Fabric allows an authorized attacker to elevate privileges over a network",
+     "products": [
+      "fabric"
+     ],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.9",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.006,
+     "cvss": 9.9,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63509",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-69502",
+     "headline": "Server-side request forgery (ssrf) in Azure SQL Database allows an unauthorized attacker to elevate privileges over a network",
+     "products": [
+      "azure sql database"
+     ],
+     "score": 40,
+     "factors": [
       {
        "label": "Runs in this environment",
        "points": 30
@@ -36,197 +146,11 @@
        "points": 10
       }
      ],
-     "kev": true,
+     "kev": false,
      "ransomware": false,
-     "epss": 0.007,
+     "epss": 0.006,
      "cvss": 10.0,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-83548",
-     "take": "",
-     "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
-    },
-    {
-     "id": "CVE-2026-83549",
-     "headline": "Post-authentication Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability has been identified in the SMA10...",
-     "products": [
-      "sma6210",
-      "sma6210 firmware",
-      "sma7210",
-      "sma7210 firmware"
-     ],
-     "score": 78,
-     "factors": [
-      {
-       "label": "Listed as actively exploited",
-       "points": 40
-      },
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.02",
-       "points": 0
-      },
-      {
-       "label": "Severity 7.8",
-       "points": 8
-      }
-     ],
-     "kev": true,
-     "ransomware": false,
-     "epss": 0.016,
-     "cvss": 7.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-83549",
-     "take": "",
-     "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
-    },
-    {
-     "id": "CVE-2026-19490",
-     "headline": "Vulnerability in NetScaler ADC and NetScaler Gateway.\n\nThis issue affects ADC: from 14.1 through 73.32 and from 13.1 through 63.21; Gateway: from 14.1 throug...",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.03",
-       "points": 1
-      },
-      {
-       "label": "Severity 9.3",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.034,
-     "cvss": 9.3,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19490",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-19489",
-     "headline": "Vulnerability in NetScaler ADC and NetScaler Gateway.\n\nThis issue affects ADC: from 14.1 through 73.32 and from 13.1 through 63.21; Gateway: from 14.1 throug...",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.8",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.004,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19489",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-0299",
-     "headline": "Local privilege escalation vulnerabilities in the Palo Alto Networks GlobalProtect\u2122 app enable a local user to escalate their privileges to NT AUTHORITY\\SYST...",
-     "products": [
-      "globalprotect"
-     ],
-     "score": 36,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Severity 5.9",
-       "points": 6
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.0,
-     "cvss": 5.9,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0299",
-     "take": "",
-     "action": ""
-    }
-   ],
-   "above": 2
-  },
-  "microsoft-smb": {
-   "label": "Microsoft-first shop",
-   "blurb": "Windows Server, Exchange, Entra, and the Microsoft 365 estate.",
-   "items": [
-    {
-     "id": "CVE-2026-62893",
-     "headline": "Use after free in Windows Deployment Services allows an unauthorized attacker to execute code over a network",
-     "products": [
-      "windows 10 1607",
-      "windows 10 1809",
-      "windows server 2012",
-      "windows server 2016"
-     ],
-     "score": 41,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.03",
-       "points": 1
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.027,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62893",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-62878",
-     "headline": "Stack-based buffer overflow in Windows DNS allows an unauthorized attacker to execute code over a network",
-     "products": [
-      "windows 10 1607",
-      "windows 10 1809",
-      "windows server 2012",
-      "windows server 2016"
-     ],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.013,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62878",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69502",
      "take": "",
      "action": ""
     },
@@ -258,99 +182,6 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-76193",
-     "headline": "Adobe Campaign Classic (ACC) is affected by a Server-Side Request Forgery (SSRF) vulnerability that could result in arbitrary code execution in the context o...",
-     "products": [
-      "campaign",
-      "linux kernel",
-      "windows"
-     ],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 10.0",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.007,
-     "cvss": 10.0,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76193",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-76195",
-     "headline": "Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability that ...",
-     "products": [
-      "campaign",
-      "linux kernel",
-      "windows"
-     ],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.02",
-       "points": 0
-      },
-      {
-       "label": "Severity 10.0",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.016,
-     "cvss": 10.0,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76195",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-76197",
-     "headline": "Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability that ...",
-     "products": [
-      "campaign",
-      "linux kernel",
-      "windows"
-     ],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.02",
-       "points": 0
-      },
-      {
-       "label": "Severity 10.0",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.016,
-     "cvss": 10.0,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76197",
-     "take": "",
-     "action": ""
-    },
-    {
      "id": "CVE-2026-83711",
      "headline": "Authorization bypass through user-controlled key in Microsoft Azure Active Directory B2C allows an unauthorized attacker to elevate privileges over a network",
      "products": [],
@@ -378,14 +209,10 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-12878",
-     "headline": "In affected versions of the Codefresh platform an authenticated user can utilize an API endpoint to elevate to Admin permissions",
-     "products": [
-      "codefresh",
-      "linux kernel",
-      "windows"
-     ],
-     "score": 39,
+     "id": "CVE-2026-86218",
+     "headline": "N-central is vulnerable to a pre-auth remote code execution This issue affects N-central: before 2026.3.1.14",
+     "products": [],
+     "score": 40,
      "factors": [
       {
        "label": "Runs in this environment",
@@ -396,108 +223,15 @@
        "points": 0
       },
       {
-       "label": "Severity 8.6",
-       "points": 9
+       "label": "Severity 10.0",
+       "points": 10
       }
      ],
      "kev": false,
      "ransomware": false,
      "epss": 0.004,
-     "cvss": 8.6,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12878",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-59113",
-     "headline": "Missing authorization in Visual Studio Code allows an unauthorized attacker to execute code over a network",
-     "products": [
-      "visual studio code"
-     ],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.8",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.007,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59113",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-62817",
-     "headline": "Out-of-bounds write in Windows DNS allows an unauthorized attacker to execute code over an adjacent network",
-     "products": [
-      "windows 10 1809",
-      "windows 10 21h2",
-      "windows 10 22h2",
-      "windows 11 23h2"
-     ],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.8",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.007,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62817",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-62823",
-     "headline": "Heap-based buffer overflow in Windows DHCP Server allows an unauthorized attacker to execute code over an adjacent network",
-     "products": [
-      "windows 10 1607",
-      "windows 10 1809",
-      "windows server 2012",
-      "windows server 2016"
-     ],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.8",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.007,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62823",
+     "cvss": 10.0,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86218",
      "take": "",
      "action": ""
     },
@@ -527,104 +261,10 @@
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62916",
      "take": "",
      "action": ""
-    }
-   ],
-   "above": 0
-  },
-  "virtualization": {
-   "label": "Virtualization & hypervisor",
-   "blurb": "VMware, Proxmox, and the layer everything else runs on.",
-   "items": [
-    {
-     "id": "CVE-2026-47890",
-     "headline": "Spring MVC and WebFlux applications are vulnerable to stream corruption when using Server-Sent Events (SSE) with view fragments.\nSpring Framework 7.0.0 - 7.0...",
-     "products": [
-      "spring framework"
-     ],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.003,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47890",
-     "take": "",
-     "action": ""
     },
     {
-     "id": "CVE-2026-47891",
-     "headline": "A Spring WebFlux application that relies on the Aalto XML processor to parse XML input does not correctly enforce the maxInMemorySize limit.\nSpring Framework...",
-     "products": [
-      "spring framework"
-     ],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.003,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47891",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-47892",
-     "headline": "A WebFlux application using functional endpoints and deployed with DispatcherServlet may be vulnerable to a header predicate bypass in a pre-flight request.\n...",
-     "products": [
-      "spring framework"
-     ],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.004,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47892",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2023-54391",
-     "headline": "Proxmox Virtual Environment (VE) 7.0 through 8.0 contains an authentication bypass vulnerability in libpve-access-control before 8.0.4 that allows unauthenti...",
+     "id": "CVE-2026-85546",
+     "headline": "MISP contains a cross-site request forgery (CSRF) vulnerability in the sharing group quick-edit functionality",
      "products": [],
      "score": 39,
      "factors": [
@@ -637,25 +277,25 @@
        "points": 0
       },
       {
-       "label": "Severity 9.3",
+       "label": "Severity 8.6",
        "points": 9
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.005,
-     "cvss": 9.3,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-54391",
+     "epss": 0.002,
+     "cvss": 8.6,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85546",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2026-59270",
-     "headline": "Spring Security's embedded UnboundID LDAP server (UnboundIdContainer) unconditionally registers an administrative credential and binds its listener to all av...",
+     "id": "CVE-2026-42151",
+     "headline": "Prometheus is an open-source monitoring system and time series database",
      "products": [
-      "spring security"
+      "prometheus"
      ],
-     "score": 39,
+     "score": 38,
      "factors": [
       {
        "label": "Runs in this environment",
@@ -666,21 +306,104 @@
        "points": 0
       },
       {
-       "label": "Severity 9.4",
-       "points": 9
+       "label": "Severity 7.5",
+       "points": 8
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.003,
-     "cvss": 9.4,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59270",
+     "epss": 0.004,
+     "cvss": 7.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42151",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2026-41012",
-     "headline": "Traffic interception vulnerability in BOSH Director vCenter CPI allows attackers positioned between BOSH Director and vCenter to impersonate vCenter REST API...",
+     "id": "CVE-2026-69419",
+     "headline": "Integer overflow or wraparound in Azure Data Manager for Energy allows an authorized attacker to execute code over a network",
+     "products": [
+      "azure data manager for energy"
+     ],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.5",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.004,
+     "cvss": 8.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69419",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-70178",
+     "headline": "Missing authorization in Microsoft Fabric allows an authorized attacker to elevate privileges over a network",
+     "products": [],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.5",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.004,
+     "cvss": 8.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70178",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-85533",
+     "headline": "An authorization flaw in MISP allowed an authenticated user to submit a sharing_group_id without verifying that the user was authorized to use the referenced...",
+     "products": [],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.6",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.002,
+     "cvss": 7.6,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85533",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-86207",
+     "headline": "An authentication bypass in N-central < 2026.3 HF 3 leads to authentication bypass in internal only APIs",
      "products": [],
      "score": 38,
      "factors": [
@@ -699,251 +422,25 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.001,
+     "epss": 0.003,
      "cvss": 7.7,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41012",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-47877",
-     "headline": "Spring Security Authorization Server's default consent page renders user-controlled values without HTML entity encoding.\nSpring Security 7.1.0\nSpring Securit...",
-     "products": [
-      "spring security"
-     ],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.2",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.002,
-     "cvss": 8.2,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47877",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-47893",
-     "headline": "A Spring WebFlux application that supports WebSocket connections may expose indirectly sensitive user information by including request headers in an exceptio...",
-     "products": [
-      "spring framework"
-     ],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 7.5",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.002,
-     "cvss": 7.5,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47893",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-59282",
-     "headline": "Spring Framework applications that use Spring's data binding infrastructure to apply user-supplied property paths onto a target object may be vulnerable to a...",
-     "products": [
-      "spring framework"
-     ],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 7.5",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.003,
-     "cvss": 7.5,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59282",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-59285",
-     "headline": "Spring for GraphQL applications are vulnerable to Unsafe Deserialization when processing paginated GraphQL queries.\nSpring for GraphQL 2.0.0 - 2.0.4",
-     "products": [
-      "spring for graphql"
-     ],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.1",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.005,
-     "cvss": 8.1,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59285",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-59286",
-     "headline": "The GraphiQL page bundled with Spring for GraphQL loads JavaScript libraries from a public CDN, without Subresource Integrity checks",
-     "products": [
-      "spring for graphql"
-     ],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.1",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.002,
-     "cvss": 8.1,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59286",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-59289",
-     "headline": "Spring for GraphQL's Spring Data pagination support resolves arguments of a scrollable query and forwards the client-supplied values to the underlying reposi...",
-     "products": [
-      "spring for graphql"
-     ],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 7.5",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.003,
-     "cvss": 7.5,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59289",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86207",
      "take": "",
      "action": ""
     }
    ],
    "above": 0
   },
-  "backup": {
-   "label": "Backup & recovery",
-   "blurb": "The systems ransomware crews hit before they encrypt anything.",
+  "virtualization": {
+   "label": "Virtualization & hypervisor",
+   "blurb": "VMware, Proxmox, and the layer everything else runs on.",
    "items": [
     {
-     "id": "CVE-2026-58073",
-     "headline": "A vulnerability in Veeam Service Provider Console allowing an unauthenticated attacker to impersonate a managed agent andobtain that agent's credentials",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.5",
-       "points": 10
-      }
+     "id": "CVE-2026-22739",
+     "headline": "Vulnerability in Spring Cloud when substituting the profile parameter from a request made to the Spring Cloud Config Server configured to the native file sys...",
+     "products": [
+      "spring cloud config"
      ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.003,
-     "cvss": 9.5,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58073",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-13737",
-     "headline": "CommServe contained an allowlist bypass vulnerability affecting command execution authorization",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.2",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.005,
-     "cvss": 9.2,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13737",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-13738",
-     "headline": "CommServe contained an authorization bypass vulnerability affecting a limited set of command execution operations",
-     "products": [],
      "score": 39,
      "factors": [
       {
@@ -955,76 +452,24 @@
        "points": 0
       },
       {
-       "label": "Severity 9.2",
+       "label": "Severity 8.6",
        "points": 9
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.005,
-     "cvss": 9.2,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13738",
+     "epss": 0.012,
+     "cvss": 8.6,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22739",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2026-58067",
-     "headline": "A vulnerability in Veeam Service Provider Console allowing an unauthenticated attacker to exhaust host memory and cause adenial of service",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.7",
-       "points": 9
-      }
+     "id": "CVE-2026-47851",
+     "headline": "Analyzing a PDF with a deeply nested or cyclic table of contents can cause a StackOverflowError in the ingestion thread.\nSpring AI 2.0.0\nSpring AI 1.1.0 - 1....",
+     "products": [
+      "spring ai"
      ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.004,
-     "cvss": 8.7,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58067",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-58072",
-     "headline": "A vulnerability in Veeam Service Provider Console allowing arbitrary file write on the management server, which can lead to remotecode execution",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.0",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.005,
-     "cvss": 9.0,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58072",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-58071",
-     "headline": "A vulnerability in Veeam Service Provider Console allowing an unauthenticated attacker to access the proxied appliance API asPortal Administrator during a sh...",
-     "products": [],
      "score": 38,
      "factors": [
       {
@@ -1036,22 +481,281 @@
        "points": 0
       },
       {
-       "label": "Severity 8.2",
+       "label": "Severity 7.5",
        "points": 8
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.004,
-     "cvss": 8.2,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58071",
+     "epss": 0.003,
+     "cvss": 7.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47851",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2026-64635",
-     "headline": "Improper handling of the returnUrl parameter in the Forgot Password function of Veeam Service Provider Console allows an unauthenticated attacker to control ...",
-     "products": [],
+     "id": "CVE-2026-47852",
+     "headline": "A local attacker on a multi-user host can pre-create the deterministic cache path and plant a malicious ONNX model file.\nSpring AI 2.0.0\nSpring AI 1.1.0 - 1....",
+     "products": [
+      "spring ai"
+     ],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.5",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.002,
+     "cvss": 7.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47852",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-40987",
+     "headline": "A malicious or compromised FTP/SFTP/SMB server can write arbitrary files anywhere on the client filesystem (outside the configured local-directory) with atta...",
+     "products": [
+      "spring integration"
+     ],
+     "score": 37,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.1",
+       "points": 7
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.002,
+     "cvss": 7.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40987",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-47836",
+     "headline": "The base directory (spring.cloud.config.server.svn.basedir) used by the Spring Cloud Config Server to clone SVN repositories to is susceptible to time-of-che...",
+     "products": [
+      "spring cloud config"
+     ],
+     "score": 37,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.2",
+       "points": 7
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.001,
+     "cvss": 7.2,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47836",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-47837",
+     "headline": "Missing Authentication for Critical Function vulnerability in Spring Spring Cloud Config allows Webhook requests to Spring Cloud Config Server's /monitor end...",
+     "products": [
+      "spring cloud config"
+     ],
+     "score": 37,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 6.8",
+       "points": 7
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.003,
+     "cvss": 6.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47837",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-47841",
+     "headline": "An application using Spring Security's WebAuthn support may be vulnerable to user verification bypass when using a distributed HTTP session store.\nSpring Sec...",
+     "products": [
+      "spring security"
+     ],
+     "score": 37,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.4",
+       "points": 7
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.003,
+     "cvss": 7.4,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47841",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-47842",
+     "headline": "Applications using AesBytesEncryptor with the two-argument constructor or when passing a null IV generator and CBC as the encryption mode encrypt data with A...",
+     "products": [
+      "spring security"
+     ],
+     "score": 36,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 6.5",
+       "points": 6
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.001,
+     "cvss": 6.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47842",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-47856",
+     "headline": "Spring Integration's JSON to object conversion uses the json__TypeId__ header to choose the deserialization target type, and resolves that header value to a ...",
+     "products": [
+      "spring integration"
+     ],
+     "score": 36,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 6.3",
+       "points": 6
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.002,
+     "cvss": 6.3,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47856",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-59317",
+     "headline": "DeadLetterPublishingRecovererFactory reads the retry_topic-original-timestamp header from an inbound ConsumerRecord and passes its raw bytes directly to new ...",
+     "products": [
+      "spring for apache kafka"
+     ],
+     "score": 36,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 6.5",
+       "points": 6
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.004,
+     "cvss": 6.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59317",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-40992",
+     "headline": "Spring Boot's Mail auto-configuration does not enable hostname verification",
+     "products": [
+      "spring boot"
+     ],
+     "score": 35,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 5.0",
+       "points": 5
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 5.0,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40992",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-41001",
+     "headline": "Spring Boot's ArtemisEmbeddedConfigurationFactory uses a fixed, static path for the embedded Artemis message broker's data directory when no explicit path is...",
+     "products": [
+      "spring boot"
+     ],
      "score": 35,
      "factors": [
       {
@@ -1067,208 +771,29 @@
      "ransomware": false,
      "epss": 0.0,
      "cvss": 5.3,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-64635",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41001",
      "take": "",
      "action": ""
     }
    ],
+   "above": 0
+  },
+  "backup": {
+   "label": "Backup & recovery",
+   "blurb": "The systems ransomware crews hit before they encrypt anything.",
+   "items": [],
    "above": 0
   },
   "msp-fleet": {
    "label": "MSP tooling",
    "blurb": "RMM and remote-support platforms with reach into every client.",
-   "items": [
-    {
-     "id": "CVE-2026-19042",
-     "headline": "A command injection vulnerability in TeamViewer Full\nClient and Host for Linux prior to version 15.81.5 allows a remote attacker to\nexecute arbitrary command...",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.02",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.8",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.02,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19042",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-25550",
-     "headline": "Seagull Software BarTender 2010, 2016, and 2019 contain an unauthenticated remote code execution vulnerability in the .NET Remoting service exposed on TCP po...",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.3",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.009,
-     "cvss": 9.3,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25550",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-16444",
-     "headline": "Improper\nneutralization of path traversal sequences in TeamViewer Desktop Clients prior\nVersion 15.81.5 allows an authenticated remote session participant to...",
-     "products": [],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 7.5",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.003,
-     "cvss": 7.5,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16444",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-2229",
-     "headline": "ImpactThe undici WebSocket client is vulnerable to a denial-of-service attack due to improper validation of the\u00a0server_max_window_bits\u00a0parameter in the perme...",
-     "products": [
-      "undici"
-     ],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 7.5",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.009,
-     "cvss": 7.5,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2229",
-     "take": "",
-     "action": ""
-    }
-   ],
+   "items": [],
    "above": 0
   },
   "file-transfer": {
    "label": "Managed file transfer",
    "blurb": "The category with the worst mass-extortion track record in the business.",
-   "items": [
-    {
-     "id": "CVE-2026-22306",
-     "headline": "Download of code without integrity check, inclusion of functionality from untrusted control sphere, and cleartext \ntransmission of sensitive information vuln...",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 10.0",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.002,
-     "cvss": 10.0,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22306",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-84115",
-     "headline": "A vulnerability was found in Cleo Harmony up to 5.8.1.10",
-     "products": [],
-     "score": 36,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Severity 5.5",
-       "points": 6
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.0,
-     "cvss": 5.5,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84115",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-84114",
-     "headline": "A vulnerability has been found in Cleo Harmony up to 5.8.1.10",
-     "products": [],
-     "score": 32,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Severity 2.1",
-       "points": 2
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.0,
-     "cvss": 2.1,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84114",
-     "take": "",
-     "action": ""
-    }
-   ],
+   "items": [],
    "above": 0
   },
   "devstack": {
@@ -1276,35 +801,8 @@
    "blurb": "Confluence, Jenkins, GitLab, and the internal tools nobody patches.",
    "items": [
     {
-     "id": "CVE-2026-64638",
-     "headline": "WordPress is vulnerable to a pre-auth reflected XSS vulnerability on the login screen.\r\n\r\nVia a specially crafted malicious third-party website hosted by an ...",
-     "products": [],
-     "score": 45,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.31",
-       "points": 6
-      },
-      {
-       "label": "Severity 8.9",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.312,
-     "cvss": 8.9,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-64638",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2025-9314",
-     "headline": "The Developer Tools WordPress plugin through 1.1.3 contains an unauthenticated arbitrary file upload vulnerability in the bundled SWFUpload component",
+     "id": "CVE-2024-11080",
+     "headline": "The Post Grid and Gutenberg Blocks \u2013 ComboBlocks plugin for WordPress is vulnerable to Unauthenticated Hook Injection in versions 2.2.32 to 2.3.1 via several...",
      "products": [],
      "score": 40,
      "factors": [
@@ -1323,15 +821,15 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.003,
+     "epss": 0.004,
      "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-9314",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-11080",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2026-10522",
-     "headline": "The MemberHero  WordPress plugin through 6.9 does not restrict which account fields can be supplied during its frontend registration process, allowing unauth...",
+     "id": "CVE-2026-10196",
+     "headline": "The Mail Mint \u2013 Email Marketing, Newsletter, Email Automation & WooCommerce Emails plugin for WordPress is vulnerable to PHP Object Injection in all versions...",
      "products": [],
      "score": 40,
      "factors": [
@@ -1340,7 +838,7 @@
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.00",
+       "label": "Exploit likelihood 0.01",
        "points": 0
       },
       {
@@ -1350,9 +848,9 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.003,
+     "epss": 0.006,
      "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10522",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10196",
      "take": "",
      "action": ""
     },
@@ -1384,6 +882,33 @@
      "action": ""
     },
     {
+     "id": "CVE-2026-13447",
+     "headline": "The Mstore Api plugin for WordPress is vulnerable to Authentication Bypass via JWT Forgery in versions up to, and including, 4.20.0 This is due to missing cr...",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.004,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13447",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2026-15354",
      "headline": "The ACPT (Premium) plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 2.0.66",
      "products": [],
@@ -1411,8 +936,8 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-18550",
-     "headline": "The Nokri - Job Board WordPress Theme for WordPress is vulnerable to Privilege Escalation via Account Takeover in all versions up to, and including, 1.6.6",
+     "id": "CVE-2026-16310",
+     "headline": "The MemberDash plugin for WordPress is vulnerable to Insecure Direct Object Reference in all versions up to, and including, 1.8.5 via the 'id' parameter due ...",
      "products": [],
      "score": 40,
      "factors": [
@@ -1433,69 +958,13 @@
      "ransomware": false,
      "epss": 0.003,
      "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18550",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16310",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2026-19478",
-     "headline": "GitLab has remediated an issue in GitLab CE/EE affecting all versions from 18.2 before 18.11.11, 19.0 before 19.0.8, 19.1 before 19.1.6, and 19.2 before 19.2...",
-     "products": [
-      "gitlab"
-     ],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.06",
-       "points": 1
-      },
-      {
-       "label": "Severity 9.4",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.058,
-     "cvss": 9.4,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19478",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-4357",
-     "headline": "The Embed HTML5 Game WordPress plugin through 1.3 does not properly restrict who can upload files via the plugin, as well as what can be uploaded, making it ...",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 10.0",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.003,
-     "cvss": 10.0,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-4357",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-75865",
-     "headline": "The WPLP Cookie Consent \u2013 Cookie Banner & Consent Management for GDPR, CCPA & Google Consent Mode plugin for WordPress is vulnerable to arbitrary file upload...",
+     "id": "CVE-2026-75816",
+     "headline": "The Frontend Admin by DynamiApps plugin for WordPress is vulnerable to Authentication Bypass to Account Takeover in all versions up to, and including, 3.29.12",
      "products": [],
      "score": 40,
      "factors": [
@@ -1516,13 +985,13 @@
      "ransomware": false,
      "epss": 0.005,
      "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75865",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75816",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2026-77009",
-     "headline": "The WatchMan-Site7 WordPress plugin through 4.2.0 does not restrict access to its debugging console, which executes user-supplied PHP code, allowing any auth...",
+     "id": "CVE-2026-78362",
+     "headline": "The SEO Flow by LupsOnline WordPress plugin before 3.0.3 does not correctly validate the credential supplied with its API requests, allowing unauthenticated ...",
      "products": [],
      "score": 40,
      "factors": [
@@ -1535,42 +1004,15 @@
        "points": 0
       },
       {
-       "label": "Severity 9.9",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.003,
-     "cvss": 9.9,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77009",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-78657",
-     "headline": "The SigmaForms Pro \u2013 AI Generated Forms plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the delete_...",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
        "label": "Severity 9.8",
        "points": 10
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.007,
+     "epss": 0.003,
      "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78657",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78362",
      "take": "",
      "action": ""
     },
@@ -1595,9 +1037,90 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.008,
+     "epss": 0.006,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82923",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-83627",
+     "headline": "The Hummingbird \u2013 Speed Optimization, Caching, Minify, Compress & CDN plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and ...",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.008,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-83627",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2025-9049",
+     "headline": "The Nokri \u2013 Job Board WordPress Theme theme for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the 'nokri_...",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.002,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-9049",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-18480",
+     "headline": "The SureCart  WordPress plugin before 4.6.3 does not ensure that the account affected by a customer update is the same account its permission check authorise...",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.002,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18480",
      "take": "",
      "action": ""
     }
