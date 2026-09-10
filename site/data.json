@@ -1,13 +1,83 @@
 {
- "generated": "2026-09-09T16:17:43+00:00",
+ "generated": "2026-09-10T16:10:22+00:00",
  "window_hours": 72,
- "scanned": 4404,
+ "scanned": 5770,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
    "label": "Edge & remote access",
    "blurb": "VPN concentrators, SSL gateways, and anything you publish to the internet.",
    "items": [
+    {
+     "id": "CVE-2026-19490",
+     "headline": "Vulnerability in NetScaler ADC and NetScaler Gateway.\n\nThis issue affects ADC: from 14.1 through 73.32 and from 13.1 through 63.21; Gateway: from 14.1 throug...",
+     "products": [
+      "netscaler application delivery controller",
+      "netscaler gateway"
+     ],
+     "score": 80,
+     "factors": [
+      {
+       "label": "Listed as actively exploited",
+       "points": 40
+      },
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.06",
+       "points": 1
+      },
+      {
+       "label": "Severity 9.3",
+       "points": 9
+      }
+     ],
+     "kev": true,
+     "ransomware": false,
+     "epss": 0.06,
+     "cvss": 9.3,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19490",
+     "take": "",
+     "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+    },
+    {
+     "id": "CVE-2025-25249",
+     "headline": "A heap-based buffer overflow vulnerability in Fortinet FortiOS 7.6.0 through 7.6.3, FortiOS 7.4.0 through 7.4.8, FortiOS 7.2.0 through 7.2.11, FortiOS 7.0.0 ...",
+     "products": [
+      "fortios",
+      "fortisase",
+      "fortiswitchmanager",
+      "ruggedcom ape1808"
+     ],
+     "score": 78,
+     "factors": [
+      {
+       "label": "Listed as actively exploited",
+       "points": 40
+      },
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.02",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.1",
+       "points": 8
+      }
+     ],
+     "kev": true,
+     "ransomware": false,
+     "epss": 0.017,
+     "cvss": 8.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-25249",
+     "take": "",
+     "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+    },
     {
      "id": "CVE-2026-12645",
      "headline": "A Missing Authorization vulnerability in Ivanti Neurons for ITSM before 2026.2 allows a remote authenticated attacker to execute arbitrary code on the server",
@@ -279,70 +349,94 @@
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12651",
      "take": "",
      "action": ""
-    },
-    {
-     "id": "CVE-2026-18851",
-     "headline": "Missing authorization in Ivanti Endpoint Manager Mobile before version\u00a012.10.0.0, 12.9.0.2, and 12.8.0.4\u00a0allows a remote authenticated attacker to escalate t...",
-     "products": [
-      "endpoint manager mobile"
-     ],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.8",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.01,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18851",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-78327",
-     "headline": "An Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability in the SonicWall Network Security Manager (NSM) O...",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.02",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.1",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.016,
-     "cvss": 9.1,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78327",
-     "take": "",
-     "action": ""
     }
    ],
-   "above": 0
+   "above": 2
   },
   "microsoft-smb": {
    "label": "Microsoft-first shop",
    "blurb": "Windows Server, Exchange, Entra, and the Microsoft 365 estate.",
    "items": [
+    {
+     "id": "CVE-2016-7255",
+     "headline": "The kernel-mode drivers in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8.1, Windows Server 2012 Gold and R2, Wind...",
+     "products": [
+      "windows 10 1507",
+      "windows 10 1511",
+      "windows 10 1607",
+      "windows 7"
+     ],
+     "score": 109,
+     "factors": [
+      {
+       "label": "Listed as actively exploited",
+       "points": 40
+      },
+      {
+       "label": "Used in ransomware campaigns",
+       "points": 15
+      },
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.81",
+       "points": 16
+      },
+      {
+       "label": "Severity 7.8",
+       "points": 8
+      }
+     ],
+     "kev": true,
+     "ransomware": true,
+     "epss": 0.81,
+     "cvss": 7.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2016-7255",
+     "take": "",
+     "action": "Apply updates per vendor instructions."
+    },
+    {
+     "id": "CVE-2022-37969",
+     "headline": "Windows Common Log File System Driver Elevation of Privilege Vulnerability",
+     "products": [
+      "windows 10 1507",
+      "windows 10 1607",
+      "windows 10 1809",
+      "windows 10 20h2"
+     ],
+     "score": 99,
+     "factors": [
+      {
+       "label": "Listed as actively exploited",
+       "points": 40
+      },
+      {
+       "label": "Used in ransomware campaigns",
+       "points": 15
+      },
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.28",
+       "points": 6
+      },
+      {
+       "label": "Severity 7.8",
+       "points": 8
+      }
+     ],
+     "kev": true,
+     "ransomware": true,
+     "epss": 0.283,
+     "cvss": 7.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-37969",
+     "take": "",
+     "action": "Apply updates per vendor instructions."
+    },
     {
      "id": "CVE-2025-14733",
      "headline": "An Out-of-bounds Write vulnerability in the WatchGuard Fireware OS iked process may allow a remote unauthenticated attacker to execute arbitrary code",
@@ -489,6 +583,60 @@
      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
     },
     {
+     "id": "CVE-2026-47705",
+     "headline": "TypeBot is a chatbot builder tool",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.6",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.005,
+     "cvss": 9.6,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47705",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-55634",
+     "headline": "Pimcore is an Open Source Data & Experience Management Platform",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.9",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.004,
+     "cvss": 9.9,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55634",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2026-69276",
      "headline": "Integer underflow (wrap or wraparound) in Microsoft UxTheme Library (uxtheme.dll) allows an unauthorized attacker to execute code over a network",
      "products": [],
@@ -595,122 +743,43 @@
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69586",
      "take": "",
      "action": ""
-    },
-    {
-     "id": "CVE-2026-69824",
-     "headline": "Integer underflow (wrap or wraparound) in Microsoft Standard XPS allows an unauthorized attacker to execute code over a network",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.01,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69824",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-69910",
-     "headline": "Stack-based buffer overflow in Windows Hyper-V allows an unauthorized attacker to execute code over a network",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.01,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69910",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-70352",
-     "headline": "Missing authentication for critical function in Azure AI Language allows an unauthorized attacker to elevate privileges over a network",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 10.0",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.006,
-     "cvss": 10.0,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70352",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-77493",
-     "headline": "Double free in Microsoft Graphics Component allows an unauthorized attacker to execute code over a network",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.01,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77493",
-     "take": "",
-     "action": ""
     }
    ],
-   "above": 4
+   "above": 6
   },
   "virtualization": {
    "label": "Virtualization & hypervisor",
    "blurb": "VMware, Proxmox, and the layer everything else runs on.",
    "items": [
+    {
+     "id": "CVE-2026-47884",
+     "headline": "Use of XsltView in a Spring MVC application can result in SSRF and RCE attack if the application has an \"/**\" mapping that results in view rendering, and whe...",
+     "products": [
+      "spring framework"
+     ],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.004,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47884",
+     "take": "",
+     "action": ""
+    },
     {
      "id": "CVE-2023-54391",
      "headline": "Proxmox Virtual Environment (VE) 7.0 through 8.0 contains an authentication bypass vulnerability in libpve-access-control before 8.0.4 that allows unauthenti...",
@@ -737,6 +806,257 @@
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-54391",
      "take": "",
      "action": ""
+    },
+    {
+     "id": "CVE-2026-47879",
+     "headline": "Spring Cloud Gateway JsonToGrpcGatewayFilterFactory allows arbitrary Spring Resource locations for defining the proto descriptor.\nSpring Cloud Gateway 5.0.0 ...",
+     "products": [
+      "spring cloud gateway"
+     ],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.7",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.002,
+     "cvss": 7.7,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47879",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-47885",
+     "headline": "The PartEventHttpMessageReader in Spring WebFlux does not enforce the maxPartSize limit when maxInMemorySize is set to -1.\nSpring Framework 7.0.0 - 7.0.8\nSpr...",
+     "products": [
+      "spring framework"
+     ],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.5",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.003,
+     "cvss": 7.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47885",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-47886",
+     "headline": "Applications that evaluate user-supplied Spring Expression Language (SpEL) expressions may be vulnerable to a Denial of Service (DoS) attack when the power o...",
+     "products": [
+      "spring framework"
+     ],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.5",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.003,
+     "cvss": 7.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47886",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-47888",
+     "headline": "A Spring RSocket application is exposed to a memory leak via a malformed SETUP frame.\nSpring Framework 7.0.0 - 7.0.8\nSpring Framework 6.2.0 - 6.2.19\nSpring F...",
+     "products": [
+      "spring framework"
+     ],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.5",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.003,
+     "cvss": 7.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47888",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-47889",
+     "headline": "A WebFlux application running on the Jetty 12 Core reactive adapter serializes response cookies without the sameSite attribute.\nSpring Framework 7.0.0 - 7.0....",
+     "products": [
+      "spring framework"
+     ],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.5",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.003,
+     "cvss": 7.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47889",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-47883",
+     "headline": "UrlHandlerFilter can be vulnerable to an open redirect when configured with very broadly matching patterns",
+     "products": [
+      "spring framework"
+     ],
+     "score": 36,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 6.1",
+       "points": 6
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.002,
+     "cvss": 6.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47883",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-47887",
+     "headline": "A Spring MVC application that uses UrlFileNameViewController that is mapped with an end-of-path, and does not have a configured prefix is vulnerable to an op...",
+     "products": [
+      "spring framework"
+     ],
+     "score": 36,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 6.1",
+       "points": 6
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.002,
+     "cvss": 6.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47887",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-45694",
+     "headline": "LibreNMS is a network monitoring system",
+     "products": [],
+     "score": 35,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 5.4",
+       "points": 5
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 5.4,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45694",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-47880",
+     "headline": "A producer who can publish to a JMS destination consumed by any Spring Integration JMS inbound component can set String JMS properties named replyChannel, er...",
+     "products": [
+      "spring integration"
+     ],
+     "score": 35,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 5.4",
+       "points": 5
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 5.4,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47880",
+     "take": "",
+     "action": ""
     }
    ],
    "above": 0
@@ -758,7 +1078,7 @@
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.00",
+       "label": "Exploit likelihood 0.01",
        "points": 0
       },
       {
@@ -797,7 +1117,7 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.003,
+     "epss": 0.004,
      "cvss": 8.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13739",
      "take": "",
@@ -952,7 +1272,7 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.003,
+     "epss": 0.004,
      "cvss": 8.3,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77104",
      "take": "",
@@ -1139,7 +1459,35 @@
   "file-transfer": {
    "label": "Managed file transfer",
    "blurb": "The category with the worst mass-extortion track record in the business.",
-   "items": [],
+   "items": [
+    {
+     "id": "CVE-2026-15913",
+     "headline": "In versions prior to 7.10.2 a path traversal vulnerability in the\u00a0/attachRemoteFiles endpoint\u00a0of Fortra's GoAnywhere MFT allows Web Users with both\u00a0Secure Fo...",
+     "products": [],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.7",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.004,
+     "cvss": 7.7,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15913",
+     "take": "",
+     "action": ""
+    }
+   ],
    "above": 0
   },
   "devstack": {
@@ -1201,33 +1549,6 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-11613",
-     "headline": "The Divi Ajax Filter plugin for WordPress is vulnerable to Local File Inclusion in all versions up to, and including, 5.1.2 via the 'custom_loop_template' pa...",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.005,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11613",
-     "take": "",
-     "action": ""
-    },
-    {
      "id": "CVE-2026-13447",
      "headline": "The Mstore Api plugin for WordPress is vulnerable to Authentication Bypass via JWT Forgery in versions up to, and including, 4.20.0 This is due to missing cr...",
      "products": [],
@@ -1278,6 +1599,33 @@
      "epss": 0.003,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16310",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-18351",
+     "headline": "The Drag and Drop File Upload for Elementor Forms plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 1.6.0 via...",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.008,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18351",
      "take": "",
      "action": ""
     },
@@ -1363,6 +1711,33 @@
      "action": ""
     },
     {
+     "id": "CVE-2026-77770",
+     "headline": "The miniOrange 2FA  WordPress plugin before 6.3.1, miniOrange 2FA  WordPress plugin before 19.3 does not require a validated transaction before deleting site...",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 10.0",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.001,
+     "cvss": 10.0,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77770",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2026-78362",
      "headline": "The SEO Flow by LupsOnline WordPress plugin before 3.0.3 does not correctly validate the credential supplied with its API requests, allowing unauthenticated ...",
      "products": [],
@@ -1440,33 +1815,6 @@
      "epss": 0.008,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-83627",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2025-9049",
-     "headline": "The Nokri \u2013 Job Board WordPress Theme theme for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the 'nokri_...",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.8",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.002,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-9049",
      "take": "",
      "action": ""
     }
