@@ -1,7 +1,7 @@
 {
- "generated": "2026-09-10T16:10:22+00:00",
+ "generated": "2026-09-11T14:04:26+00:00",
  "window_hours": 72,
- "scanned": 5770,
+ "scanned": 6023,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
@@ -297,6 +297,29 @@
      "action": ""
     },
     {
+     "id": "CVE-2026-84390",
+     "headline": "A inclusion of sensitive information in source code vulnerability in Fortinet FortiMonitorOnSight 7.2.4 through 7.2.7, FortiMonitorOnSight 7.2.0 through 7.2....",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84390",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2026-12648",
      "headline": "A Deserialization of Untrusted Data vulnerability in Ivanti Neurons for ITSM before 2026.2 allows a remote authenticated attacker to execute arbitrary code o...",
      "products": [],
@@ -320,33 +343,6 @@
      "epss": 0.015,
      "cvss": 8.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12648",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-12651",
-     "headline": "A Deserialization of Untrusted Data vulnerability in Ivanti Neurons for ITSM before 2026.2 allows a remote authenticated attacker to execute arbitrary code o...",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.8",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.015,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12651",
      "take": "",
      "action": ""
     }
@@ -1346,6 +1342,33 @@
      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
     },
     {
+     "id": "CVE-2026-66066",
+     "headline": "Action Pack is a framework for handling and responding to web requests",
+     "products": [],
+     "score": 46,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.28",
+       "points": 6
+      },
+      {
+       "label": "Severity 9.5",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.279,
+     "cvss": 9.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66066",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2026-84869",
      "headline": "A condition in the ScreenConnect client may allow files to be transferred and executed through an active remote session without authorization or Host confirm...",
      "products": [],
@@ -1396,6 +1419,29 @@
      "epss": 0.001,
      "cvss": 8.6,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34223",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-81941",
+     "headline": "IBM Langflow OSS 1.0.0 through 1.11.5 allows an authenticated non-administrative user could execute arbitrary operating system commands on the server at the ...",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81941",
      "take": "",
      "action": ""
     },
@@ -1461,6 +1507,29 @@
    "blurb": "The category with the worst mass-extortion track record in the business.",
    "items": [
     {
+     "id": "CVE-2026-75777",
+     "headline": "IBM Aspera Enterprise WebApps 1.0.0 through 1.0.5 could allow a local attacker to escape container protections due to unrestricted system calls being permitt...",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75777",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2026-15913",
      "headline": "In versions prior to 7.10.2 a path traversal vulnerability in the\u00a0/attachRemoteFiles endpoint\u00a0of Fortra's GoAnywhere MFT allows Web Users with both\u00a0Secure Fo...",
      "products": [],
@@ -1486,6 +1555,29 @@
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15913",
      "take": "",
      "action": ""
+    },
+    {
+     "id": "CVE-2026-88046",
+     "headline": "rclone is a command-line program to sync files and directories to and from different cloud storage providers",
+     "products": [],
+     "score": 35,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 5.3",
+       "points": 5
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 5.3,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88046",
+     "take": "",
+     "action": ""
     }
    ],
    "above": 0
@@ -1495,8 +1587,8 @@
    "blurb": "Confluence, Jenkins, GitLab, and the internal tools nobody patches.",
    "items": [
     {
-     "id": "CVE-2024-11080",
-     "headline": "The Post Grid and Gutenberg Blocks \u2013 ComboBlocks plugin for WordPress is vulnerable to Unauthenticated Hook Injection in versions 2.2.32 to 2.3.1 via several...",
+     "id": "CVE-2026-14559",
+     "headline": "The teddy-bear-customize-addon WordPress plugin through 1.0.5 does not verify a user's password before authenticating them, allowing unauthenticated attacker...",
      "products": [],
      "score": 40,
      "factors": [
@@ -1505,25 +1597,21 @@
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
        "label": "Severity 9.8",
        "points": 10
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.004,
+     "epss": 0.0,
      "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-11080",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14559",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2026-10196",
-     "headline": "The Mail Mint \u2013 Email Marketing, Newsletter, Email Automation & WooCommerce Emails plugin for WordPress is vulnerable to PHP Object Injection in all versions...",
+     "id": "CVE-2026-14560",
+     "headline": "The teddy-bear-customize-addon WordPress plugin through 1.0.5 does not properly validate uploaded files, relying on a client-supplied content type and preser...",
      "products": [],
      "score": 40,
      "factors": [
@@ -1532,25 +1620,21 @@
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
+       "label": "Severity 10.0",
        "points": 10
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.006,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10196",
+     "epss": 0.0,
+     "cvss": 10.0,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14560",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2026-13447",
-     "headline": "The Mstore Api plugin for WordPress is vulnerable to Authentication Bypass via JWT Forgery in versions up to, and including, 4.20.0 This is due to missing cr...",
+     "id": "CVE-2026-14563",
+     "headline": "The advanced-customized-prompts WordPress plugin through 1.0.1 does not verify the password before issuing an authenticated session for a supplied email addr...",
      "products": [],
      "score": 40,
      "factors": [
@@ -1559,46 +1643,15 @@
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
        "label": "Severity 9.8",
        "points": 10
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.004,
+     "epss": 0.0,
      "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13447",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-16310",
-     "headline": "The MemberDash plugin for WordPress is vulnerable to Insecure Direct Object Reference in all versions up to, and including, 1.8.5 via the 'id' parameter due ...",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.003,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16310",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14563",
      "take": "",
      "action": ""
     },
@@ -1684,33 +1737,6 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-75816",
-     "headline": "The Frontend Admin by DynamiApps plugin for WordPress is vulnerable to Authentication Bypass to Account Takeover in all versions up to, and including, 3.29.12",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.005,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75816",
-     "take": "",
-     "action": ""
-    },
-    {
      "id": "CVE-2026-77770",
      "headline": "The miniOrange 2FA  WordPress plugin before 6.3.1, miniOrange 2FA  WordPress plugin before 19.3 does not require a validated transaction before deleting site...",
      "products": [],
@@ -1792,8 +1818,8 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-83627",
-     "headline": "The Hummingbird \u2013 Speed Optimization, Caching, Minify, Compress & CDN plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and ...",
+     "id": "CVE-2026-8778",
+     "headline": "The MIPL Grouped Checkout Fields for WooCommerce \u2013 Customize & Organize Checkout Fields",
      "products": [],
      "score": 40,
      "factors": [
@@ -1802,19 +1828,69 @@
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
        "label": "Severity 9.8",
        "points": 10
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.008,
+     "epss": 0.0,
      "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-83627",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8778",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-14359",
+     "headline": "The YITH WooCommerce Waitlist Premium plugin for WordPress is vulnerable to Privilege Escalation in versions up to, and including, 3.35.0",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.002,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14359",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-14962",
+     "headline": "The ELEX WooCommerce Request a Quote WordPress plugin before 2.4.1 does not properly sanitise and escape a parameter before using it in a SQL query, allowing...",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.6",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.003,
+     "cvss": 8.6,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14962",
      "take": "",
      "action": ""
     }
