@@ -1,7 +1,7 @@
 {
- "generated": "2026-09-11T14:04:26+00:00",
+ "generated": "2026-09-11T16:11:40+00:00",
  "window_hours": 72,
- "scanned": 6023,
+ "scanned": 5855,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
@@ -36,7 +36,7 @@
      ],
      "kev": true,
      "ransomware": false,
-     "epss": 0.06,
+     "epss": 0.056,
      "cvss": 9.3,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19490",
      "take": "",
@@ -72,7 +72,7 @@
      ],
      "kev": true,
      "ransomware": false,
-     "epss": 0.017,
+     "epss": 0.024,
      "cvss": 8.1,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-25249",
      "take": "",
@@ -579,6 +579,35 @@
      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
     },
     {
+     "id": "CVE-2026-24301",
+     "headline": "Improper neutralization of special elements used in a command ('command injection') in Microsoft Copilot allows an unauthorized attacker to disclose informat...",
+     "products": [
+      "copilot"
+     ],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.03",
+       "points": 1
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.027,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24301",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2026-47705",
      "headline": "TypeBot is a chatbot builder tool",
      "products": [],
@@ -712,33 +741,6 @@
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69491",
      "take": "",
      "action": ""
-    },
-    {
-     "id": "CVE-2026-69586",
-     "headline": "Integer overflow or wraparound in Microsoft Windows PDF allows an unauthorized attacker to execute code over a network",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.01,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69586",
-     "take": "",
-     "action": ""
     }
    ],
    "above": 6
@@ -826,7 +828,7 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.002,
+     "epss": 0.003,
      "cvss": 7.7,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47879",
      "take": "",
@@ -1091,6 +1093,35 @@
      "action": ""
     },
     {
+     "id": "CVE-2026-13738",
+     "headline": "CommServe contained an authorization bypass vulnerability affecting a limited set of command execution operations",
+     "products": [
+      "commvault"
+     ],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.2",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.005,
+     "cvss": 9.2,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13738",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2026-13739",
      "headline": "A legacy endpoint in Command Center contained an unauthenticated server-side request forgery (SSRF) vulnerability related to the handling of arbitrary target...",
      "products": [
@@ -1116,6 +1147,93 @@
      "epss": 0.004,
      "cvss": 8.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13739",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-77089",
+     "headline": "Command Center API contained an authentication bypass issue affecting privilege management",
+     "products": [
+      "commvault"
+     ],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.3",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.003,
+     "cvss": 9.3,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77089",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-77097",
+     "headline": "Private Metrics Server contained a missing authentication condition affecting metrics upload functionality and service availability",
+     "products": [
+      "commvault"
+     ],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.003,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77097",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-77098",
+     "headline": "Private Metrics Server contained an SQL injection condition affecting database operations",
+     "products": [
+      "commvault"
+     ],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.002,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77098",
      "take": "",
      "action": ""
     },
@@ -1244,6 +1362,35 @@
      "action": ""
     },
     {
+     "id": "CVE-2026-77091",
+     "headline": "DataCube contained a path traversal issue affecting security feature enforcement",
+     "products": [
+      "commvault"
+     ],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.5",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.001,
+     "cvss": 8.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77091",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2026-77104",
      "headline": "CommServe contained a path traversal issue affecting information disclosure",
      "products": [
@@ -1271,33 +1418,6 @@
      "epss": 0.004,
      "cvss": 8.3,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77104",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-77106",
-     "headline": "Cvlaunchd contained a missing authorization issue affecting command execution authorization",
-     "products": [],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 7.7",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.003,
-     "cvss": 7.7,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77106",
      "take": "",
      "action": ""
     }
@@ -1433,13 +1553,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
        "label": "Severity 8.8",
        "points": 9
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.008,
      "cvss": 8.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81941",
      "take": "",
@@ -1517,13 +1641,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
        "label": "Severity 8.8",
        "points": 9
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.001,
      "cvss": 8.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75777",
      "take": "",
@@ -1597,13 +1725,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
        "label": "Severity 9.8",
        "points": 10
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.001,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14559",
      "take": "",
@@ -1620,13 +1752,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
        "label": "Severity 10.0",
        "points": 10
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.002,
      "cvss": 10.0,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14560",
      "take": "",
@@ -1643,13 +1779,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
        "label": "Severity 9.8",
        "points": 10
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.001,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14563",
      "take": "",
@@ -1757,7 +1897,7 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.001,
+     "epss": 0.002,
      "cvss": 10.0,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77770",
      "take": "",
@@ -1828,13 +1968,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
        "label": "Severity 9.8",
        "points": 10
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.006,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8778",
      "take": "",
