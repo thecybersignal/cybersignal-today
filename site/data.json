@@ -1,40 +1,13 @@
 {
- "generated": "2026-09-14T17:56:47+00:00",
+ "generated": "2026-09-15T14:34:45+00:00",
  "window_hours": 72,
- "scanned": 1745,
+ "scanned": 2255,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
    "label": "Edge & remote access",
    "blurb": "VPN concentrators, SSL gateways, and anything you publish to the internet.",
    "items": [
-    {
-     "id": "CVE-2026-84390",
-     "headline": "A inclusion of sensitive information in source code vulnerability in Fortinet FortiMonitorOnSight 7.2.4 through 7.2.7, FortiMonitorOnSight 7.2.0 through 7.2....",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.005,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84390",
-     "take": "",
-     "action": ""
-    },
     {
      "id": "CVE-2025-25252",
      "headline": "An Insufficient Session Expiration vulnerability [CWE-613] in FortiOS SSL VPN 7.6.0 through 7.6.2, 7.4.0 through 7.4.6, 7.2.0 through 7.2.10, 7.0.0 through 7...",
@@ -59,29 +32,6 @@
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-25252",
      "take": "",
      "action": ""
-    },
-    {
-     "id": "CVE-2026-78547",
-     "headline": "Out-of-bounds write vulnerability in Citrix Citrix Workspace app for Windows.\n\nThis issue affects Citrix Workspace app for Windows: before 2603.11 Current Re...",
-     "products": [],
-     "score": 34,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Severity 4.4",
-       "points": 4
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.0,
-     "cvss": 4.4,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78547",
-     "take": "",
-     "action": ""
     }
    ],
    "above": 0
@@ -91,13 +41,13 @@
    "blurb": "Windows Server, Exchange, Entra, and the Microsoft 365 estate.",
    "items": [
     {
-     "id": "CVE-2026-78445",
-     "headline": "Use after free in Windows Services for NFS ONCRPC XDR Driver allows an unauthorized attacker to execute code over a network",
+     "id": "CVE-2026-69463",
+     "headline": "Heap-based buffer overflow in Windows NTFS allows an unauthorized attacker to execute code over a network",
      "products": [
-      "windows server 2012",
-      "windows server 2016",
-      "windows server 2019",
-      "windows server 2022"
+      "windows 10 1607",
+      "windows 10 1809",
+      "windows 10 21h2",
+      "windows 10 22h2"
      ],
      "score": 40,
      "factors": [
@@ -118,15 +68,18 @@
      "ransomware": false,
      "epss": 0.009,
      "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78445",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69463",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2026-81376",
-     "headline": "Incomplete comparison with missing factors in Visual Studio Code allows an unauthorized attacker to bypass a security feature over a network",
+     "id": "CVE-2026-69525",
+     "headline": "Use after free in Windows Remote Desktop Services allows an unauthorized attacker to execute code over a network",
      "products": [
-      "visual studio code"
+      "windows 10 1607",
+      "windows 10 1809",
+      "windows 10 21h2",
+      "windows 10 22h2"
      ],
      "score": 40,
      "factors": [
@@ -139,15 +92,15 @@
        "points": 0
       },
       {
-       "label": "Severity 9.6",
+       "label": "Severity 9.8",
        "points": 10
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.006,
-     "cvss": 9.6,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81376",
+     "epss": 0.01,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69525",
      "take": "",
      "action": ""
     },
@@ -191,140 +144,30 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
        "label": "Severity 8.6",
        "points": 9
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.002,
      "cvss": 8.6,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15600",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2026-54047",
-     "headline": "Laci Synchroni is a decentralized mod and appearance sync server and plugin for Dalamud",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.2",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.002,
-     "cvss": 9.2,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54047",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-69854",
-     "headline": "Improper authentication in Spring Cloud Azure allows an unauthorized attacker to elevate privileges over a network",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.0",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.006,
-     "cvss": 9.0,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69854",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-71328",
-     "headline": "Heap-based buffer overflow in Visual Studio allows an unauthorized attacker to execute code over a network",
+     "id": "CVE-2026-69461",
+     "headline": "Stack-based buffer overflow in Windows NTFS allows an unauthorized attacker to execute code over a network",
      "products": [
-      ".net",
-      "visual studio 2022",
-      "visual studio 2026",
-      "windows"
-     ],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.8",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.006,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71328",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-76199",
-     "headline": "Photoshop Desktop is affected by an Uncontrolled Search Path Element vulnerability that could result in arbitrary code execution in the context of the curren...",
-     "products": [
-      "macos",
-      "photoshop",
-      "windows"
-     ],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.6",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.002,
-     "cvss": 8.6,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76199",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-77906",
-     "headline": "Heap-based buffer overflow in Visual Studio allows an unauthorized attacker to execute code over a network",
-     "products": [
-      "visual studio 2026"
+      "windows 10 1607",
+      "windows 10 1809",
+      "windows 10 21h2",
+      "windows 10 22h2"
      ],
      "score": 39,
      "factors": [
@@ -345,15 +188,18 @@
      "ransomware": false,
      "epss": 0.008,
      "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77906",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69461",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2026-78462",
-     "headline": "Authorization bypass through user-controlled key in Visual Studio Code allows an unauthorized attacker to bypass a security feature over a network",
+     "id": "CVE-2026-69518",
+     "headline": "Heap-based buffer overflow in Windows Remote Desktop allows an unauthorized attacker to execute code over a network",
      "products": [
-      "visual studio code"
+      "windows 10 1607",
+      "windows 10 1809",
+      "windows 10 21h2",
+      "windows 10 22h2"
      ],
      "score": 39,
      "factors": [
@@ -372,9 +218,41 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.005,
+     "epss": 0.008,
      "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78462",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69518",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-69669",
+     "headline": "Heap-based buffer overflow in Windows Kernel allows an unauthorized attacker to execute code over a network",
+     "products": [
+      "windows 10 1607",
+      "windows 10 1809",
+      "windows 10 21h2",
+      "windows 10 22h2"
+     ],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.008,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69669",
      "take": "",
      "action": ""
     },
@@ -389,15 +267,46 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
        "label": "Severity 8.6",
        "points": 9
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.003,
      "cvss": 8.6,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7848",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-91752",
+     "headline": "GNU libextractor before 1.15 contains a stack-based buffer overflow vulnerability in the process_star_office function that sizes a variable-length stack arra...",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.7",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.004,
+     "cvss": 8.7,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91752",
      "take": "",
      "action": ""
     },
@@ -429,6 +338,70 @@
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58611",
      "take": "",
      "action": ""
+    },
+    {
+     "id": "CVE-2026-62721",
+     "headline": "Insufficient granularity of access control in User-Mode Power Service (UMPS) allows an authorized attacker to elevate privileges locally",
+     "products": [
+      "windows 10 1607",
+      "windows 10 1809",
+      "windows 10 21h2",
+      "windows 10 22h2"
+     ],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.8",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.004,
+     "cvss": 7.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62721",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-68832",
+     "headline": "Integer overflow or wraparound in Windows NTFS allows an authorized attacker to elevate privileges locally",
+     "products": [
+      "windows 10 1607",
+      "windows 10 1809",
+      "windows 10 21h2",
+      "windows 10 22h2"
+     ],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.8",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.002,
+     "cvss": 7.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-68832",
+     "take": "",
+     "action": ""
     }
    ],
    "above": 0
@@ -450,37 +423,31 @@
    "blurb": "RMM and remote-support platforms with reach into every client.",
    "items": [
     {
-     "id": "CVE-2026-84869",
-     "headline": "A condition in the ScreenConnect client may allow files to be transferred and executed through an active remote session without authorization or Host confirm...",
-     "products": [
-      "screenconnect"
-     ],
-     "score": 80,
+     "id": "CVE-2026-12944",
+     "headline": "IBM Langflow OSS 1.0.0 through 1.10.0 can allow attackers to execute arbitrary Python code with root privileges (UID=0) on the Langflow server by submitting ...",
+     "products": [],
+     "score": 40,
      "factors": [
-      {
-       "label": "Listed as actively exploited",
-       "points": 40
-      },
       {
        "label": "Runs in this environment",
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.01",
+       "label": "Exploit likelihood 0.00",
        "points": 0
       },
       {
-       "label": "Severity 9.9",
+       "label": "Severity 9.6",
        "points": 10
       }
      ],
-     "kev": true,
+     "kev": false,
      "ransomware": false,
-     "epss": 0.007,
-     "cvss": 9.9,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84869",
+     "epss": 0.002,
+     "cvss": 9.6,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12944",
      "take": "",
-     "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+     "action": ""
     },
     {
      "id": "CVE-2026-34223",
@@ -510,33 +477,6 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-81941",
-     "headline": "IBM Langflow OSS 1.0.0 through 1.11.5 allows an authenticated non-administrative user could execute arbitrary operating system commands on the server at the ...",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.8",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.008,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81941",
-     "take": "",
-     "action": ""
-    },
-    {
      "id": "CVE-2025-68624",
      "headline": "N-able Mail Assure through April 2026 contains a design-level authorization flaw that allows an authenticated SMTP user to send outbound email using MAIL FRO...",
      "products": [],
@@ -560,7 +500,7 @@
      "action": ""
     }
    ],
-   "above": 1
+   "above": 0
   },
   "file-transfer": {
    "label": "Managed file transfer",
@@ -589,7 +529,7 @@
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.11",
+       "label": "Exploit likelihood 0.12",
        "points": 2
       },
       {
@@ -599,7 +539,7 @@
      ],
      "kev": true,
      "ransomware": false,
-     "epss": 0.111,
+     "epss": 0.12,
      "cvss": 10.0,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85706",
      "take": "",
@@ -616,7 +556,7 @@
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.00",
+       "label": "Exploit likelihood 0.01",
        "points": 0
       },
       {
@@ -626,7 +566,7 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.004,
+     "epss": 0.007,
      "cvss": 10.0,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25470",
      "take": "",
