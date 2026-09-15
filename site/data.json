@@ -1,7 +1,7 @@
 {
- "generated": "2026-09-15T14:34:45+00:00",
+ "generated": "2026-09-15T16:38:09+00:00",
  "window_hours": 72,
- "scanned": 2255,
+ "scanned": 2462,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
@@ -257,9 +257,14 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-7848",
-     "headline": "Alior Bank PrestaShop module \"raty\"\u00a0for commercial partners is vulnerable to SQL Injection in the \"hookActionObjectProductUpdateBefore\", \"hookActionObjectCat...",
-     "products": [],
+     "id": "CVE-2026-73028",
+     "headline": "Improper access control in SQL Server allows an authorized attacker to elevate privileges over a network",
+     "products": [
+      "sql server 2017",
+      "sql server 2019",
+      "sql server 2022",
+      "sql server 2025"
+     ],
      "score": 39,
      "factors": [
       {
@@ -267,26 +272,31 @@
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.00",
+       "label": "Exploit likelihood 0.01",
        "points": 0
       },
       {
-       "label": "Severity 8.6",
+       "label": "Severity 8.8",
        "points": 9
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.003,
-     "cvss": 8.6,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7848",
+     "epss": 0.005,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73028",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2026-91752",
-     "headline": "GNU libextractor before 1.15 contains a stack-based buffer overflow vulnerability in the process_star_office function that sizes a variable-length stack arra...",
-     "products": [],
+     "id": "CVE-2026-77480",
+     "headline": "Insufficient granularity of access control in SQL Server allows an authorized attacker to elevate privileges over a network",
+     "products": [
+      "sql server 2017",
+      "sql server 2019",
+      "sql server 2022",
+      "sql server 2025"
+     ],
      "score": 39,
      "factors": [
       {
@@ -294,112 +304,113 @@
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.00",
+       "label": "Exploit likelihood 0.01",
        "points": 0
       },
       {
-       "label": "Severity 8.7",
+       "label": "Severity 8.8",
        "points": 9
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.004,
-     "cvss": 8.7,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91752",
+     "epss": 0.005,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77480",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2026-58611",
-     "headline": "Improper authorization in XBox Gaming Services allows an authorized attacker to elevate privileges locally",
+     "id": "CVE-2026-77481",
+     "headline": "Heap-based buffer overflow in SQL Server allows an authorized attacker to execute code over a network",
      "products": [
-      "xbox gaming services"
+      "sql server 2017",
+      "sql server 2019",
+      "sql server 2022",
+      "sql server 2025"
      ],
-     "score": 38,
+     "score": 39,
      "factors": [
       {
        "label": "Runs in this environment",
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.00",
+       "label": "Exploit likelihood 0.01",
        "points": 0
       },
       {
-       "label": "Severity 7.8",
-       "points": 8
+       "label": "Severity 8.8",
+       "points": 9
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.002,
-     "cvss": 7.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58611",
+     "epss": 0.006,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77481",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2026-62721",
-     "headline": "Insufficient granularity of access control in User-Mode Power Service (UMPS) allows an authorized attacker to elevate privileges locally",
+     "id": "CVE-2026-77482",
+     "headline": "Heap-based buffer overflow in SQL Server allows an unauthorized attacker to execute code over a network",
      "products": [
-      "windows 10 1607",
-      "windows 10 1809",
-      "windows 10 21h2",
-      "windows 10 22h2"
+      "sql server 2017",
+      "sql server 2019"
      ],
-     "score": 38,
+     "score": 39,
      "factors": [
       {
        "label": "Runs in this environment",
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.00",
+       "label": "Exploit likelihood 0.01",
        "points": 0
       },
       {
-       "label": "Severity 7.8",
-       "points": 8
+       "label": "Severity 8.8",
+       "points": 9
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.004,
-     "cvss": 7.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62721",
+     "epss": 0.008,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77482",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2026-68832",
-     "headline": "Integer overflow or wraparound in Windows NTFS allows an authorized attacker to elevate privileges locally",
+     "id": "CVE-2026-77483",
+     "headline": "Weak authentication in SQL Server allows an authorized attacker to elevate privileges over a network",
      "products": [
-      "windows 10 1607",
-      "windows 10 1809",
-      "windows 10 21h2",
-      "windows 10 22h2"
+      "sql server 2017",
+      "sql server 2019",
+      "sql server 2022",
+      "sql server 2025"
      ],
-     "score": 38,
+     "score": 39,
      "factors": [
       {
        "label": "Runs in this environment",
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.00",
+       "label": "Exploit likelihood 0.01",
        "points": 0
       },
       {
-       "label": "Severity 7.8",
-       "points": 8
+       "label": "Severity 8.8",
+       "points": 9
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.002,
-     "cvss": 7.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-68832",
+     "epss": 0.005,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77483",
      "take": "",
      "action": ""
     }
@@ -477,6 +488,29 @@
      "action": ""
     },
     {
+     "id": "CVE-2026-55591",
+     "headline": "Signal K Server is a server application that runs on a central hub in a boat",
+     "products": [],
+     "score": 36,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 5.8",
+       "points": 6
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 5.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55591",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2025-68624",
      "headline": "N-able Mail Assure through April 2026 contains a design-level authorization flaw that allows an authenticated SMTP user to send outbound email using MAIL FRO...",
      "products": [],
@@ -505,7 +539,31 @@
   "file-transfer": {
    "label": "Managed file transfer",
    "blurb": "The category with the worst mass-extortion track record in the business.",
-   "items": [],
+   "items": [
+    {
+     "id": "CVE-2026-88046",
+     "headline": "rclone is a command-line program to sync files and directories to and from different cloud storage providers",
+     "products": [],
+     "score": 35,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 5.3",
+       "points": 5
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 5.3,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88046",
+     "take": "",
+     "action": ""
+    }
+   ],
    "above": 0
   },
   "devstack": {
