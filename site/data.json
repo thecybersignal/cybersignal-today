@@ -1,7 +1,7 @@
 {
- "generated": "2026-09-16T14:30:51+00:00",
+ "generated": "2026-09-16T16:31:03+00:00",
  "window_hours": 72,
- "scanned": 4139,
+ "scanned": 4367,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
@@ -14,6 +14,67 @@
    "label": "Microsoft-first shop",
    "blurb": "Windows Server, Exchange, Entra, and the Microsoft 365 estate.",
    "items": [
+    {
+     "id": "CVE-2026-59243",
+     "headline": "The FAB auth manager's Azure AD OAuth login defaulted `verify_signature=False` when decoding the ID token, so an attacker able to present a forged or unsigne...",
+     "products": [
+      "apache-airflow-providers-fab"
+     ],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.004,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59243",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-68839",
+     "headline": "Heap-based buffer overflow in Windows USB Mass Storage Class Driver allows an unauthorized attacker to execute code over a network",
+     "products": [
+      "windows 10 1607",
+      "windows 10 1809",
+      "windows 10 21h2",
+      "windows 10 22h2"
+     ],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.008,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-68839",
+     "take": "",
+     "action": ""
+    },
     {
      "id": "CVE-2026-69463",
      "headline": "Heap-based buffer overflow in Windows NTFS allows an unauthorized attacker to execute code over a network",
@@ -297,65 +358,6 @@
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40058",
      "take": "",
      "action": ""
-    },
-    {
-     "id": "CVE-2026-58201",
-     "headline": "Lokka is a Model Context Protocol server for Microsoft 365, including Microsoft Graph and other services",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.7",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.003,
-     "cvss": 8.7,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58201",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-62706",
-     "headline": "Out-of-bounds read in Microsoft Windows Media Foundation allows an unauthorized attacker to execute code over a network",
-     "products": [
-      "windows 10 1607",
-      "windows 10 1809",
-      "windows 10 21h2",
-      "windows 10 22h2"
-     ],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.8",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.006,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62706",
-     "take": "",
-     "action": ""
     }
    ],
    "above": 0
@@ -530,6 +532,33 @@
      "epss": 0.004,
      "cvss": 9.9,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76672",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-25550",
+     "headline": "Seagull Software BarTender 2010, 2016, and 2019 contain an unauthenticated remote code execution vulnerability in the .NET Remoting service exposed on TCP po...",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.3",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.009,
+     "cvss": 9.3,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25550",
      "take": "",
      "action": ""
     },
