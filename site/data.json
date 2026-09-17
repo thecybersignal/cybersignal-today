@@ -1,7 +1,7 @@
 {
- "generated": "2026-09-17T14:36:45+00:00",
+ "generated": "2026-09-17T16:36:46+00:00",
  "window_hours": 72,
- "scanned": 4735,
+ "scanned": 4760,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
@@ -803,33 +803,6 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-25470",
-     "headline": "Unauthenticated Remote Code Execution (RCE) in ACPT (Pro) - Custom Post Types Plugin for WordPress <= 2.0.47 versions",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 10.0",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.007,
-     "cvss": 10.0,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25470",
-     "take": "",
-     "action": ""
-    },
-    {
      "id": "CVE-2026-61559",
      "headline": "`@zereight/mcp-gitlab` is a Model Context Protocol server for GitLab",
      "products": [],
@@ -1069,6 +1042,33 @@
      "epss": 0.004,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81402",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-81648",
+     "headline": "The CryptoPayment Gateway WordPress plugin from 1.2.1 to 1.2.2 does not apply an authorization check on one of its AJAX endpoints, allowing unauthenticated u...",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 10.0",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.003,
+     "cvss": 10.0,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81648",
      "take": "",
      "action": ""
     }
