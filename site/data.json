@@ -1,14 +1,72 @@
 {
- "generated": "2026-09-16T16:31:03+00:00",
+ "generated": "2026-09-17T14:36:45+00:00",
  "window_hours": 72,
- "scanned": 4367,
+ "scanned": 4735,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
    "label": "Edge & remote access",
    "blurb": "VPN concentrators, SSL gateways, and anything you publish to the internet.",
-   "items": [],
-   "above": 0
+   "items": [
+    {
+     "id": "CVE-2026-20349",
+     "headline": "A vulnerability in the Remote Access SSL VPN service for Cisco Secure Firewall Adaptive Security Appliance (ASA) Software and Cisco Secure Firewall Threat De...",
+     "products": [
+      "adaptive security appliance software",
+      "secure firewall threat defense"
+     ],
+     "score": 79,
+     "factors": [
+      {
+       "label": "Listed as actively exploited",
+       "points": 40
+      },
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.02",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.6",
+       "points": 9
+      }
+     ],
+     "kev": true,
+     "ransomware": false,
+     "epss": 0.022,
+     "cvss": 8.6,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20349",
+     "take": "",
+     "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+    },
+    {
+     "id": "CVE-2026-78547",
+     "headline": "Out-of-bounds write vulnerability in Citrix Citrix Workspace app for Windows.\n\nThis issue affects Citrix Workspace app for Windows: before 2603.11 Current Re...",
+     "products": [],
+     "score": 34,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 4.4",
+       "points": 4
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 4.4,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78547",
+     "take": "",
+     "action": ""
+    }
+   ],
+   "above": 1
   },
   "microsoft-smb": {
    "label": "Microsoft-first shop",
@@ -40,6 +98,36 @@
      "epss": 0.004,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59243",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-66302",
+     "headline": "External control of file name or path in Skype for Business allows an unauthorized attacker to execute code over a network",
+     "products": [
+      "skype for business server",
+      "skype for business server subscription edition"
+     ],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.005,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66302",
      "take": "",
      "action": ""
     },
@@ -136,6 +224,102 @@
      "epss": 0.01,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69525",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-69829",
+     "headline": "Heap-based buffer overflow in Windows Shell allows an unauthorized attacker to execute code over a network",
+     "products": [
+      "windows 10 1607",
+      "windows 10 1809",
+      "windows 10 21h2",
+      "windows 10 22h2"
+     ],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.011,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69829",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-69910",
+     "headline": "Stack-based buffer overflow in Windows Hyper-V allows an unauthorized attacker to execute code over a network",
+     "products": [
+      "windows 10 1607",
+      "windows 10 1809",
+      "windows 10 21h2",
+      "windows 10 22h2"
+     ],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.01,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69910",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-70296",
+     "headline": "Out-of-bounds write in Windows Imaging Component allows an unauthorized attacker to execute code over a network",
+     "products": [
+      "windows 10 1607",
+      "windows 10 1809",
+      "windows 10 21h2",
+      "windows 10 22h2"
+     ],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.01,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70296",
      "take": "",
      "action": ""
     },
@@ -246,116 +430,6 @@
      "epss": 0.007,
      "cvss": 9.9,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-83941",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2024-21400",
-     "headline": "Microsoft Azure Kubernetes Service Confidential Container Elevation of Privilege Vulnerability",
-     "products": [
-      "confcom"
-     ],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.02",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.0",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.022,
-     "cvss": 9.0,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-21400",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2024-58385",
-     "headline": "Yonyou U8 CRM contains an unauthenticated SQL injection vulnerability in the fillbacksettingedit.php configuration endpoint where the DontCheckLogin=1 parame...",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.3",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.004,
-     "cvss": 9.3,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-58385",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-15600",
-     "headline": "Alior Bank PrestaShop module \"raty\" for commercial partners is vulnerable to SQL Injection in the toggleCategoryPromotionAction\u00a0method",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.6",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.002,
-     "cvss": 8.6,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15600",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-40058",
-     "headline": "CrowdStrike released a security update to address a vulnerability in the Falcon sensor for Windows",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.8",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.001,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40058",
      "take": "",
      "action": ""
     }
@@ -563,33 +637,6 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-34223",
-     "headline": "A vulnerability has been identified in Desigo CC ClickOnce Client V6 (All versions), Desigo CC ClickOnce Client V7 (All versions), Desigo CC family V8 (All v...",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.6",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.001,
-     "cvss": 8.6,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34223",
-     "take": "",
-     "action": ""
-    },
-    {
      "id": "CVE-2026-81941",
      "headline": "IBM Langflow OSS 1.0.0 through 1.11.5 allows an authenticated non-administrative user could execute arbitrary operating system commands on the server at the ...",
      "products": [
@@ -701,39 +748,6 @@
    "label": "Developer & collaboration stack",
    "blurb": "Confluence, Jenkins, GitLab, and the internal tools nobody patches.",
    "items": [
-    {
-     "id": "CVE-2026-85706",
-     "headline": "GitLab has remediated an issue in GitLab CE/EE affecting all versions from 18.7 before 19.1.8, 19.2 before 19.2.6, and 19.3 before 19.3.2 that, under certain...",
-     "products": [
-      "gitlab"
-     ],
-     "score": 82,
-     "factors": [
-      {
-       "label": "Listed as actively exploited",
-       "points": 40
-      },
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.12",
-       "points": 2
-      },
-      {
-       "label": "Severity 10.0",
-       "points": 10
-      }
-     ],
-     "kev": true,
-     "ransomware": false,
-     "epss": 0.12,
-     "cvss": 10.0,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85706",
-     "take": "",
-     "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
-    },
     {
      "id": "CVE-2026-12793",
      "headline": "The JetFormBuilder \u2014 Dynamic Blocks Form Builder plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 3.6.2",
@@ -1030,9 +1044,36 @@
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78159",
      "take": "",
      "action": ""
+    },
+    {
+     "id": "CVE-2026-81402",
+     "headline": "The DS Ad Rotator WordPress plugin through 0.8 does not perform any capability check, nonce verification, or file-type validation on its image upload handler...",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.004,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81402",
+     "take": "",
+     "action": ""
     }
    ],
-   "above": 1
+   "above": 0
   }
  }
 }
