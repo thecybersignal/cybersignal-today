@@ -1,7 +1,7 @@
 {
- "generated": "2026-09-18T14:01:52+00:00",
+ "generated": "2026-09-18T16:09:06+00:00",
  "window_hours": 72,
- "scanned": 5288,
+ "scanned": 5197,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
@@ -823,31 +823,7 @@
   "file-transfer": {
    "label": "Managed file transfer",
    "blurb": "The category with the worst mass-extortion track record in the business.",
-   "items": [
-    {
-     "id": "CVE-2026-88046",
-     "headline": "rclone is a command-line program to sync files and directories to and from different cloud storage providers",
-     "products": [],
-     "score": 35,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Severity 5.3",
-       "points": 5
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.0,
-     "cvss": 5.3,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88046",
-     "take": "",
-     "action": ""
-    }
-   ],
+   "items": [],
    "above": 0
   },
   "devstack": {
