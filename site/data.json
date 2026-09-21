@@ -1,7 +1,7 @@
 {
- "generated": "2026-09-21T16:07:50+00:00",
+ "generated": "2026-09-21T18:03:53+00:00",
  "window_hours": 72,
- "scanned": 2170,
+ "scanned": 2263,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
@@ -161,64 +161,6 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-12744",
-     "headline": "A Deserialization of Untrusted Data vulnerability in Ivanti Neurons for ITSM before 2026.2 allows a remote unauthenticated attacker to execute arbitrary code...",
-     "products": [
-      "neurons for itsm"
-     ],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.02",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.022,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12744",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-12745",
-     "headline": "A Deserialization of Untrusted Data vulnerability in Ivanti Neurons for ITSM before 2026.2 allows a remote unauthenticated attacker to execute arbitrary code...",
-     "products": [
-      "neurons for itsm"
-     ],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.02",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.021,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12745",
-     "take": "",
-     "action": ""
-    },
-    {
      "id": "CVE-2026-12648",
      "headline": "A Deserialization of Untrusted Data vulnerability in Ivanti Neurons for ITSM before 2026.2 allows a remote authenticated attacker to execute arbitrary code o...",
      "products": [
@@ -244,35 +186,6 @@
      "epss": 0.015,
      "cvss": 8.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12648",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-12651",
-     "headline": "A Deserialization of Untrusted Data vulnerability in Ivanti Neurons for ITSM before 2026.2 allows a remote authenticated attacker to execute arbitrary code o...",
-     "products": [
-      "neurons for itsm"
-     ],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.8",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.015,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12651",
      "take": "",
      "action": ""
     }
@@ -520,6 +433,38 @@
      "action": ""
     },
     {
+     "id": "CVE-2026-78510",
+     "headline": "Heap-based buffer overflow in Microsoft Office allows an unauthorized attacker to execute code over a network",
+     "products": [
+      "365 apps",
+      "microsoft 365",
+      "office 2016",
+      "office 2019"
+     ],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.01,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78510",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2026-83944",
      "headline": "Improper access control in Azure Logic Apps allows an unauthorized attacker to elevate privileges over a network",
      "products": [],
@@ -597,33 +542,6 @@
      "epss": 0.005,
      "cvss": 10.0,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85889",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-87701",
-     "headline": "Improper neutralization of special elements in output used by a downstream component ('injection') in Azure Cosmos DB allows an authorized attacker to elevat...",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.6",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.004,
-     "cvss": 9.6,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-87701",
      "take": "",
      "action": ""
     }
@@ -993,35 +911,6 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-3199",
-     "headline": "A vulnerability in the task management component of Sonatype Nexus Repository versions 3.22.1 through 3.90.2 allows an authenticated attacker with task creat...",
-     "products": [
-      "nexus repository manager"
-     ],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.4",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.006,
-     "cvss": 9.4,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-3199",
-     "take": "",
-     "action": ""
-    },
-    {
      "id": "CVE-2026-4327",
      "headline": "The The Welcomizer plugin for WordPress is vulnerable to Remote Code Execution in all versions up to and including 2.8.1",
      "products": [],
@@ -1099,6 +988,33 @@
      "epss": 0.006,
      "cvss": 9.1,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84738",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-85122",
+     "headline": "The Easy Form Builder by WhiteStudio  WordPress plugin before 4.2.0 does not validate a submitted value against the stored configuration for some of its form...",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.003,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85122",
      "take": "",
      "action": ""
     }
