@@ -1,7 +1,7 @@
 {
- "generated": "2026-09-22T16:38:05+00:00",
+ "generated": "2026-09-23T14:35:55+00:00",
  "window_hours": 72,
- "scanned": 1769,
+ "scanned": 3027,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
@@ -95,13 +95,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
        "label": "Severity 9.6",
        "points": 10
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.004,
      "cvss": 9.6,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84388",
      "take": "",
@@ -115,242 +119,110 @@
    "blurb": "Windows Server, Exchange, Entra, and the Microsoft 365 estate.",
    "items": [
     {
-     "id": "CVE-2026-69579",
-     "headline": "Use after free in Windows Message Queuing allows an unauthorized attacker to execute code over a network",
+     "id": "CVE-2000-0884",
+     "headline": "IIS 4.0 and 5.0 allows remote attackers to read documents outside of the web root, and possibly execute arbitrary commands, via malformed URLs that contain U...",
      "products": [
-      "windows 10 1607",
-      "windows 10 1809",
-      "windows 10 21h2",
-      "windows 10 22h2"
+      "internet information server",
+      "internet information services"
      ],
-     "score": 40,
+     "score": 52,
      "factors": [
       {
        "label": "Runs in this environment",
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
+       "label": "Exploit likelihood 0.72",
+       "points": 14
       },
       {
-       "label": "Severity 9.8",
-       "points": 10
+       "label": "Severity 7.5",
+       "points": 8
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.01,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69579",
+     "epss": 0.721,
+     "cvss": 7.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2000-0884",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2026-69586",
-     "headline": "Integer overflow or wraparound in Microsoft Windows PDF allows an unauthorized attacker to execute code over a network",
+     "id": "CVE-2000-0886",
+     "headline": "IIS 5.0 allows remote attackers to execute arbitrary commands via a malformed request for an executable file whose name is appended with operating system com...",
      "products": [
-      "windows 10 1607",
-      "windows 10 1809",
-      "windows 10 21h2",
-      "windows 10 22h2"
+      "internet information server",
+      "internet information services"
      ],
-     "score": 40,
+     "score": 52,
      "factors": [
       {
        "label": "Runs in this environment",
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
+       "label": "Exploit likelihood 0.69",
+       "points": 14
       },
       {
-       "label": "Severity 9.8",
-       "points": 10
+       "label": "Severity 7.5",
+       "points": 8
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.01,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69586",
+     "epss": 0.687,
+     "cvss": 7.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2000-0886",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2026-69590",
-     "headline": "Remote Code Execution in Windows Routing and Remote Access Service (RRAS) allows attacker to gain an unauthorized access to victim's machine",
+     "id": "CVE-2000-0970",
+     "headline": "IIS 4.0 and 5.0 .ASP pages send the same Session ID cookie for secure and insecure web sessions, which could allow remote attackers to hijack the secure web ...",
      "products": [
-      "windows 10 1607",
-      "windows 10 1809",
-      "windows 10 21h2",
-      "windows 10 22h2"
+      "internet information server",
+      "internet information services"
      ],
-     "score": 40,
+     "score": 47,
      "factors": [
       {
        "label": "Runs in this environment",
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
+       "label": "Exploit likelihood 0.46",
+       "points": 9
       },
       {
-       "label": "Severity 9.8",
-       "points": 10
+       "label": "Severity 7.5",
+       "points": 8
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.01,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69590",
+     "epss": 0.457,
+     "cvss": 7.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2000-0970",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2026-69595",
-     "headline": "Use after free in Windows Services for NFS ONCRPC XDR Driver allows an unauthorized attacker to execute code over a network",
+     "id": "CVE-2006-2389",
+     "headline": "Unspecified vulnerability in Microsoft Office 2003 SP1 and SP2, Office XP SP3, Office 2000 SP3, and other products, allows user-assisted attackers to execute...",
      "products": [
-      "windows server 2012",
-      "windows server 2016",
-      "windows server 2019",
-      "windows server 2022"
+      "office"
      ],
-     "score": 40,
+     "score": 47,
      "factors": [
       {
        "label": "Runs in this environment",
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.01,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69595",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-72982",
-     "headline": "Stack-based buffer overflow in Windows Netlogon allows an unauthorized attacker to execute code over a network",
-     "products": [
-      "windows 10 1607",
-      "windows 10 1809",
-      "windows 10 21h2",
-      "windows 10 22h2"
-     ],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.009,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72982",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-72983",
-     "headline": "Use after free in Windows Internet Connection Sharing (ICS) allows an unauthorized attacker to execute code over a network",
-     "products": [
-      "windows 10 1607",
-      "windows 10 1809",
-      "windows 10 21h2",
-      "windows 10 22h2"
-     ],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.009,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72983",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-78510",
-     "headline": "Heap-based buffer overflow in Microsoft Office allows an unauthorized attacker to execute code over a network",
-     "products": [
-      "365 apps",
-      "microsoft 365",
-      "office 2016",
-      "office 2019"
-     ],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.01,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78510",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2024-58385",
-     "headline": "Yonyou U8 CRM contains an unauthenticated SQL injection vulnerability in the fillbacksettingedit.php configuration endpoint where the DontCheckLogin=1 parame...",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
+       "label": "Exploit likelihood 0.39",
+       "points": 8
       },
       {
        "label": "Severity 9.3",
@@ -359,137 +231,249 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.004,
+     "epss": 0.387,
      "cvss": 9.3,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-58385",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2006-2389",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2026-5883",
-     "headline": "Use after free in Media in Google Chrome prior to 147.0.7727.55 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page",
+     "id": "CVE-2000-0979",
+     "headline": "File and Print Sharing service in Windows 95, Windows 98, and Windows Me does not properly check the password for a file share, which allows remote attackers...",
      "products": [
-      "chrome",
-      "linux kernel",
-      "macos",
-      "windows"
+      "windows 95",
+      "windows 98",
+      "windows 98se",
+      "windows me"
      ],
-     "score": 39,
+     "score": 45,
      "factors": [
       {
        "label": "Runs in this environment",
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
+       "label": "Exploit likelihood 0.45",
+       "points": 9
       },
       {
-       "label": "Severity 8.8",
-       "points": 9
+       "label": "Severity 6.4",
+       "points": 6
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.003,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5883",
+     "epss": 0.45,
+     "cvss": 6.4,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2000-0979",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2026-69598",
-     "headline": "Incorrect calculation of buffer size in Windows iSCSI allows an unauthorized attacker to execute code over a network",
+     "id": "CVE-2000-1034",
+     "headline": "Buffer overflow in the System Monitor ActiveX control in Windows 2000 allows remote attackers to execute arbitrary commands via a long LogFileName parameter ...",
      "products": [
-      "windows 10 1607",
-      "windows 10 1809",
-      "windows 10 21h2",
-      "windows 10 22h2"
+      "windows 2000"
      ],
-     "score": 39,
+     "score": 45,
      "factors": [
       {
        "label": "Runs in this environment",
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
+       "label": "Exploit likelihood 0.27",
+       "points": 5
       },
       {
-       "label": "Severity 8.8",
-       "points": 9
+       "label": "Severity 10.0",
+       "points": 10
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.008,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69598",
+     "epss": 0.272,
+     "cvss": 10.0,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2000-1034",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2026-69601",
-     "headline": "Heap-based buffer overflow in Microsoft Windows Media Foundation allows an unauthorized attacker to execute code over a network",
+     "id": "CVE-2002-20001",
+     "headline": "The Diffie-Hellman Key Agreement Protocol allows remote attackers (from the client side) to send arbitrary numbers that are actually not public keys, and tri...",
      "products": [
-      "windows 10 1607",
-      "windows 10 1809",
-      "windows 10 21h2",
-      "windows 10 22h2"
+      "big-ip access policy manager",
+      "big-ip advanced firewall manager",
+      "big-ip advanced web application firewall",
+      "dheater"
      ],
-     "score": 39,
+     "score": 43,
      "factors": [
       {
        "label": "Runs in this environment",
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
+       "label": "Exploit likelihood 0.25",
+       "points": 5
       },
       {
-       "label": "Severity 8.8",
-       "points": 9
+       "label": "Severity 7.5",
+       "points": 8
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.008,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69601",
+     "epss": 0.246,
+     "cvss": 7.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2002-20001",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2026-69603",
-     "headline": "Heap-based buffer overflow in Windows Hyper-V allows an authorized attacker to execute code locally",
+     "id": "CVE-2006-0033",
+     "headline": "Unspecified vulnerability in Microsoft Office 2003 SP1 and SP2, Office XP SP3, Office 2000 SP3, and other products, allows user-assisted attackers to execute...",
      "products": [
-      "windows 10 1607",
-      "windows 10 1809",
-      "windows 10 21h2",
-      "windows 10 22h2"
+      "office"
      ],
-     "score": 39,
+     "score": 42,
      "factors": [
       {
        "label": "Runs in this environment",
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
+       "label": "Exploit likelihood 0.15",
+       "points": 3
       },
       {
-       "label": "Severity 8.8",
+       "label": "Severity 9.3",
        "points": 9
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.003,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69603",
+     "epss": 0.152,
+     "cvss": 9.3,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2006-0033",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2006-1316",
+     "headline": "Unspecified vulnerability in Microsoft Office 2003 SP1 and SP2, Office XP SP3, Office 2000 SP3, and other products, allows user-assisted attackers to execute...",
+     "products": [
+      "office"
+     ],
+     "score": 42,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.15",
+       "points": 3
+      },
+      {
+       "label": "Severity 9.3",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.152,
+     "cvss": 9.3,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2006-1316",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2000-0817",
+     "headline": "Buffer overflow in the HTTP protocol parser for Microsoft Network Monitor (Netmon) allows remote attackers to execute arbitrary commands via malformed data, ...",
+     "products": [
+      "network monitor"
+     ],
+     "score": 41,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.15",
+       "points": 3
+      },
+      {
+       "label": "Severity 7.5",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.151,
+     "cvss": 7.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2000-0817",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2000-0885",
+     "headline": "Buffer overflows in Microsoft Network Monitor (Netmon) allow remote attackers to execute arbitrary commands via a long Browser Name in a CIFS Browse Frame, a...",
+     "products": [
+      "systems management server",
+      "windows 2000",
+      "windows nt"
+     ],
+     "score": 41,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.13",
+       "points": 3
+      },
+      {
+       "label": "Severity 7.5",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.128,
+     "cvss": 7.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2000-0885",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2000-0982",
+     "headline": "Internet Explorer before 5.5 forwards cached user credentials for a secure web site to insecure pages on the same web site, which could allow remote attacker...",
+     "products": [
+      "internet explorer"
+     ],
+     "score": 41,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.13",
+       "points": 3
+      },
+      {
+       "label": "Severity 7.5",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.126,
+     "cvss": 7.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2000-0982",
      "take": "",
      "action": ""
     }
@@ -500,33 +484,6 @@
    "label": "Virtualization & hypervisor",
    "blurb": "VMware, Proxmox, and the layer everything else runs on.",
    "items": [
-    {
-     "id": "CVE-2026-90971",
-     "headline": "Server-Side Request Forgery (SSRF) in the VMware synchronization feature in\u00a0Devolutions Server 2026.2.16 and earlier allows a low-privileged authenticated us...",
-     "products": [],
-     "score": 36,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 6.5",
-       "points": 6
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.002,
-     "cvss": 6.5,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90971",
-     "take": "",
-     "action": ""
-    },
     {
      "id": "CVE-2026-94588",
      "headline": "In Proxmox pmg-api, an argument injection vulnerability exists in the package changelog retrieval functionality",
@@ -556,18 +513,12 @@
   "backup": {
    "label": "Backup & recovery",
    "blurb": "The systems ransomware crews hit before they encrypt anything.",
-   "items": [],
-   "above": 0
-  },
-  "msp-fleet": {
-   "label": "MSP tooling",
-   "blurb": "RMM and remote-support platforms with reach into every client.",
    "items": [
     {
-     "id": "CVE-2026-76672",
-     "headline": "A vulnerability exists in the SD-WAN Orchestrator that may lead to the exposure of sensitive configuration information",
+     "id": "CVE-2026-32996",
+     "headline": "This vulnerability in Veeam Agent for Microsoft Windows allows for Local Privilege Escalation",
      "products": [],
-     "score": 40,
+     "score": 37,
      "factors": [
       {
        "label": "Runs in this environment",
@@ -578,15 +529,76 @@
        "points": 0
       },
       {
-       "label": "Severity 9.9",
+       "label": "Severity 7.3",
+       "points": 7
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.002,
+     "cvss": 7.3,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32996",
+     "take": "",
+     "action": ""
+    }
+   ],
+   "above": 0
+  },
+  "msp-fleet": {
+   "label": "MSP tooling",
+   "blurb": "RMM and remote-support platforms with reach into every client.",
+   "items": [
+    {
+     "id": "CVE-2026-28324",
+     "headline": "SolarWinds Observability Self-Hosted was found to be affected by an unauthenticated remote code execution vulnerability due to the insufficient integrity checks",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
        "points": 10
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.004,
-     "cvss": 9.9,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76672",
+     "epss": 0.007,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28324",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-28325",
+     "headline": "SolarWinds Observability Self-Hosted was found to be affected by an unauthenticated remote code execution vulnerability stemming from deserialization of untr...",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.02",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.015,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28325",
      "take": "",
      "action": ""
     },
@@ -616,6 +628,29 @@
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93295",
      "take": "",
      "action": ""
+    },
+    {
+     "id": "CVE-2025-68624",
+     "headline": "N-able Mail Assure through April 2026 contains a design-level authorization flaw that allows an authenticated SMTP user to send outbound email using MAIL FRO...",
+     "products": [],
+     "score": 34,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 4.3",
+       "points": 4
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 4.3,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68624",
+     "take": "",
+     "action": ""
     }
    ],
    "above": 0
@@ -623,7 +658,37 @@
   "file-transfer": {
    "label": "Managed file transfer",
    "blurb": "The category with the worst mass-extortion track record in the business.",
-   "items": [],
+   "items": [
+    {
+     "id": "CVE-2000-1033",
+     "headline": "Serv-U FTP Server allows remote attackers to bypass its anti-hammering feature by first logging on as a valid user (possibly anonymous) and then attempting t...",
+     "products": [
+      "serv-u"
+     ],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.08",
+       "points": 2
+      },
+      {
+       "label": "Severity 7.5",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.076,
+     "cvss": 7.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2000-1033",
+     "take": "",
+     "action": ""
+    }
+   ],
    "above": 0
   },
   "devstack": {
@@ -712,6 +777,60 @@
      "action": ""
     },
     {
+     "id": "CVE-2026-77006",
+     "headline": "The WebTotem Backups WordPress plugin before 1.1.0 does not validate a user-supplied file path, does not check the capability of the user making the request,...",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.6",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.002,
+     "cvss": 9.6,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77006",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-77244",
+     "headline": "MCP Atlassian is a Model Context Protocol (MCP) server for Atlassian products (Confluence and Jira)",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 10.0",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.005,
+     "cvss": 10.0,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77244",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2026-82187",
      "headline": "The Web to Print Online Designer WordPress plugin before 2.15.0 does not validate the type or extension of uploaded files, and hands the token protecting tho...",
      "products": [],
@@ -735,6 +854,33 @@
      "epss": 0.003,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82187",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-86059",
+     "headline": "Dokploy is a free, self-hostable Platform as a Service (PaaS)",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.6",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.005,
+     "cvss": 9.6,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86059",
      "take": "",
      "action": ""
     },
@@ -766,6 +912,91 @@
      "action": ""
     },
     {
+     "id": "CVE-2020-11753",
+     "headline": "An issue was discovered in Sonatype Nexus Repository Manager in versions 3.21.1 and 3.22.0",
+     "products": [
+      "nexus repository manager"
+     ],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.02",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.017,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-11753",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2020-15871",
+     "headline": "Sonatype Nexus Repository Manager OSS/Pro version before 3.25.1 allows Remote Code Execution",
+     "products": [
+      "nexus repository manager"
+     ],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.02",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.022,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-15871",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2022-4997",
+     "headline": "The jet-form-builder-stripe-gateway WordPress plugin before 1.1.0 does not sanitise and escape a payment token before using it in a SQL statement, allowing u...",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.6",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.002,
+     "cvss": 8.6,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-4997",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2025-1281",
      "headline": "The BM Content Builder plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the ux_cb_remove_layout_ajax...",
      "products": [],
@@ -789,170 +1020,6 @@
      "epss": 0.006,
      "cvss": 8.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-1281",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-10748",
-     "headline": "An authenticated user with the nx-licensing-create privilege can upload a specially crafted license file to execute arbitrary operating system commands as th...",
-     "products": [
-      "nexus repository manager"
-     ],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.6",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.003,
-     "cvss": 8.6,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10748",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-4327",
-     "headline": "The The Welcomizer plugin for WordPress is vulnerable to Remote Code Execution in all versions up to and including 2.8.1",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.8",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.007,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-4327",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-85680",
-     "headline": "The Ultimate Member  WordPress plugin before 2.13.1 does not escape a value derived from user supplied profile names before outputting it in the page title, ...",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.8",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.003,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85680",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-87963",
-     "headline": "The Yo WordPress plugin from 1.1 through 1.3.1 does not sanitize or parameterize the username request parameter before using it in a SQL query, and reads it ...",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.6",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.003,
-     "cvss": 8.6,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-87963",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-88824",
-     "headline": "The Master Blocks  WordPress plugin before 1.5.0 does not have authorisation on one of its REST routes, allowing unauthenticated users to update its settings...",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.8",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.003,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88824",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-88926",
-     "headline": "The VikRentItems Flexible Rental Management System WordPress plugin before 1.2.4 does not sanitise and escape some of its parameters before using them in SQL...",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.6",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.003,
-     "cvss": 8.6,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88926",
      "take": "",
      "action": ""
     }
