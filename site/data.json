@@ -1,7 +1,7 @@
 {
- "generated": "2026-09-24T14:34:18+00:00",
+ "generated": "2026-09-24T16:50:03+00:00",
  "window_hours": 72,
- "scanned": 3612,
+ "scanned": 3734,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
@@ -1084,33 +1084,6 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-82187",
-     "headline": "The Web to Print Online Designer WordPress plugin before 2.15.0 does not validate the type or extension of uploaded files, and hands the token protecting tho...",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.005,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82187",
-     "take": "",
-     "action": ""
-    },
-    {
      "id": "CVE-2026-86059",
      "headline": "Dokploy is a free, self-hostable Platform as a Service (PaaS)",
      "products": [],
@@ -1215,6 +1188,35 @@
      "epss": 0.004,
      "cvss": 9.9,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93577",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2020-11753",
+     "headline": "An issue was discovered in Sonatype Nexus Repository Manager in versions 3.21.1 and 3.22.0",
+     "products": [
+      "nexus repository manager"
+     ],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.02",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.017,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-11753",
      "take": "",
      "action": ""
     }
