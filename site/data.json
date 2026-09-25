@@ -1,7 +1,7 @@
 {
- "generated": "2026-09-24T16:50:03+00:00",
+ "generated": "2026-09-25T14:54:01+00:00",
  "window_hours": 72,
- "scanned": 3734,
+ "scanned": 4983,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
@@ -49,46 +49,6 @@
      "action": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable."
     },
     {
-     "id": "CVE-2024-40766",
-     "headline": "An improper access control vulnerability has been identified in the SonicWall SonicOS management access, potentially leading to unauthorized resource access ...",
-     "products": [
-      "nsa 2650",
-      "nsa 2700",
-      "nsa 3600",
-      "nsa 3650"
-     ],
-     "score": 99,
-     "factors": [
-      {
-       "label": "Listed as actively exploited",
-       "points": 40
-      },
-      {
-       "label": "Used in ransomware campaigns",
-       "points": 15
-      },
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.18",
-       "points": 4
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": true,
-     "ransomware": true,
-     "epss": 0.184,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-40766",
-     "take": "",
-     "action": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable."
-    },
-    {
      "id": "CVE-2025-0108",
      "headline": "An authentication bypass in the Palo Alto Networks PAN-OS software enables an unauthenticated attacker with network access to the management web interface to...",
      "products": [
@@ -115,7 +75,7 @@
      ],
      "kev": true,
      "ransomware": false,
-     "epss": 0.981,
+     "epss": 0.985,
      "cvss": 8.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-0108",
      "take": "",
@@ -149,7 +109,7 @@
      "action": ""
     }
    ],
-   "above": 3
+   "above": 2
   },
   "microsoft-smb": {
    "label": "Microsoft-first shop",
@@ -267,6 +227,42 @@
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-8875",
      "take": "",
      "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
+    },
+    {
+     "id": "CVE-2026-85880",
+     "headline": "Heap-based buffer overflow in Windows ALPC allows an authorized attacker to elevate privileges locally",
+     "products": [
+      "windows 10 1607",
+      "windows 10 1809",
+      "windows 10 21h2",
+      "windows 10 22h2"
+     ],
+     "score": 79,
+     "factors": [
+      {
+       "label": "Listed as actively exploited",
+       "points": 40
+      },
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.04",
+       "points": 1
+      },
+      {
+       "label": "Severity 7.8",
+       "points": 8
+      }
+     ],
+     "kev": true,
+     "ransomware": false,
+     "epss": 0.036,
+     "cvss": 7.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85880",
+     "take": "",
+     "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
     },
     {
      "id": "CVE-2025-21335",
@@ -526,38 +522,9 @@
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2000-0979",
      "take": "",
      "action": ""
-    },
-    {
-     "id": "CVE-2000-1034",
-     "headline": "Buffer overflow in the System Monitor ActiveX control in Windows 2000 allows remote attackers to execute arbitrary commands via a long LogFileName parameter ...",
-     "products": [
-      "windows 2000"
-     ],
-     "score": 45,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.27",
-       "points": 5
-      },
-      {
-       "label": "Severity 10.0",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.272,
-     "cvss": 10.0,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2000-1034",
-     "take": "",
-     "action": ""
     }
    ],
-   "above": 6
+   "above": 7
   },
   "virtualization": {
    "label": "Virtualization & hypervisor",
@@ -637,6 +604,25 @@
      "epss": 0.0,
      "cvss": 3.1,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59302",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-51773",
+     "headline": "An issue in the VMware datastore driver of OpenStack glance_store",
+     "products": [],
+     "score": 30,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 0.0,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-51773",
      "take": "",
      "action": ""
     }
@@ -742,6 +728,36 @@
      "action": ""
     },
     {
+     "id": "CVE-2026-76672",
+     "headline": "A vulnerability exists in the SD-WAN Orchestrator that may lead to the exposure of sensitive configuration information",
+     "products": [
+      "edgeconnect operating system",
+      "edgeconnect sd-wan orchestrator"
+     ],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.9",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.005,
+     "cvss": 9.9,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76672",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2026-84502",
      "headline": "A flaw was found in Red Hat Ansible Automation Platform's automation-\ncontroller",
      "products": [],
@@ -792,33 +808,6 @@
      "epss": 0.015,
      "cvss": 8.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28325",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-93295",
-     "headline": "MISP contains a vulnerability in its background job dispatch mechanism that allows remote code execution as the web user",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.7",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.006,
-     "cvss": 8.7,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93295",
      "take": "",
      "action": ""
     },
@@ -894,7 +883,7 @@
      "products": [
       "gitlab"
      ],
-     "score": 82,
+     "score": 98,
      "factors": [
       {
        "label": "Listed as actively exploited",
@@ -905,8 +894,8 @@
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.09",
-       "points": 2
+       "label": "Exploit likelihood 0.91",
+       "points": 18
       },
       {
        "label": "Severity 10.0",
@@ -915,7 +904,7 @@
      ],
      "kev": true,
      "ransomware": false,
-     "epss": 0.093,
+     "epss": 0.914,
      "cvss": 10.0,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85706",
      "take": "",
@@ -972,6 +961,33 @@
      "epss": 0.004,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13355",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-14281",
+     "headline": "The Automation Web Platform \u2013 Notifications and OTP for WooCommerce, Advanced Country Code plugin for WordPress is vulnerable to Privilege Escalation in all ...",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.005,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14281",
      "take": "",
      "action": ""
     },
@@ -1188,35 +1204,6 @@
      "epss": 0.004,
      "cvss": 9.9,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93577",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2020-11753",
-     "headline": "An issue was discovered in Sonatype Nexus Repository Manager in versions 3.21.1 and 3.22.0",
-     "products": [
-      "nexus repository manager"
-     ],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.02",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.8",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.017,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-11753",
      "take": "",
      "action": ""
     }
