@@ -1,7 +1,7 @@
 {
- "generated": "2026-09-29T16:16:52+00:00",
+ "generated": "2026-09-29T17:54:56+00:00",
  "window_hours": 72,
- "scanned": 2009,
+ "scanned": 2119,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
@@ -633,6 +633,29 @@
      "action": ""
     },
     {
+     "id": "CVE-2023-54400",
+     "headline": "Fumasoft Fumeng Cloud contains a SQL injection vulnerability in the AjaxMethod.ashx endpoint that allows unauthenticated remote attackers to inject arbitrary...",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 9.3",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 9.3,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-54400",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2024-58385",
      "headline": "Yonyou U8 CRM contains an unauthenticated SQL injection vulnerability in the fillbacksettingedit.php configuration endpoint where the DontCheckLogin=1 parame...",
      "products": [],
@@ -685,33 +708,6 @@
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100640",
      "take": "",
      "action": ""
-    },
-    {
-     "id": "CVE-2026-101045",
-     "headline": "Fleet-maintained app install and uninstall scripts for macOS are generated from Homebrew cask metadata",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.9",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.007,
-     "cvss": 8.9,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101045",
-     "take": "",
-     "action": ""
     }
    ],
    "above": 0
@@ -756,6 +752,29 @@
      "epss": 0.011,
      "cvss": 9.9,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18948",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-92370",
+     "headline": "An improper access control vulnerability in TeamViewer Full Client, Host, and related affected modules on Windows, Linux, and macOS allows an authenticated r...",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-92370",
      "take": "",
      "action": ""
     },
@@ -812,6 +831,98 @@
      "epss": 0.002,
      "cvss": 7.5,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68825",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-19743",
+     "headline": "Improper path validation in the local IPC service of TeamViewer Full Client and Host on Windows, Linux, and macOS prior to version 15.82 allows a local authe...",
+     "products": [],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 7.8",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 7.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19743",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-92368",
+     "headline": "TeamViewer Full Client and Host for Linux and macOS prior version 15.82 contain a heap-based buffer overflow vulnerability in the processing of .tvs session ...",
+     "products": [],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 7.8",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 7.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-92368",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-92369",
+     "headline": "TeamViewer Full Client and Host prior to version 15.82 on Windows contain a TOCTOU race condition in the installer rollback mechanism",
+     "products": [],
+     "score": 37,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 7.3",
+       "points": 7
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 7.3,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-92369",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-92371",
+     "headline": "TeamViewer Full Client and Host for Linux prior version 15.82 contains an improper path validation vulnerability in the Cloud Session Recording (CSR) functio...",
+     "products": [],
+     "score": 37,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 7.0",
+       "points": 7
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 7.0,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-92371",
      "take": "",
      "action": ""
     },
