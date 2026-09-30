@@ -1,7 +1,7 @@
 {
- "generated": "2026-09-30T16:12:12+00:00",
+ "generated": "2026-09-30T17:50:36+00:00",
  "window_hours": 72,
- "scanned": 3282,
+ "scanned": 3633,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
@@ -746,7 +746,35 @@
   "virtualization": {
    "label": "Virtualization & hypervisor",
    "blurb": "VMware, Proxmox, and the layer everything else runs on.",
-   "items": [],
+   "items": [
+    {
+     "id": "CVE-2026-51773",
+     "headline": "An issue in the VMware datastore driver of OpenStack glance_store",
+     "products": [],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.1",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.003,
+     "cvss": 8.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-51773",
+     "take": "",
+     "action": ""
+    }
+   ],
    "above": 0
   },
   "backup": {
