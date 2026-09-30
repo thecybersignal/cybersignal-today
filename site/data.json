@@ -1,7 +1,7 @@
 {
- "generated": "2026-09-29T17:54:56+00:00",
+ "generated": "2026-09-30T16:12:12+00:00",
  "window_hours": 72,
- "scanned": 2119,
+ "scanned": 3282,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
@@ -75,33 +75,6 @@
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88772",
      "take": "",
      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
-    },
-    {
-     "id": "CVE-2026-84388",
-     "headline": "A improper restriction of rendered ui layers or frames vulnerability in Fortinet FortiPAM Chrome Extension 8.0 all versions, FortiPAM Chrome Extension 7.4 al...",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.6",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.004,
-     "cvss": 9.6,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84388",
-     "take": "",
-     "action": ""
     },
     {
      "id": "CVE-2026-88773",
@@ -363,6 +336,32 @@
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62675",
      "take": "",
      "action": ""
+    },
+    {
+     "id": "CVE-2025-62826",
+     "headline": "An Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Response Splitting') vulnerability [CWE-113] vulnerability in Fortinet FortiOS 7.6.0 thro...",
+     "products": [
+      "fortios",
+      "fortiproxy"
+     ],
+     "score": 33,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 3.1",
+       "points": 3
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 3.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62826",
+     "take": "",
+     "action": ""
     }
    ],
    "above": 2
@@ -371,6 +370,170 @@
    "label": "Microsoft-first shop",
    "blurb": "Windows Server, Exchange, Entra, and the Microsoft 365 estate.",
    "items": [
+    {
+     "id": "CVE-2025-14174",
+     "headline": "Out of bounds memory access in ANGLE in Google Chrome on Mac prior to 143.0.7499.110 allowed a remote attacker to perform out of bounds memory access via a c...",
+     "products": [
+      "ipados",
+      "iphone os",
+      "macos",
+      "safari"
+     ],
+     "score": 83,
+     "factors": [
+      {
+       "label": "Listed as actively exploited",
+       "points": 40
+      },
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.22",
+       "points": 4
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": true,
+     "ransomware": false,
+     "epss": 0.223,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-14174",
+     "take": "",
+     "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
+    },
+    {
+     "id": "CVE-2025-12036",
+     "headline": "Out of bounds memory access in V8 in Google Chrome prior to 141.0.7390.122 allowed a remote attacker to perform out of bounds memory access via a crafted HTM...",
+     "products": [
+      "chrome",
+      "linux kernel",
+      "macos",
+      "windows"
+     ],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.04",
+       "points": 1
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.037,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-12036",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2025-12428",
+     "headline": "Type Confusion in V8 in Google Chrome prior to 142.0.7444.59 allowed a remote attacker to perform arbitrary read/write via a crafted HTML page",
+     "products": [
+      "chrome",
+      "linux kernel",
+      "macos",
+      "windows"
+     ],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.07",
+       "points": 1
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.066,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-12428",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2025-14765",
+     "headline": "Use after free in WebGPU in Google Chrome prior to 143.0.7499.147 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page",
+     "products": [
+      "chrome",
+      "linux kernel",
+      "macos",
+      "windows"
+     ],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.03",
+       "points": 1
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.03,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-14765",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2025-14766",
+     "headline": "Out of bounds read and write in V8 in Google Chrome prior to 143.0.7499.147 allowed a remote attacker to potentially exploit heap corruption via a crafted HT...",
+     "products": [
+      "chrome",
+      "linux kernel",
+      "macos",
+      "windows"
+     ],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.03",
+       "points": 1
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.032,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-14766",
+     "take": "",
+     "action": ""
+    },
     {
      "id": "CVE-2026-12268",
      "headline": "ManageEngine DDI Central versions below 6201 are vulnerable to\u00a0PowerShell command injection in Windows DNS SPF/TXT record push leading to remote code execution",
@@ -422,6 +585,38 @@
      "epss": 0.07,
      "cvss": 8.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12269",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-13019",
+     "headline": "Esri Portal for ArcGIS versions 12.1 and earlier on Windows, Linux and Kubernetes have a missing authentication for critical function vulnerability allows a ...",
+     "products": [
+      "kubernetes",
+      "linux kernel",
+      "portal for arcgis",
+      "windows"
+     ],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.008,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13019",
      "take": "",
      "action": ""
     },
@@ -517,12 +712,10 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-75699",
-     "headline": "Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code ex...",
+     "id": "CVE-2026-69865",
+     "headline": "Authorization bypass through user-controlled key in Microsoft Container Registry allows an unauthorized attacker to elevate privileges over a network",
      "products": [
-      "campaign",
-      "linux kernel",
-      "windows"
+      "azure container registry"
      ],
      "score": 40,
      "factors": [
@@ -541,176 +734,14 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.012,
-     "cvss": 10.0,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75699",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-82013",
-     "headline": "Adobe Campaign Classic (ACC) is affected by a Server-Side Request Forgery (SSRF) vulnerability that could result in privilege escalation",
-     "products": [
-      "campaign",
-      "linux kernel",
-      "windows"
-     ],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.9",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
      "epss": 0.008,
-     "cvss": 9.9,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82013",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-89276",
-     "headline": "Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code ex...",
-     "products": [
-      "campaign",
-      "linux kernel",
-      "windows"
-     ],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.9",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.005,
-     "cvss": 9.9,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-89276",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2015-20122",
-     "headline": "Seeyon A6 collaborative office automation platform contains an unauthenticated SQL injection vulnerability in the attach_ids parameter of the file attachment...",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Severity 8.7",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.0,
-     "cvss": 8.7,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-20122",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2023-54400",
-     "headline": "Fumasoft Fumeng Cloud contains a SQL injection vulnerability in the AjaxMethod.ashx endpoint that allows unauthenticated remote attackers to inject arbitrary...",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Severity 9.3",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.0,
-     "cvss": 9.3,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-54400",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2024-58385",
-     "headline": "Yonyou U8 CRM contains an unauthenticated SQL injection vulnerability in the fillbacksettingedit.php configuration endpoint where the DontCheckLogin=1 parame...",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.3",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.004,
-     "cvss": 9.3,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-58385",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-100640",
-     "headline": "SiYuan before v3.8.4 contains an authorization omission in the siyuan-get IPC handler that allows remote-kernel renderers to access native clipboard formats ...",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.6",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.002,
-     "cvss": 8.6,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100640",
+     "cvss": 10.0,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69865",
      "take": "",
      "action": ""
     }
    ],
-   "above": 0
+   "above": 1
   },
   "virtualization": {
    "label": "Virtualization & hypervisor",
@@ -955,7 +986,143 @@
   "file-transfer": {
    "label": "Managed file transfer",
    "blurb": "The category with the worst mass-extortion track record in the business.",
-   "items": [],
+   "items": [
+    {
+     "id": "CVE-2025-71339",
+     "headline": "Picklescan before 0.0.33 fails to detect the numpy.f2py.crackfortran._eval_length gadget in pickle __reduce__ methods, allowing arbitrary code execution",
+     "products": [],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.6",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.005,
+     "cvss": 7.6,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71339",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2025-71347",
+     "headline": "picklescan before 0.0.33 fails to detect malicious pickle files using numpy.f2py.crackfortran.param_eval function in reduce methods, allowing attackers to by...",
+     "products": [],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.6",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.006,
+     "cvss": 7.6,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71347",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2025-71362",
+     "headline": "picklescan before 0.0.33 fails to detect unsafe deserialization when numpy.f2py.crackfortran functions call eval on arbitrary strings",
+     "products": [],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.6",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.004,
+     "cvss": 7.6,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71362",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2025-71365",
+     "headline": "picklescan before 0.0.33 fails to detect malicious pickle files that invoke numpy.f2py.crackfortran.myeval function through the reduce method",
+     "products": [],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.6",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.004,
+     "cvss": 7.6,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71365",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2025-71372",
+     "headline": "Picklescan before 0.0.33 fails to detect the numpy.f2py.crackfortran.getlincoef gadget in pickle __reduce__ methods, allowing arbitrary code execution",
+     "products": [],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.6",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.005,
+     "cvss": 7.6,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71372",
+     "take": "",
+     "action": ""
+    }
+   ],
    "above": 0
   },
   "devstack": {
@@ -996,6 +1163,60 @@
      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
     },
     {
+     "id": "CVE-2025-10656",
+     "headline": "The Spreadsheet Price Changer for WooCommerce and WP E-commerce \u2013 Light plugin for WordPress is vulnerable to Missing Authorization in all versions up to, an...",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.005,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-10656",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2025-64231",
+     "headline": "Unrestricted Upload of File with Dangerous Type vulnerability in RedefiningTheWeb WordPress Contact Form 7 PDF, Google Sheet & Database rtwwcfp-wordpress-con...",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.9",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.003,
+     "cvss": 9.9,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-64231",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2026-18143",
      "headline": "The Request a Quote for WooCommerce plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 2.9.2 via the `afrfq_su...",
      "products": [],
@@ -1019,6 +1240,29 @@
      "epss": 0.004,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18143",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-75873",
+     "headline": "The Zella Theme WordPress theme before 2.6.3 does not perform any capability or nonce check on one of its font upload actions, which is available to unauthen...",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75873",
      "take": "",
      "action": ""
     },
@@ -1216,87 +1460,6 @@
      "epss": 0.008,
      "cvss": 9.3,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-25763",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2020-37255",
-     "headline": "WordPress Time Capsule Plugin 1.21.16 contains an authentication bypass vulnerability that allows unauthenticated attackers to gain administrative access by ...",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.7",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.006,
-     "cvss": 8.7,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-37255",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2023-54359",
-     "headline": "WordPress adivaha Travel Plugin 2.3 contains a time-based blind SQL injection vulnerability that allows unauthenticated attackers to manipulate database quer...",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.8",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.003,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-54359",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-19949",
-     "headline": "The All-in-One WP Migration and Backup plugin for WordPress is vulnerable to SQL Injection via archive restore functionality in all versions up to, and inclu...",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.8",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.014,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19949",
      "take": "",
      "action": ""
     }
