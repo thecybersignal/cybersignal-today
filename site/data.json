@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-05T18:59:28+00:00",
+ "generated": "2026-10-05T20:29:50+00:00",
  "window_hours": 72,
- "scanned": 1986,
+ "scanned": 2121,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
@@ -279,33 +279,6 @@
      "action": ""
     },
     {
-     "id": "CVE-2025-71427",
-     "headline": "Office-PowerPoint-MCP-Server through 2.0.7 contains a path traversal vulnerability that allows MCP callers to write and read files outside the working direct...",
-     "products": [],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 7.6",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.003,
-     "cvss": 7.6,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71427",
-     "take": "",
-     "action": ""
-    },
-    {
      "id": "CVE-2026-103624",
      "headline": "Use after free in Contextual Tasks in Google Chrome on on Windows prior to 154.0.8037.97 allowed a remote attacker who had compromised the renderer process t...",
      "products": [
@@ -418,6 +391,29 @@
      "epss": 0.012,
      "cvss": 7.5,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57099",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-63277",
+     "headline": "LibreOffice Calc can link a cell range to an external data source, and the link is saved in the document",
+     "products": [],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 8.5",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 8.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63277",
      "take": "",
      "action": ""
     }
@@ -578,6 +574,81 @@
      "epss": 0.005,
      "cvss": 7.6,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71372",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2025-36230",
+     "headline": "IBM Aspera Faspex 5 5.0.0 through 5.0.14.1 is vulnerable to HTML injection",
+     "products": [
+      "aspera faspex"
+     ],
+     "score": 35,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 5.4",
+       "points": 5
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 5.4,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-36230",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2025-36228",
+     "headline": "IBM Aspera Faspex 5 5.0.0 through 5.0.14.1 may allow inconsistent permissions between the user interface and backend API allowed users to access features tha...",
+     "products": [
+      "aspera faspex"
+     ],
+     "score": 34,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 3.8",
+       "points": 4
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 3.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-36228",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2025-36229",
+     "headline": "IBM Aspera Faspex 5 5.0.0 through 5.0.14.1 could allow authenticated users to enumerate sensitive information of data due by enumerating package identifiers",
+     "products": [
+      "aspera faspex"
+     ],
+     "score": 33,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 3.1",
+       "points": 3
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 3.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-36229",
      "take": "",
      "action": ""
     }
@@ -805,8 +876,8 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-15896",
-     "headline": "The Super Forms \u2013 Drag & Drop Form Builder plugin for WordPress is vulnerable to Directory Traversal in all versions up to, and including, 6.3.316 via the pa...",
+     "id": "CVE-2026-105640",
+     "headline": "Plane is an open-source project management tool",
      "products": [],
      "score": 39,
      "factors": [
@@ -815,19 +886,15 @@
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
        "label": "Severity 9.1",
        "points": 9
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.009,
+     "epss": 0.0,
      "cvss": 9.1,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15896",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105640",
      "take": "",
      "action": ""
     },
