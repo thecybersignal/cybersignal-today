@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-05T20:29:50+00:00",
+ "generated": "2026-10-06T16:25:24+00:00",
  "window_hours": 72,
- "scanned": 2121,
+ "scanned": 2374,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
@@ -36,7 +36,7 @@
      ],
      "kev": true,
      "ransomware": false,
-     "epss": 0.005,
+     "epss": 0.006,
      "cvss": 8.7,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88779",
      "take": "",
@@ -87,7 +87,7 @@
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.01",
+       "label": "Exploit likelihood 0.00",
        "points": 0
       },
       {
@@ -97,7 +97,7 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.006,
+     "epss": 0.004,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66390",
      "take": "",
@@ -134,6 +134,33 @@
      "action": ""
     },
     {
+     "id": "CVE-2026-105763",
+     "headline": "Twenty is an open-source CRM (customer relationship management) platform",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.6",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.003,
+     "cvss": 9.6,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105763",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2026-57941",
      "headline": "Use After Free vulnerability in Apache HTTP Server's mod_http2\u00a0via shared session->bbtmp re-entrancy\n\n\n\nThis issue affects Apache HTTP Server: from 2.4.0 thr...",
      "products": [
@@ -146,7 +173,7 @@
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.00",
+       "label": "Exploit likelihood 0.01",
        "points": 0
       },
       {
@@ -156,7 +183,7 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.004,
+     "epss": 0.006,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57941",
      "take": "",
@@ -188,6 +215,79 @@
      "epss": 0.011,
      "cvss": 9.1,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62821",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-105788",
+     "headline": "Microsoft UFO is an open-source framework for intelligent automation across devices and platforms",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105788",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-105793",
+     "headline": "Microsoft UFO is an open-source framework for intelligent automation across devices and platforms",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 9.1",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 9.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105793",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-59265",
+     "headline": "A code execution issue in the Java integration in Apache OpenOffice v4.1.16 and earlier allows a crafted untrusted document to trigger executing arbitrary (e...",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.002,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59265",
      "take": "",
      "action": ""
     },
@@ -305,115 +405,6 @@
      "epss": 0.003,
      "cvss": 8.3,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103624",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-104810",
-     "headline": "This vulnerability allows remote attackers to delete sensitive files on vulnerable installations of Mitel MiVoice Office 400",
-     "products": [],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.4",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.004,
-     "cvss": 8.4,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104810",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-55007",
-     "headline": "Double free in Microsoft Exchange Server allows an unauthorized attacker to execute code over a network",
-     "products": [
-      "exchange server",
-      "exchange server subscription edition"
-     ],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.1",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.007,
-     "cvss": 8.1,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55007",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-57099",
-     "headline": "Allocation of resources without limits or throttling in ASP.NET Core allows an unauthorized attacker to deny service over a network",
-     "products": [
-      "asp.net core odata"
-     ],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 7.5",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.012,
-     "cvss": 7.5,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57099",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-63277",
-     "headline": "LibreOffice Calc can link a cell range to an external data source, and the link is saved in the document",
-     "products": [],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Severity 8.5",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.0,
-     "cvss": 8.5,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63277",
      "take": "",
      "action": ""
     }
@@ -714,8 +705,8 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-14378",
-     "headline": "The DevKit Pro plugin for WordPress is vulnerable to Authentication Bypass Leading to Administrator Account Takeover in all versions up to, and including, 2....",
+     "id": "CVE-2026-32579",
+     "headline": "Unauthenticated Arbitrary File Upload in Kognetiks Chatbot for WordPress <= 2.4.9 versions",
      "products": [],
      "score": 40,
      "factors": [
@@ -728,96 +719,15 @@
        "points": 0
       },
       {
-       "label": "Severity 9.8",
+       "label": "Severity 10.0",
        "points": 10
       }
      ],
      "kev": false,
      "ransomware": false,
      "epss": 0.005,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14378",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-19652",
-     "headline": "The Divi Membership plugin for WordPress is vulnerable to Privilege Escalation in versions up to, and including, 2.2.0",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.003,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19652",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-19660",
-     "headline": "The Divi Membership plugin for WordPress is vulnerable to Authentication Bypass in all versions up to, and including, 2.3.0",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.004,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19660",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-97637",
-     "headline": "The JSON API Auth plugin for WordPress is vulnerable to Authentication Bypass via Cached Session Cookie Disclosure in all versions up to, and including, 3.1.2",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.006,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97637",
+     "cvss": 10.0,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32579",
      "take": "",
      "action": ""
     },
@@ -886,21 +796,25 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
        "label": "Severity 9.1",
        "points": 9
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.004,
      "cvss": 9.1,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105640",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2026-15897",
-     "headline": "The Super Forms \u2013 Drag & Drop Form Builder plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 6.3.316",
+     "id": "CVE-2026-105701",
+     "headline": "The ACPT (Premium) plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 2.0.66 via the render function",
      "products": [],
      "score": 39,
      "factors": [
@@ -909,7 +823,7 @@
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.00",
+       "label": "Exploit likelihood 0.01",
        "points": 0
       },
       {
@@ -919,9 +833,9 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.003,
+     "epss": 0.005,
      "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15897",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105701",
      "take": "",
      "action": ""
     },
@@ -953,8 +867,35 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-19807",
-     "headline": "The ByteCoreStack \u2013 MCP Connector for AI Tools plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 1.2.3 This is...",
+     "id": "CVE-2026-21589",
+     "headline": "h3",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.3",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.007,
+     "cvss": 9.3,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21589",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-39775",
+     "headline": "Subscriber Privilege Escalation in JobZilla - Job Board WordPress Theme <= 2.2 versions",
      "products": [],
      "score": 39,
      "factors": [
@@ -973,9 +914,65 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.004,
+     "epss": 0.003,
      "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19807",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39775",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-84739",
+     "headline": "GitLab has remediated an issue in GitLab CE/EE affecting all versions from 13.11 before 19.2.7, 19.3 before 19.3.3, and 19.4 before 19.4.1 that under certain...",
+     "products": [
+      "gitlab"
+     ],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.7",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.005,
+     "cvss": 8.7,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84739",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-87115",
+     "headline": "The VikAppointments Services Booking Calendar plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the e...",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.1",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.009,
+     "cvss": 9.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-87115",
      "take": "",
      "action": ""
     }
