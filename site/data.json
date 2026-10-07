@@ -1,13 +1,120 @@
 {
- "generated": "2026-10-07T17:08:33+00:00",
+ "generated": "2026-10-07T18:42:46+00:00",
  "window_hours": 72,
- "scanned": 4344,
+ "scanned": 4448,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
    "label": "Edge & remote access",
    "blurb": "VPN concentrators, SSL gateways, and anything you publish to the internet.",
    "items": [
+    {
+     "id": "CVE-2025-5777",
+     "headline": "Insufficient input validation leading to memory overread when the\u00a0NetScaler is configured as a Gateway (VPN virtual server, ICA Proxy, CVPN, RDP Proxy) OR AA...",
+     "products": [
+      "netscaler application delivery controller",
+      "netscaler gateway"
+     ],
+     "score": 114,
+     "factors": [
+      {
+       "label": "Listed as actively exploited",
+       "points": 40
+      },
+      {
+       "label": "Used in ransomware campaigns",
+       "points": 15
+      },
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 1.00",
+       "points": 20
+      },
+      {
+       "label": "Severity 9.3",
+       "points": 9
+      }
+     ],
+     "kev": true,
+     "ransomware": true,
+     "epss": 1.0,
+     "cvss": 9.3,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-5777",
+     "take": "",
+     "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
+    },
+    {
+     "id": "CVE-2026-104286",
+     "headline": "An improper limitation of a pathname to a restricted directory ('path traversal') vulnerability in Fortinet FortiMail 8.0.0 through 8.0.1, FortiMail 7.6.0 th...",
+     "products": [
+      "fortimail"
+     ],
+     "score": 80,
+     "factors": [
+      {
+       "label": "Listed as actively exploited",
+       "points": 40
+      },
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.02",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": true,
+     "ransomware": false,
+     "epss": 0.022,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104286",
+     "take": "",
+     "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+    },
+    {
+     "id": "CVE-2025-25249",
+     "headline": "A heap-based buffer overflow vulnerability in Fortinet FortiOS 7.6.0 through 7.6.3, FortiOS 7.4.0 through 7.4.8, FortiOS 7.2.0 through 7.2.11, FortiOS 7.0.0 ...",
+     "products": [
+      "fortios",
+      "fortisase",
+      "fortiswitchmanager",
+      "ruggedcom ape1808"
+     ],
+     "score": 79,
+     "factors": [
+      {
+       "label": "Listed as actively exploited",
+       "points": 40
+      },
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.04",
+       "points": 1
+      },
+      {
+       "label": "Severity 8.1",
+       "points": 8
+      }
+     ],
+     "kev": true,
+     "ransomware": false,
+     "epss": 0.039,
+     "cvss": 8.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-25249",
+     "take": "",
+     "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+    },
     {
      "id": "CVE-2026-88779",
      "headline": "Vulnerability in NetScaler ADC and NetScaler Gateway.\n\nThis issue affects ADC: before 14.1-73.41, before 13.1-64.28, before 14.1-73.41 FIPS, and before 13.1-...",
@@ -157,12 +264,155 @@
      "action": ""
     }
    ],
-   "above": 1
+   "above": 4
   },
   "microsoft-smb": {
    "label": "Microsoft-first shop",
    "blurb": "Windows Server, Exchange, Entra, and the Microsoft 365 estate.",
    "items": [
+    {
+     "id": "CVE-2020-1054",
+     "headline": "An elevation of privilege vulnerability exists in Windows when the Windows kernel-mode driver fails to properly handle objects in memory",
+     "products": [
+      "windows 10 1507",
+      "windows 10 1607",
+      "windows 10 1709",
+      "windows 10 1803"
+     ],
+     "score": 88,
+     "factors": [
+      {
+       "label": "Listed as actively exploited",
+       "points": 40
+      },
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.54",
+       "points": 11
+      },
+      {
+       "label": "Severity 7.0",
+       "points": 7
+      }
+     ],
+     "kev": true,
+     "ransomware": false,
+     "epss": 0.542,
+     "cvss": 7.0,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-1054",
+     "take": "",
+     "action": "Apply updates per vendor instructions."
+    },
+    {
+     "id": "CVE-2013-3900",
+     "headline": "Why is Microsoft republishing a CVE from 2013?\nWe are republishing CVE-2013-3900 in the Security Update Guide to update the Security Updates table and to inf...",
+     "products": [
+      "windows 10 1507",
+      "windows 10 1607",
+      "windows 10 1809",
+      "windows 10 1909"
+     ],
+     "score": 85,
+     "factors": [
+      {
+       "label": "Listed as actively exploited",
+       "points": 40
+      },
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.45",
+       "points": 9
+      },
+      {
+       "label": "Severity 5.5",
+       "points": 6
+      }
+     ],
+     "kev": true,
+     "ransomware": false,
+     "epss": 0.446,
+     "cvss": 5.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2013-3900",
+     "take": "",
+     "action": "Apply updates per vendor instructions."
+    },
+    {
+     "id": "CVE-2023-35311",
+     "headline": "Microsoft Outlook Security Feature Bypass Vulnerability",
+     "products": [
+      "365 apps",
+      "office",
+      "office long term servicing channel",
+      "outlook"
+     ],
+     "score": 82,
+     "factors": [
+      {
+       "label": "Listed as actively exploited",
+       "points": 40
+      },
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.16",
+       "points": 3
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": true,
+     "ransomware": false,
+     "epss": 0.155,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-35311",
+     "take": "",
+     "action": "Apply updates per vendor instructions or discontinue use of the product if updates are unavailable."
+    },
+    {
+     "id": "CVE-2025-3928",
+     "headline": "Commvault Web Server has an unspecified vulnerability that can be exploited by a remote, authenticated attacker",
+     "products": [
+      "commvault",
+      "linux kernel",
+      "windows"
+     ],
+     "score": 79,
+     "factors": [
+      {
+       "label": "Listed as actively exploited",
+       "points": 40
+      },
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.02",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.7",
+       "points": 9
+      }
+     ],
+     "kev": true,
+     "ransomware": false,
+     "epss": 0.023,
+     "cvss": 8.7,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-3928",
+     "take": "",
+     "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
+    },
     {
      "id": "CVE-2025-66398",
      "headline": "Signal K Server is a server application that runs on a central hub in a boat",
@@ -392,127 +642,9 @@
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65669",
      "take": "",
      "action": ""
-    },
-    {
-     "id": "CVE-2025-39484",
-     "headline": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Waituk Entrada allows SQL Injection.This issue affects ...",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.3",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.003,
-     "cvss": 9.3,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-39484",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2025-58074",
-     "headline": "A privilege escalation vulnerability exists during the installation of Norton Secure VPN via the Microsoft Store",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.8",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.001,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-58074",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2025-62456",
-     "headline": "Heap-based buffer overflow in Windows Resilient File System (ReFS) allows an authorized attacker to execute code over a network",
-     "products": [
-      "windows 11 23h2",
-      "windows 11 24h2",
-      "windows 11 25h2",
-      "windows server 2022"
-     ],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.8",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.011,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62456",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2025-62549",
-     "headline": "Untrusted pointer dereference in Windows Routing and Remote Access Service (RRAS) allows an unauthorized attacker to execute code over a network",
-     "products": [
-      "windows 10 1607",
-      "windows 10 1809",
-      "windows 10 21h2",
-      "windows 10 22h2"
-     ],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.8",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.013,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62549",
-     "take": "",
-     "action": ""
     }
    ],
-   "above": 0
+   "above": 4
   },
   "virtualization": {
    "label": "Virtualization & hypervisor",
@@ -660,6 +792,41 @@
    "label": "Backup & recovery",
    "blurb": "The systems ransomware crews hit before they encrypt anything.",
    "items": [
+    {
+     "id": "CVE-2025-3928",
+     "headline": "Commvault Web Server has an unspecified vulnerability that can be exploited by a remote, authenticated attacker",
+     "products": [
+      "commvault",
+      "linux kernel",
+      "windows"
+     ],
+     "score": 79,
+     "factors": [
+      {
+       "label": "Listed as actively exploited",
+       "points": 40
+      },
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.02",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.7",
+       "points": 9
+      }
+     ],
+     "kev": true,
+     "ransomware": false,
+     "epss": 0.023,
+     "cvss": 8.7,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-3928",
+     "take": "",
+     "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
+    },
     {
      "id": "CVE-2025-59468",
      "headline": "This vulnerability allows a Backup Administrator to perform remote code execution (RCE) as the postgres user by sending a\r\nmalicious password parameter",
@@ -931,7 +1098,7 @@
      "action": ""
     }
    ],
-   "above": 0
+   "above": 1
   },
   "msp-fleet": {
    "label": "MSP tooling",
@@ -1021,6 +1188,29 @@
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68825",
      "take": "",
      "action": ""
+    },
+    {
+     "id": "CVE-2026-62251",
+     "headline": "Homer is open source telecom observability software",
+     "products": [],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 8.1",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 8.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62251",
+     "take": "",
+     "action": ""
     }
    ],
    "above": 0
@@ -1029,6 +1219,45 @@
    "label": "Managed file transfer",
    "blurb": "The category with the worst mass-extortion track record in the business.",
    "items": [
+    {
+     "id": "CVE-2024-50623",
+     "headline": "In Cleo Harmony before 5.8.0.21, VLTrader before 5.8.0.21, and LexiCom before 5.8.0.21, there is an unrestricted file upload and download that could lead to ...",
+     "products": [
+      "harmony",
+      "lexicom",
+      "vltrader"
+     ],
+     "score": 115,
+     "factors": [
+      {
+       "label": "Listed as actively exploited",
+       "points": 40
+      },
+      {
+       "label": "Used in ransomware campaigns",
+       "points": 15
+      },
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.99",
+       "points": 20
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": true,
+     "ransomware": true,
+     "epss": 0.986,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-50623",
+     "take": "",
+     "action": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable."
+    },
     {
      "id": "CVE-2025-71339",
      "headline": "Picklescan before 0.0.33 fails to detect the numpy.f2py.crackfortran._eval_length gadget in pickle __reduce__ methods, allowing arbitrary code execution",
@@ -1326,34 +1555,9 @@
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-36230",
      "take": "",
      "action": ""
-    },
-    {
-     "id": "CVE-2025-66485",
-     "headline": "IBM Aspera Shares 1.9.9 through 1.11.0 is vulnerable to HTTP header injection, caused by improper validation of input by the HOST headers",
-     "products": [
-      "aspera shares"
-     ],
-     "score": 35,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Severity 5.4",
-       "points": 5
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.0,
-     "cvss": 5.4,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66485",
-     "take": "",
-     "action": ""
     }
    ],
-   "above": 0
+   "above": 1
   },
   "devstack": {
    "label": "Developer & collaboration stack",
