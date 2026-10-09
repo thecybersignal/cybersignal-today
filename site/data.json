@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-08T18:42:21+00:00",
+ "generated": "2026-10-09T16:45:24+00:00",
  "window_hours": 72,
- "scanned": 8238,
+ "scanned": 8716,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
@@ -176,7 +176,7 @@
      ],
      "kev": true,
      "ransomware": false,
-     "epss": 0.039,
+     "epss": 0.038,
      "cvss": 8.1,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-25249",
      "take": "",
@@ -237,6 +237,38 @@
      "epss": 0.153,
      "cvss": 8.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-9713",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2021-3450",
+     "headline": "The X509_V_FLAG_X509_STRICT flag enables additional security checks of the certificates present in a certificate chain",
+     "products": [
+      "fedora",
+      "freebsd",
+      "web gateway",
+      "web gateway cloud service"
+     ],
+     "score": 41,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.18",
+       "points": 4
+      },
+      {
+       "label": "Severity 7.4",
+       "points": 7
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.183,
+     "cvss": 7.4,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-3450",
      "take": "",
      "action": ""
     },
@@ -355,35 +387,6 @@
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-53949",
      "take": "",
      "action": ""
-    },
-    {
-     "id": "CVE-2025-13659",
-     "headline": "Improper control of dynamically managed code resources in Ivanti Endpoint Manager prior to version 2024 SU4 SR1 allows a remote, unauthenticated attacker to ...",
-     "products": [
-      "endpoint manager"
-     ],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.02",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.8",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.02,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-13659",
-     "take": "",
-     "action": ""
     }
    ],
    "above": 5
@@ -392,6 +395,42 @@
    "label": "Microsoft-first shop",
    "blurb": "Windows Server, Exchange, Entra, and the Microsoft 365 estate.",
    "items": [
+    {
+     "id": "CVE-2016-3081",
+     "headline": "Apache Struts 2.3.19 to 2.3.20.2, 2.3.21 to 2.3.24.1, and 2.3.25 to 2.3.28, when Dynamic Method Invocation is enabled, allow remote attackers to execute arbi...",
+     "products": [
+      "agile controller-campus",
+      "agile controller-campus firmware",
+      "anyoffice",
+      "struts"
+     ],
+     "score": 97,
+     "factors": [
+      {
+       "label": "Listed as actively exploited",
+       "points": 40
+      },
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.95",
+       "points": 19
+      },
+      {
+       "label": "Severity 8.1",
+       "points": 8
+      }
+     ],
+     "kev": true,
+     "ransomware": false,
+     "epss": 0.945,
+     "cvss": 8.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2016-3081",
+     "take": "",
+     "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+    },
     {
      "id": "CVE-2020-1054",
      "headline": "An elevation of privilege vulnerability exists in Windows when the Windows kernel-mode driver fails to properly handle objects in memory",
@@ -465,6 +504,39 @@
      "action": "Apply updates per vendor instructions."
     },
     {
+     "id": "CVE-2021-3199",
+     "headline": "Directory traversal with remote code execution can occur in /upload in ONLYOFFICE Document Server before 5.6.3, when JWT is used, via a /",
+     "products": [
+      "document server"
+     ],
+     "score": 83,
+     "factors": [
+      {
+       "label": "Listed as actively exploited",
+       "points": 40
+      },
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.15",
+       "points": 3
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": true,
+     "ransomware": false,
+     "epss": 0.145,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-3199",
+     "take": "",
+     "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+    },
+    {
      "id": "CVE-2025-14174",
      "headline": "Out of bounds memory access in ANGLE in Google Chrome on Mac prior to 143.0.7499.110 allowed a remote attacker to perform out of bounds memory access via a c...",
      "products": [
@@ -499,39 +571,6 @@
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-14174",
      "take": "",
      "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
-    },
-    {
-     "id": "CVE-2021-3199",
-     "headline": "Directory traversal with remote code execution can occur in /upload in ONLYOFFICE Document Server before 5.6.3, when JWT is used, via a /",
-     "products": [
-      "document server"
-     ],
-     "score": 82,
-     "factors": [
-      {
-       "label": "Listed as actively exploited",
-       "points": 40
-      },
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.08",
-       "points": 2
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": true,
-     "ransomware": false,
-     "epss": 0.082,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-3199",
-     "take": "",
-     "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
     },
     {
      "id": "CVE-2023-35311",
@@ -605,6 +644,70 @@
      "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
     },
     {
+     "id": "CVE-2020-5398",
+     "headline": "In Spring Framework, versions 5.2.x prior to 5.2.3, versions 5.1.x prior to 5.1.13, and versions 5.0.x prior to 5.0.16, an application is vulnerable to a ref...",
+     "products": [
+      "application testing suite",
+      "communications billing and revenue management elastic charging engine",
+      "data availability services",
+      "snapcenter"
+     ],
+     "score": 56,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.89",
+       "points": 18
+      },
+      {
+       "label": "Severity 7.5",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.888,
+     "cvss": 7.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-5398",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2018-1270",
+     "headline": "Spring Framework, versions 5.0 prior to 5.0.5 and versions 4.3 prior to 4.3.15 and older unsupported versions, allow applications to expose STOMP over WebSoc...",
+     "products": [
+      "application testing suite",
+      "big data discovery",
+      "communications converged application server",
+      "debian linux"
+     ],
+     "score": 55,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.77",
+       "points": 15
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.775,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-1270",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2025-66398",
      "headline": "Signal K Server is a server application that runs on a central hub in a boat",
      "products": [
@@ -630,6 +733,38 @@
      "epss": 0.199,
      "cvss": 9.6,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66398",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2019-10086",
+     "headline": "In Apache Commons Beanutils 1.9.2, a special BeanIntrospector class was added which allows suppressing the ability for an attacker to access the classloader ...",
+     "products": [
+      "commons beanutils",
+      "debian linux",
+      "fedora",
+      "nifi"
+     ],
+     "score": 43,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.28",
+       "points": 6
+      },
+      {
+       "label": "Severity 7.3",
+       "points": 7
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.284,
+     "cvss": 7.3,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-10086",
      "take": "",
      "action": ""
     },
@@ -661,23 +796,64 @@
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-59246",
      "take": "",
      "action": ""
-    },
+    }
+   ],
+   "above": 7
+  },
+  "virtualization": {
+   "label": "Virtualization & hypervisor",
+   "blurb": "VMware, Proxmox, and the layer everything else runs on.",
+   "items": [
     {
-     "id": "CVE-2025-69258",
-     "headline": "A LoadLibraryEX vulnerability in Trend Micro Apex Central could allow an unauthenticated remote attacker to load an attacker-controlled DLL into a key execut...",
+     "id": "CVE-2020-5398",
+     "headline": "In Spring Framework, versions 5.2.x prior to 5.2.3, versions 5.1.x prior to 5.1.13, and versions 5.0.x prior to 5.0.16, an application is vulnerable to a ref...",
      "products": [
-      "apex central",
-      "windows"
+      "application testing suite",
+      "communications billing and revenue management elastic charging engine",
+      "data availability services",
+      "snapcenter"
      ],
-     "score": 41,
+     "score": 56,
      "factors": [
       {
        "label": "Runs in this environment",
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.04",
-       "points": 1
+       "label": "Exploit likelihood 0.89",
+       "points": 18
+      },
+      {
+       "label": "Severity 7.5",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.888,
+     "cvss": 7.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-5398",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2018-1270",
+     "headline": "Spring Framework, versions 5.0 prior to 5.0.5 and versions 4.3 prior to 4.3.15 and older unsupported versions, allow applications to expose STOMP over WebSoc...",
+     "products": [
+      "application testing suite",
+      "big data discovery",
+      "communications converged application server",
+      "debian linux"
+     ],
+     "score": 55,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.77",
+       "points": 15
       },
       {
        "label": "Severity 9.8",
@@ -686,112 +862,12 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.036,
+     "epss": 0.775,
      "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-69258",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-1270",
      "take": "",
      "action": ""
     },
-    {
-     "id": "CVE-2025-12036",
-     "headline": "Out of bounds memory access in V8 in Google Chrome prior to 141.0.7390.122 allowed a remote attacker to perform out of bounds memory access via a crafted HTM...",
-     "products": [
-      "chrome",
-      "linux kernel",
-      "macos",
-      "windows"
-     ],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.04",
-       "points": 1
-      },
-      {
-       "label": "Severity 8.8",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.037,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-12036",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2025-12428",
-     "headline": "Type Confusion in V8 in Google Chrome prior to 142.0.7444.59 allowed a remote attacker to perform arbitrary read/write via a crafted HTML page",
-     "products": [
-      "chrome",
-      "linux kernel",
-      "macos",
-      "windows"
-     ],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.07",
-       "points": 1
-      },
-      {
-       "label": "Severity 8.8",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.066,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-12428",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2025-59218",
-     "headline": "Azure Entra ID Elevation of Privilege Vulnerability",
-     "products": [
-      "entra id"
-     ],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.6",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.007,
-     "cvss": 9.6,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-59218",
-     "take": "",
-     "action": ""
-    }
-   ],
-   "above": 6
-  },
-  "virtualization": {
-   "label": "Virtualization & hypervisor",
-   "blurb": "VMware, Proxmox, and the layer everything else runs on.",
-   "items": [
     {
      "id": "CVE-2016-1000027",
      "headline": "Pivotal Spring Framework through 5.3.16 suffers from a potential remote code execution (RCE) issue if used for Java deserialization of untrusted data",
@@ -818,6 +894,99 @@
      "epss": 0.332,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2016-1000027",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2022-22950",
+     "headline": "n Spring Framework versions 5.3.0 - 5.3.16 and older unsupported versions, it is possible for a user to provide a specially crafted SpEL expression that may ...",
+     "products": [
+      "spring framework"
+     ],
+     "score": 43,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.36",
+       "points": 7
+      },
+      {
+       "label": "Severity 6.5",
+       "points": 6
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.361,
+     "cvss": 6.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-22950",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2018-15756",
+     "headline": "Spring Framework, version 5.1, versions 5.0.x prior to 5.0.10, versions 4.3.x prior to 4.3.20, and older unsupported versions on the 4.2.x branch provide sup...",
+     "products": [
+      "agile product lifecycle management",
+      "communications brm - elastic charging engine",
+      "communications converged application server - service controller",
+      "debian linux"
+     ],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.09",
+       "points": 2
+      },
+      {
+       "label": "Severity 7.5",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.092,
+     "cvss": 7.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-15756",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2018-11040",
+     "headline": "Spring Framework, versions 5.0.x prior to 5.0.7 and 4.3.x prior to 4.3.18 and older unsupported versions, allows web applications to enable cross-domain requ...",
+     "products": [
+      "agile product lifecycle management",
+      "application testing suite",
+      "communications network integrity",
+      "debian linux"
+     ],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.03",
+       "points": 1
+      },
+      {
+       "label": "Severity 7.5",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.032,
+     "cvss": 7.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-11040",
      "take": "",
      "action": ""
     },
@@ -932,6 +1101,38 @@
      "action": ""
     },
     {
+     "id": "CVE-2020-5421",
+     "headline": "In Spring Framework versions 5.2.0 - 5.2.8, 5.1.0 - 5.1.17, 5.0.0 - 5.0.18, 4.3.0 - 4.3.28, and older unsupported versions, the protections against RFD attac...",
+     "products": [
+      "commerce guided search",
+      "oncommand insight",
+      "snap creator framework",
+      "snapcenter"
+     ],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.11",
+       "points": 2
+      },
+      {
+       "label": "Severity 6.5",
+       "points": 6
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.107,
+     "cvss": 6.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-5421",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2025-11198",
      "headline": "A Missing Authentication for Critical Function vulnerability in Juniper Networks Security Director Policy Enforcer allows an unauthenticated, network-based a...",
      "products": [
@@ -957,60 +1158,6 @@
      "epss": 0.003,
      "cvss": 8.5,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-11198",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-59347",
-     "headline": "VMware Workstation and Fusion contain a stack-based buffer-overflow vulnerability in HGFS",
-     "products": [],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.1",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.002,
-     "cvss": 8.1,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59347",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2025-62627",
-     "headline": "An untrusted pointer dereference in the ionic cloud driver for VMWare ESXi could allow an attacker with an unprivileged VM to read kernel memory or co-locate...",
-     "products": [],
-     "score": 37,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 7.2",
-       "points": 7
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.001,
-     "cvss": 7.2,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62627",
      "take": "",
      "action": ""
     }
@@ -1404,6 +1551,64 @@
      "action": ""
     },
     {
+     "id": "CVE-2025-11492",
+     "headline": "In the ConnectWise Automate Agent, communications could be configured to use HTTP instead of HTTPS",
+     "products": [
+      "automate"
+     ],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.6",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.002,
+     "cvss": 9.6,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-11492",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2025-11493",
+     "headline": "The ConnectWise Automate Agent does not fully verify the authenticity of files downloaded from the server, such as updates, dependencies, and integrations",
+     "products": [
+      "automate"
+     ],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.002,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-11493",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2025-14265",
      "headline": "In versions of ScreenConnect\u2122 prior to 25.8, server-side validation and integrity checks within the extension subsystem could allow the installation and exec...",
      "products": [
@@ -1660,62 +1865,6 @@
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68825",
      "take": "",
      "action": ""
-    },
-    {
-     "id": "CVE-2026-62251",
-     "headline": "Homer is open source telecom observability software",
-     "products": [],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.1",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.003,
-     "cvss": 8.1,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62251",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2025-64986",
-     "headline": "A command injection vulnerability was discovered in TeamViewer DEX (former 1E DEX), specifically within the 1E-Explorer-TachyonCore-DevicesListeningOnAPort i...",
-     "products": [
-      "digital employee experience"
-     ],
-     "score": 37,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 7.2",
-       "points": 7
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.012,
-     "cvss": 7.2,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-64986",
-     "take": "",
-     "action": ""
     }
    ],
    "above": 0
@@ -1939,6 +2088,33 @@
      "action": ""
     },
     {
+     "id": "CVE-2025-11864",
+     "headline": "A vulnerability was identified in NucleoidAI Nucleoid up to 0.7.10",
+     "products": [],
+     "score": 37,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 6.9",
+       "points": 7
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.005,
+     "cvss": 6.9,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-11864",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2025-14362",
      "headline": "The login limit is not enforced on the\u00a0SFTP service of Fortra's GoAnywhere MFT prior to 7.10.0 if the Web User attempting to be logged in to is configured to...",
      "products": [
@@ -2048,31 +2224,6 @@
      "epss": 0.002,
      "cvss": 6.3,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66483",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2025-66484",
-     "headline": "IBM Aspera Shares 1.9.9 through 1.11.0 is vulnerable to stored cross-site scripting",
-     "products": [
-      "aspera shares"
-     ],
-     "score": 36,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Severity 5.5",
-       "points": 6
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.0,
-     "cvss": 5.5,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66484",
      "take": "",
      "action": ""
     }
