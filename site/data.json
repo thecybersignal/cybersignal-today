@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-12T19:32:54+00:00",
+ "generated": "2026-10-12T21:06:34+00:00",
  "window_hours": 72,
- "scanned": 2407,
+ "scanned": 2394,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
@@ -42,35 +42,6 @@
    "label": "Microsoft-first shop",
    "blurb": "Windows Server, Exchange, Entra, and the Microsoft 365 estate.",
    "items": [
-    {
-     "id": "CVE-2012-2524",
-     "headline": "Microsoft Office 2007 SP2 and SP3 and 2010 SP1 allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a craft...",
-     "products": [
-      "office"
-     ],
-     "score": 43,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.20",
-       "points": 4
-      },
-      {
-       "label": "Severity 9.3",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.201,
-     "cvss": 9.3,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2012-2524",
-     "take": "",
-     "action": ""
-    },
     {
      "id": "CVE-2025-59538",
      "headline": "Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes",
@@ -365,6 +336,33 @@
      "epss": 0.0,
      "cvss": 8.6,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109397",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-62316",
+     "headline": "Microsoft UFO open-source framework for intelligent automation across devices and platforms",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.005,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62316",
      "take": "",
      "action": ""
     }
