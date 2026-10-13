@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-12T21:06:34+00:00",
+ "generated": "2026-10-13T17:16:49+00:00",
  "window_hours": 72,
- "scanned": 2394,
+ "scanned": 3557,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
@@ -9,10 +9,10 @@
    "blurb": "VPN concentrators, SSL gateways, and anything you publish to the internet.",
    "items": [
     {
-     "id": "CVE-2026-107406",
-     "headline": "Memory overflow vulnerability leading to Remote Code Execution or Denial of Service Vulnerability in NetScaler ADC.\n\n\nNetScaler ADC or NetScaler Gateway must...",
+     "id": "CVE-2025-66391",
+     "headline": "In Citrix Cloud through 2025-11-10, an account with read-only access can trigger the beginning of a workflow for write operations, e.g., the system will send...",
      "products": [],
-     "score": 40,
+     "score": 39,
      "factors": [
       {
        "label": "Runs in this environment",
@@ -23,15 +23,15 @@
        "points": 0
       },
       {
-       "label": "Severity 9.5",
-       "points": 10
+       "label": "Severity 8.8",
+       "points": 9
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.005,
-     "cvss": 9.5,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107406",
+     "epss": 0.004,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66391",
      "take": "",
      "action": ""
     }
@@ -153,141 +153,6 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-69435",
-     "headline": "Missing authorization in Azure SRE Agent allows an authorized attacker to elevate privileges over a network",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.6",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.004,
-     "cvss": 9.6,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69435",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-77900",
-     "headline": "Missing authentication for critical function in Azure App Service allows an unauthorized attacker to execute code over a network",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.005,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77900",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-88131",
-     "headline": "Deserialization of untrusted data in Microsoft Dataverse allows an unauthorized attacker to execute code over a network",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.008,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88131",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-94510",
-     "headline": "Authorization bypass through user-controlled key in Microsoft Bookings allows an unauthorized attacker to elevate privileges over a network",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.9",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.004,
-     "cvss": 9.9,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-94510",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-96207",
-     "headline": "Improper certificate validation in Microsoft Partner Center allows an unauthorized attacker to elevate privileges over a network",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 10.0",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.005,
-     "cvss": 10.0,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96207",
-     "take": "",
-     "action": ""
-    },
-    {
      "id": "CVE-2025-59545",
      "headline": "DNN (formerly DotNetNuke) is an open-source web content management platform (CMS) in the Microsoft ecosystem",
      "products": [
@@ -317,6 +182,93 @@
      "action": ""
     },
     {
+     "id": "CVE-2025-62821",
+     "headline": "Microsoft HEIF Image Extensions 1.2.22.0 has an out-of-bounds read because CHEIFItemInfoEntry_GetDataSize can return success while leaving the reported data ...",
+     "products": [
+      "heif image extension"
+     ],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.1",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.011,
+     "cvss": 9.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62821",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-107211",
+     "headline": "Excelize is a Go language library for reading and writing Microsoft Excel spreadsheets",
+     "products": [
+      "excelize"
+     ],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.7",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.003,
+     "cvss": 8.7,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107211",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-107213",
+     "headline": "Excelize is a Go language library for reading and writing Microsoft Excel spreadsheets",
+     "products": [
+      "excelize"
+     ],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.7",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.003,
+     "cvss": 8.7,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107213",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2026-109397",
      "headline": "Thelia before 3.1.2 and 3.2.x before 3.2.1 contains an unrestricted file upload vulnerability that allows authenticated back-office users to upload PHP files...",
      "products": [],
@@ -327,13 +279,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
        "label": "Severity 8.6",
        "points": 9
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.004,
      "cvss": 8.6,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109397",
      "take": "",
@@ -365,6 +321,64 @@
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62316",
      "take": "",
      "action": ""
+    },
+    {
+     "id": "CVE-2026-66906",
+     "headline": "Relative path traversal vulnerability in Apache Camel Azure Storage Blob component.\n\n\n\nThis issue affects Apache Camel: from 4.0.0 before 4.14.9, from 4.15.0...",
+     "products": [
+      "camel"
+     ],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.1",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.008,
+     "cvss": 9.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66906",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2025-66389",
+     "headline": "GitHub Copilot 1.372.0 allows filesystem access outside of a workspace folder (without user approval) via a file-handler URI parameter to fetch_webpage",
+     "products": [
+      "github copilot"
+     ],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.5",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.012,
+     "cvss": 7.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66389",
+     "take": "",
+     "action": ""
     }
    ],
    "above": 0
@@ -378,7 +392,146 @@
   "backup": {
    "label": "Backup & recovery",
    "blurb": "The systems ransomware crews hit before they encrypt anything.",
-   "items": [],
+   "items": [
+    {
+     "id": "CVE-2026-77100",
+     "headline": "MediaAgent contained a heap-based buffer overflow issue affecting service availability",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 8.7",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 8.7,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77100",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-97334",
+     "headline": "The network messaging layer contained improper handling of highly compressed data affecting service availability",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 8.7",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 8.7,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97334",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-18228",
+     "headline": "HyperScale contained a path traversal issue affecting information disclosure",
+     "products": [],
+     "score": 37,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 7.1",
+       "points": 7
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 7.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18228",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-77093",
+     "headline": "CvFWD contained an integer overflow affecting service availability",
+     "products": [],
+     "score": 37,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 7.1",
+       "points": 7
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 7.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77093",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-77094",
+     "headline": "CvFWD contained an out-of-bounds write affecting service availability",
+     "products": [],
+     "score": 37,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 7.1",
+       "points": 7
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 7.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77094",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-77095",
+     "headline": "CvFWD contained a null pointer dereference affecting service availability",
+     "products": [],
+     "score": 37,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 7.1",
+       "points": 7
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 7.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77095",
+     "take": "",
+     "action": ""
+    }
+   ],
    "above": 0
   },
   "msp-fleet": {
@@ -433,13 +586,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.02",
+       "points": 0
+      },
+      {
        "label": "Severity 9.8",
        "points": 10
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.016,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109390",
      "take": "",
@@ -509,6 +666,114 @@
      "action": ""
     },
     {
+     "id": "CVE-2025-71339",
+     "headline": "Picklescan before 0.0.33 fails to detect the numpy.f2py.crackfortran._eval_length gadget in pickle __reduce__ methods, allowing arbitrary code execution",
+     "products": [],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.6",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.004,
+     "cvss": 7.6,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71339",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2025-71347",
+     "headline": "picklescan before 0.0.33 fails to detect malicious pickle files using numpy.f2py.crackfortran.param_eval function in reduce methods, allowing attackers to by...",
+     "products": [],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.6",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.006,
+     "cvss": 7.6,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71347",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2025-71362",
+     "headline": "picklescan before 0.0.33 fails to detect unsafe deserialization when numpy.f2py.crackfortran functions call eval on arbitrary strings",
+     "products": [],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.6",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.004,
+     "cvss": 7.6,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71362",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2025-71365",
+     "headline": "picklescan before 0.0.33 fails to detect malicious pickle files that invoke numpy.f2py.crackfortran.myeval function through the reduce method",
+     "products": [],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.6",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.004,
+     "cvss": 7.6,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71365",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2025-71372",
      "headline": "Picklescan before 0.0.33 fails to detect the numpy.f2py.crackfortran.getlincoef gadget in pickle __reduce__ methods, allowing arbitrary code execution",
      "products": [],
@@ -532,6 +797,133 @@
      "epss": 0.005,
      "cvss": 7.6,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71372",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-75095",
+     "headline": "IBM Aspera Enterprise WebApps 1.0.0 through 1.0.6 could allow a remote attacker to cause a denial of service due to uncontrolled resource consumption",
+     "products": [],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.5",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.003,
+     "cvss": 7.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75095",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-75782",
+     "headline": "IBM Aspera Enterprise WebApps 1.0.0 through 1.0.6 could allow a local attacker to gain elevated privileges due to a misconfigured PATH environment variable",
+     "products": [],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.8",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.001,
+     "cvss": 7.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75782",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-75621",
+     "headline": "IBM Aspera Enterprise WebApps 1.0.0 through 1.0.6 could allow a local attacker to obtain sensitive information due to excessive permissions assigned to a ser...",
+     "products": [],
+     "score": 36,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 6.2",
+       "points": 6
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.001,
+     "cvss": 6.2,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75621",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-92832",
+     "headline": "IBM Aspera Enterprise WebApps 1.0.0 through 1.0.6 could allow a local attacker to obtain sensitive information due to cleartext transmission of sensitive inf...",
+     "products": [],
+     "score": 35,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 5.1",
+       "points": 5
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 5.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-92832",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-75076",
+     "headline": "IBM Aspera Enterprise WebApps 1.0.0 through 1.0.6 could allow a remote attacker to obtain sensitive information due to the exposure of JavaScript source map ...",
+     "products": [],
+     "score": 34,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 4.3",
+       "points": 4
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 4.3,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75076",
      "take": "",
      "action": ""
     }
