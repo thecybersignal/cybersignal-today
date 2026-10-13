@@ -1,13 +1,157 @@
 {
- "generated": "2026-10-13T17:16:49+00:00",
+ "generated": "2026-10-13T19:06:21+00:00",
  "window_hours": 72,
- "scanned": 3557,
+ "scanned": 3752,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
    "label": "Edge & remote access",
    "blurb": "VPN concentrators, SSL gateways, and anything you publish to the internet.",
    "items": [
+    {
+     "id": "CVE-2019-5589",
+     "headline": "A untrusted search path vulnerability in Fortinet  may allow attacker to execute unauthorized code or commands via network exploitable",
+     "products": [
+      "forticlient"
+     ],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.03",
+       "points": 1
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.026,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-5589",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-106042",
+     "headline": "An External Control of File Name or Path vulnerability in Ivanti Xtraction before version 2026.4 allows a remote authenticated attacker to redirect applicati...",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 9.9",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 9.9,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106042",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-106173",
+     "headline": "A improper limitation of a pathname to a restricted directory ('path traversal') vulnerability in Fortinet FortiSIEM 7.5.0 may allow attacker to execute unau...",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106173",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-109412",
+     "headline": "An exposed dangerous endpoint in Ivanti Neurons Patch for Intune allows a remote authenticated attacker to leak sensitive authentication information",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 9.9",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 9.9,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109412",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2025-46773",
+     "headline": "An Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability [CWE-89] vulnerability in Fortinet FortiAnalyzer 7.6.0 ...",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-46773",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2025-57739",
+     "headline": "An improper neutralization of special elements used in an SQL Command (\"SQL Injection\") vulnerability [CWE-89] vulnerability in Fortinet FortiMail 7.6.0 thro...",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-57739",
+     "take": "",
+     "action": ""
+    },
     {
      "id": "CVE-2025-66391",
      "headline": "In Citrix Cloud through 2025-11-10, an account with read-only access can trigger the beginning of a workflow for write operations, e.g., the system will send...",
@@ -32,6 +176,134 @@
      "epss": 0.004,
      "cvss": 8.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66391",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2020-9287",
+     "headline": "A untrusted search path vulnerability in Fortinet  may allow attacker to execute unauthorized code or commands via network exploitable",
+     "products": [
+      "forticlient emergency management server"
+     ],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.7",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.006,
+     "cvss": 7.7,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-9287",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-106043",
+     "headline": "A Missing Authentication for Critical Function vulnerability in Ivanti Xtraction before version 2026.4 allows a remote unauthenticated attacker to create, mo...",
+     "products": [],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 7.5",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 7.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106043",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-106047",
+     "headline": "A Path Traversal vulnerability in the template export functionality of Ivanti Xtraction before version 2026.4 allows a remote authenticated attacker to read ...",
+     "products": [],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 7.7",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 7.7,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106047",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-53562",
+     "headline": "Improper link resolution before file access ('link following') vulnerability in Citrix UniconOS.\n\nThis issue affects UniconOS: before 2607 CR and before 2603...",
+     "products": [],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 8.5",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 8.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53562",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2020-9290",
+     "headline": "A untrusted search path vulnerability in Fortinet  may allow attacker to execute unauthorized code or commands via network exploitable",
+     "products": [
+      "forticlient",
+      "forticlient virtual private network"
+     ],
+     "score": 37,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.3",
+       "points": 7
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.006,
+     "cvss": 7.3,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-9290",
      "take": "",
      "action": ""
     }
@@ -211,6 +483,29 @@
      "action": ""
     },
     {
+     "id": "CVE-2026-104085",
+     "headline": "odt2spip plugin for SPIP before 4.4.0 contains an OS command injection vulnerability that allows authenticated authors to execute arbitrary commands by uploa...",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 8.7",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 8.7,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104085",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2026-107211",
      "headline": "Excelize is a Go language library for reading and writing Microsoft Excel spreadsheets",
      "products": [
@@ -348,35 +643,6 @@
      "epss": 0.008,
      "cvss": 9.1,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66906",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2025-66389",
-     "headline": "GitHub Copilot 1.372.0 allows filesystem access outside of a workspace folder (without user approval) via a file-handler URI parameter to fetch_webpage",
-     "products": [
-      "github copilot"
-     ],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 7.5",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.012,
-     "cvss": 7.5,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66389",
      "take": "",
      "action": ""
     }
