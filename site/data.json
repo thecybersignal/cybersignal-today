@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-14T14:49:29+00:00",
+ "generated": "2026-10-14T16:53:14+00:00",
  "window_hours": 72,
- "scanned": 6720,
+ "scanned": 7005,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
@@ -713,6 +713,90 @@
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110111",
      "take": "",
      "action": ""
+    },
+    {
+     "id": "CVE-2022-21123",
+     "headline": "Incomplete cleanup of multi-core shared buffers for some Intel(R) Processors may allow an authenticated user to potentially enable information disclosure via...",
+     "products": [
+      "debian linux",
+      "fedora",
+      "sgx dcap",
+      "sgx psw"
+     ],
+     "score": 36,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 5.5",
+       "points": 6
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 5.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-21123",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2022-21125",
+     "headline": "Incomplete cleanup of microarchitectural fill buffers on some Intel(R) Processors may allow an authenticated user to potentially enable information disclosur...",
+     "products": [
+      "debian linux",
+      "fedora",
+      "sgx dcap",
+      "sgx psw"
+     ],
+     "score": 36,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 5.5",
+       "points": 6
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 5.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-21125",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2022-21166",
+     "headline": "Incomplete cleanup in specific special register write operations for some Intel(R) Processors may allow an authenticated user to potentially enable informati...",
+     "products": [
+      "debian linux",
+      "fedora",
+      "sgx dcap",
+      "sgx psw"
+     ],
+     "score": 36,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 5.5",
+       "points": 6
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 5.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-21166",
+     "take": "",
+     "action": ""
     }
    ],
    "above": 0
@@ -1012,6 +1096,52 @@
    "blurb": "The category with the worst mass-extortion track record in the business.",
    "items": [
     {
+     "id": "CVE-2026-87093",
+     "headline": "Incorrect Permission Assignment for Critical Resource vulnerability in Progress MOVEit Transfer.\n\nThis issue affects MOVEit Transfer: before 2025.1.6 and fro...",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-87093",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-89067",
+     "headline": "Authentication bypass using an alternate path or channel vulnerability in Progress MOVEit Transfer.\n\nThis issue affects MOVEit Transfer: before 2025.1.6 and ...",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-89067",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2025-36274",
      "headline": "IBM Aspera HTTP Gateway 2.0.0 through 2.3.1 stores sensitive information in clear text in easily obtainable files which can be read by an unauthenticated user",
      "products": [
@@ -1230,75 +1360,48 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-75621",
-     "headline": "IBM Aspera Enterprise WebApps 1.0.0 through 1.0.6 could allow a local attacker to obtain sensitive information due to excessive permissions assigned to a ser...",
+     "id": "CVE-2026-89068",
+     "headline": "Missing critical step in authentication vulnerability in Progress MOVEit Transfer (LDAP module).\n\nThis issue affects MOVEit Transfer: before 2025.1.6 and fro...",
      "products": [],
-     "score": 36,
+     "score": 38,
      "factors": [
       {
        "label": "Runs in this environment",
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 6.2",
-       "points": 6
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.001,
-     "cvss": 6.2,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75621",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-92832",
-     "headline": "IBM Aspera Enterprise WebApps 1.0.0 through 1.0.6 could allow a local attacker to obtain sensitive information due to cleartext transmission of sensitive inf...",
-     "products": [],
-     "score": 35,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Severity 5.1",
-       "points": 5
+       "label": "Severity 8.1",
+       "points": 8
       }
      ],
      "kev": false,
      "ransomware": false,
      "epss": 0.0,
-     "cvss": 5.1,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-92832",
+     "cvss": 8.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-89068",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2026-75076",
-     "headline": "IBM Aspera Enterprise WebApps 1.0.0 through 1.0.6 could allow a remote attacker to obtain sensitive information due to the exposure of JavaScript source map ...",
+     "id": "CVE-2026-89069",
+     "headline": "Improper neutralization of input during web page generation ('cross-site scripting') vulnerability in Progress MOVEit Transfer (Ad Hoc module).\n\nThis issue a...",
      "products": [],
-     "score": 34,
+     "score": 38,
      "factors": [
       {
        "label": "Runs in this environment",
        "points": 30
       },
       {
-       "label": "Severity 4.3",
-       "points": 4
+       "label": "Severity 8.0",
+       "points": 8
       }
      ],
      "kev": false,
      "ransomware": false,
      "epss": 0.0,
-     "cvss": 4.3,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75076",
+     "cvss": 8.0,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-89069",
      "take": "",
      "action": ""
     }
