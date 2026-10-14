@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-13T19:06:21+00:00",
+ "generated": "2026-10-14T14:49:29+00:00",
  "window_hours": 72,
- "scanned": 3752,
+ "scanned": 6720,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
@@ -9,33 +9,37 @@
    "blurb": "VPN concentrators, SSL gateways, and anything you publish to the internet.",
    "items": [
     {
-     "id": "CVE-2019-5589",
-     "headline": "A untrusted search path vulnerability in Fortinet  may allow attacker to execute unauthorized code or commands via network exploitable",
+     "id": "CVE-2026-104935",
+     "headline": "Authentication bypass by spoofing in ICS before version 25.1.3.0 allows a remote unauthenticated attacker to execute arbitrary commands",
      "products": [
-      "forticlient"
+      "connect secure"
      ],
-     "score": 40,
+     "score": 84,
      "factors": [
+      {
+       "label": "Listed as actively exploited",
+       "points": 40
+      },
       {
        "label": "Runs in this environment",
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.03",
-       "points": 1
+       "label": "Exploit likelihood 0.26",
+       "points": 5
       },
       {
-       "label": "Severity 8.8",
+       "label": "Severity 8.6",
        "points": 9
       }
      ],
-     "kev": false,
+     "kev": true,
      "ransomware": false,
-     "epss": 0.026,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-5589",
+     "epss": 0.26,
+     "cvss": 8.6,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104935",
      "take": "",
-     "action": ""
+     "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
     },
     {
      "id": "CVE-2026-106042",
@@ -48,13 +52,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
        "label": "Severity 9.9",
        "points": 10
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.008,
      "cvss": 9.9,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106042",
      "take": "",
@@ -71,13 +79,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
        "label": "Severity 9.8",
        "points": 10
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.004,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106173",
      "take": "",
@@ -94,15 +106,48 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
        "label": "Severity 9.9",
        "points": 10
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.009,
      "cvss": 9.9,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109412",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2019-5589",
+     "headline": "A untrusted search path vulnerability in Fortinet  may allow attacker to execute unauthorized code or commands via network exploitable",
+     "products": [
+      "forticlient"
+     ],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.01,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-5589",
      "take": "",
      "action": ""
     },
@@ -117,13 +162,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
        "label": "Severity 8.8",
        "points": 9
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.003,
      "cvss": 8.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-46773",
      "take": "",
@@ -140,13 +189,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
        "label": "Severity 8.8",
        "points": 9
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.003,
      "cvss": 8.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-57739",
      "take": "",
@@ -192,7 +245,7 @@
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.01",
+       "label": "Exploit likelihood 0.00",
        "points": 0
       },
       {
@@ -202,7 +255,7 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.006,
+     "epss": 0.004,
      "cvss": 7.7,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-9287",
      "take": "",
@@ -219,13 +272,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
        "label": "Severity 7.5",
        "points": 8
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.007,
      "cvss": 7.5,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106043",
      "take": "",
@@ -242,13 +299,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
        "label": "Severity 7.7",
        "points": 8
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.007,
      "cvss": 7.7,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106047",
      "take": "",
@@ -265,55 +326,92 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
        "label": "Severity 8.5",
        "points": 8
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.002,
      "cvss": 8.5,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53562",
      "take": "",
      "action": ""
-    },
+    }
+   ],
+   "above": 1
+  },
+  "microsoft-smb": {
+   "label": "Microsoft-first shop",
+   "blurb": "Windows Server, Exchange, Entra, and the Microsoft 365 estate.",
+   "items": [
     {
-     "id": "CVE-2020-9290",
-     "headline": "A untrusted search path vulnerability in Fortinet  may allow attacker to execute unauthorized code or commands via network exploitable",
+     "id": "CVE-2018-25032",
+     "headline": "zlib before 1.2.12 allows memory corruption when deflating (i.e., when compressing) if the input has many distant matches",
      "products": [
-      "forticlient",
-      "forticlient virtual private network"
+      "debian linux",
+      "mac os x",
+      "macos",
+      "zulu"
      ],
-     "score": 37,
+     "score": 48,
      "factors": [
       {
        "label": "Runs in this environment",
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
+       "label": "Exploit likelihood 0.52",
+       "points": 10
       },
       {
-       "label": "Severity 7.3",
-       "points": 7
+       "label": "Severity 7.5",
+       "points": 8
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.006,
-     "cvss": 7.3,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-9290",
+     "epss": 0.517,
+     "cvss": 7.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-25032",
      "take": "",
      "action": ""
-    }
-   ],
-   "above": 0
-  },
-  "microsoft-smb": {
-   "label": "Microsoft-first shop",
-   "blurb": "Windows Server, Exchange, Entra, and the Microsoft 365 estate.",
-   "items": [
+    },
+    {
+     "id": "CVE-2020-15801",
+     "headline": "In Python 3.8.4, sys.path restrictions specified in a python38._pth file are ignored, allowing code to be loaded from arbitrary locations",
+     "products": [
+      "max data",
+      "python",
+      "windows"
+     ],
+     "score": 41,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.04",
+       "points": 1
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.036,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-15801",
+     "take": "",
+     "action": ""
+    },
     {
      "id": "CVE-2025-59538",
      "headline": "Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes",
@@ -398,6 +496,110 @@
      "action": ""
     },
     {
+     "id": "CVE-2026-100219",
+     "headline": "Use after free in Microsoft QUIC allows an unauthorized attacker to execute code over a network",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.01,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100219",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-105010",
+     "headline": "Use after free in Microsoft Windows Search Component allows an unauthorized attacker to elevate privileges over a network",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.009,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105010",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-105016",
+     "headline": "Heap-based buffer overflow in Microsoft QUIC allows an unauthorized attacker to execute code over a network",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.01,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105016",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-108065",
+     "headline": "SQL Injection (CWE-89) in the SOAP GetUser method of the /preapproval.asmx endpoint in Channel Software WebAlliance eCommerce [VERSION \u2014 missing] allows an u...",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108065",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2026-62120",
      "headline": "Unauthenticated PHP Object Injection in Law Office <= 3.20 versions",
      "products": [],
@@ -425,41 +627,10 @@
      "action": ""
     },
     {
-     "id": "CVE-2025-59545",
-     "headline": "DNN (formerly DotNetNuke) is an open-source web content management platform (CMS) in the Microsoft ecosystem",
-     "products": [
-      "dotnetnuke"
-     ],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.0",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.005,
-     "cvss": 9.0,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-59545",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2025-62821",
-     "headline": "Microsoft HEIF Image Extensions 1.2.22.0 has an out-of-bounds read because CHEIFItemInfoEntry_GetDataSize can return success while leaving the reported data ...",
-     "products": [
-      "heif image extension"
-     ],
-     "score": 39,
+     "id": "CVE-2026-70147",
+     "headline": "Heap-based buffer overflow in Microsoft PostScript Printer Driver allows an unauthorized attacker to execute code over a network",
+     "products": [],
+     "score": 40,
      "factors": [
       {
        "label": "Runs in this environment",
@@ -470,131 +641,23 @@
        "points": 0
       },
       {
-       "label": "Severity 9.1",
-       "points": 9
+       "label": "Severity 9.8",
+       "points": 10
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.011,
-     "cvss": 9.1,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62821",
+     "epss": 0.01,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70147",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2026-104085",
-     "headline": "odt2spip plugin for SPIP before 4.4.0 contains an OS command injection vulnerability that allows authenticated authors to execute arbitrary commands by uploa...",
+     "id": "CVE-2026-70153",
+     "headline": "Heap-based buffer overflow in Microsoft PostScript Printer Driver allows an unauthorized attacker to execute code over a network",
      "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Severity 8.7",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.0,
-     "cvss": 8.7,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104085",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-107211",
-     "headline": "Excelize is a Go language library for reading and writing Microsoft Excel spreadsheets",
-     "products": [
-      "excelize"
-     ],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.7",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.003,
-     "cvss": 8.7,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107211",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-107213",
-     "headline": "Excelize is a Go language library for reading and writing Microsoft Excel spreadsheets",
-     "products": [
-      "excelize"
-     ],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.7",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.003,
-     "cvss": 8.7,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107213",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-109397",
-     "headline": "Thelia before 3.1.2 and 3.2.x before 3.2.1 contains an unrestricted file upload vulnerability that allows authenticated back-office users to upload PHP files...",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.6",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.004,
-     "cvss": 8.6,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109397",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-62316",
-     "headline": "Microsoft UFO open-source framework for intelligent automation across devices and platforms",
-     "products": [],
-     "score": 39,
+     "score": 40,
      "factors": [
       {
        "label": "Runs in this environment",
@@ -605,44 +668,15 @@
        "points": 0
       },
       {
-       "label": "Severity 8.8",
-       "points": 9
+       "label": "Severity 9.8",
+       "points": 10
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.005,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62316",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-66906",
-     "headline": "Relative path traversal vulnerability in Apache Camel Azure Storage Blob component.\n\n\n\nThis issue affects Apache Camel: from 4.0.0 before 4.14.9, from 4.15.0...",
-     "products": [
-      "camel"
-     ],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.1",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.008,
-     "cvss": 9.1,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66906",
+     "epss": 0.01,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70153",
      "take": "",
      "action": ""
     }
@@ -652,7 +686,35 @@
   "virtualization": {
    "label": "Virtualization & hypervisor",
    "blurb": "VMware, Proxmox, and the layer everything else runs on.",
-   "items": [],
+   "items": [
+    {
+     "id": "CVE-2026-110111",
+     "headline": "Xen Orchestra before 6.9.0 contains an improper access control vulnerability that allows any authenticated user to become global administrator by abusing the...",
+     "products": [],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.7",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.006,
+     "cvss": 7.7,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110111",
+     "take": "",
+     "action": ""
+    }
+   ],
    "above": 0
   },
   "backup": {
@@ -670,13 +732,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
        "label": "Severity 8.7",
        "points": 9
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.003,
      "cvss": 8.7,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77100",
      "take": "",
@@ -693,13 +759,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
        "label": "Severity 8.7",
        "points": 9
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.004,
      "cvss": 8.7,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97334",
      "take": "",
@@ -716,13 +786,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
        "label": "Severity 7.1",
        "points": 7
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.004,
      "cvss": 7.1,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18228",
      "take": "",
@@ -739,13 +813,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
        "label": "Severity 7.1",
        "points": 7
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.002,
      "cvss": 7.1,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77093",
      "take": "",
@@ -762,13 +840,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
        "label": "Severity 7.1",
        "points": 7
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.002,
      "cvss": 7.1,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77094",
      "take": "",
@@ -785,13 +867,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
        "label": "Severity 7.1",
        "points": 7
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.002,
      "cvss": 7.1,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77095",
      "take": "",
@@ -892,6 +978,29 @@
      "epss": 0.002,
      "cvss": 7.4,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21751",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-108072",
+     "headline": "Vulnerability due to incorrect permissions in TSplus Remote Access shared login scripts",
+     "products": [],
+     "score": 35,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 5.4",
+       "points": 5
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 5.4,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108072",
      "take": "",
      "action": ""
     }
