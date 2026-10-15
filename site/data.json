@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-15T14:39:03+00:00",
+ "generated": "2026-10-15T16:39:21+00:00",
  "window_hours": 72,
- "scanned": 9893,
+ "scanned": 9492,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
@@ -402,6 +402,38 @@
      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
     },
     {
+     "id": "CVE-2016-3357",
+     "headline": "Microsoft Office 2007 SP3, Office 2010 SP2, Office 2013 SP1, Office 2013 RT SP1, Office 2016, Word for Mac 2011, Word 2016 for Mac, Word Viewer, Word Automat...",
+     "products": [
+      "office",
+      "office web apps",
+      "office web apps server",
+      "sharepoint foundation"
+     ],
+     "score": 49,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.55",
+       "points": 11
+      },
+      {
+       "label": "Severity 7.8",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.548,
+     "cvss": 7.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2016-3357",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2015-2468",
      "headline": "Microsoft Word 2007 SP3, Office 2010 SP2, Word 2010 SP2, Word 2013 SP1, Word 2013 RT SP1, Office for Mac 2011, Office for Mac 2016, Office Compatibility Pack...",
      "products": [
@@ -430,6 +462,37 @@
      "epss": 0.434,
      "cvss": 9.3,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-2468",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2016-3313",
+     "headline": "Microsoft Office 2007 SP3, 2010 SP2, 2013 SP1, 2013 RT SP1, and 2016, Word 2016 for Mac, and Word Viewer allow remote attackers to execute arbitrary code via...",
+     "products": [
+      "office",
+      "word for mac",
+      "word viewer"
+     ],
+     "score": 48,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.50",
+       "points": 10
+      },
+      {
+       "label": "Severity 7.8",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.498,
+     "cvss": 7.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2016-3313",
      "take": "",
      "action": ""
     },
@@ -591,6 +654,38 @@
      "action": ""
     },
     {
+     "id": "CVE-2017-8509",
+     "headline": "A remote code execution vulnerability exists in Microsoft Office when the software fails to properly handle objects in memory, aka \"Office Remote Code Execut...",
+     "products": [
+      "office",
+      "office compatibility pack",
+      "office web apps",
+      "office web apps server"
+     ],
+     "score": 43,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.18",
+       "points": 4
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.182,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-8509",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2015-1683",
      "headline": "Microsoft Office 2007 SP3 allows remote attackers to execute arbitrary code via a crafted document, aka \"Microsoft Office Memory Corruption Vulnerability.\"",
      "products": [
@@ -646,93 +741,6 @@
      "epss": 0.136,
      "cvss": 9.3,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-2477",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2020-15801",
-     "headline": "In Python 3.8.4, sys.path restrictions specified in a python38._pth file are ignored, allowing code to be loaded from arbitrary locations",
-     "products": [
-      "max data",
-      "python",
-      "windows"
-     ],
-     "score": 41,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.04",
-       "points": 1
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.036,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-15801",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2020-37282",
-     "headline": "office-converter through 1.0.2 contains an OS command injection vulnerability that allows attackers to execute commands by supplying a crafted fileName to ge...",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.03",
-       "points": 1
-      },
-      {
-       "label": "Severity 9.3",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.03,
-     "cvss": 9.3,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-37282",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2025-59538",
-     "headline": "Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes",
-     "products": [
-      "argo cd"
-     ],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.09",
-       "points": 2
-      },
-      {
-       "label": "Severity 7.5",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.089,
-     "cvss": 7.5,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-59538",
      "take": "",
      "action": ""
     }
@@ -1136,33 +1144,6 @@
      "epss": 0.004,
      "cvss": 6.9,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-34499",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-21751",
-     "headline": "HCL Hive is affected by a cryptographic primitive with a risky implementation which could allow an attacker unauthorized lateral compromise or widespread cre...",
-     "products": [],
-     "score": 37,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 7.4",
-       "points": 7
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.002,
-     "cvss": 7.4,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21751",
      "take": "",
      "action": ""
     },
@@ -1616,114 +1597,6 @@
      "action": ""
     },
     {
-     "id": "CVE-2025-6388",
-     "headline": "The Spirit Framework plugin for WordPress is vulnerable to authentication bypass in all versions up to, and including, 1.2.14",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.006,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-6388",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2025-7721",
-     "headline": "The JoomSport \u2013 for Sports: Team & League, Football, Hockey & more plugin for WordPress is vulnerable to Local File Inclusion in all versions up to, and incl...",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.007,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-7721",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2025-9209",
-     "headline": "The RestroPress \u2013 Online Food Ordering System plugin for WordPress is vulnerable to Authentication Bypass in versions 3.0.0 to 3.1.9.2",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.02",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.023,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-9209",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2025-9286",
-     "headline": "The Appy Pie Connect for WooCommerce plugin for WordPress is vulnerable to Privilege Escalation due to missing authorization within the reset_user_password()...",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.005,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-9286",
-     "take": "",
-     "action": ""
-    },
-    {
      "id": "CVE-2026-103889",
      "headline": "The 3D Product configurator for WooCommerce plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 2.16.2 via the ...",
      "products": [],
@@ -1882,6 +1755,114 @@
      "epss": 0.004,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104803",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-105892",
+     "headline": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in rtCamp Inc",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.004,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105892",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-107594",
+     "headline": "The File Upload to Order WordPress plugin before 1.1.4 does not validate or confine a file path taken from attacker-controlled session data before deleting t...",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 10.0",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.005,
+     "cvss": 10.0,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107594",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-108587",
+     "headline": "The 10Web Booster \u2013 Website speed optimization, Cache & Page Speed optimizer plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up t...",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.009,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108587",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-109145",
+     "headline": "The User Rights Access Manager WordPress plugin through 1.1.3 does not restrict access to one of its AJAX account-registration handlers and assigns newly reg...",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.001,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109145",
      "take": "",
      "action": ""
     }
