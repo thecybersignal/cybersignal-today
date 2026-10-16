@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-15T16:39:21+00:00",
+ "generated": "2026-10-16T14:28:44+00:00",
  "window_hours": 72,
- "scanned": 9492,
+ "scanned": 9831,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
@@ -303,8 +303,8 @@
      "action": ""
     },
     {
-     "id": "CVE-2025-66391",
-     "headline": "In Citrix Cloud through 2025-11-10, an account with read-only access can trigger the beginning of a workflow for write operations, e.g., the system will send...",
+     "id": "CVE-2026-96540",
+     "headline": "An improper access control vulnerability has been identified in the SonicWall Network Security Manager (NSM) on-prem in export settings, potentially allowing...",
      "products": [],
      "score": 39,
      "factors": [
@@ -323,9 +323,9 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.004,
+     "epss": 0.002,
      "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66391",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96540",
      "take": "",
      "action": ""
     },
@@ -622,6 +622,38 @@
      "action": ""
     },
     {
+     "id": "CVE-2018-8014",
+     "headline": "The defaults settings for the CORS filter provided in Apache Tomcat 9.0.0.M1 to 9.0.8, 8.5.0 to 8.5.31, 8.0.0.RC1 to 8.0.52, 7.0.41 to 7.0.88 are insecure an...",
+     "products": [
+      "debian linux",
+      "tomcat",
+      "ubuntu linux",
+      "windows"
+     ],
+     "score": 44,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.21",
+       "points": 4
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.213,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-8014",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2015-0085",
      "headline": "Use-after-free vulnerability in Microsoft Office 2007 SP3, Excel 2007 SP3, PowerPoint 2007 SP3, Word 2007 SP3, Office 2010 SP2, Excel 2010 SP2, PowerPoint 20...",
      "products": [
@@ -686,61 +718,34 @@
      "action": ""
     },
     {
-     "id": "CVE-2015-1683",
-     "headline": "Microsoft Office 2007 SP3 allows remote attackers to execute arbitrary code via a crafted document, aka \"Microsoft Office Memory Corruption Vulnerability.\"",
-     "products": [
-      "office"
-     ],
-     "score": 42,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.14",
-       "points": 3
-      },
-      {
-       "label": "Severity 9.3",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.135,
-     "cvss": 9.3,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-1683",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2015-2477",
-     "headline": "Microsoft Office 2007 SP3, Office for Mac 2011, Office for Mac 2016, and Word Viewer allow remote attackers to execute arbitrary code via a crafted document,...",
+     "id": "CVE-2017-8512",
+     "headline": "A remote code execution vulnerability exists in Microsoft Office when the software fails to properly handle objects in memory, aka \"Office Remote Code Execut...",
      "products": [
       "office",
-      "word viewer"
+      "office online server",
+      "office web apps",
+      "office web apps server"
      ],
-     "score": 42,
+     "score": 43,
      "factors": [
       {
        "label": "Runs in this environment",
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.14",
-       "points": 3
+       "label": "Exploit likelihood 0.22",
+       "points": 4
       },
       {
-       "label": "Severity 9.3",
+       "label": "Severity 8.8",
        "points": 9
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.136,
-     "cvss": 9.3,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-2477",
+     "epss": 0.221,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-8512",
      "take": "",
      "action": ""
     }
@@ -751,6 +756,56 @@
    "label": "Virtualization & hypervisor",
    "blurb": "VMware, Proxmox, and the layer everything else runs on.",
    "items": [
+    {
+     "id": "CVE-2025-40273",
+     "headline": "In the Linux kernel, the following vulnerability has been resolved:\n\nNFSD: free copynotify stateid in nfs4_free_ol_stateid()\n\nTypically copynotify stateid is...",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.004,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-40273",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-84731",
+     "headline": "An unauthenticated remote attacker can bypass authentication and gain full access to administrative API endpoints in Nutanix Prism Element by including a cra...",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 9.3",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 9.3,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84731",
+     "take": "",
+     "action": ""
+    },
     {
      "id": "CVE-2024-36904",
      "headline": "In the Linux kernel, the following vulnerability has been resolved:\n\ntcp: Use refcount_inc_not_zero() in tcp_twsk_unique().\n\nAnderson Nascimento reported a u...",
@@ -805,6 +860,35 @@
      "epss": 0.006,
      "cvss": 7.7,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110111",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-59279",
+     "headline": "The MCP Streamable HTTP server transport (WebFlux and WebMvc variants) does not place any limit on the number of sessions it retains, and by default does not...",
+     "products": [
+      "spring ai"
+     ],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.5",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.005,
+     "cvss": 7.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59279",
      "take": "",
      "action": ""
     },
@@ -914,6 +998,60 @@
      "epss": 0.0,
      "cvss": 5.5,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-21862",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-59318",
+     "headline": "In Spring AI's tool calling support, the per-request tool list is advertised to the model as a boundary but is not fully enforced when a tool call is dispatched",
+     "products": [
+      "spring ai"
+     ],
+     "score": 36,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 6.5",
+       "points": 6
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.003,
+     "cvss": 6.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59318",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-59308",
+     "headline": "In Spring AI's Semantic Cache support, the context hash used to isolate cached responses between different system prompts could allow cached responses to be ...",
+     "products": [
+      "spring ai"
+     ],
+     "score": 34,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 4.2",
+       "points": 4
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 4.2,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59308",
      "take": "",
      "action": ""
     }
@@ -1094,33 +1232,6 @@
    "blurb": "RMM and remote-support platforms with reach into every client.",
    "items": [
     {
-     "id": "CVE-2026-109390",
-     "headline": "AnyDesk before 8.0.3 allows unauthenticated remote attackers to execute arbitrary code via a heap-based buffer overflow, as demonstrated on Linux for command...",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.02",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.016,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109390",
-     "take": "",
-     "action": ""
-    },
-    {
      "id": "CVE-2025-34499",
      "headline": "AnyDesk 7.0.15 and 9.0.1 contains an unquoted service path vulnerability that allows local non-privileged users to potentially execute code with elevated SYS...",
      "products": [],
@@ -1144,6 +1255,33 @@
      "epss": 0.004,
      "cvss": 6.9,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-34499",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-15580",
+     "headline": "vault token disclosure via unvalidated postMessage vulnerability in N-able PassPortal allows Authentication Abuse.\n\nThis issue affects the PassPortal browser...",
+     "products": [],
+     "score": 37,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 6.9",
+       "points": 7
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.002,
+     "cvss": 6.9,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15580",
      "take": "",
      "action": ""
     },
@@ -1320,141 +1458,6 @@
      "action": ""
     },
     {
-     "id": "CVE-2025-71339",
-     "headline": "Picklescan before 0.0.33 fails to detect the numpy.f2py.crackfortran._eval_length gadget in pickle __reduce__ methods, allowing arbitrary code execution",
-     "products": [],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 7.6",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.004,
-     "cvss": 7.6,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71339",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2025-71347",
-     "headline": "picklescan before 0.0.33 fails to detect malicious pickle files using numpy.f2py.crackfortran.param_eval function in reduce methods, allowing attackers to by...",
-     "products": [],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 7.6",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.006,
-     "cvss": 7.6,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71347",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2025-71362",
-     "headline": "picklescan before 0.0.33 fails to detect unsafe deserialization when numpy.f2py.crackfortran functions call eval on arbitrary strings",
-     "products": [],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 7.6",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.004,
-     "cvss": 7.6,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71362",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2025-71365",
-     "headline": "picklescan before 0.0.33 fails to detect malicious pickle files that invoke numpy.f2py.crackfortran.myeval function through the reduce method",
-     "products": [],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 7.6",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.004,
-     "cvss": 7.6,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71365",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2025-71372",
-     "headline": "Picklescan before 0.0.33 fails to detect the numpy.f2py.crackfortran.getlincoef gadget in pickle __reduce__ methods, allowing arbitrary code execution",
-     "products": [],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 7.6",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.005,
-     "cvss": 7.6,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71372",
-     "take": "",
-     "action": ""
-    },
-    {
      "id": "CVE-2026-75095",
      "headline": "IBM Aspera Enterprise WebApps 1.0.0 through 1.0.6 could allow a remote attacker to cause a denial of service due to uncontrolled resource consumption",
      "products": [],
@@ -1534,6 +1537,141 @@
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-89068",
      "take": "",
      "action": ""
+    },
+    {
+     "id": "CVE-2026-89069",
+     "headline": "Improper neutralization of input during web page generation ('cross-site scripting') vulnerability in Progress MOVEit Transfer (Ad Hoc module).\n\nThis issue a...",
+     "products": [],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.0",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.004,
+     "cvss": 8.0,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-89069",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-89070",
+     "headline": "Authentication bypass by capture-replay vulnerability in Progress MOVEit Transfer (OIDC module).\n\nThis issue affects MOVEit Transfer: before 2025.1.6 and fro...",
+     "products": [],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.5",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.004,
+     "cvss": 7.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-89070",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-89071",
+     "headline": "Improper neutralization of special elements used in an LDAP query ('LDAP injection') vulnerability in Progress MOVEit Transfer (LDAP module).\n\nThis issue aff...",
+     "products": [],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.5",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.004,
+     "cvss": 7.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-89071",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-89072",
+     "headline": "Incorrect Authorization vulnerability in Progress MOVEit Transfer (Client Certificates module).\n\nThis issue affects MOVEit Transfer: before 2025.1.6 and from...",
+     "products": [],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.5",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.002,
+     "cvss": 7.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-89072",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-89073",
+     "headline": "Insufficient Session Expiration vulnerability in Progress MOVEit Transfer.\n\nThis issue affects MOVEit Transfer: before 2025.1.6 and from 2026.0.0 before 2026...",
+     "products": [],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.5",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.003,
+     "cvss": 7.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-89073",
+     "take": "",
+     "action": ""
     }
    ],
    "above": 1
@@ -1542,6 +1680,125 @@
    "label": "Developer & collaboration stack",
    "blurb": "Confluence, Jenkins, GitLab, and the internal tools nobody patches.",
    "items": [
+    {
+     "id": "CVE-2026-21589",
+     "headline": "This is a vulnerability in Bitbucket Data Center, Confluence Data Center, Jira Service Management Data Center, Jira Software Data Center, Bamboo Data Center",
+     "products": [
+      "bamboo",
+      "bitbucket data center",
+      "bitbucket server",
+      "confluence data center"
+     ],
+     "score": 80,
+     "factors": [
+      {
+       "label": "Listed as actively exploited",
+       "points": 40
+      },
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.03",
+       "points": 1
+      },
+      {
+       "label": "Severity 9.3",
+       "points": 9
+      }
+     ],
+     "kev": true,
+     "ransomware": false,
+     "epss": 0.028,
+     "cvss": 9.3,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21589",
+     "take": "",
+     "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+    },
+    {
+     "id": "CVE-2025-13065",
+     "headline": "The Starter Templates plugin for WordPress is vulnerable to arbitrary file upload in all versions up to, and including, 4.4.41",
+     "products": [],
+     "score": 42,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.14",
+       "points": 3
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.135,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-13065",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2025-12673",
+     "headline": "The Flex QR Code Generator plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the update_qr_code() function ...",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.007,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-12673",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2025-13377",
+     "headline": "The 10Web Booster \u2013 Website speed optimization, Cache & Page Speed optimizer plugin for WordPress is vulnerable to arbitrary folder deletion due to insuffici...",
+     "products": [
+      "10web booster"
+     ],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.6",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.005,
+     "cvss": 9.6,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-13377",
+     "take": "",
+     "action": ""
+    },
     {
      "id": "CVE-2025-13613",
      "headline": "The Elated Membership plugin for WordPress is vulnerable to Authentication Bypass in all versions up to, and including, 1.2",
@@ -1597,8 +1854,8 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-103889",
-     "headline": "The 3D Product configurator for WooCommerce plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 2.16.2 via the ...",
+     "id": "CVE-2026-103768",
+     "headline": "The ELEX WordPress HelpDesk & Customer Ticketing System plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 3.3...",
      "products": [],
      "score": 40,
      "factors": [
@@ -1607,19 +1864,15 @@
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
        "label": "Severity 9.8",
        "points": 10
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.007,
+     "epss": 0.0,
      "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103889",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103768",
      "take": "",
      "action": ""
     },
@@ -1651,8 +1904,8 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-104732",
-     "headline": "The Advanced IP Blocker plugin for WordPress is vulnerable to Authentication Bypass in all versions up to, and including, 8.13.13 The vulnerability exists be...",
+     "id": "CVE-2026-104730",
+     "headline": "The Sunshine Photo Cart \u2013 Client Photo Gallery & Photo Proofing for Photographers plugin for WordPress is vulnerable to PHP Object Injection in all versions ...",
      "products": [],
      "score": 40,
      "factors": [
@@ -1661,19 +1914,15 @@
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
        "label": "Severity 9.8",
        "points": 10
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.005,
+     "epss": 0.0,
      "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104732",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104730",
      "take": "",
      "action": ""
     },
@@ -1705,6 +1954,29 @@
      "action": ""
     },
     {
+     "id": "CVE-2026-104798",
+     "headline": "The My Calendar \u2013 Accessible Event Manager plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 3.8.7",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104798",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2026-104800",
      "headline": "The AGE-GATE plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 1.0 via the 'width (and height)' parameter par...",
      "products": [],
@@ -1730,144 +2002,9 @@
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104800",
      "take": "",
      "action": ""
-    },
-    {
-     "id": "CVE-2026-104803",
-     "headline": "The WPCOM Member plugin for WordPress is vulnerable to Authentication Bypass in all versions up to, and including, 1.7.27 via the `uuid` and `code` parameter...",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.004,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104803",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-105892",
-     "headline": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in rtCamp Inc",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.004,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105892",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-107594",
-     "headline": "The File Upload to Order WordPress plugin before 1.1.4 does not validate or confine a file path taken from attacker-controlled session data before deleting t...",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 10.0",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.005,
-     "cvss": 10.0,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107594",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-108587",
-     "headline": "The 10Web Booster \u2013 Website speed optimization, Cache & Page Speed optimizer plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up t...",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.009,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108587",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-109145",
-     "headline": "The User Rights Access Manager WordPress plugin through 1.1.3 does not restrict access to one of its AJAX account-registration handlers and assigns newly reg...",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.001,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109145",
-     "take": "",
-     "action": ""
     }
    ],
-   "above": 0
+   "above": 1
   }
  }
 }
