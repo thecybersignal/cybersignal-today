@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-26T16:25:45+00:00",
+ "generated": "2026-10-26T18:35:23+00:00",
  "window_hours": 72,
- "scanned": 14713,
+ "scanned": 15342,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
@@ -313,39 +313,14 @@
      "action": ""
     },
     {
-     "id": "CVE-2025-57739",
-     "headline": "An improper neutralization of special elements used in an SQL Command (\"SQL Injection\") vulnerability [CWE-89] vulnerability in Fortinet FortiMail 7.6.0 thro...",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.8",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.003,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-57739",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-5787",
-     "headline": "An Improper Certificate Validation in Ivanti EPMM before versions 12.6.1.1, 12.7.0.1, and 12.8.0.1 allows a remote unauthenticated attacker to impersonate re...",
+     "id": "CVE-2026-26083",
+     "headline": "A missing authorization vulnerability in Fortinet FortiSandbox 5.0.0 through 5.0.1, FortiSandbox 4.4.0 through 4.4.8, FortiSandbox Cloud 5.0.2 through 5.0.5,...",
      "products": [
-      "endpoint manager mobile"
+      "fortisandbox",
+      "fortisandbox cloud",
+      "fortisandbox paas"
      ],
-     "score": 39,
+     "score": 40,
      "factors": [
       {
        "label": "Runs in this environment",
@@ -356,44 +331,73 @@
        "points": 0
       },
       {
-       "label": "Severity 8.9",
-       "points": 9
+       "label": "Severity 9.8",
+       "points": 10
       }
      ],
      "kev": false,
      "ransomware": false,
      "epss": 0.007,
-     "cvss": 8.9,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5787",
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-26083",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2026-59835",
-     "headline": "A exposure of resource to wrong sphere vulnerability in Fortinet FortiSandbox 5.0.0 through 5.0.2, FortiSandbox 4.4.3 through 4.4.8 may allow an unauthentica...",
+     "id": "CVE-2026-44277",
+     "headline": "A improper access control vulnerability in Fortinet FortiAuthenticator 8.0.2, FortiAuthenticator 8.0.0, FortiAuthenticator 6.6.0 through 6.6.8, FortiAuthenti...",
      "products": [
-      "fortisandbox"
+      "fortiauthenticator"
      ],
-     "score": 39,
+     "score": 40,
      "factors": [
       {
        "label": "Runs in this environment",
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.00",
+       "label": "Exploit likelihood 0.01",
        "points": 0
       },
       {
-       "label": "Severity 8.6",
-       "points": 9
+       "label": "Severity 9.8",
+       "points": 10
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.004,
-     "cvss": 8.6,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59835",
+     "epss": 0.006,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44277",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-8043",
+     "headline": "External control of a file name in Ivanti Xtraction before version 2026.2 allows a remote authenticated attacker to read sensitive files and write arbitrary ...",
+     "products": [
+      "xtraction"
+     ],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.6",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.009,
+     "cvss": 9.6,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8043",
      "take": "",
      "action": ""
     }
@@ -404,6 +408,46 @@
    "label": "Microsoft-first shop",
    "blurb": "Windows Server, Exchange, Entra, and the Microsoft 365 estate.",
    "items": [
+    {
+     "id": "CVE-2026-45321",
+     "headline": "On 2026-05-11, between approximately 19:20 and 19:26 UTC, 84 malicious versions across 42 @tanstack/* packages were published to the npm registry",
+     "products": [
+      "agentwork-cli",
+      "supersurkhet\\/cli",
+      "supersurkhet\\/sdk",
+      "taskflow-corp\\/cli"
+     ],
+     "score": 96,
+     "factors": [
+      {
+       "label": "Listed as actively exploited",
+       "points": 40
+      },
+      {
+       "label": "Used in ransomware campaigns",
+       "points": 15
+      },
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.03",
+       "points": 1
+      },
+      {
+       "label": "Severity 9.6",
+       "points": 10
+      }
+     ],
+     "kev": true,
+     "ransomware": true,
+     "epss": 0.033,
+     "cvss": 9.6,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45321",
+     "take": "",
+     "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
+    },
     {
      "id": "CVE-2026-42897",
      "headline": "Improper neutralization of input during web page generation ('cross-site scripting') in Microsoft Exchange Server allows an unauthorized attacker to perform ...",
@@ -608,6 +652,67 @@
      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
     },
     {
+     "id": "CVE-2026-41089",
+     "headline": "Stack-based buffer overflow in Windows Netlogon allows an unauthorized attacker to execute code over a network",
+     "products": [
+      "windows server 2012",
+      "windows server 2016",
+      "windows server 2019",
+      "windows server 2022"
+     ],
+     "score": 56,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.80",
+       "points": 16
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.796,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41089",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-33112",
+     "headline": "Deserialization of untrusted data in Microsoft Office SharePoint allows an authorized attacker to execute code over a network",
+     "products": [
+      "sharepoint server"
+     ],
+     "score": 45,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.31",
+       "points": 6
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.311,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33112",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2025-11700",
      "headline": "N-central versions < 2025.4 are vulnerable to multiple XML External Entities injection leading to information disclosure",
      "products": [
@@ -689,102 +794,9 @@
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12571",
      "take": "",
      "action": ""
-    },
-    {
-     "id": "CVE-2026-9103",
-     "headline": "IBM Langflow OSS 1.0.0 through 1.10.0 could allow a remote attacker to gain unauthorized access due to improper authentication in the /api/v1/login/auto_logi...",
-     "products": [
-      "langflow",
-      "linux kernel",
-      "macos",
-      "windows"
-     ],
-     "score": 41,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.03",
-       "points": 1
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.032,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9103",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2023-29542",
-     "headline": "A newline in a filename could have been used to bypass the file extension security mechanisms that replace malicious file extensions such as .lnk  with .down...",
-     "products": [
-      "firefox",
-      "firefox esr",
-      "thunderbird",
-      "windows"
-     ],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.009,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-29542",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2025-11367",
-     "headline": "The N-central Software Probe < 2025.4 is vulnerable to Remote Code Execution via deserialization",
-     "products": [
-      "n-central"
-     ],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 10.0",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.006,
-     "cvss": 10.0,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-11367",
-     "take": "",
-     "action": ""
     }
    ],
-   "above": 6
+   "above": 7
   },
   "virtualization": {
    "label": "Virtualization & hypervisor",
@@ -2317,6 +2329,29 @@
      "action": ""
     },
     {
+     "id": "CVE-2026-102649",
+     "headline": "Burrito is a Terraform Automation Collaboration Software (TACoS) Kubernetes operator",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 9.9",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 9.9,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102649",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2026-109219",
      "headline": "The Mang Board plugin for WordPress is vulnerable to Arbitrary File Upload in version 2.4.4 via the mbw_file_upload function",
      "products": [],
@@ -2502,33 +2537,6 @@
      "epss": 0.006,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32563",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-47365",
-     "headline": "Argument injection vulnerability in WordPress Toolkit before 6.11.0 as used in cPanel & WHM, allows remote authenticated users to bypass cross-tenant authori...",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.9",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.004,
-     "cvss": 9.9,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47365",
      "take": "",
      "action": ""
     }
