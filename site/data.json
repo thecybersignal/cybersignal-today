@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-27T15:41:29+00:00",
+ "generated": "2026-10-27T17:46:44+00:00",
  "window_hours": 72,
- "scanned": 15306,
+ "scanned": 14524,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
@@ -905,35 +905,6 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-67261",
-     "headline": "Dell Virtual Storage Integrator for VMware vSphere Client, versions prior to 10.11.1.0, contain(s) an OS Command Injection vulnerability in the IAPI component",
-     "products": [
-      "virtual storage integrator"
-     ],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.02",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.023,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67261",
-     "take": "",
-     "action": ""
-    },
-    {
      "id": "CVE-2026-22742",
      "headline": "Spring AI's spring-ai-bedrock-converse\u00a0contains a Server-Side Request Forgery (SSRF) vulnerability in\u00a0BedrockProxyChatModel\u00a0when processing multimodal messag...",
      "products": [
@@ -1185,6 +1156,33 @@
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40982",
      "take": "",
      "action": ""
+    },
+    {
+     "id": "CVE-2026-42486",
+     "headline": "[This CNA information record relates to multiple CVEs; the text explains which aspects/vulnerabilities correspond to which CVE.]\nXAPI can configure different...",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.4",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.002,
+     "cvss": 9.4,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42486",
+     "take": "",
+     "action": ""
     }
    ],
    "above": 0
@@ -1221,29 +1219,25 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-58073",
-     "headline": "A vulnerability in Veeam Service Provider Console allowing an unauthenticated attacker to impersonate a managed agent andobtain that agent's credentials",
+     "id": "CVE-2026-106076",
+     "headline": "A vulnerability allowing an authenticated organization-transfer peer to inject SQL into the configuration database of the source Veeam Backup for Microsoft 3...",
      "products": [],
-     "score": 40,
+     "score": 39,
      "factors": [
       {
        "label": "Runs in this environment",
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.5",
-       "points": 10
+       "label": "Severity 9.0",
+       "points": 9
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.003,
-     "cvss": 9.5,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58073",
+     "epss": 0.0,
+     "cvss": 9.0,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106076",
      "take": "",
      "action": ""
     },
@@ -1302,56 +1296,25 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-58067",
-     "headline": "A vulnerability in Veeam Service Provider Console allowing an unauthenticated attacker to exhaust host memory and cause adenial of service",
+     "id": "CVE-2026-106077",
+     "headline": "A vulnerability allowing a user with the Veeam Backup for Microsoft 365 Administrator role to read arbitrary files on the backup server with LocalSystem priv...",
      "products": [],
-     "score": 39,
+     "score": 38,
      "factors": [
       {
        "label": "Runs in this environment",
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.7",
-       "points": 9
+       "label": "Severity 8.3",
+       "points": 8
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.004,
-     "cvss": 8.7,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58067",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-58072",
-     "headline": "A vulnerability in Veeam Service Provider Console allowing arbitrary file write on the management server, which can lead to remotecode execution",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.0",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.005,
-     "cvss": 9.0,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58072",
+     "epss": 0.0,
+     "cvss": 8.3,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106077",
      "take": "",
      "action": ""
     },
@@ -1437,56 +1400,48 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-56844",
-     "headline": "A vulnerability in the Veeam Updater component of the Veeam Software Appliance that could allow a local user to elevate their privileges and gain root-level ...",
+     "id": "CVE-2026-105477",
+     "headline": "A vulnerability in Veeam Agent for Linux allows for local privilege escalation",
      "products": [],
-     "score": 38,
+     "score": 37,
      "factors": [
       {
        "label": "Runs in this environment",
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.4",
-       "points": 8
+       "label": "Severity 7.3",
+       "points": 7
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.002,
-     "cvss": 8.4,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56844",
+     "epss": 0.0,
+     "cvss": 7.3,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105477",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2026-58071",
-     "headline": "A vulnerability in Veeam Service Provider Console allowing an unauthenticated attacker to access the proxied appliance API asPortal Administrator during a sh...",
+     "id": "CVE-2026-106078",
+     "headline": "A vulnerability allowing an unauthenticated attacker to bypass REST API authentication with a forged federation token and receive responses from REST API end...",
      "products": [],
-     "score": 38,
+     "score": 37,
      "factors": [
       {
        "label": "Runs in this environment",
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.2",
-       "points": 8
+       "label": "Severity 6.9",
+       "points": 7
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.004,
-     "cvss": 8.2,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58071",
+     "epss": 0.0,
+     "cvss": 6.9,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106078",
      "take": "",
      "action": ""
     },
@@ -1514,6 +1469,33 @@
      "epss": 0.001,
      "cvss": 6.7,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25852",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-32996",
+     "headline": "This vulnerability in Veeam Agent for Microsoft Windows allows for Local Privilege Escalation",
+     "products": [],
+     "score": 37,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.3",
+       "points": 7
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.002,
+     "cvss": 7.3,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32996",
      "take": "",
      "action": ""
     }
@@ -1583,8 +1565,8 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-14551",
-     "headline": "The servereye client (also known as sensorhub, technically ClientAgentContainerService) versions 20.15 and earlier are vulnerable to Local Privilege Escalation",
+     "id": "CVE-2026-111585",
+     "headline": "An integer overflow in the remote-control\nscreen processing component of TeamViewer clients (Full Client, Portable and Remote\nControl App) prior to version 1...",
      "products": [],
      "score": 39,
      "factors": [
@@ -1593,19 +1575,15 @@
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
        "label": "Severity 8.8",
        "points": 9
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.001,
+     "epss": 0.0,
      "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14551",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111585",
      "take": "",
      "action": ""
     },
