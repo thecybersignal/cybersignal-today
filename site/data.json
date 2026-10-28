@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-27T17:46:44+00:00",
+ "generated": "2026-10-28T16:23:58+00:00",
  "window_hours": 72,
- "scanned": 14524,
+ "scanned": 12662,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
@@ -154,86 +154,6 @@
      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
     },
     {
-     "id": "CVE-2026-15409",
-     "headline": "A Server-side request forgery (SSRF) vulnerability has been identified in the SMA1000 Appliance Work Place interface",
-     "products": [
-      "sma6210",
-      "sma6210 firmware",
-      "sma7210",
-      "sma7210 firmware"
-     ],
-     "score": 96,
-     "factors": [
-      {
-       "label": "Listed as actively exploited",
-       "points": 40
-      },
-      {
-       "label": "Used in ransomware campaigns",
-       "points": 15
-      },
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.07",
-       "points": 1
-      },
-      {
-       "label": "Severity 10.0",
-       "points": 10
-      }
-     ],
-     "kev": true,
-     "ransomware": true,
-     "epss": 0.068,
-     "cvss": 10.0,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15409",
-     "take": "",
-     "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
-    },
-    {
-     "id": "CVE-2026-15410",
-     "headline": "Post-authentication improper control of generation of code ('Code Injection') vulnerability has been identified in the SMA1000 Appliance Management Console (...",
-     "products": [
-      "sma6210",
-      "sma6210 firmware",
-      "sma7210",
-      "sma7210 firmware"
-     ],
-     "score": 94,
-     "factors": [
-      {
-       "label": "Listed as actively exploited",
-       "points": 40
-      },
-      {
-       "label": "Used in ransomware campaigns",
-       "points": 15
-      },
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.12",
-       "points": 2
-      },
-      {
-       "label": "Severity 7.2",
-       "points": 7
-      }
-     ],
-     "kev": true,
-     "ransomware": true,
-     "epss": 0.118,
-     "cvss": 7.2,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15410",
-     "take": "",
-     "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
-    },
-    {
      "id": "CVE-2026-0300",
      "headline": "A buffer overflow vulnerability in the User-ID\u2122 Authentication Portal (aka Captive Portal) service of Palo Alto Networks PAN-OS software allows an unauthenti...",
      "products": [
@@ -337,6 +257,39 @@
      "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
     },
     {
+     "id": "CVE-2026-104286",
+     "headline": "An improper limitation of a pathname to a restricted directory ('path traversal') vulnerability in Fortinet FortiMail 8.0.0, FortiMail 7.6.0 through 7.6.5, F...",
+     "products": [
+      "fortimail"
+     ],
+     "score": 81,
+     "factors": [
+      {
+       "label": "Listed as actively exploited",
+       "points": 40
+      },
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.05",
+       "points": 1
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": true,
+     "ransomware": false,
+     "epss": 0.046,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104286",
+     "take": "",
+     "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+    },
+    {
      "id": "CVE-2026-20349",
      "headline": "A vulnerability in the Remote Access SSL VPN service for Cisco Secure Firewall Adaptive Security Appliance (ASA) Software and Cisco Secure Firewall Threat De...",
      "products": [
@@ -427,9 +380,36 @@
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5786",
      "take": "",
      "action": ""
+    },
+    {
+     "id": "CVE-2026-107656",
+     "headline": "An authentication bypass using an alternate path or channel vulnerability in Fortinet FortiSandbox 5.0.0 through 5.0.6, FortiSandbox 4.4.0 through 4.4.9, For...",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.009,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107656",
+     "take": "",
+     "action": ""
     }
    ],
-   "above": 10
+   "above": 9
   },
   "microsoft-smb": {
    "label": "Microsoft-first shop",
@@ -808,15 +788,10 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-9103",
-     "headline": "IBM Langflow OSS 1.0.0 through 1.10.0 could allow a remote attacker to gain unauthorized access due to improper authentication in the /api/v1/login/auto_logi...",
-     "products": [
-      "langflow",
-      "linux kernel",
-      "macos",
-      "windows"
-     ],
-     "score": 41,
+     "id": "CVE-2020-37282",
+     "headline": "office-converter through 1.0.2 contains an OS command injection vulnerability that allows attackers to execute commands by supplying a crafted fileName to ge...",
+     "products": [],
+     "score": 40,
      "factors": [
       {
        "label": "Runs in this environment",
@@ -827,15 +802,15 @@
        "points": 1
       },
       {
-       "label": "Severity 9.8",
-       "points": 10
+       "label": "Severity 9.3",
+       "points": 9
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.032,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9103",
+     "epss": 0.034,
+     "cvss": 9.3,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-37282",
      "take": "",
      "action": ""
     }
@@ -872,35 +847,6 @@
      "epss": 0.011,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22738",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-47865",
-     "headline": "VMware Avi Load Balancer contains an authentication bypass vulnerability",
-     "products": [
-      "vmware avi load balancer"
-     ],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.006,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47865",
      "take": "",
      "action": ""
     },
@@ -1183,6 +1129,35 @@
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42486",
      "take": "",
      "action": ""
+    },
+    {
+     "id": "CVE-2026-47825",
+     "headline": "Spring Cloud Gateway Server forwards the X-Forwarded-For and Forwarded headers from untrusted proxies in certain configuration scenarios",
+     "products": [
+      "spring cloud gateway"
+     ],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.6",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.002,
+     "cvss": 8.6,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47825",
+     "take": "",
+     "action": ""
     }
    ],
    "above": 0
@@ -1191,33 +1166,6 @@
    "label": "Backup & recovery",
    "blurb": "The systems ransomware crews hit before they encrypt anything.",
    "items": [
-    {
-     "id": "CVE-2025-64393",
-     "headline": "This vulnerability in Veeam Backup & Replication allows a Backup Viewer to execute arbitrary code as SYSTEM on the backup server",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.05",
-       "points": 1
-      },
-      {
-       "label": "Severity 9.4",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.052,
-     "cvss": 9.4,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-64393",
-     "take": "",
-     "action": ""
-    },
     {
      "id": "CVE-2026-106076",
      "headline": "A vulnerability allowing an authenticated organization-transfer peer to inject SQL into the configuration database of the source Veeam Backup for Microsoft 3...",
@@ -1229,13 +1177,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
        "label": "Severity 9.0",
        "points": 9
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.004,
      "cvss": 9.0,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106076",
      "take": "",
@@ -1306,13 +1258,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
        "label": "Severity 8.3",
        "points": 8
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.002,
      "cvss": 8.3,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106077",
      "take": "",
@@ -1400,6 +1356,29 @@
      "action": ""
     },
     {
+     "id": "CVE-2025-30414",
+     "headline": "Local privilege escalation due to improper authentication",
+     "products": [],
+     "score": 37,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 7.1",
+       "points": 7
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 7.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-30414",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2026-105477",
      "headline": "A vulnerability in Veeam Agent for Linux allows for local privilege escalation",
      "products": [],
@@ -1410,13 +1389,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
        "label": "Severity 7.3",
        "points": 7
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.001,
      "cvss": 7.3,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105477",
      "take": "",
@@ -1433,13 +1416,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
        "label": "Severity 6.9",
        "points": 7
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.003,
      "cvss": 6.9,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106078",
      "take": "",
@@ -1575,13 +1562,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
        "label": "Severity 8.8",
        "points": 9
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.003,
      "cvss": 8.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111585",
      "take": "",
@@ -1615,98 +1606,9 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-28302",
-     "headline": "SolarWinds Serv-U is affected by an insecure direct object reference (IDOR) vulnerability that can lead to privilege escalation and remote code execution as ...",
-     "products": [
-      "serv-u"
-     ],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.1",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.008,
-     "cvss": 9.1,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28302",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-28304",
-     "headline": "SolarWinds Serv-U is affected by a remote code execution vulnerability that, when exploited, can allow the arbitrary execution of code remotely as root",
-     "products": [
-      "serv-u"
-     ],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.1",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.008,
-     "cvss": 9.1,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28304",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-28305",
-     "headline": "SolarWinds Serv-U is affected by an insecure direct object reference (IDOR) vulnerability that can lead to remote code execution as root",
-     "products": [
-      "serv-u"
-     ],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.1",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.008,
-     "cvss": 9.1,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28305",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-28306",
-     "headline": "SolarWinds Serv-U is affected by a privilege escalation vulnerability that allows a domain administrator to elevate their privileges to a system administrator",
-     "products": [
-      "serv-u"
-     ],
+     "id": "CVE-2026-92372",
+     "headline": "An out-of-bounds write vulnerability in the\nscreen-image decoder of TeamViewer Full Client for Linux and macOS prior to\nversion 15.83 allows a remote attacke...",
+     "products": [],
      "score": 39,
      "factors": [
       {
@@ -1718,25 +1620,25 @@
        "points": 0
       },
       {
-       "label": "Severity 9.1",
+       "label": "Severity 8.8",
        "points": 9
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.005,
-     "cvss": 9.1,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28306",
+     "epss": 0.004,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-92372",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2026-28307",
-     "headline": "SolarWinds Serv-U is affected by a privilege escalation vulnerability that allows a domain user group to be elevated into an administrator group",
+     "id": "CVE-2026-43001",
+     "headline": "An issue was discovered in OpenStack Keystone before 29.0.2",
      "products": [
-      "serv-u"
+      "keystone"
      ],
-     "score": 39,
+     "score": 38,
      "factors": [
       {
        "label": "Runs in this environment",
@@ -1747,54 +1649,23 @@
        "points": 0
       },
       {
-       "label": "Severity 9.1",
-       "points": 9
+       "label": "Severity 7.9",
+       "points": 8
       }
      ],
      "kev": false,
      "ransomware": false,
      "epss": 0.005,
-     "cvss": 9.1,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28307",
+     "cvss": 7.9,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-43001",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2026-28308",
-     "headline": "SolarWinds Serv-U is affected by an insecure direct object reference (IDOR) vulnerability that can lead to remote code execution",
-     "products": [
-      "serv-u"
-     ],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.1",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.008,
-     "cvss": 9.1,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28308",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-28309",
-     "headline": "SolarWinds Serv-U is affected by a broken access control vulnerability that allows a domain administrator to create system administrator accounts",
-     "products": [
-      "serv-u"
-     ],
-     "score": 39,
+     "id": "CVE-2026-47831",
+     "headline": "Use of a cryptographically weak random number generator in the GenerateRandomPassword function in bosh-windows-stemcell-builder allows a remote attacker to b...",
+     "products": [],
+     "score": 38,
      "factors": [
       {
        "label": "Runs in this environment",
@@ -1805,25 +1676,23 @@
        "points": 0
       },
       {
-       "label": "Severity 9.1",
-       "points": 9
+       "label": "Severity 7.7",
+       "points": 8
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.005,
-     "cvss": 9.1,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28309",
+     "epss": 0.003,
+     "cvss": 7.7,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47831",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2026-28310",
-     "headline": "SolarWinds Serv-U is affected by a privilege escalation vulnerability that allows a domain administrator to escalate their user type to that of a system admi...",
-     "products": [
-      "serv-u"
-     ],
-     "score": 39,
+     "id": "CVE-2026-92374",
+     "headline": "A time-of-check time-of-use (TOCTOU) race condition combined with improper symbolic link handling in the privileged helper of TeamViewer Full Client and Host...",
+     "products": [],
+     "score": 38,
      "factors": [
       {
        "label": "Runs in this environment",
@@ -1834,15 +1703,123 @@
        "points": 0
       },
       {
-       "label": "Severity 9.1",
-       "points": 9
+       "label": "Severity 7.8",
+       "points": 8
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.005,
-     "cvss": 9.1,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28310",
+     "epss": 0.001,
+     "cvss": 7.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-92374",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-92375",
+     "headline": "An improper access control vulnerability in\nthe IPC communication between TeamViewer Full Client or Host prior to version\n15.83 and the Remote Management Mon...",
+     "products": [],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.8",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.001,
+     "cvss": 7.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-92375",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-92376",
+     "headline": "Improper authentication in the\ninter-process communication (IPC) mechanism of TeamViewer Remote Management\nMonitoring for Windows prior to version 26.10.1 al...",
+     "products": [],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.8",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.001,
+     "cvss": 7.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-92376",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-92377",
+     "headline": "Improper access control in the Patch\nManagement update mechanism of TeamViewer Full Client and Host for Windows\nprior to version 15.82 allows a local authent...",
+     "products": [],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.8",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.001,
+     "cvss": 7.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-92377",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-111582",
+     "headline": "A DLL loading vulnerability in the\nTeamViewer Remote Management Monitoring installer for Windows prior to version 26.10.1\nallows a local authenticated attack...",
+     "products": [],
+     "score": 37,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.3",
+       "points": 7
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.001,
+     "cvss": 7.3,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111582",
      "take": "",
      "action": ""
     }
@@ -1912,98 +1889,9 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-28302",
-     "headline": "SolarWinds Serv-U is affected by an insecure direct object reference (IDOR) vulnerability that can lead to privilege escalation and remote code execution as ...",
-     "products": [
-      "serv-u"
-     ],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.1",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.008,
-     "cvss": 9.1,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28302",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-28304",
-     "headline": "SolarWinds Serv-U is affected by a remote code execution vulnerability that, when exploited, can allow the arbitrary execution of code remotely as root",
-     "products": [
-      "serv-u"
-     ],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.1",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.008,
-     "cvss": 9.1,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28304",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-28305",
-     "headline": "SolarWinds Serv-U is affected by an insecure direct object reference (IDOR) vulnerability that can lead to remote code execution as root",
-     "products": [
-      "serv-u"
-     ],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.1",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.008,
-     "cvss": 9.1,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28305",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-28306",
-     "headline": "SolarWinds Serv-U is affected by a privilege escalation vulnerability that allows a domain administrator to elevate their privileges to a system administrator",
-     "products": [
-      "serv-u"
-     ],
+     "id": "CVE-2015-20129",
+     "headline": "CrushFTP before 7.3.0 contains a cross-site request forgery vulnerability that allows attackers to perform administrative actions because CSRF protection is ...",
+     "products": [],
      "score": 39,
      "factors": [
       {
@@ -2015,25 +1903,54 @@
        "points": 0
       },
       {
-       "label": "Severity 9.1",
+       "label": "Severity 8.6",
        "points": 9
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.005,
-     "cvss": 9.1,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28306",
+     "epss": 0.002,
+     "cvss": 8.6,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-20129",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2026-28307",
-     "headline": "SolarWinds Serv-U is affected by a privilege escalation vulnerability that allows a domain user group to be elevated into an administrator group",
+     "id": "CVE-2026-5174",
+     "headline": "Improper input validation vulnerability in Progress Software MOVEit Automation allows Privilege Escalation.\n\nThis issue affects MOVEit Automation: from 2025....",
      "products": [
-      "serv-u"
+      "moveit automation"
      ],
      "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.03",
+       "points": 1
+      },
+      {
+       "label": "Severity 7.7",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.033,
+     "cvss": 7.7,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5174",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-10699",
+     "headline": "Missing release of memory after effective lifetime vulnerability in Progress MOVEit Transfer (Custom Reports modules).\n\nThis issue affects MOVEit Transfer: f...",
+     "products": [
+      "moveit transfer"
+     ],
+     "score": 38,
      "factors": [
       {
        "label": "Runs in this environment",
@@ -2044,25 +1961,54 @@
        "points": 0
       },
       {
-       "label": "Severity 9.1",
-       "points": 9
+       "label": "Severity 7.5",
+       "points": 8
       }
      ],
      "kev": false,
      "ransomware": false,
      "epss": 0.005,
-     "cvss": 9.1,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28307",
+     "cvss": 7.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10699",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2026-28308",
-     "headline": "SolarWinds Serv-U is affected by an insecure direct object reference (IDOR) vulnerability that can lead to remote code execution",
+     "id": "CVE-2026-11903",
+     "headline": "Improper neutralization of input during web page generation ('cross-site scripting') vulnerability in Progress MOVEit Transfer (Ad Hoc module).\n\nThis issue a...",
      "products": [
-      "serv-u"
+      "moveit transfer"
      ],
-     "score": 39,
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.0",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.004,
+     "cvss": 8.0,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11903",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-9863",
+     "headline": "Fortra BoKS Manager contains an OS command injection vulnerability in the client upgrade and patch tooling for legacy tar-based client installations",
+     "products": [
+      "core privileged access manager server"
+     ],
+     "score": 38,
      "factors": [
       {
        "label": "Runs in this environment",
@@ -2073,112 +2019,54 @@
        "points": 0
       },
       {
-       "label": "Severity 9.1",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.008,
-     "cvss": 9.1,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28308",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-28309",
-     "headline": "SolarWinds Serv-U is affected by a broken access control vulnerability that allows a domain administrator to create system administrator accounts",
-     "products": [
-      "serv-u"
-     ],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.1",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.005,
-     "cvss": 9.1,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28309",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-28310",
-     "headline": "SolarWinds Serv-U is affected by a privilege escalation vulnerability that allows a domain administrator to escalate their user type to that of a system admi...",
-     "products": [
-      "serv-u"
-     ],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.1",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.005,
-     "cvss": 9.1,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28310",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-28312",
-     "headline": "SolarWinds Serv-U is affected by a privilege escalation vulnerability",
-     "products": [
-      "serv-u"
-     ],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.1",
-       "points": 9
+       "label": "Severity 7.5",
+       "points": 8
       }
      ],
      "kev": false,
      "ransomware": false,
      "epss": 0.006,
-     "cvss": 9.1,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28312",
+     "cvss": 7.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9863",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2026-28313",
-     "headline": "SolarWinds Serv-U is affected by an insecure direct object reference (IDOR) vulnerability that can lead to SMTP hijacking leading to arbitrary account takeover",
+     "id": "CVE-2026-10698",
+     "headline": "Improper Neutralization of Special Elements in Data Query Logic vulnerability in Progress MOVEit Transfer (Custom Reports modules).\n\nThis issue affects MOVEi...",
      "products": [
-      "serv-u"
+      "moveit transfer"
      ],
-     "score": 39,
+     "score": 37,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.2",
+       "points": 7
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.006,
+     "cvss": 7.2,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10698",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-1089",
+     "headline": "User\u2011Controlled HTTP Header in Fortra's GoAnywhere MFT prior to version 7.10.0 allows attackers to trigger a DNS lookup, as well as\u00a0DNS Rebinding and Informa...",
+     "products": [
+      "goanywhere managed file transfer"
+     ],
+     "score": 36,
      "factors": [
       {
        "label": "Runs in this environment",
@@ -2189,15 +2077,94 @@
        "points": 0
       },
       {
-       "label": "Severity 9.1",
-       "points": 9
+       "label": "Severity 6.5",
+       "points": 6
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.002,
+     "cvss": 6.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-1089",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-12163",
+     "headline": "Fortra File Integrity Monitoring (FIM), formerly Tripwire Enterprise, versions prior to 9.4.0.1 contain a stored cross-site scripting (XSS) vulnerability in ...",
+     "products": [
+      "file integrity monitoring"
+     ],
+     "score": 36,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 5.5",
+       "points": 6
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 5.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12163",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-8649",
+     "headline": "Improper Neutralization of Special Elements in Data Query Logic vulnerability in Progress MOVEit Transfer (Custom Reports modules).\n\nThis issue affects MOVEi...",
+     "products": [
+      "moveit transfer"
+     ],
+     "score": 36,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 6.4",
+       "points": 6
       }
      ],
      "kev": false,
      "ransomware": false,
      "epss": 0.005,
-     "cvss": 9.1,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28313",
+     "cvss": 6.4,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8649",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-0972",
+     "headline": "HTML injection is possible in system generated emails in Fortra's GoAnywhere MFT prior to 7.10.0.\n\n\nNote: The title, details, and description of this CVE wer...",
+     "products": [
+      "goanywhere managed file transfer"
+     ],
+     "score": 35,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 5.4",
+       "points": 5
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 5.4,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0972",
      "take": "",
      "action": ""
     }
@@ -2328,6 +2295,33 @@
      "action": ""
     },
     {
+     "id": "CVE-2024-11080",
+     "headline": "The Post Grid and Gutenberg Blocks \u2013 ComboBlocks plugin for WordPress is vulnerable to Unauthenticated Hook Injection in versions 2.2.32 to 2.3.1 via several...",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.008,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-11080",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2026-102649",
      "headline": "Burrito is a Terraform Automation Collaboration Software (TACoS) Kubernetes operator",
      "products": [],
@@ -2351,6 +2345,60 @@
      "epss": 0.005,
      "cvss": 9.9,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102649",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-106013",
+     "headline": "The Jupiter X Core plugin for WordPress is vulnerable to Authentication Bypass via the Twitter/X Social Login handler in all versions up to and including 4.61.0",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.006,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106013",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-109218",
+     "headline": "The Contact Manager plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 9.1.2 via the add_message function",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.006,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109218",
      "take": "",
      "action": ""
     },
@@ -2461,87 +2509,6 @@
      "epss": 0.005,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115806",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-1555",
-     "headline": "The WebStack theme for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the io_img_upload() function in all versions ...",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.01,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-1555",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-15982",
-     "headline": "The Aimogen Pro - All-in-One AI Content Writer, Editor, ChatBot & Automation Toolkit plugin for WordPress is vulnerable to Privilege Escalation in all versio...",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.005,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15982",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-25470",
-     "headline": "Unauthenticated Remote Code Execution (RCE) in ACPT (Pro) - Custom Post Types Plugin for WordPress <= 2.0.47 versions",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 10.0",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.007,
-     "cvss": 10.0,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25470",
      "take": "",
      "action": ""
     }
