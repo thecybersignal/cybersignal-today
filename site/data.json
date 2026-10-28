@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-28T16:23:58+00:00",
+ "generated": "2026-10-28T18:11:02+00:00",
  "window_hours": 72,
- "scanned": 12662,
+ "scanned": 12192,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
@@ -416,6 +416,42 @@
    "blurb": "Windows Server, Exchange, Entra, and the Microsoft 365 estate.",
    "items": [
     {
+     "id": "CVE-2026-111497",
+     "headline": "A buffer overflow vulnerability in the Brotli decoder (c/dec/decode.c) in Google Brotli versions 1.0.3 through 1.2.0 on all platforms allows a remote unauthe...",
+     "products": [
+      "arrow",
+      "brotli",
+      "bun",
+      "p7zip"
+     ],
+     "score": 97,
+     "factors": [
+      {
+       "label": "Listed as actively exploited",
+       "points": 40
+      },
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.88",
+       "points": 18
+      },
+      {
+       "label": "Severity 9.2",
+       "points": 9
+      }
+     ],
+     "kev": true,
+     "ransomware": false,
+     "epss": 0.88,
+     "cvss": 9.2,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111497",
+     "take": "",
+     "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+    },
+    {
      "id": "CVE-2026-45321",
      "headline": "On 2026-05-11, between approximately 19:20 and 19:26 UTC, 84 malicious versions across 42 @tanstack/* packages were published to the npm registry",
      "products": [
@@ -786,36 +822,9 @@
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40372",
      "take": "",
      "action": ""
-    },
-    {
-     "id": "CVE-2020-37282",
-     "headline": "office-converter through 1.0.2 contains an OS command injection vulnerability that allows attackers to execute commands by supplying a crafted fileName to ge...",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.03",
-       "points": 1
-      },
-      {
-       "label": "Severity 9.3",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.034,
-     "cvss": 9.3,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-37282",
-     "take": "",
-     "action": ""
     }
    ],
-   "above": 8
+   "above": 9
   },
   "virtualization": {
    "label": "Virtualization & hypervisor",
@@ -876,114 +885,6 @@
      "epss": 0.004,
      "cvss": 8.6,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22742",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-23559",
-     "headline": "[This CNA information record relates to multiple CVEs; the text explains which aspects/vulnerabilities correspond to which CVE.]\n\n\nXAPI can configure differe...",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.4",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.002,
-     "cvss": 9.4,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23559",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-23560",
-     "headline": "[This CNA information record relates to multiple CVEs; the text explains which aspects/vulnerabilities correspond to which CVE.]\nXAPI can configure different...",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.4",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.002,
-     "cvss": 9.4,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23560",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-23561",
-     "headline": "[This CNA information record relates to multiple CVEs; the text explains which aspects/vulnerabilities correspond to which CVE.]\nXAPI can configure different...",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.4",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.002,
-     "cvss": 9.4,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23561",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-23562",
-     "headline": "[This CNA information record relates to multiple CVEs; the text explains which aspects/vulnerabilities correspond to which CVE.]\nXAPI can configure different...",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.4",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.002,
-     "cvss": 9.4,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23562",
      "take": "",
      "action": ""
     },
@@ -1104,33 +1005,6 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-42486",
-     "headline": "[This CNA information record relates to multiple CVEs; the text explains which aspects/vulnerabilities correspond to which CVE.]\nXAPI can configure different...",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.4",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.002,
-     "cvss": 9.4,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42486",
-     "take": "",
-     "action": ""
-    },
-    {
      "id": "CVE-2026-47825",
      "headline": "Spring Cloud Gateway Server forwards the X-Forwarded-For and Forwarded headers from untrusted proxies in certain configuration scenarios",
      "products": [
@@ -1156,6 +1030,149 @@
      "epss": 0.002,
      "cvss": 8.6,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47825",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-47835",
+     "headline": "In Spring AI Vector Stores, special characters could be used to force the execution of arbitrary queries in Elasticsearch, OpenSearch, and GemFire VectorDB",
+     "products": [
+      "spring ai"
+     ],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.6",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.003,
+     "cvss": 8.6,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47835",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-110111",
+     "headline": "Xen Orchestra before 6.9.0 contains an improper access control vulnerability that allows any authenticated user to become global administrator by abusing the...",
+     "products": [],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.7",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.006,
+     "cvss": 7.7,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110111",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-22743",
+     "headline": "Spring AI's\u00a0spring-ai-neo4j-store\u00a0contains a Cypher injection vulnerability in\u00a0Neo4jVectorFilterExpressionConverter",
+     "products": [
+      "spring ai"
+     ],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.5",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.003,
+     "cvss": 7.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22743",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-22744",
+     "headline": "In\u00a0RedisFilterExpressionConverter\u00a0of\u00a0spring-ai-redis-store, when a user-controlled string is passed as a filter value for a TAG field,\u00a0stringValue()\u00a0inserts ...",
+     "products": [
+      "spring ai"
+     ],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.5",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.003,
+     "cvss": 7.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22744",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-22750",
+     "headline": "When configuring SSL bundles in Spring Cloud Gateway by using the configuration property\u00a0spring.ssl.bundle, the configuration was silently ignored and the de...",
+     "products": [
+      "spring cloud gateway"
+     ],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.5",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.002,
+     "cvss": 7.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22750",
      "take": "",
      "action": ""
     }
@@ -1662,33 +1679,6 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-47831",
-     "headline": "Use of a cryptographically weak random number generator in the GenerateRandomPassword function in bosh-windows-stemcell-builder allows a remote attacker to b...",
-     "products": [],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 7.7",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.003,
-     "cvss": 7.7,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47831",
-     "take": "",
-     "action": ""
-    },
-    {
      "id": "CVE-2026-92374",
      "headline": "A time-of-check time-of-use (TOCTOU) race condition combined with improper symbolic link handling in the privileged helper of TeamViewer Full Client and Host...",
      "products": [],
@@ -1820,6 +1810,33 @@
      "epss": 0.001,
      "cvss": 7.3,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111582",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-111583",
+     "headline": "Improper access control in the installer\nstaging directory used by TeamViewer Full Client and Host prior to version\n15.82 for Windows during installation of ...",
+     "products": [],
+     "score": 37,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.3",
+       "points": 7
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.002,
+     "cvss": 7.3,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111583",
      "take": "",
      "action": ""
     }
@@ -2115,35 +2132,6 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-8649",
-     "headline": "Improper Neutralization of Special Elements in Data Query Logic vulnerability in Progress MOVEit Transfer (Custom Reports modules).\n\nThis issue affects MOVEi...",
-     "products": [
-      "moveit transfer"
-     ],
-     "score": 36,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 6.4",
-       "points": 6
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.005,
-     "cvss": 6.4,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8649",
-     "take": "",
-     "action": ""
-    },
-    {
      "id": "CVE-2026-0972",
      "headline": "HTML injection is possible in system generated emails in Fortra's GoAnywhere MFT prior to 7.10.0.\n\n\nNote: The title, details, and description of this CVE wer...",
      "products": [
@@ -2165,6 +2153,31 @@
      "epss": 0.0,
      "cvss": 5.4,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0972",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-0971",
+     "headline": "An improper session timeout issue in Fortra's GoAnywhere MFT prior to version 7.10.0 results in SAML configured Web Users being redirected to the regular log...",
+     "products": [
+      "goanywhere managed file transfer"
+     ],
+     "score": 34,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 4.3",
+       "points": 4
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 4.3,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0971",
      "take": "",
      "action": ""
     }
