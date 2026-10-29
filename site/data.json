@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-29T16:33:06+00:00",
+ "generated": "2026-10-29T18:16:17+00:00",
  "window_hours": 72,
- "scanned": 8420,
+ "scanned": 7700,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
@@ -301,91 +301,90 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-26083",
-     "headline": "A missing authorization vulnerability in Fortinet FortiSandbox 5.0.0 through 5.0.1, FortiSandbox 4.4.0 through 4.4.8, FortiSandbox Cloud 5.0.2 through 5.0.5,...",
+     "id": "CVE-2026-39815",
+     "headline": "A improper neutralization of special elements used in an sql command ('sql injection') vulnerability in Fortinet FortiDDoS-F 7.2.1 through 7.2.2 may allow at...",
      "products": [
-      "fortisandbox",
-      "fortisandbox cloud",
-      "fortisandbox paas"
+      "fortiddos-f"
      ],
-     "score": 40,
+     "score": 39,
      "factors": [
       {
        "label": "Runs in this environment",
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.01",
+       "label": "Exploit likelihood 0.00",
        "points": 0
       },
       {
-       "label": "Severity 9.8",
-       "points": 10
+       "label": "Severity 8.8",
+       "points": 9
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.007,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-26083",
+     "epss": 0.004,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39815",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2026-44277",
-     "headline": "A improper access control vulnerability in Fortinet FortiAuthenticator 8.0.2, FortiAuthenticator 8.0.0, FortiAuthenticator 6.6.0 through 6.6.8, FortiAuthenti...",
+     "id": "CVE-2026-0204",
+     "headline": "A vulnerability in the access control mechanism of SonicOS may allow certain management interface functions to be accessible under specific conditions",
      "products": [
-      "fortiauthenticator"
+      "nsa 2650",
+      "nsa 2700",
+      "nsa 2800",
+      "nsa 3600"
      ],
-     "score": 40,
+     "score": 38,
      "factors": [
       {
        "label": "Runs in this environment",
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.01",
+       "label": "Exploit likelihood 0.00",
        "points": 0
       },
       {
-       "label": "Severity 9.8",
-       "points": 10
+       "label": "Severity 8.0",
+       "points": 8
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.006,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44277",
+     "epss": 0.004,
+     "cvss": 8.0,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0204",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2026-8043",
-     "headline": "External control of a file name in Ivanti Xtraction before version 2026.2 allows a remote authenticated attacker to read sensitive files and write arbitrary ...",
-     "products": [
-      "xtraction"
-     ],
-     "score": 40,
+     "id": "CVE-2026-106174",
+     "headline": "A improper locking vulnerability in Fortinet FortiOS 8.0.0, FortiOS 7.6.4 through 7.6.6 may allow an unauthenticated attacker with network access to the devi...",
+     "products": [],
+     "score": 38,
      "factors": [
       {
        "label": "Runs in this environment",
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.01",
+       "label": "Exploit likelihood 0.00",
        "points": 0
       },
       {
-       "label": "Severity 9.6",
-       "points": 10
+       "label": "Severity 7.5",
+       "points": 8
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.009,
-     "cvss": 9.6,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8043",
+     "epss": 0.003,
+     "cvss": 7.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106174",
      "take": "",
      "action": ""
     }
@@ -431,46 +430,6 @@
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111497",
      "take": "",
      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
-    },
-    {
-     "id": "CVE-2026-45321",
-     "headline": "On 2026-05-11, between approximately 19:20 and 19:26 UTC, 84 malicious versions across 42 @tanstack/* packages were published to the npm registry",
-     "products": [
-      "agentwork-cli",
-      "supersurkhet\\/cli",
-      "supersurkhet\\/sdk",
-      "taskflow-corp\\/cli"
-     ],
-     "score": 96,
-     "factors": [
-      {
-       "label": "Listed as actively exploited",
-       "points": 40
-      },
-      {
-       "label": "Used in ransomware campaigns",
-       "points": 15
-      },
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.03",
-       "points": 1
-      },
-      {
-       "label": "Severity 9.6",
-       "points": 10
-      }
-     ],
-     "kev": true,
-     "ransomware": true,
-     "epss": 0.033,
-     "cvss": 9.6,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45321",
-     "take": "",
-     "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
     },
     {
      "id": "CVE-2026-32202",
@@ -614,67 +573,6 @@
      "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
     },
     {
-     "id": "CVE-2026-41089",
-     "headline": "Stack-based buffer overflow in Windows Netlogon allows an unauthorized attacker to execute code over a network",
-     "products": [
-      "windows server 2012",
-      "windows server 2016",
-      "windows server 2019",
-      "windows server 2022"
-     ],
-     "score": 56,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.80",
-       "points": 16
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.796,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41089",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-33112",
-     "headline": "Deserialization of untrusted data in Microsoft Office SharePoint allows an authorized attacker to execute code over a network",
-     "products": [
-      "sharepoint server"
-     ],
-     "score": 45,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.31",
-       "points": 6
-      },
-      {
-       "label": "Severity 8.8",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.311,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33112",
-     "take": "",
-     "action": ""
-    },
-    {
      "id": "CVE-2026-40372",
      "headline": "Improper verification of cryptographic signature in ASP.NET Core allows an unauthorized attacker to elevate privileges over a network",
      "products": [
@@ -700,33 +598,6 @@
      "epss": 0.112,
      "cvss": 9.1,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40372",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2020-37282",
-     "headline": "office-converter through 1.0.2 contains an OS command injection vulnerability that allows attackers to execute commands by supplying a crafted fileName to ge...",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.03",
-       "points": 1
-      },
-      {
-       "label": "Severity 9.3",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.034,
-     "cvss": 9.3,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-37282",
      "take": "",
      "action": ""
     },
@@ -783,9 +654,129 @@
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115905",
      "take": "",
      "action": ""
+    },
+    {
+     "id": "CVE-2026-118310",
+     "headline": "Improper input validation in Views in Google Chrome on on Windows prior to 156.0.8078.73 allowed a remote attacker to potentially execute arbitrary code outs...",
+     "products": [
+      "chrome",
+      "windows"
+     ],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.6",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.003,
+     "cvss": 9.6,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118310",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-21515",
+     "headline": "Exposure of sensitive information to an unauthorized actor in Azure IOT Central allows an authorized attacker to elevate privileges over a network",
+     "products": [
+      "azure iot central"
+     ],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.9",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.007,
+     "cvss": 9.9,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21515",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-24303",
+     "headline": "Improper certificate validation in Microsoft Partner Center allows an unauthorized attacker to elevate privileges over a network",
+     "products": [
+      "partner center"
+     ],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.6",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.004,
+     "cvss": 9.6,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24303",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-27303",
+     "headline": "Adobe Connect versions 2025.3, 12.10 and earlier are affected by a Deserialization of Untrusted Data vulnerability that could result in arbitrary code execut...",
+     "products": [
+      "connect",
+      "connect desktop application",
+      "macos",
+      "windows"
+     ],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.6",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.006,
+     "cvss": 9.6,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27303",
+     "take": "",
+     "action": ""
     }
    ],
-   "above": 6
+   "above": 5
   },
   "virtualization": {
    "label": "Virtualization & hypervisor",
@@ -794,7 +785,12 @@
     {
      "id": "CVE-2026-41709",
      "headline": "VMware ESX contains an insufficient logging vulnerability.\u00a0A malicious administrator could exploit this issue to perform certain operations without them bein...",
-     "products": [],
+     "products": [
+      "cloud foundation",
+      "esxi",
+      "telco cloud platform",
+      "vsphere foundation"
+     ],
      "score": 73,
      "factors": [
       {
