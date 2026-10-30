@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-29T18:16:17+00:00",
+ "generated": "2026-10-30T16:24:47+00:00",
  "window_hours": 72,
- "scanned": 7700,
+ "scanned": 5931,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
@@ -81,108 +81,6 @@
      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
     },
     {
-     "id": "CVE-2026-39808",
-     "headline": "A improper neutralization of special elements used in an os command ('os command injection') vulnerability in Fortinet FortiSandbox 4.4.0 through 4.4.8 may a...",
-     "products": [
-      "fortisandbox"
-     ],
-     "score": 99,
-     "factors": [
-      {
-       "label": "Listed as actively exploited",
-       "points": 40
-      },
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.93",
-       "points": 19
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": true,
-     "ransomware": false,
-     "epss": 0.932,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39808",
-     "take": "",
-     "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
-    },
-    {
-     "id": "CVE-2026-0300",
-     "headline": "A buffer overflow vulnerability in the User-ID\u2122 Authentication Portal (aka Captive Portal) service of Palo Alto Networks PAN-OS software allows an unauthenti...",
-     "products": [
-      "pa-1410",
-      "pa-1420",
-      "pa-3410",
-      "pa-3420"
-     ],
-     "score": 87,
-     "factors": [
-      {
-       "label": "Listed as actively exploited",
-       "points": 40
-      },
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.42",
-       "points": 8
-      },
-      {
-       "label": "Severity 9.3",
-       "points": 9
-      }
-     ],
-     "kev": true,
-     "ransomware": false,
-     "epss": 0.417,
-     "cvss": 9.3,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0300",
-     "take": "",
-     "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable. Until the vendor releases an official fix, the following workaround should be implemented:  - Restrict User-ID Authentication Portal access to only trusted zones.  - Disable User-ID Authentication Portal if not required. 5/13/2026: Palo Alto has released a variety of patches. If these are relevant to your environment, please apply the designated patch."
-    },
-    {
-     "id": "CVE-2026-6973",
-     "headline": "An Improper Input Validation in Ivanti EPMM\u00a0before\u00a0versions 12.6.1.1, 12.7.0.1, and 12.8.0.1\u00a0allows\u00a0a remotely authenticated user with\u00a0administrative access ...",
-     "products": [
-      "endpoint manager mobile"
-     ],
-     "score": 84,
-     "factors": [
-      {
-       "label": "Listed as actively exploited",
-       "points": 40
-      },
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.34",
-       "points": 7
-      },
-      {
-       "label": "Severity 7.2",
-       "points": 7
-      }
-     ],
-     "kev": true,
-     "ransomware": false,
-     "epss": 0.345,
-     "cvss": 7.2,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6973",
-     "take": "",
-     "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
-    },
-    {
      "id": "CVE-2026-104286",
      "headline": "An improper limitation of a pathname to a restricted directory ('path traversal') vulnerability in Fortinet FortiMail 8.0.0 through 8.0.1, FortiMail 7.6.0 th...",
      "products": [
@@ -216,68 +114,108 @@
      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
     },
     {
-     "id": "CVE-2026-39813",
-     "headline": "A path traversal: '../filedir' vulnerability in Fortinet FortiSandbox 5.0.0 through 5.0.5, FortiSandbox 4.4.0 through 4.4.8 may allow attacker to escalation ...",
+     "id": "CVE-2026-76418",
+     "headline": "A vulnerability in the Remote Access SSL VPN service of Cisco Secure Firewall Adaptive Security Appliance (ASA) Software and Cisco Secure Firewall Threat Def...",
      "products": [
-      "fortisandbox"
+      "adaptive security appliance software",
+      "secure firewall threat defense"
      ],
-     "score": 44,
+     "score": 79,
      "factors": [
+      {
+       "label": "Listed as actively exploited",
+       "points": 40
+      },
       {
        "label": "Runs in this environment",
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.22",
-       "points": 4
+       "label": "Exploit likelihood 0.01",
+       "points": 0
       },
       {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.222,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39813",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-5786",
-     "headline": "An Improper Access Control vulnerability in Ivanti EPMM before versions 12.6.1.1, 12.7.0.1, and 12.8.0.1 allows a remote authenticated attacker to gain admin...",
-     "products": [
-      "endpoint manager mobile"
-     ],
-     "score": 41,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.11",
-       "points": 2
-      },
-      {
-       "label": "Severity 8.8",
+       "label": "Severity 8.6",
        "points": 9
       }
      ],
+     "kev": true,
+     "ransomware": false,
+     "epss": 0.009,
+     "cvss": 8.6,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76418",
+     "take": "",
+     "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+    },
+    {
+     "id": "CVE-2023-23783",
+     "headline": "A use of externally-controlled format string in Fortinet FortiWeb version 7.0.0 through 7.0.1, FortiWeb 6.4 all versions allows attacker to execute unauthori...",
+     "products": [
+      "fortiweb"
+     ],
+     "score": 37,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 6.7",
+       "points": 7
+      }
+     ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.112,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5786",
+     "epss": 0.002,
+     "cvss": 6.7,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-23783",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2026-107656",
-     "headline": "An authentication bypass using an alternate path or channel vulnerability in Fortinet FortiSandbox 5.0.0 through 5.0.6, FortiSandbox 4.4.0 through 4.4.9, For...",
-     "products": [],
-     "score": 40,
+     "id": "CVE-2023-46718",
+     "headline": "A stack-based buffer overflow in Fortinet FortiOS version 7.4.0 through 7.4.1 and 7.2.0 through 7.2.7 and 7.0.0 through 7.0.12 and 6.4.6 through 6.4.15 and 6...",
+     "products": [
+      "fortios",
+      "fortiproxy"
+     ],
+     "score": 37,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 6.7",
+       "points": 7
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.002,
+     "cvss": 6.7,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-46718",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2024-50571",
+     "headline": "A heap-based buffer overflow vulnerability in Fortinet FortiAnalyzer 7.6.0 through 7.6.2, FortiAnalyzer 7.4.0 through 7.4.5, FortiAnalyzer 7.2.0 through 7.2....",
+     "products": [
+      "fortianalyzer",
+      "fortianalyzer cloud",
+      "fortimanager",
+      "fortimanager cloud"
+     ],
+     "score": 37,
      "factors": [
       {
        "label": "Runs in this environment",
@@ -288,84 +226,23 @@
        "points": 0
       },
       {
-       "label": "Severity 9.8",
-       "points": 10
+       "label": "Severity 7.2",
+       "points": 7
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.009,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107656",
+     "epss": 0.005,
+     "cvss": 7.2,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-50571",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2026-39815",
-     "headline": "A improper neutralization of special elements used in an sql command ('sql injection') vulnerability in Fortinet FortiDDoS-F 7.2.1 through 7.2.2 may allow at...",
-     "products": [
-      "fortiddos-f"
-     ],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.8",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.004,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39815",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-0204",
-     "headline": "A vulnerability in the access control mechanism of SonicOS may allow certain management interface functions to be accessible under specific conditions",
-     "products": [
-      "nsa 2650",
-      "nsa 2700",
-      "nsa 2800",
-      "nsa 3600"
-     ],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.0",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.004,
-     "cvss": 8.0,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0204",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-106174",
-     "headline": "A improper locking vulnerability in Fortinet FortiOS 8.0.0, FortiOS 7.6.4 through 7.6.6 may allow an unauthenticated attacker with network access to the devi...",
+     "id": "CVE-2026-111357",
+     "headline": "Ivanti Connect Secure 22.8R2.4 mishandles the manner in which the dsinvoked broker trusts DSCache configuration data, leading to privilege escalation to root...",
      "products": [],
-     "score": 38,
+     "score": 37,
      "factors": [
       {
        "label": "Runs in this environment",
@@ -376,20 +253,134 @@
        "points": 0
       },
       {
-       "label": "Severity 7.5",
-       "points": 8
+       "label": "Severity 7.0",
+       "points": 7
       }
      ],
      "kev": false,
      "ransomware": false,
      "epss": 0.003,
-     "cvss": 7.5,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106174",
+     "cvss": 7.0,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111357",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-23705",
+     "headline": "An Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability [CWE-89] vulnerability in Fortinet FortiAnalyzer 7.6.0 ...",
+     "products": [],
+     "score": 37,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.2",
+       "points": 7
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.003,
+     "cvss": 7.2,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23705",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-39814",
+     "headline": "Multiple Relative Path Traversal vulnerabilities [CWE-23] vulnerability in Fortinet FortiWeb 8.0.0 through 8.0.2, FortiWeb 7.6.0 through 7.6.6, FortiWeb 7.4....",
+     "products": [
+      "fortiweb"
+     ],
+     "score": 37,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 6.7",
+       "points": 7
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.001,
+     "cvss": 6.7,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39814",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-59837",
+     "headline": "A stack-based buffer overflow vulnerability in Fortinet FortiOS 7.4.0 through 7.4.1, FortiOS 7.2 all versions, FortiOS 7.0 all versions, FortiOS 6.4 all vers...",
+     "products": [
+      "fortios",
+      "fortipam",
+      "fortiproxy"
+     ],
+     "score": 37,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 6.6",
+       "points": 7
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.007,
+     "cvss": 6.6,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59837",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-84387",
+     "headline": "An Improper Neutralization of Special Elements used in a Command ('Command Injection') vulnerability [CWE-77] vulnerability in Fortinet FortiSandbox 5.2.0, F...",
+     "products": [],
+     "score": 37,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.02",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.2",
+       "points": 7
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.016,
+     "cvss": 7.2,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84387",
      "take": "",
      "action": ""
     }
    ],
-   "above": 6
+   "above": 4
   },
   "microsoft-smb": {
    "label": "Microsoft-first shop",
@@ -432,75 +423,6 @@
      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
     },
     {
-     "id": "CVE-2026-32202",
-     "headline": "Protection mechanism failure in Windows Shell allows an unauthorized attacker to perform spoofing over a network",
-     "products": [
-      "windows 10 1607",
-      "windows 10 1809",
-      "windows 10 21h2",
-      "windows 10 22h2"
-     ],
-     "score": 88,
-     "factors": [
-      {
-       "label": "Listed as actively exploited",
-       "points": 40
-      },
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.71",
-       "points": 14
-      },
-      {
-       "label": "Severity 4.3",
-       "points": 4
-      }
-     ],
-     "kev": true,
-     "ransomware": false,
-     "epss": 0.709,
-     "cvss": 4.3,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32202",
-     "take": "",
-     "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
-    },
-    {
-     "id": "CVE-2026-32201",
-     "headline": "Improper input validation in Microsoft Office SharePoint allows an unauthorized attacker to perform spoofing over a network",
-     "products": [
-      "sharepoint server"
-     ],
-     "score": 85,
-     "factors": [
-      {
-       "label": "Listed as actively exploited",
-       "points": 40
-      },
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.43",
-       "points": 9
-      },
-      {
-       "label": "Severity 6.5",
-       "points": 6
-      }
-     ],
-     "kev": true,
-     "ransomware": false,
-     "epss": 0.434,
-     "cvss": 6.5,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32201",
-     "take": "",
-     "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
-    },
-    {
      "id": "CVE-2026-96951",
      "headline": "Improper neutralization of special elements used in a command ('command injection') in Windows Shell allows an unauthorized attacker to bypass a security fea...",
      "products": [
@@ -537,125 +459,6 @@
      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
     },
     {
-     "id": "CVE-2026-34621",
-     "headline": "Acrobat Reader versions 24.001.30356, 26.001.21367 and earlier are affected by an Improperly Controlled Modification of Object Prototype Attributes ('Prototy...",
-     "products": [
-      "acrobat",
-      "acrobat dc",
-      "acrobat reader dc",
-      "macos"
-     ],
-     "score": 80,
-     "factors": [
-      {
-       "label": "Listed as actively exploited",
-       "points": 40
-      },
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.07",
-       "points": 1
-      },
-      {
-       "label": "Severity 8.6",
-       "points": 9
-      }
-     ],
-     "kev": true,
-     "ransomware": false,
-     "epss": 0.072,
-     "cvss": 8.6,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34621",
-     "take": "",
-     "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
-    },
-    {
-     "id": "CVE-2026-40372",
-     "headline": "Improper verification of cryptographic signature in ASP.NET Core allows an unauthorized attacker to elevate privileges over a network",
-     "products": [
-      "asp.net core"
-     ],
-     "score": 41,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.11",
-       "points": 2
-      },
-      {
-       "label": "Severity 9.1",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.112,
-     "cvss": 9.1,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40372",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-110063",
-     "headline": "Improper link resolution before file access ('link following') in VM Inspector for Azure Virtual Machines allows an unauthorized attacker to elevate privileg...",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 10.0",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.009,
-     "cvss": 10.0,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110063",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-115905",
-     "headline": "zip is a zip library for Rust that supports reading and writing simple ZIP files",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 10.0",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.003,
-     "cvss": 10.0,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115905",
-     "take": "",
-     "action": ""
-    },
-    {
      "id": "CVE-2026-118310",
      "headline": "Improper input validation in Views in Google Chrome on on Windows prior to 156.0.8078.73 allowed a remote attacker to potentially execute arbitrary code outs...",
      "products": [
@@ -686,10 +489,13 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-21515",
-     "headline": "Exposure of sensitive information to an unauthorized actor in Azure IOT Central allows an authorized attacker to elevate privileges over a network",
+     "id": "CVE-2026-70147",
+     "headline": "Heap-based buffer overflow in Microsoft PostScript Printer Driver allows an unauthorized attacker to execute code over a network",
      "products": [
-      "azure iot central"
+      "windows 10 1607",
+      "windows 10 1809",
+      "windows 10 21h2",
+      "windows 10 22h2"
      ],
      "score": 40,
      "factors": [
@@ -702,55 +508,26 @@
        "points": 0
       },
       {
-       "label": "Severity 9.9",
+       "label": "Severity 9.8",
        "points": 10
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.007,
-     "cvss": 9.9,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21515",
+     "epss": 0.011,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70147",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2026-24303",
-     "headline": "Improper certificate validation in Microsoft Partner Center allows an unauthorized attacker to elevate privileges over a network",
+     "id": "CVE-2026-70153",
+     "headline": "Heap-based buffer overflow in Microsoft PostScript Printer Driver allows an unauthorized attacker to execute code over a network",
      "products": [
-      "partner center"
-     ],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.6",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.004,
-     "cvss": 9.6,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24303",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-27303",
-     "headline": "Adobe Connect versions 2025.3, 12.10 and earlier are affected by a Deserialization of Untrusted Data vulnerability that could result in arbitrary code execut...",
-     "products": [
-      "connect",
-      "connect desktop application",
-      "macos",
-      "windows"
+      "windows 10 1607",
+      "windows 10 1809",
+      "windows 10 21h2",
+      "windows 10 22h2"
      ],
      "score": 40,
      "factors": [
@@ -763,20 +540,244 @@
        "points": 0
       },
       {
-       "label": "Severity 9.6",
+       "label": "Severity 9.8",
        "points": 10
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.006,
-     "cvss": 9.6,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27303",
+     "epss": 0.011,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70153",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-70157",
+     "headline": "Heap-based buffer overflow in Windows System Information Console allows an unauthorized attacker to execute code over a network",
+     "products": [
+      "windows 10 1607",
+      "windows 10 1809",
+      "windows 10 21h2",
+      "windows 10 22h2"
+     ],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.011,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70157",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-83517",
+     "headline": "Heap-based buffer overflow in Microsoft Windows Media Foundation allows an unauthorized attacker to execute code over a network",
+     "products": [
+      "windows 10 1607",
+      "windows 10 1809",
+      "windows 10 21h2",
+      "windows 10 22h2"
+     ],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.011,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-83517",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-83519",
+     "headline": "Heap-based buffer overflow in Windows Error Reporting allows an unauthorized attacker to execute code over a network",
+     "products": [
+      "windows 10 1607",
+      "windows 10 1809",
+      "windows 10 21h2",
+      "windows 10 22h2"
+     ],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.011,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-83519",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-83578",
+     "headline": "Integer underflow (wrap or wraparound) in Windows PowerShell allows an unauthorized attacker to execute code over a network",
+     "products": [
+      "windows 10 1607",
+      "windows 10 1809",
+      "windows 10 21h2",
+      "windows 10 22h2"
+     ],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.011,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-83578",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-83693",
+     "headline": "Heap-based buffer overflow in Windows Error Reporting allows an unauthorized attacker to execute code over a network",
+     "products": [
+      "windows 10 1607",
+      "windows 10 1809",
+      "windows 10 21h2",
+      "windows 10 22h2"
+     ],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.011,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-83693",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-83748",
+     "headline": "Heap-based buffer overflow in Windows Error Reporting allows an unauthorized attacker to execute code over a network",
+     "products": [
+      "windows 10 1607",
+      "windows 10 1809",
+      "windows 10 21h2",
+      "windows 10 22h2"
+     ],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.009,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-83748",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-83910",
+     "headline": "Out-of-bounds write in RPC Runtime allows an unauthorized attacker to execute code over a network",
+     "products": [
+      "windows 10 1607",
+      "windows 10 1809",
+      "windows 10 21h2",
+      "windows 10 22h2"
+     ],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.011,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-83910",
      "take": "",
      "action": ""
     }
    ],
-   "above": 5
+   "above": 2
   },
   "virtualization": {
    "label": "Virtualization & hypervisor",
@@ -812,17 +813,17 @@
      ],
      "kev": true,
      "ransomware": false,
-     "epss": 0.008,
+     "epss": 0.007,
      "cvss": 2.7,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41709",
      "take": "",
      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
     },
     {
-     "id": "CVE-2026-22738",
-     "headline": "In Spring AI, a SpEL injection vulnerability exists in\u00a0SimpleVectorStore\u00a0when a user-supplied value is used as a filter expression key",
+     "id": "CVE-2024-53177",
+     "headline": "In the Linux kernel, the following vulnerability has been resolved:\n\nsmb: prevent use-after-free due to open_cached_dir error paths\n\nIf open_cached_dir() enc...",
      "products": [
-      "spring ai"
+      "linux kernel"
      ],
      "score": 40,
      "factors": [
@@ -841,48 +842,19 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.011,
+     "epss": 0.006,
      "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22738",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-53177",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2026-22742",
-     "headline": "Spring AI's spring-ai-bedrock-converse\u00a0contains a Server-Side Request Forgery (SSRF) vulnerability in\u00a0BedrockProxyChatModel\u00a0when processing multimodal messag...",
+     "id": "CVE-2024-53178",
+     "headline": "In the Linux kernel, the following vulnerability has been resolved:\n\nsmb: Don't leak cfid when reconnect races with open_cached_dir\n\nopen_cached_dir() may ei...",
      "products": [
-      "spring ai"
+      "linux kernel"
      ],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.6",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.004,
-     "cvss": 8.6,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22742",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-25199",
-     "headline": "Instances deployed via the Proxmox extension allow unauthorized access to instances belonging to other tenants.\n\n\n\n\nThis issue affects Apache CloudStack: fro...",
-     "products": [
-      "cloudstack"
-     ],
-     "score": 39,
+     "score": 38,
      "factors": [
       {
        "label": "Runs in this environment",
@@ -893,245 +865,38 @@
        "points": 0
       },
       {
-       "label": "Severity 9.1",
-       "points": 9
+       "label": "Severity 7.5",
+       "points": 8
       }
      ],
      "kev": false,
      "ransomware": false,
      "epss": 0.005,
-     "cvss": 9.1,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25199",
+     "cvss": 7.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-53178",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2026-40967",
-     "headline": "In Spring AI, various FilterExpressionConverter implementations accept a filter expression object and translate them to specific vector store query languages",
-     "products": [
-      "spring ai"
-     ],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.6",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.004,
-     "cvss": 8.6,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40967",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-40978",
-     "headline": "SQL injection vulnerability in Spring AI's `CosmosDBVectorStore` allows attackers to execute arbitrary SQL queries via crafted document IDs.\n\nAffected versio...",
-     "products": [
-      "spring ai"
-     ],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.8",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.003,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40978",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-40982",
-     "headline": "Spring Cloud Config allows applications to serve arbitrary text and binary files through the spring-cloud-config-server module",
-     "products": [
-      "spring cloud config"
-     ],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.1",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.007,
-     "cvss": 9.1,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40982",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-110111",
-     "headline": "Xen Orchestra before 6.9.0 contains an improper access control vulnerability that allows any authenticated user to become global administrator by abusing the...",
+     "id": "CVE-2026-81472",
+     "headline": "Dell iDRAC Service Module (iSM) for Windows, Dell iDRAC Service Module (iSM) for Linux, and Dell iDRAC Service Module (iSM) for ESXi, versions prior to 6.1.1...",
      "products": [],
-     "score": 38,
+     "score": 34,
      "factors": [
       {
        "label": "Runs in this environment",
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 7.7",
-       "points": 8
+       "label": "Severity 4.2",
+       "points": 4
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.006,
-     "cvss": 7.7,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110111",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-22743",
-     "headline": "Spring AI's\u00a0spring-ai-neo4j-store\u00a0contains a Cypher injection vulnerability in\u00a0Neo4jVectorFilterExpressionConverter",
-     "products": [
-      "spring ai"
-     ],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 7.5",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.003,
-     "cvss": 7.5,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22743",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-22744",
-     "headline": "In\u00a0RedisFilterExpressionConverter\u00a0of\u00a0spring-ai-redis-store, when a user-controlled string is passed as a filter value for a TAG field,\u00a0stringValue()\u00a0inserts ...",
-     "products": [
-      "spring ai"
-     ],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 7.5",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.003,
-     "cvss": 7.5,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22744",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-22750",
-     "headline": "When configuring SSL bundles in Spring Cloud Gateway by using the configuration property\u00a0spring.ssl.bundle, the configuration was silently ignored and the de...",
-     "products": [
-      "spring cloud gateway"
-     ],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 7.5",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.002,
-     "cvss": 7.5,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22750",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-22753",
-     "headline": "Vulnerability in Spring Spring Security",
-     "products": [
-      "spring security"
-     ],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 7.5",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.002,
-     "cvss": 7.5,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22753",
+     "epss": 0.0,
+     "cvss": 4.2,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81472",
      "take": "",
      "action": ""
     }
@@ -1142,6 +907,33 @@
    "label": "Backup & recovery",
    "blurb": "The systems ransomware crews hit before they encrypt anything.",
    "items": [
+    {
+     "id": "CVE-2023-22793",
+     "headline": "A vulnerability allowing an unauthenticated attacker to perform remote code execution (RCE) on servers running the Veeam Virtualization Extensions service of...",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.3",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.005,
+     "cvss": 9.3,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-22793",
+     "take": "",
+     "action": ""
+    },
     {
      "id": "CVE-2026-106076",
      "headline": "A vulnerability allowing an authenticated organization-transfer peer to inject SQL into the configuration database of the source Veeam Backup for Microsoft 3...",
@@ -1170,6 +962,60 @@
      "action": ""
     },
     {
+     "id": "CVE-2026-107238",
+     "headline": "A vulnerability allowing an authenticated domain user to perform remote code execution (RCE) as the LocalSystem account on servers running the Veeam Manageme...",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.7",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.004,
+     "cvss": 8.7,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107238",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-107239",
+     "headline": "A vulnerability allowing a member of the Veeam Virtualization Extensions Users group to perform remote code execution (RCE) on servers running the Veeam Mana...",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.006,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107239",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2026-106077",
      "headline": "A vulnerability allowing a user with the Veeam Backup for Microsoft 365 Administrator role to read arbitrary files on the backup server with LocalSystem priv...",
      "products": [],
@@ -1193,87 +1039,6 @@
      "epss": 0.002,
      "cvss": 8.3,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106077",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-33092",
-     "headline": "Local privilege escalation due to improper handling of environment variables",
-     "products": [],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 7.8",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.002,
-     "cvss": 7.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33092",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-41220",
-     "headline": "Local privilege escalation due to improper input validation",
-     "products": [],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 7.8",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.001,
-     "cvss": 7.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41220",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-41952",
-     "headline": "Local privilege escalation due to improper input validation",
-     "products": [],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 7.8",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.001,
-     "cvss": 7.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41952",
      "take": "",
      "action": ""
     },
@@ -1359,33 +1124,6 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-25852",
-     "headline": "Local privilege escalation due to DLL hijacking vulnerability",
-     "products": [],
-     "score": 37,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 6.7",
-       "points": 7
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.001,
-     "cvss": 6.7,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25852",
-     "take": "",
-     "action": ""
-    },
-    {
      "id": "CVE-2026-87102",
      "headline": "Sensitive information disclosure and manipulation due to improper token validation",
      "products": [],
@@ -1465,6 +1203,29 @@
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-87880",
      "take": "",
      "action": ""
+    },
+    {
+     "id": "CVE-2026-87099",
+     "headline": "Cross-site scripting (XSS) vulnerability due to improper input validation",
+     "products": [],
+     "score": 36,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 5.7",
+       "points": 6
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 5.7,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-87099",
+     "take": "",
+     "action": ""
     }
    ],
    "above": 0
@@ -1501,33 +1262,6 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-23751",
-     "headline": "Kofax Capture, now referred to as Tungsten Capture, version 6.0.0.0 (other versions may be affected) exposes a deprecated .NET Remoting HTTP channel on port ...",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.3",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.009,
-     "cvss": 9.3,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23751",
-     "take": "",
-     "action": ""
-    },
-    {
      "id": "CVE-2026-92372",
      "headline": "An out-of-bounds write vulnerability in the\nscreen-image decoder of TeamViewer Full Client for Linux and macOS prior to\nversion 15.83 allows a remote attacke...",
      "products": [],
@@ -1555,11 +1289,9 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-43001",
-     "headline": "An issue was discovered in OpenStack Keystone before 29.0.2",
-     "products": [
-      "keystone"
-     ],
+     "id": "CVE-2026-107020",
+     "headline": "An issue in the activity.LoadLinkLaterActivity component of FeedEx / Handy News Reader versionCode 116 allows attackers to force victim users into fetching a...",
+     "products": [],
      "score": 38,
      "factors": [
       {
@@ -1567,19 +1299,19 @@
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.00",
+       "label": "Exploit likelihood 0.01",
        "points": 0
       },
       {
-       "label": "Severity 7.9",
+       "label": "Severity 7.5",
        "points": 8
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.005,
-     "cvss": 7.9,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-43001",
+     "epss": 0.006,
+     "cvss": 7.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107020",
      "take": "",
      "action": ""
     },
@@ -1771,35 +1503,6 @@
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111584",
      "take": "",
      "action": ""
-    },
-    {
-     "id": "CVE-2026-6066",
-     "headline": "ConnectWise has released a security update for ConnectWise Automate\u2122 that addresses a behavior in the ConnectWise Automate Solution Center where certain clie...",
-     "products": [
-      "automate"
-     ],
-     "score": 37,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 7.1",
-       "points": 7
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.001,
-     "cvss": 7.1,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6066",
-     "take": "",
-     "action": ""
     }
    ],
    "above": 0
@@ -1808,35 +1511,6 @@
    "label": "Managed file transfer",
    "blurb": "The category with the worst mass-extortion track record in the business.",
    "items": [
-    {
-     "id": "CVE-2026-4670",
-     "headline": "Authentication bypass by primary weakness vulnerability in Progress Software MOVEit Automation allows Authentication Bypass.\n\nThis issue affects MOVEit Autom...",
-     "products": [
-      "moveit automation"
-     ],
-     "score": 41,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.05",
-       "points": 1
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.05,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-4670",
-     "take": "",
-     "action": ""
-    },
     {
      "id": "CVE-2015-20129",
      "headline": "CrushFTP before 7.3.0 contains a cross-site request forgery vulnerability that allows attackers to perform administrative actions because CSRF protection is ...",
@@ -1861,89 +1535,6 @@
      "epss": 0.002,
      "cvss": 8.6,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-20129",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-5174",
-     "headline": "Improper input validation vulnerability in Progress Software MOVEit Automation allows Privilege Escalation.\n\nThis issue affects MOVEit Automation: from 2025....",
-     "products": [
-      "moveit automation"
-     ],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.03",
-       "points": 1
-      },
-      {
-       "label": "Severity 7.7",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.033,
-     "cvss": 7.7,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5174",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-1089",
-     "headline": "User\u2011Controlled HTTP Header in Fortra's GoAnywhere MFT prior to version 7.10.0 allows attackers to trigger a DNS lookup, as well as\u00a0DNS Rebinding and Informa...",
-     "products": [
-      "goanywhere managed file transfer"
-     ],
-     "score": 36,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 6.5",
-       "points": 6
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.002,
-     "cvss": 6.5,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-1089",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-0972",
-     "headline": "HTML injection is possible in system generated emails in Fortra's GoAnywhere MFT prior to 7.10.0.\n\n\nNote: The title, details, and description of this CVE wer...",
-     "products": [
-      "goanywhere managed file transfer"
-     ],
-     "score": 35,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Severity 5.4",
-       "points": 5
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.0,
-     "cvss": 5.4,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0972",
      "take": "",
      "action": ""
     }
@@ -1991,31 +1582,37 @@
      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
     },
     {
-     "id": "CVE-2026-0740",
-     "headline": "The Ninja Forms - File Uploads plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the 'NF_FU_AJAX_Controller...",
-     "products": [],
-     "score": 53,
+     "id": "CVE-2026-97229",
+     "headline": "GitLab has remediated an issue in GitLab CE/EE affecting all versions from 19.2 before 19.2.8, 19.3 before 19.3.5, and 19.4 before 19.4.2 that, under certain...",
+     "products": [
+      "gitlab"
+     ],
+     "score": 85,
      "factors": [
+      {
+       "label": "Listed as actively exploited",
+       "points": 40
+      },
       {
        "label": "Runs in this environment",
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.63",
-       "points": 13
+       "label": "Exploit likelihood 0.27",
+       "points": 5
       },
       {
-       "label": "Severity 9.8",
+       "label": "Severity 10.0",
        "points": 10
       }
      ],
-     "kev": false,
+     "kev": true,
      "ransomware": false,
-     "epss": 0.629,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0740",
+     "epss": 0.266,
+     "cvss": 10.0,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97229",
      "take": "",
-     "action": ""
+     "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
     },
     {
      "id": "CVE-2024-11080",
@@ -2045,8 +1642,8 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-102649",
-     "headline": "Burrito is a Terraform Automation Collaboration Software (TACoS) Kubernetes operator",
+     "id": "CVE-2026-103039",
+     "headline": "The Gravity Forms plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 3.1.2 via a Post Custom Field whose input ...",
      "products": [],
      "score": 40,
      "factors": [
@@ -2055,19 +1652,19 @@
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.00",
+       "label": "Exploit likelihood 0.01",
        "points": 0
       },
       {
-       "label": "Severity 9.9",
+       "label": "Severity 9.8",
        "points": 10
       }
      ],
      "kev": false,
      "ransomware": false,
      "epss": 0.005,
-     "cvss": 9.9,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102649",
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103039",
      "take": "",
      "action": ""
     },
@@ -2180,35 +1777,6 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-110264",
-     "headline": "An issue has been discovered in GitLab CE/EE affecting all versions from 7.0 before 18.11.13, 19.0 before 19.0.10, 19.1 before 19.1.9, 19.2 before 19.2.9, 19...",
-     "products": [
-      "gitlab"
-     ],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 10.0",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.013,
-     "cvss": 10.0,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110264",
-     "take": "",
-     "action": ""
-    },
-    {
      "id": "CVE-2026-113616",
      "headline": "The LogixFast Auth WordPress plugin before 1.0.4 does not deliver its password-reset one-time code to the resolved account's own email address, mailing it to...",
      "products": [],
@@ -2229,7 +1797,7 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.001,
+     "epss": 0.003,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-113616",
      "take": "",
@@ -2256,7 +1824,7 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.002,
+     "epss": 0.003,
      "cvss": 9.9,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-113617",
      "take": "",
@@ -2283,14 +1851,41 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.002,
+     "epss": 0.005,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115245",
      "take": "",
      "action": ""
+    },
+    {
+     "id": "CVE-2026-115806",
+     "headline": "The Prime Mover \u2013 Backup and Migration plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 2.2.1 via deserializa...",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.005,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115806",
+     "take": "",
+     "action": ""
     }
    ],
-   "above": 1
+   "above": 2
   }
  }
 }
