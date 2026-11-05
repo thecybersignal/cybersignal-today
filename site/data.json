@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-05T17:48:34+00:00",
+ "generated": "2026-11-05T19:44:06+00:00",
  "window_hours": 72,
- "scanned": 6273,
+ "scanned": 6041,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
@@ -402,68 +402,6 @@
      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
     },
     {
-     "id": "CVE-2019-0232",
-     "headline": "When running on Windows with enableCmdLineArguments enabled, the CGI Servlet in Apache Tomcat 9.0.0.M1 to 9.0.17, 8.5.0 to 8.5.39 and 7.0.0 to 7.0.93 is vuln...",
-     "products": [
-      "tomcat",
-      "windows"
-     ],
-     "score": 58,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 1.00",
-       "points": 20
-      },
-      {
-       "label": "Severity 8.1",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.999,
-     "cvss": 8.1,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-0232",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2020-11022",
-     "headline": "In jQuery starting with 1.12.0 and before 3.5.0, passing HTML from untrusted sources - even after sanitizing it - to one of jQuery's DOM manipulation methods...",
-     "products": [
-      "debian linux",
-      "drupal",
-      "fedora",
-      "jquery"
-     ],
-     "score": 57,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.99",
-       "points": 20
-      },
-      {
-       "label": "Severity 6.9",
-       "points": 7
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.992,
-     "cvss": 6.9,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-11022",
-     "take": "",
-     "action": ""
-    },
-    {
      "id": "CVE-2024-49113",
      "headline": "Windows Lightweight Directory Access Protocol (LDAP) Denial of Service Vulnerability",
      "products": [
@@ -622,35 +560,6 @@
      "action": ""
     },
     {
-     "id": "CVE-2021-1636",
-     "headline": "Microsoft SQL Elevation of Privilege Vulnerability",
-     "products": [
-      "sql server"
-     ],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.07",
-       "points": 1
-      },
-      {
-       "label": "Severity 8.8",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.067,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-1636",
-     "take": "",
-     "action": ""
-    },
-    {
      "id": "CVE-2024-30103",
      "headline": "Microsoft Outlook Remote Code Execution Vulnerability",
      "products": [
@@ -740,6 +649,93 @@
      "epss": 0.217,
      "cvss": 6.5,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-38200",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2025-63694",
+     "headline": "DzzOffice v2.3.7 and before is vulnerable to SQL Injection in explorer/groupmanage",
+     "products": [
+      "dzzoffice"
+     ],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.004,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-63694",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2025-63695",
+     "headline": "DzzOffice v2.3.7 and before is vulnerable to Arbitrary File Upload in /dzz/system/ueditor/php/controller.php",
+     "products": [
+      "dzzoffice"
+     ],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.004,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-63695",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2025-64280",
+     "headline": "A SQL Injection Vulnerability in CentralSquare Community Development 19.5.7 allows attackers to inject SQL via the permit_no field",
+     "products": [
+      "community development"
+     ],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.004,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-64280",
      "take": "",
      "action": ""
     }
@@ -1769,33 +1765,6 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-119096",
-     "headline": "The Uncanny Toolkit for LearnDash plugin for WordPress is vulnerable to Authentication Bypass in versions up to, and including, 3.8.2 via the `email` paramet...",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.005,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119096",
-     "take": "",
-     "action": ""
-    },
-    {
      "id": "CVE-2026-120534",
      "headline": "The Advanced Custom Fields: Extended PRO plugin for WordPress is vulnerable to Limited Code Injection in all versions up to, and including, 0.9.2.6 via the r...",
      "products": [],
@@ -1873,6 +1842,33 @@
      "epss": 0.007,
      "cvss": 9.9,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44179",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-81648",
+     "headline": "The CryptoPayment Gateway WordPress plugin from 1.2.1 to 1.2.2 does not apply an authorization check on one of its AJAX endpoints, allowing unauthenticated u...",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 10.0",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.005,
+     "cvss": 10.0,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81648",
      "take": "",
      "action": ""
     }
