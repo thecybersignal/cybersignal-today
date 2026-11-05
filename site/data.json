@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-04T17:41:30+00:00",
+ "generated": "2026-11-05T17:48:34+00:00",
  "window_hours": 72,
- "scanned": 4575,
+ "scanned": 6273,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
@@ -781,6 +781,38 @@
      "action": ""
     },
     {
+     "id": "CVE-2023-5633",
+     "headline": "The reference count changes made as part of the CVE-2023-33951 and CVE-2023-33952 fixes exposed a use-after-free flaw in the way memory objects were handled ...",
+     "products": [
+      "codeready linux builder",
+      "codeready linux builder eus",
+      "codeready linux builder for arm64",
+      "linux kernel"
+     ],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.8",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.003,
+     "cvss": 7.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-5633",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2024-22274",
      "headline": "The vCenter Server contains an authenticated remote code execution vulnerability.\u00a0A malicious actor with administrative privileges on the vCenter appliance s...",
      "products": [
@@ -818,6 +850,141 @@
    "blurb": "The systems ransomware crews hit before they encrypt anything.",
    "items": [
     {
+     "id": "CVE-2026-106076",
+     "headline": "A vulnerability allowing an authenticated organization-transfer peer to inject SQL into the configuration database of the source Veeam Backup for Microsoft 3...",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.0",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.004,
+     "cvss": 9.0,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106076",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-106077",
+     "headline": "A vulnerability allowing a user with the Veeam Backup for Microsoft 365 Administrator role to read arbitrary files on the backup server with LocalSystem priv...",
+     "products": [],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.3",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.002,
+     "cvss": 8.3,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106077",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2025-30414",
+     "headline": "Local privilege escalation due to improper authentication",
+     "products": [],
+     "score": 37,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.1",
+       "points": 7
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.002,
+     "cvss": 7.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-30414",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-105477",
+     "headline": "A vulnerability in Veeam Agent for Linux allows for local privilege escalation",
+     "products": [],
+     "score": 37,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.3",
+       "points": 7
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.001,
+     "cvss": 7.3,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105477",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-106078",
+     "headline": "A vulnerability allowing an unauthenticated attacker to bypass REST API authentication with a forged federation token and receive responses from REST API end...",
+     "products": [],
+     "score": 37,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 6.9",
+       "points": 7
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.003,
+     "cvss": 6.9,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106078",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2026-32996",
      "headline": "This vulnerability in Veeam Agent for Microsoft Windows allows for Local Privilege Escalation",
      "products": [],
@@ -841,6 +1008,29 @@
      "epss": 0.002,
      "cvss": 7.3,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32996",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2025-64394",
+     "headline": "A vulnerability allowing a low-privileged local user to write arbitrary files with SYSTEM privileges during the installation of Veeam Backup for Microsoft 36...",
+     "products": [],
+     "score": 34,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 4.3",
+       "points": 4
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 4.3,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-64394",
      "take": "",
      "action": ""
     }
@@ -1026,6 +1216,35 @@
      "action": ""
     },
     {
+     "id": "CVE-2025-27918",
+     "headline": "An issue was discovered in AnyDesk for Windows before 9.0.5, AnyDesk for macOS before 9.0.1, AnyDesk for Linux before 7.0.0, AnyDesk for iOS before 7.1.2, an...",
+     "products": [
+      "anydesk"
+     ],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.007,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-27918",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2026-12944",
      "headline": "IBM Langflow OSS 1.0.0 through 1.10.0 can allow attackers to execute arbitrary Python code with root privileges (UID=0) on the Langflow server by submitting ...",
      "products": [
@@ -1082,10 +1301,10 @@
      "action": ""
     },
     {
-     "id": "CVE-2024-52940",
-     "headline": "AnyDesk through 8.1.0 on Windows, when Allow Direct Connections is enabled, inadvertently exposes a public IP address within network traffic",
+     "id": "CVE-2026-84502",
+     "headline": "A flaw was found in Red Hat Ansible Automation Platform's automation-\ncontroller",
      "products": [],
-     "score": 38,
+     "score": 40,
      "factors": [
       {
        "label": "Runs in this environment",
@@ -1096,23 +1315,23 @@
        "points": 0
       },
       {
-       "label": "Severity 7.5",
-       "points": 8
+       "label": "Severity 9.9",
+       "points": 10
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.013,
-     "cvss": 7.5,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-52940",
+     "epss": 0.006,
+     "cvss": 9.9,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84502",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2026-12633",
-     "headline": "The IPv6 neighbor-discovery code in subsys/net/ip/ipv6_nbr.c processes the 6LoWPAN Context Option (6CO, RFC 6775) carried inside ICMPv6 Router Advertisements",
+     "id": "CVE-2026-111585",
+     "headline": "An integer overflow in the remote-control\nscreen processing component of TeamViewer clients (Full Client, Portable and Remote\nControl App) prior to version 1...",
      "products": [],
-     "score": 38,
+     "score": 39,
      "factors": [
       {
        "label": "Runs in this environment",
@@ -1123,23 +1342,23 @@
        "points": 0
       },
       {
-       "label": "Severity 8.1",
-       "points": 8
+       "label": "Severity 8.8",
+       "points": 9
       }
      ],
      "kev": false,
      "ransomware": false,
      "epss": 0.003,
-     "cvss": 8.1,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12633",
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111585",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2026-28327",
-     "headline": "SolarWinds Dameware was found to be affected by a DLL hijacking vulnerability",
+     "id": "CVE-2026-92372",
+     "headline": "An out-of-bounds write vulnerability in the\nscreen-image decoder of TeamViewer Full Client for Linux and macOS prior to\nversion 15.83 allows a remote attacke...",
      "products": [],
-     "score": 38,
+     "score": 39,
      "factors": [
       {
        "label": "Runs in this environment",
@@ -1150,42 +1369,15 @@
        "points": 0
       },
       {
-       "label": "Severity 8.2",
-       "points": 8
+       "label": "Severity 8.8",
+       "points": 9
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.002,
-     "cvss": 8.2,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28327",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-28335",
-     "headline": "SolarWinds Dameware was found to be affected by a buffer overflow vulnerability that can result in remote code execution",
-     "products": [],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.4",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.01,
-     "cvss": 8.4,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28335",
+     "epss": 0.004,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-92372",
      "take": "",
      "action": ""
     }
@@ -1253,10 +1445,12 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-118057",
-     "headline": "The Shield Security \u2013 Smart Bot Blocking, Brute-Force Login Protection & File Scanning plugin for WordPress is vulnerable to Stored Cross-Site Scripting via ...",
-     "products": [],
-     "score": 37,
+     "id": "CVE-2025-63419",
+     "headline": "Cross Site Scripting (XSS) vulnerability in CrushFTP 11.3.6_48",
+     "products": [
+      "crushftp"
+     ],
+     "score": 36,
      "factors": [
       {
        "label": "Runs in this environment",
@@ -1267,15 +1461,44 @@
        "points": 0
       },
       {
-       "label": "Severity 7.2",
-       "points": 7
+       "label": "Severity 6.1",
+       "points": 6
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.002,
-     "cvss": 7.2,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118057",
+     "epss": 0.003,
+     "cvss": 6.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-63419",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2025-65406",
+     "headline": "A heap overflow in the MatroskaFile::createRTPSinkForTrackNumber() function of Live555 Streaming Media v2018.09.02 allows attackers to cause a Denial of Serv...",
+     "products": [
+      "streaming media"
+     ],
+     "score": 36,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 6.5",
+       "points": 6
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.003,
+     "cvss": 6.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-65406",
      "take": "",
      "action": ""
     },
@@ -1314,40 +1537,6 @@
    "blurb": "Confluence, Jenkins, GitLab, and the internal tools nobody patches.",
    "items": [
     {
-     "id": "CVE-2026-97229",
-     "headline": "GitLab has remediated an issue in GitLab CE/EE affecting all versions from 19.2 before 19.2.8, 19.3 before 19.3.5, and 19.4 before 19.4.2 that, under certain...",
-     "products": [
-      "gitlab",
-      "ruby"
-     ],
-     "score": 93,
-     "factors": [
-      {
-       "label": "Listed as actively exploited",
-       "points": 40
-      },
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.65",
-       "points": 13
-      },
-      {
-       "label": "Severity 10.0",
-       "points": 10
-      }
-     ],
-     "kev": true,
-     "ransomware": false,
-     "epss": 0.652,
-     "cvss": 10.0,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97229",
-     "take": "",
-     "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
-    },
-    {
      "id": "CVE-2026-119977",
      "headline": "WordPress Core is vulnerable to Remote Code Execution in versions 4.7 through 7.1.3",
      "products": [
@@ -1374,7 +1563,7 @@
      ],
      "kev": true,
      "ransomware": false,
-     "epss": 0.01,
+     "epss": 0.012,
      "cvss": 8.1,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119977",
      "take": "",
@@ -1470,6 +1659,33 @@
      "action": ""
     },
     {
+     "id": "CVE-2026-100109",
+     "headline": "The Security For WooCommerce WordPress plugin from 1.0.10 to 1.0.16 does not perform capability checks when creating users through an action available to una...",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.004,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100109",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2026-102435",
      "headline": "The Ultra Addons for Contact Form 7 plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the _getObjAttr...",
      "products": [],
@@ -1524,9 +1740,11 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-116512",
-     "headline": "The Project Manager \u2013 AI Powered Project Management, Task Management, Kanban Board & Time Tracker plugin for WordPress is vulnerable to Remote Code Execution...",
-     "products": [],
+     "id": "CVE-2026-110264",
+     "headline": "An issue has been discovered in GitLab CE/EE affecting all versions from 7.0 before 18.11.13, 19.0 before 19.0.10, 19.1 before 19.1.9, 19.2 before 19.2.9, 19...",
+     "products": [
+      "gitlab"
+     ],
      "score": 40,
      "factors": [
       {
@@ -1538,42 +1756,15 @@
        "points": 0
       },
       {
-       "label": "Severity 9.8",
+       "label": "Severity 10.0",
        "points": 10
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.006,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116512",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-118235",
-     "headline": "The SimpleForm \u2013 Form Maker to Chat Apps with Quiz, Poll and Multi Lead Notifications plugin for WordPress is vulnerable to Arbitrary File Upload in all vers...",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.007,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118235",
+     "epss": 0.013,
+     "cvss": 10.0,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110264",
      "take": "",
      "action": ""
     },
@@ -1632,6 +1823,33 @@
      "action": ""
     },
     {
+     "id": "CVE-2026-13423",
+     "headline": "The Streamit WordPress theme before 4.5.2 does not perform any authorization or nonce verification on one of its unauthenticated AJAX routes, which invokes a...",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.01,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13423",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2026-44179",
      "headline": "XWiki Remote Macros provides XWiki rendering macros that are useful when migrating content from Confluence",
      "products": [],
@@ -1659,7 +1877,7 @@
      "action": ""
     }
    ],
-   "above": 2
+   "above": 1
   }
  }
 }
