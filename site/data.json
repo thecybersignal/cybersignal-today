@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-05T19:44:06+00:00",
+ "generated": "2026-11-06T17:04:29+00:00",
  "window_hours": 72,
- "scanned": 6041,
+ "scanned": 8104,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
@@ -201,6 +201,35 @@
      "action": ""
     },
     {
+     "id": "CVE-2026-39813",
+     "headline": "A path traversal: '../filedir' vulnerability in Fortinet FortiSandbox 5.0.0 through 5.0.5, FortiSandbox 4.4.0 through 4.4.8 may allow attacker to escalation ...",
+     "products": [
+      "fortisandbox"
+     ],
+     "score": 44,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.22",
+       "points": 4
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.222,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39813",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2024-6235",
      "headline": "Sensitive information disclosure\u00a0in\u00a0NetScaler Console",
      "products": [
@@ -230,39 +259,43 @@
      "action": ""
     },
     {
-     "id": "CVE-2024-29014",
-     "headline": "Vulnerability in SonicWall SMA100 NetExtender Windows (32 and 64-bit) client 10.2.339 and earlier versions allows an attacker to arbitrary code execution whe...",
+     "id": "CVE-2025-52970",
+     "headline": "A improper handling of parameters vulnerability in Fortinet FortiWeb 7.6.0 through 7.6.3, FortiWeb 7.4.0 through 7.4.7, FortiWeb 7.2.0 through 7.2.10, FortiW...",
      "products": [
-      "netextender"
+      "fortiweb"
      ],
-     "score": 39,
+     "score": 40,
      "factors": [
       {
        "label": "Runs in this environment",
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.02",
-       "points": 0
+       "label": "Exploit likelihood 0.10",
+       "points": 2
       },
       {
-       "label": "Severity 8.8",
-       "points": 9
+       "label": "Severity 8.1",
+       "points": 8
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.019,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-29014",
+     "epss": 0.101,
+     "cvss": 8.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-52970",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2026-109593",
-     "headline": "An unauthenticated attacker with network access to the SonicWall GMS 9.5.2 and earlier versions may be able to read internal GMS files, potentially exposing ...",
-     "products": [],
-     "score": 39,
+     "id": "CVE-2026-26083",
+     "headline": "A missing authorization vulnerability in Fortinet FortiSandbox 5.0.0 through 5.0.1, FortiSandbox 4.4.0 through 4.4.8, FortiSandbox 4.2 all versions, FortiSan...",
+     "products": [
+      "fortisandbox",
+      "fortisandbox cloud",
+      "fortisandbox paas"
+     ],
+     "score": 40,
      "factors": [
       {
        "label": "Runs in this environment",
@@ -273,23 +306,23 @@
        "points": 0
       },
       {
-       "label": "Severity 9.1",
-       "points": 9
+       "label": "Severity 9.8",
+       "points": 10
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.005,
-     "cvss": 9.1,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109593",
+     "epss": 0.007,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-26083",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2026-109594",
-     "headline": "Post-authentication Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability has been identified in the End-of-Life...",
+     "id": "CVE-2026-26084",
+     "headline": "A improper access control vulnerability in Fortinet FortiSandbox 5.0.0 through 5.0.5, FortiSandbox 4.4.0 through 4.4.8, FortiSandbox 4.2 all versions, FortiS...",
      "products": [],
-     "score": 37,
+     "score": 40,
      "factors": [
       {
        "label": "Runs in this environment",
@@ -300,61 +333,44 @@
        "points": 0
       },
       {
-       "label": "Severity 6.8",
-       "points": 7
+       "label": "Severity 9.9",
+       "points": 10
       }
      ],
      "kev": false,
      "ransomware": false,
      "epss": 0.004,
-     "cvss": 6.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109594",
+     "cvss": 9.9,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-26084",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2026-84385",
-     "headline": "A improper access control vulnerability in Fortinet FortiSOAR PaaS 7.6.0 through 7.6.6, FortiSOAR PaaS 7.5.0 through 7.5.3, FortiSOAR PaaS 7.4 all versions, ...",
-     "products": [],
-     "score": 35,
+     "id": "CVE-2026-44277",
+     "headline": "A improper access control vulnerability in Fortinet FortiAuthenticator 8.0.2, FortiAuthenticator 8.0.0, FortiAuthenticator 6.6.0 through 6.6.8, FortiAuthenti...",
+     "products": [
+      "fortiauthenticator"
+     ],
+     "score": 40,
      "factors": [
       {
        "label": "Runs in this environment",
        "points": 30
       },
       {
-       "label": "Severity 5.4",
-       "points": 5
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.0,
-     "cvss": 5.4,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84385",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-84389",
-     "headline": "A url redirection to untrusted site ('open redirect') vulnerability in Fortinet FortiSIEM 7.5.0 through 7.5.1, FortiSIEM 7.4.1 through 7.4.2 may allow attack...",
-     "products": [],
-     "score": 33,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
+       "label": "Exploit likelihood 0.01",
+       "points": 0
       },
       {
-       "label": "Severity 3.1",
-       "points": 3
+       "label": "Severity 9.8",
+       "points": 10
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
-     "cvss": 3.1,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84389",
+     "epss": 0.006,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44277",
      "take": "",
      "action": ""
     }
@@ -1414,33 +1430,6 @@
      "action": ""
     },
     {
-     "id": "CVE-2015-20129",
-     "headline": "CrushFTP before 7.3.0 contains a cross-site request forgery vulnerability that allows attackers to perform administrative actions because CSRF protection is ...",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.6",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.002,
-     "cvss": 8.6,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-20129",
-     "take": "",
-     "action": ""
-    },
-    {
      "id": "CVE-2025-63419",
      "headline": "Cross Site Scripting (XSS) vulnerability in CrushFTP 11.3.6_48",
      "products": [
@@ -1709,6 +1698,29 @@
      "action": ""
     },
     {
+     "id": "CVE-2026-107622",
+     "headline": "The BuddyForms plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 2.10.5 via a form-type confusion attack throu...",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107622",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2026-109220",
      "headline": "The PDF Invoice for WooCommerce + Drag and Drop Template Builder plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and includ...",
      "products": [],
@@ -1765,8 +1777,8 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-120534",
-     "headline": "The Advanced Custom Fields: Extended PRO plugin for WordPress is vulnerable to Limited Code Injection in all versions up to, and including, 0.9.2.6 via the r...",
+     "id": "CVE-2026-110955",
+     "headline": "The Wurdey WordPress plugin through 1.0.0 does not verify a request signature before logging a user in, allowing unauthenticated attackers to authenticate as...",
      "products": [],
      "score": 40,
      "factors": [
@@ -1785,15 +1797,15 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.003,
+     "epss": 0.001,
      "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120534",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110955",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2026-13423",
-     "headline": "The Streamit WordPress theme before 4.5.2 does not perform any authorization or nonce verification on one of its unauthenticated AJAX routes, which invokes a...",
+     "id": "CVE-2026-113584",
+     "headline": "The placester WordPress plugin through 1.4.3 does not perform any capability, nonce or ownership check on an AJAX action that updates account details, allowi...",
      "products": [],
      "score": 40,
      "factors": [
@@ -1802,7 +1814,7 @@
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.01",
+       "label": "Exploit likelihood 0.00",
        "points": 0
       },
       {
@@ -1812,15 +1824,15 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.01,
+     "epss": 0.002,
      "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13423",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-113584",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2026-44179",
-     "headline": "XWiki Remote Macros provides XWiki rendering macros that are useful when migrating content from Confluence",
+     "id": "CVE-2026-113615",
+     "headline": "The GS JWT Authentication for WP REST API WordPress plugin through 1.0.0 does not sanitize or parameterize a request value before using it in SQL queries on ...",
      "products": [],
      "score": 40,
      "factors": [
@@ -1829,46 +1841,19 @@
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.01",
+       "label": "Exploit likelihood 0.00",
        "points": 0
       },
       {
-       "label": "Severity 9.9",
+       "label": "Severity 9.8",
        "points": 10
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.007,
-     "cvss": 9.9,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44179",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-81648",
-     "headline": "The CryptoPayment Gateway WordPress plugin from 1.2.1 to 1.2.2 does not apply an authorization check on one of its AJAX endpoints, allowing unauthenticated u...",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 10.0",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.005,
-     "cvss": 10.0,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81648",
+     "epss": 0.002,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-113615",
      "take": "",
      "action": ""
     }
