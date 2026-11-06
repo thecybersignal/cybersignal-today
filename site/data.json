@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-06T17:04:29+00:00",
+ "generated": "2026-11-06T19:06:53+00:00",
  "window_hours": 72,
- "scanned": 8104,
+ "scanned": 8671,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
@@ -77,39 +77,6 @@
      "epss": 1.0,
      "cvss": 9.2,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109619",
-     "take": "",
-     "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
-    },
-    {
-     "id": "CVE-2026-118527",
-     "headline": "Use of predictable filenames in Ivanti Connect Secure before versions 25.1.1.3 and 22.8R2.6 allows a remote authenticated attacker to upload files with attac...",
-     "products": [
-      "connect secure"
-     ],
-     "score": 74,
-     "factors": [
-      {
-       "label": "Listed as actively exploited",
-       "points": 40
-      },
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 4.3",
-       "points": 4
-      }
-     ],
-     "kev": true,
-     "ransomware": false,
-     "epss": 0.008,
-     "cvss": 4.3,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118527",
      "take": "",
      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
     },
@@ -373,9 +340,36 @@
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44277",
      "take": "",
      "action": ""
+    },
+    {
+     "id": "CVE-2026-84388",
+     "headline": "A improper restriction of rendered ui layers or frames vulnerability in Fortinet FortiPAM Chrome Extension 8.0 all versions may allow attacker to information...",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.6",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.004,
+     "cvss": 9.6,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84388",
+     "take": "",
+     "action": ""
     }
    ],
-   "above": 3
+   "above": 2
   },
   "microsoft-smb": {
    "label": "Microsoft-first shop",
@@ -1257,35 +1251,6 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-12944",
-     "headline": "IBM Langflow OSS 1.0.0 through 1.10.0 can allow attackers to execute arbitrary Python code with root privileges (UID=0) on the Langflow server by submitting ...",
-     "products": [
-      "langflow"
-     ],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.6",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.004,
-     "cvss": 9.6,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12944",
-     "take": "",
-     "action": ""
-    },
-    {
      "id": "CVE-2026-28336",
      "headline": "SolarWinds Dameware was found to be affected by a command injection vulnerability that could lead to the compromise of the remotely controlled host",
      "products": [],
@@ -1392,6 +1357,33 @@
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-92372",
      "take": "",
      "action": ""
+    },
+    {
+     "id": "CVE-2024-52940",
+     "headline": "AnyDesk through 8.1.0 on Windows, when Allow Direct Connections is enabled, inadvertently exposes a public IP address within network traffic",
+     "products": [],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.5",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.013,
+     "cvss": 7.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-52940",
+     "take": "",
+     "action": ""
     }
    ],
    "above": 0
@@ -1484,33 +1476,6 @@
      "epss": 0.003,
      "cvss": 6.5,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-65406",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-63436",
-     "headline": "zt-zip is a Java library that provides convenience methods for ZIP archive manipulation",
-     "products": [],
-     "score": 36,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 6.1",
-       "points": 6
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.002,
-     "cvss": 6.1,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63436",
      "take": "",
      "action": ""
     }
@@ -1611,35 +1576,6 @@
      "epss": 0.107,
      "cvss": 10.0,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-45409",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2011-4899",
-     "headline": "wp-admin/setup-config.php in the installation component in WordPress 3.3.1 and earlier does not ensure that the specified MySQL database service is appropria...",
-     "products": [
-      "wordpress"
-     ],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.09",
-       "points": 2
-      },
-      {
-       "label": "Severity 7.5",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.09,
-     "cvss": 7.5,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2011-4899",
      "take": "",
      "action": ""
     },
@@ -1854,6 +1790,33 @@
      "epss": 0.002,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-113615",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-115230",
+     "headline": "The WHIZZ WordPress plugin through 1.1.8 does not validate the password-reset key before updating a user's password, relying only on a nonce that is exposed ...",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.002,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115230",
      "take": "",
      "action": ""
     }
