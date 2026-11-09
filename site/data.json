@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-09T20:19:23+00:00",
+ "generated": "2026-11-09T22:07:23+00:00",
  "window_hours": 72,
- "scanned": 2805,
+ "scanned": 2507,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
@@ -83,38 +83,6 @@
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19868",
      "take": "",
      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
-    },
-    {
-     "id": "CVE-2024-6387",
-     "headline": "A security regression (CVE-2006-5051) was discovered in OpenSSH's server (sshd)",
-     "products": [
-      "almalinux",
-      "amazon linux",
-      "eos",
-      "macos"
-     ],
-     "score": 58,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 1.00",
-       "points": 20
-      },
-      {
-       "label": "Severity 8.1",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.995,
-     "cvss": 8.1,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-6387",
-     "take": "",
-     "action": ""
     },
     {
      "id": "CVE-2022-22274",
@@ -403,6 +371,33 @@
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-41715",
      "take": "",
      "action": ""
+    },
+    {
+     "id": "CVE-2026-19489",
+     "headline": "Vulnerability in NetScaler ADC and NetScaler Gateway.\n\nThis issue affects ADC: from 14.1 through 73.32 and from 13.1 through 63.21; Gateway: from 14.1 throug...",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.004,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19489",
+     "take": "",
+     "action": ""
     }
    ],
    "above": 2
@@ -666,33 +661,6 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-76506",
-     "headline": "A vulnerability in the web-based management interface of Cisco UCS Central Software could allow an authenticated, remote attacker to achieve remote code exec...",
-     "products": [],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 7.6",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.014,
-     "cvss": 7.6,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76506",
-     "take": "",
-     "action": ""
-    },
-    {
      "id": "CVE-2026-82996",
      "headline": "Vulnerability in the Oracle Platform Security for Java product of Oracle Fusion Middleware (component: Centralized Thirdparty Jars)",
      "products": [
@@ -747,6 +715,33 @@
      "epss": 0.004,
      "cvss": 8.1,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-83011",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-103442",
+     "headline": "External control of system or configuration setting vulnerability in The Wikimedia Foundation MediaWiki CentralAuth extension allows Code Injection.\n\nThis is...",
+     "products": [],
+     "score": 37,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.2",
+       "points": 7
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.003,
+     "cvss": 7.2,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103442",
      "take": "",
      "action": ""
     }
