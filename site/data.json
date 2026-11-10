@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-09T22:07:23+00:00",
+ "generated": "2026-11-10T17:24:14+00:00",
  "window_hours": 72,
- "scanned": 2507,
+ "scanned": 4032,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
@@ -49,6 +49,39 @@
      "action": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable."
     },
     {
+     "id": "CVE-2026-0322",
+     "headline": "A remote code execution (RCE) vulnerability in the management interface of Palo Alto Networks PAN-OS\u00ae software enables an authenticated attacker with network...",
+     "products": [
+      "pan-os"
+     ],
+     "score": 79,
+     "factors": [
+      {
+       "label": "Listed as actively exploited",
+       "points": 40
+      },
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.02",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.6",
+       "points": 9
+      }
+     ],
+     "kev": true,
+     "ransomware": false,
+     "epss": 0.017,
+     "cvss": 8.6,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0322",
+     "take": "",
+     "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+    },
+    {
      "id": "CVE-2026-19868",
      "headline": "An authentication enforcement vulnerability in SonicOS SSLVPN service may allow a user with valid credentials for an alternate authentication method to bypas...",
      "products": [
@@ -78,7 +111,7 @@
      ],
      "kev": true,
      "ransomware": false,
-     "epss": 0.006,
+     "epss": 0.005,
      "cvss": 7.5,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19868",
      "take": "",
@@ -213,6 +246,29 @@
      "action": ""
     },
     {
+     "id": "CVE-2026-121653",
+     "headline": "SQL injection in the Core of Ivanti Endpoint Manager before version 2024 SU8 allows a remote unauthenticated attacker to achieve remote code execution",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121653",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2021-20031",
      "headline": "A Host Header Redirection vulnerability in SonicOS potentially allows a remote attacker to redirect firewall management users to arbitrary web domains",
      "products": [
@@ -339,77 +395,127 @@
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-1101",
      "take": "",
      "action": ""
-    },
-    {
-     "id": "CVE-2023-41715",
-     "headline": "SonicOS post-authentication Improper Privilege Management vulnerability in the SonicOS SSL VPN Tunnel allows users to elevate their privileges inside the tunnel",
-     "products": [
-      "nsa2700",
-      "nsa3700",
-      "nsa4700",
-      "nsa5700"
-     ],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.8",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.008,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-41715",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-19489",
-     "headline": "Vulnerability in NetScaler ADC and NetScaler Gateway.\n\nThis issue affects ADC: from 14.1 through 73.32 and from 13.1 through 63.21; Gateway: from 14.1 throug...",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.8",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.004,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19489",
-     "take": "",
-     "action": ""
     }
    ],
-   "above": 2
+   "above": 3
   },
   "microsoft-smb": {
    "label": "Microsoft-first shop",
    "blurb": "Windows Server, Exchange, Entra, and the Microsoft 365 estate.",
    "items": [
     {
-     "id": "CVE-2026-109469",
-     "headline": "Authorization bypass through user-controlled key in Entra Device Registration allows an unauthorized attacker to elevate privileges over a network",
-     "products": [],
+     "id": "CVE-2026-111497",
+     "headline": "A buffer overflow vulnerability in the Brotli decoder (c/dec/decode.c) in Google Brotli versions 1.0.3 through 1.2.0 on all platforms allows a remote unauthe...",
+     "products": [
+      "arrow",
+      "brotli",
+      "bun",
+      "p7zip"
+     ],
+     "score": 96,
+     "factors": [
+      {
+       "label": "Listed as actively exploited",
+       "points": 40
+      },
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.83",
+       "points": 17
+      },
+      {
+       "label": "Severity 9.2",
+       "points": 9
+      }
+     ],
+     "kev": true,
+     "ransomware": false,
+     "epss": 0.826,
+     "cvss": 9.2,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111497",
+     "take": "",
+     "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+    },
+    {
+     "id": "CVE-2023-38180",
+     "headline": ".NET and Visual Studio Denial of Service Vulnerability",
+     "products": [
+      ".net",
+      "asp.net core",
+      "fedora",
+      "visual studio 2022"
+     ],
+     "score": 81,
+     "factors": [
+      {
+       "label": "Listed as actively exploited",
+       "points": 40
+      },
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.14",
+       "points": 3
+      },
+      {
+       "label": "Severity 7.5",
+       "points": 8
+      }
+     ],
+     "kev": true,
+     "ransomware": false,
+     "epss": 0.141,
+     "cvss": 7.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-38180",
+     "take": "",
+     "action": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable."
+    },
+    {
+     "id": "CVE-2023-36910",
+     "headline": "Microsoft Message Queuing (MSMQ) Remote Code Execution Vulnerability",
+     "products": [
+      "windows 10",
+      "windows 10 1607",
+      "windows 10 1809",
+      "windows 10 21h2"
+     ],
+     "score": 41,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.03",
+       "points": 1
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.025,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-36910",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2023-36911",
+     "headline": "Microsoft Message Queuing (MSMQ) Remote Code Execution Vulnerability",
+     "products": [
+      "windows 10",
+      "windows 10 1607",
+      "windows 10 1809",
+      "windows 10 21h2"
+     ],
      "score": 40,
      "factors": [
       {
@@ -417,19 +523,19 @@
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.01",
+       "label": "Exploit likelihood 0.02",
        "points": 0
       },
       {
-       "label": "Severity 10.0",
+       "label": "Severity 9.8",
        "points": 10
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.007,
-     "cvss": 10.0,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109469",
+     "epss": 0.017,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-36911",
      "take": "",
      "action": ""
     },
@@ -464,6 +570,33 @@
      "action": ""
     },
     {
+     "id": "CVE-2026-123807",
+     "headline": "Signal K Server is a server application that runs on a central hub in a boat",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.005,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123807",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2026-82994",
      "headline": "Vulnerability in the Oracle Platform Security for Java product of Oracle Fusion Middleware (component: Centralized Thirdparty Jars)",
      "products": [
@@ -476,7 +609,7 @@
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.00",
+       "label": "Exploit likelihood 0.01",
        "points": 0
       },
       {
@@ -505,7 +638,7 @@
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.00",
+       "label": "Exploit likelihood 0.01",
        "points": 0
       },
       {
@@ -534,7 +667,7 @@
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.00",
+       "label": "Exploit likelihood 0.01",
        "points": 0
       },
       {
@@ -551,8 +684,8 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-124490",
-     "headline": "OpenEMR before 8.3.0 contains a path traversal vulnerability in the RingCentral RCFaxClient disposeDocument() method of oe-module-faxsms that allows authenti...",
+     "id": "CVE-2022-50993",
+     "headline": "Weaver (Fanwei) E-office versions prior to 10.0_20221201 contain an unauthenticated arbitrary file upload vulnerability in the OfficeServer.php endpoint that...",
      "products": [],
      "score": 39,
      "factors": [
@@ -561,35 +694,65 @@
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.00",
+       "label": "Exploit likelihood 0.01",
        "points": 0
       },
       {
-       "label": "Severity 9.4",
+       "label": "Severity 9.3",
        "points": 9
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.004,
-     "cvss": 9.4,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124490",
+     "epss": 0.008,
+     "cvss": 9.3,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-50993",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2024-33618",
-     "headline": "Uncontrolled Resource Consumption in Bosch VMS Central Server in Bosch VMS 12.0.1 \r\nallows attackers to consume excessive amounts of disk space via network i...",
+     "id": "CVE-2022-50997",
+     "headline": "Weaver (Fanwei) E-cology 8.0 and 9.0 contains a SQL injection vulnerability in the HrmCareerApplyPerView.jsp endpoint that allows unauthenticated remote atta...",
      "products": [],
-     "score": 38,
+     "score": 39,
      "factors": [
       {
        "label": "Runs in this environment",
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.00",
+       "label": "Exploit likelihood 0.01",
        "points": 0
+      },
+      {
+       "label": "Severity 8.7",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.006,
+     "cvss": 8.7,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-50997",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2023-38178",
+     "headline": ".NET Core and Visual Studio Denial of Service Vulnerability",
+     "products": [
+      ".net",
+      "visual studio 2022"
+     ],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.03",
+       "points": 1
       },
       {
        "label": "Severity 7.5",
@@ -598,103 +761,23 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.005,
+     "epss": 0.026,
      "cvss": 7.5,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-33618",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-38178",
      "take": "",
      "action": ""
-    },
+    }
+   ],
+   "above": 2
+  },
+  "virtualization": {
+   "label": "Virtualization & hypervisor",
+   "blurb": "VMware, Proxmox, and the layer everything else runs on.",
+   "items": [
     {
-     "id": "CVE-2025-50255",
-     "headline": "Cross Site Request Forgery (CSRF) vulnerability in Smartvista BackOffice SmartVista Suite 2.2.22 via crafted GET request",
+     "id": "CVE-2026-91754",
+     "headline": "Stack-based Buffer Overflow Vulnerability in Hitachi Dynamic Link Manager for VMware.\n\nThis issue affects Hitachi Dynamic Link Manager for VMware: from 8.7.3...",
      "products": [],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 7.8",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.001,
-     "cvss": 7.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-50255",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-64247",
-     "headline": "In the Linux kernel, the following vulnerability has been resolved:\n\nKVM: x86: hyper-v: Bound the bank index when querying sparse banks\n\nWhen checking if a V...",
-     "products": [
-      "linux kernel"
-     ],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.4",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.002,
-     "cvss": 8.4,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-64247",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-82996",
-     "headline": "Vulnerability in the Oracle Platform Security for Java product of Oracle Fusion Middleware (component: Centralized Thirdparty Jars)",
-     "products": [
-      "platform security for java"
-     ],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 7.8",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.001,
-     "cvss": 7.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82996",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-83011",
-     "headline": "Vulnerability in the Oracle Platform Security for Java product of Oracle Fusion Middleware (component: Centralized Thirdparty Jars)",
-     "products": [
-      "platform security for java"
-     ],
      "score": 38,
      "factors": [
       {
@@ -712,17 +795,17 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.004,
+     "epss": 0.003,
      "cvss": 8.1,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-83011",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91754",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2026-103442",
-     "headline": "External control of system or configuration setting vulnerability in The Wikimedia Foundation MediaWiki CentralAuth extension allows Code Injection.\n\nThis is...",
+     "id": "CVE-2026-91755",
+     "headline": "Integer Overflow Vulnerability in Hitachi Dynamic Link Manager for VMware.\n\nThis issue affects Hitachi Dynamic Link Manager for VMware: from 8.7.3-00 before ...",
      "products": [],
-     "score": 37,
+     "score": 38,
      "factors": [
       {
        "label": "Runs in this environment",
@@ -733,32 +816,49 @@
        "points": 0
       },
       {
-       "label": "Severity 7.2",
-       "points": 7
+       "label": "Severity 8.1",
+       "points": 8
       }
      ],
      "kev": false,
      "ransomware": false,
      "epss": 0.003,
-     "cvss": 7.2,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103442",
+     "cvss": 8.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91755",
      "take": "",
      "action": ""
-    }
-   ],
-   "above": 0
-  },
-  "virtualization": {
-   "label": "Virtualization & hypervisor",
-   "blurb": "VMware, Proxmox, and the layer everything else runs on.",
-   "items": [
+    },
     {
-     "id": "CVE-2023-4387",
-     "headline": "A use-after-free flaw was found in vmxnet3_rq_alloc_rx_buf in drivers/net/vmxnet3/vmxnet3_drv.c in VMware's vmxnet3 ethernet NIC driver in the Linux Kernel",
-     "products": [
-      "enterprise linux",
-      "linux kernel"
+     "id": "CVE-2026-91756",
+     "headline": "OS Command Injection Vulnerability in Hitachi Dynamic Link Manager for VMware.\n\nThis issue affects Hitachi Dynamic Link Manager for VMware: from 8.7.3-00 bef...",
+     "products": [],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.1",
+       "points": 8
+      }
      ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.009,
+     "cvss": 8.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91756",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-91757",
+     "headline": "OS Command Injection Vulnerability in Hitachi Dynamic Link Manager for VMware.\n\nThis issue affects Hitachi Dynamic Link Manager for VMware: from 7.3.0-00 bef...",
+     "products": [],
      "score": 37,
      "factors": [
       {
@@ -766,7 +866,7 @@
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.00",
+       "label": "Exploit likelihood 0.01",
        "points": 0
       },
       {
@@ -776,9 +876,9 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.002,
+     "epss": 0.007,
      "cvss": 7.1,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-4387",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91757",
      "take": "",
      "action": ""
     },
@@ -879,7 +979,10 @@
     {
      "id": "CVE-2026-123218",
      "headline": "IBM Aspera Faspex 5.0.0 through 5.0.19 could allow an authorized user to craft a specific message to bypass user authorization and gain full administrative p...",
-     "products": [],
+     "products": [
+      "aspera faspex",
+      "linux kernel"
+     ],
      "score": 80,
      "factors": [
       {
@@ -891,7 +994,7 @@
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.00",
+       "label": "Exploit likelihood 0.01",
        "points": 0
       },
       {
@@ -901,7 +1004,7 @@
      ],
      "kev": true,
      "ransomware": false,
-     "epss": 0.004,
+     "epss": 0.007,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123218",
      "take": "",
@@ -1097,7 +1200,7 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.002,
+     "epss": 0.003,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115213",
      "take": "",
@@ -1124,7 +1227,7 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.001,
+     "epss": 0.003,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115237",
      "take": "",
@@ -1141,13 +1244,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
        "label": "Severity 10.0",
        "points": 10
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.004,
      "cvss": 10.0,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115252",
      "take": "",
@@ -1218,7 +1325,7 @@
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.00",
+       "label": "Exploit likelihood 0.01",
        "points": 0
       },
       {
@@ -1228,7 +1335,7 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.003,
+     "epss": 0.006,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123751",
      "take": "",
