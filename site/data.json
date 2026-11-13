@@ -1,84 +1,13 @@
 {
- "generated": "2026-11-12T17:49:42+00:00",
+ "generated": "2026-11-13T19:24:59+00:00",
  "window_hours": 72,
- "scanned": 7909,
+ "scanned": 7395,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
    "label": "Edge & remote access",
    "blurb": "VPN concentrators, SSL gateways, and anything you publish to the internet.",
    "items": [
-    {
-     "id": "CVE-2026-0322",
-     "headline": "A remote code execution (RCE) vulnerability in the management interface of Palo Alto Networks PAN-OS\u00ae software enables an authenticated attacker with network...",
-     "products": [
-      "pan-os",
-      "ruggedcom ape1808",
-      "ruggedcom ape1808 firmware"
-     ],
-     "score": 79,
-     "factors": [
-      {
-       "label": "Listed as actively exploited",
-       "points": 40
-      },
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.02",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.6",
-       "points": 9
-      }
-     ],
-     "kev": true,
-     "ransomware": false,
-     "epss": 0.021,
-     "cvss": 8.6,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0322",
-     "take": "",
-     "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
-    },
-    {
-     "id": "CVE-2026-19868",
-     "headline": "An authentication enforcement vulnerability in SonicOS SSLVPN service may allow a user with valid credentials for an alternate authentication method to bypas...",
-     "products": [
-      "nsa 2700",
-      "nsa 2800",
-      "nsa 3700",
-      "nsa 3800"
-     ],
-     "score": 78,
-     "factors": [
-      {
-       "label": "Listed as actively exploited",
-       "points": 40
-      },
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 7.5",
-       "points": 8
-      }
-     ],
-     "kev": true,
-     "ransomware": false,
-     "epss": 0.005,
-     "cvss": 7.5,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19868",
-     "take": "",
-     "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
-    },
     {
      "id": "CVE-2026-106173",
      "headline": "A improper limitation of a pathname to a restricted directory ('path traversal') vulnerability in Fortinet FortiSIEM 7.5.0, FortiSIEM 7.4 all versions, Forti...",
@@ -103,6 +32,33 @@
      "epss": 0.01,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106173",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-107412",
+     "headline": "Multiple Memory overflow vulnerabilities can lead to unpredictable or erroneous behavior and Denial of Service in Citrix NetScaler ADC and Citrix NetScaler G...",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.5",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.003,
+     "cvss": 9.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107412",
      "take": "",
      "action": ""
     },
@@ -348,9 +304,36 @@
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126262",
      "take": "",
      "action": ""
+    },
+    {
+     "id": "CVE-2026-126263",
+     "headline": "A improper neutralization of special elements used in an sql command ('sql injection') vulnerability in Fortinet FortiMail 8.0.0 through 8.0.1, FortiMail 7.6...",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.004,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126263",
+     "take": "",
+     "action": ""
     }
    ],
-   "above": 2
+   "above": 0
   },
   "microsoft-smb": {
    "label": "Microsoft-first shop",
@@ -391,42 +374,6 @@
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111497",
      "take": "",
      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
-    },
-    {
-     "id": "CVE-2023-38180",
-     "headline": ".NET and Visual Studio Denial of Service Vulnerability",
-     "products": [
-      ".net",
-      "asp.net core",
-      "fedora",
-      "visual studio 2022"
-     ],
-     "score": 81,
-     "factors": [
-      {
-       "label": "Listed as actively exploited",
-       "points": 40
-      },
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.14",
-       "points": 3
-      },
-      {
-       "label": "Severity 7.5",
-       "points": 8
-      }
-     ],
-     "kev": true,
-     "ransomware": false,
-     "epss": 0.141,
-     "cvss": 7.5,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-38180",
-     "take": "",
-     "action": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable."
     },
     {
      "id": "CVE-2026-8398",
@@ -562,6 +509,33 @@
      "action": ""
     },
     {
+     "id": "CVE-2026-75869",
+     "headline": "Zohocorp ManageEngine\u00a0DDI Central\u00a0versions below\u00a06301\u00a0is affected by\u00a0an authorization bypass and PowerShell command injection vulnerability that allowed auth...",
+     "products": [],
+     "score": 43,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.20",
+       "points": 4
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.204,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75869",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2000-1149",
      "headline": "Buffer overflow in RegAPI.DLL used by Windows NT 4.0 Terminal Server allows remote attackers to execute arbitrary commands via a long username, aka the \"Term...",
      "products": [
@@ -587,38 +561,6 @@
      "epss": 0.161,
      "cvss": 7.5,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2000-1149",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2023-36910",
-     "headline": "Microsoft Message Queuing (MSMQ) Remote Code Execution Vulnerability",
-     "products": [
-      "windows 10",
-      "windows 10 1607",
-      "windows 10 1809",
-      "windows 10 21h2"
-     ],
-     "score": 41,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.03",
-       "points": 1
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.025,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-36910",
      "take": "",
      "action": ""
     },
@@ -651,38 +593,6 @@
      "epss": 0.027,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41096",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2023-36911",
-     "headline": "Microsoft Message Queuing (MSMQ) Remote Code Execution Vulnerability",
-     "products": [
-      "windows 10",
-      "windows 10 1607",
-      "windows 10 1809",
-      "windows 10 21h2"
-     ],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.02",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.017,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-36911",
      "take": "",
      "action": ""
     },
@@ -741,9 +651,63 @@
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109467",
      "take": "",
      "action": ""
+    },
+    {
+     "id": "CVE-2026-109469",
+     "headline": "Authorization bypass through user-controlled key in Entra Device Registration allows an unauthorized attacker to elevate privileges over a network",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 10.0",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.007,
+     "cvss": 10.0,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109469",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-114160",
+     "headline": "Server-side request forgery (ssrf) in Azure Managed Grafana allows an unauthorized attacker to elevate privileges over a network",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.009,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114160",
+     "take": "",
+     "action": ""
     }
    ],
-   "above": 4
+   "above": 3
   },
   "virtualization": {
    "label": "Virtualization & hypervisor",
@@ -1006,6 +970,33 @@
      "action": ""
     },
     {
+     "id": "CVE-2026-127063",
+     "headline": "The\nthird-party RMM+ extension for ConnectWise ScreenConnect uses a static API\nsecret by default",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.3",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.004,
+     "cvss": 9.3,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-127063",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2026-125880",
      "headline": "Improper neutralization of HTTP headers for scripting syntax vulnerability in N-able N-central allows Cross-Site Scripting (XSS).\n\nThis issue affects N-centr...",
      "products": [],
@@ -1148,41 +1139,61 @@
    "blurb": "The category with the worst mass-extortion track record in the business.",
    "items": [
     {
-     "id": "CVE-2026-123218",
-     "headline": "IBM Aspera Faspex 5.0.0 through 5.0.19 could allow an authorized user to craft a specific message to bypass user authorization and gain full administrative p...",
-     "products": [
-      "aspera faspex",
-      "linux kernel"
-     ],
-     "score": 80,
+     "id": "CVE-2026-120113",
+     "headline": "IBM Aspera Connect 1.6.1 through 4.2.19 could allow a remote attacker to obtain sensitive information and modify host trust configuration due to missing auth...",
+     "products": [],
+     "score": 36,
      "factors": [
-      {
-       "label": "Listed as actively exploited",
-       "points": 40
-      },
       {
        "label": "Runs in this environment",
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.01",
+       "label": "Exploit likelihood 0.00",
        "points": 0
       },
       {
-       "label": "Severity 9.8",
-       "points": 10
+       "label": "Severity 6.4",
+       "points": 6
       }
      ],
-     "kev": true,
+     "kev": false,
      "ransomware": false,
-     "epss": 0.005,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123218",
+     "epss": 0.004,
+     "cvss": 6.4,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120113",
      "take": "",
-     "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-63436",
+     "headline": "zt-zip is a Java library that provides convenience methods for ZIP archive manipulation",
+     "products": [],
+     "score": 36,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 6.1",
+       "points": 6
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.002,
+     "cvss": 6.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63436",
+     "take": "",
+     "action": ""
     }
    ],
-   "above": 1
+   "above": 0
   },
   "devstack": {
    "label": "Developer & collaboration stack",
@@ -1209,144 +1220,9 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.002,
+     "epss": 0.004,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110959",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-110963",
-     "headline": "The Userplace  WordPress plugin through 1.2.0 does not perform authorization checks on an AJAX action available to unauthenticated users and publicly exposes...",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.003,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110963",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-114432",
-     "headline": "The Contact Form 7 WordPress plugin before 6.2.4 does not validate the type or extension of files uploaded through a form file field, and a flaw in its tempo...",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.005,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114432",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-115213",
-     "headline": "The EASY-JS-WPAPI Client HANDLE for the WordPress REST-API WordPress plugin through 2.0 does not prevent the administrator credentials it stores from being d...",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.003,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115213",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-115237",
-     "headline": "The Grand Job WordPress plugin through 1.2.1 does not correctly verify the password reset code before updating a user's password, allowing unauthenticated at...",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.003,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115237",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-115252",
-     "headline": "The Confection WordPress Cable WordPress plugin from 0.4.0 to 0.4.7 does not perform any capability or nonce checks before saving its settings and writing on...",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 10.0",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.004,
-     "cvss": 10.0,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115252",
      "take": "",
      "action": ""
     },
@@ -1405,8 +1281,8 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-121379",
-     "headline": "The Tournamatch WordPress plugin before 4.7.1 does not validate or restrict the path of a previously stored profile or team image before deleting it when a n...",
+     "id": "CVE-2026-118063",
+     "headline": "The Advance Guest Post WordPress plugin through 1.9 does not properly validate uploaded files, relying on a case-sensitive and incomplete extension check tha...",
      "products": [],
      "score": 40,
      "factors": [
@@ -1419,15 +1295,69 @@
        "points": 0
       },
       {
-       "label": "Severity 9.6",
+       "label": "Severity 9.8",
        "points": 10
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.003,
-     "cvss": 9.6,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121379",
+     "epss": 0.002,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118063",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-118064",
+     "headline": "The Advance Guest Post WordPress plugin through 1.9 does not properly restrict or validate file uploads, authorizing an upload action with a nonce exposed to...",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.002,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118064",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-119077",
+     "headline": "The ELEX WordPress HelpDesk & Customer Ticketing System plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 3.3....",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.013,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119077",
      "take": "",
      "action": ""
     },
@@ -1486,8 +1416,8 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-123751",
-     "headline": "The WP Duplicate  WordPress plugin through 1.1.11 does not properly verify a request authentication value and does not validate the path or type of uploaded ...",
+     "id": "CVE-2026-124814",
+     "headline": "The Ultimate Addons for Elementor Forms WordPress plugin before 1.0.8 does not properly validate the extension of uploaded files in its bundled file upload f...",
      "products": [],
      "score": 40,
      "factors": [
@@ -1496,7 +1426,7 @@
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.01",
+       "label": "Exploit likelihood 0.00",
        "points": 0
       },
       {
@@ -1506,9 +1436,90 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.006,
+     "epss": 0.005,
      "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123751",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124814",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-124815",
+     "headline": "The Clockinator Lite WordPress plugin before 1.1.0 does not restrict access to several of its record deletion actions, and uses a user-supplied table name in...",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 10.0",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.003,
+     "cvss": 10.0,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124815",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-124822",
+     "headline": "The Easy DragDrop File Uploader WordPress plugin before 1.1.10 does not validate a user-supplied path before deleting it, allowing unauthenticated users to d...",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 10.0",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.001,
+     "cvss": 10.0,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124822",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-124833",
+     "headline": "The Ahime Image Printer WordPress plugin through 1.0.0 does not validate the name, extension or type of uploaded files before writing them to disk, allowing ...",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.002,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124833",
      "take": "",
      "action": ""
     }
