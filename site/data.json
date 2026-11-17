@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-16T21:48:44+00:00",
+ "generated": "2026-11-17T18:53:22+00:00",
  "window_hours": 72,
- "scanned": 1627,
+ "scanned": 2114,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
@@ -243,33 +243,6 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-126261",
-     "headline": "A improper authorization vulnerability in Fortinet FortiManager 8.0.0, FortiManager 7.6.0 through 7.6.7, FortiManager 7.4.0 through 7.4.5, FortiManager 7.2.0...",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.008,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126261",
-     "take": "",
-     "action": ""
-    },
-    {
      "id": "CVE-2026-107407",
      "headline": "Memory overflow in SMPP traffic can lead to unpredictable or erroneous behavior or Denial of Service in Citrix NetScaler",
      "products": [],
@@ -349,17 +322,10 @@
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107409",
      "take": "",
      "action": ""
-    }
-   ],
-   "above": 2
-  },
-  "microsoft-smb": {
-   "label": "Microsoft-first shop",
-   "blurb": "Windows Server, Exchange, Entra, and the Microsoft 365 estate.",
-   "items": [
+    },
     {
-     "id": "CVE-2024-58406",
-     "headline": "Huatian Dynamic OA8000 collaborative office system contains an unauthenticated path traversal vulnerability in /OAapp/jsp/trace/ntkodownload.jsp, where the f...",
+     "id": "CVE-2026-107410",
+     "headline": "Memory overflow in NetScaler Push can lead to unpredictable or erroneous behavior or Denial of Service in Citrix NetScaler",
      "products": [],
      "score": 39,
      "factors": [
@@ -372,15 +338,49 @@
        "points": 0
       },
       {
-       "label": "Severity 8.7",
+       "label": "Severity 9.3",
        "points": 9
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.005,
-     "cvss": 8.7,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-58406",
+     "epss": 0.004,
+     "cvss": 9.3,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107410",
+     "take": "",
+     "action": ""
+    }
+   ],
+   "above": 2
+  },
+  "microsoft-smb": {
+   "label": "Microsoft-first shop",
+   "blurb": "Windows Server, Exchange, Entra, and the Microsoft 365 estate.",
+   "items": [
+    {
+     "id": "CVE-2026-75869",
+     "headline": "Zohocorp ManageEngine\u00a0DDI Central\u00a0versions below\u00a06301\u00a0is affected by\u00a0an authorization bypass and PowerShell command injection vulnerability that allowed auth...",
+     "products": [],
+     "score": 43,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.20",
+       "points": 4
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.204,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75869",
      "take": "",
      "action": ""
     },
@@ -477,6 +477,37 @@
      "epss": 0.009,
      "cvss": 8.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109505",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-110043",
+     "headline": "Heap-based buffer overflow in Microsoft Office Outlook allows an unauthorized attacker to execute code over a network",
+     "products": [
+      "365 apps",
+      "office 2021",
+      "office 2024"
+     ],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.011,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110043",
      "take": "",
      "action": ""
     },
@@ -703,38 +734,6 @@
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110062",
      "take": "",
      "action": ""
-    },
-    {
-     "id": "CVE-2026-110064",
-     "headline": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network",
-     "products": [
-      "365 apps",
-      "microsoft 365",
-      "office 2021",
-      "office 2024"
-     ],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.8",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.009,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110064",
-     "take": "",
-     "action": ""
     }
    ],
    "above": 0
@@ -755,6 +754,144 @@
    "label": "MSP tooling",
    "blurb": "RMM and remote-support platforms with reach into every client.",
    "items": [
+    {
+     "id": "CVE-2026-129272",
+     "headline": "N-able N-central before 2026.4.1 HF3 uses a predictable credential to authenticate appliances to an agent-facing API",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 9.3",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 9.3,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129272",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-129273",
+     "headline": "N-able N-central before 2026.4.1 HF3 does not neutralise control characters in an Audit Export setting before writing it to the system logging configuration",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 8.6",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 8.6,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129273",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-129274",
+     "headline": "N-able N-central before 2026.4.1 HF3 does not authenticate callers of the ServerMMS2 RemoteExecutionTaskSubmit operation or verify task ownership",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 8.7",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 8.7,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129274",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-129280",
+     "headline": "Multiple ServerUI and ServerUI2 SOAP operations in N-able N-central before 2026.4.1 HF3 do not verify the caller's session, permissions or customer scope",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 9.3",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 9.3,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129280",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-129282",
+     "headline": "The test email delivery function in N-able N-central before 2026.4.1 HF3 does not check permissions, lacks CSRF protection, and passes sender and recipient v...",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 8.7",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 8.7,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129282",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-129286",
+     "headline": "N-able N-central before 2026.4.1 HF3 does not validate version values and download locations in software update metadata",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 9.2",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 9.2,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129286",
+     "take": "",
+     "action": ""
+    },
     {
      "id": "CVE-2026-125958",
      "headline": "Download of code without integrity check vulnerability in N-able N-central allows Remote Code Inclusion.\n\nThis issue affects N-central: through 24.6.1",
@@ -783,8 +920,8 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-129690",
-     "headline": "The\nvulnerability enables any attacker with admin access to dump credentials of all\naccounts stored on the device, which can then be reused for lateral movem...",
+     "id": "CVE-2026-129275",
+     "headline": "N-able N-central before 2026.4.1 HF3 allows the repositoryItemGet operation to be called without authentication",
      "products": [],
      "score": 38,
      "factors": [
@@ -801,7 +938,103 @@
      "ransomware": false,
      "epss": 0.0,
      "cvss": 8.2,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129275",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-129281",
+     "headline": "N-able N-central before 2026.4.1 HF3 checks only a view permission for ServerII2 operations that write device execution configuration",
+     "products": [],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 8.5",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 8.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129281",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-129287",
+     "headline": "N-able N-central before 2026.4.1 HF3 processes XML external entities in software repository files",
+     "products": [],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 8.3",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 8.3,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129287",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-129690",
+     "headline": "The\nvulnerability enables any attacker with admin access to dump credentials of all\naccounts stored on the device, which can then be reused for lateral movem...",
+     "products": [],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.2",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.002,
+     "cvss": 8.2,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129690",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-129276",
+     "headline": "N-able N-central before 2026.4.1 HF3 does not authenticate callers of the ServerMMS2 AssetDiscoSimplifiedInfoSubmit operation",
+     "products": [],
+     "score": 37,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 6.9",
+       "points": 7
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 6.9,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129276",
      "take": "",
      "action": ""
     }
@@ -839,36 +1072,9 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.002,
+     "epss": 0.003,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110960",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-119077",
-     "headline": "The ELEX WordPress HelpDesk & Customer Ticketing System plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 3.3....",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.013,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119077",
      "take": "",
      "action": ""
     },
@@ -896,33 +1102,6 @@
      "epss": 0.008,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120522",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-125055",
-     "headline": "The Chatterbug Forms \u2013 Fast, Flexible WordPress Form Builder plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including...",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.01,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125055",
      "take": "",
      "action": ""
     },
@@ -974,7 +1153,7 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.002,
+     "epss": 0.004,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-127048",
      "take": "",
@@ -1008,6 +1187,60 @@
      "action": ""
     },
     {
+     "id": "CVE-2026-105739",
+     "headline": "GitLab has remediated an issue in GitLab CE/EE affecting all versions from 17.2 before 19.3.9, 19.4 before 19.4.8, and 19.5 before 19.5.6 that under certain ...",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.7",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.003,
+     "cvss": 8.7,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105739",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-108153",
+     "headline": "GitLab has remediated an issue in GitLab CE/EE affecting all versions from 16.1 before 19.3.9, 19.4 before 19.4.8, and 19.5 before 19.5.6 that under certain ...",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.7",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.003,
+     "cvss": 8.7,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108153",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2026-116528",
      "headline": "The Chargely Free Subscriptions For Woocommernce WordPress plugin through 1.0 does not perform any authorization check on a REST API route that returns its s...",
      "products": [],
@@ -1028,7 +1261,7 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.001,
+     "epss": 0.003,
      "cvss": 9.1,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116528",
      "take": "",
@@ -1058,6 +1291,29 @@
      "epss": 0.005,
      "cvss": 8.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119615",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-12239",
+     "headline": "The WP Abstracts plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 2.7.6",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12239",
      "take": "",
      "action": ""
     },
@@ -1109,32 +1365,9 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.002,
+     "epss": 0.003,
      "cvss": 8.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123122",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-129877",
-     "headline": "DeepAudit 2.0.0-beta.1 through 3.8.0 contains an information disclosure vulnerability that allows unauthenticated attackers to retrieve server secrets throug...",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Severity 8.7",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.0,
-     "cvss": 8.7,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129877",
      "take": "",
      "action": ""
     }
