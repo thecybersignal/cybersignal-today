@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-18T18:32:09+00:00",
+ "generated": "2026-11-18T20:14:54+00:00",
  "window_hours": 72,
- "scanned": 4439,
+ "scanned": 4546,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
@@ -358,6 +358,42 @@
    "blurb": "Windows Server, Exchange, Entra, and the Microsoft 365 estate.",
    "items": [
     {
+     "id": "CVE-2026-111497",
+     "headline": "A buffer overflow vulnerability in the Brotli decoder (c/dec/decode.c) in Google Brotli versions 1.0.3 through 1.2.0 on all platforms allows a remote unauthe...",
+     "products": [
+      "arrow",
+      "brotli",
+      "bun",
+      "p7zip"
+     ],
+     "score": 96,
+     "factors": [
+      {
+       "label": "Listed as actively exploited",
+       "points": 40
+      },
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.83",
+       "points": 17
+      },
+      {
+       "label": "Severity 9.2",
+       "points": 9
+      }
+     ],
+     "kev": true,
+     "ransomware": false,
+     "epss": 0.826,
+     "cvss": 9.2,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111497",
+     "take": "",
+     "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+    },
+    {
      "id": "CVE-2026-75869",
      "headline": "Zohocorp ManageEngine\u00a0DDI Central\u00a0versions below\u00a06301\u00a0is affected by\u00a0an authorization bypass and PowerShell command injection vulnerability that allowed auth...",
      "products": [],
@@ -466,13 +502,13 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-105518",
-     "headline": "Use after free in Windows iSCSI allows an unauthorized attacker to execute code over a network",
+     "id": "CVE-2026-105020",
+     "headline": "Heap-based buffer overflow in Windows Advanced Rasterization Platform allows an authorized attacker to elevate privileges locally",
      "products": [
-      "windows 10 1607",
       "windows 10 1809",
       "windows 10 21h2",
-      "windows 10 22h2"
+      "windows 10 22h2",
+      "windows 11 23h2"
      ],
      "score": 39,
      "factors": [
@@ -481,7 +517,7 @@
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.01",
+       "label": "Exploit likelihood 0.00",
        "points": 0
       },
       {
@@ -491,52 +527,20 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.007,
+     "epss": 0.003,
      "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105518",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105020",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2026-105534",
-     "headline": "Heap-based buffer overflow in Windows Storage allows an unauthorized attacker to execute code over a network",
+     "id": "CVE-2026-105021",
+     "headline": "Heap-based buffer overflow in Windows Advanced Rasterization Platform allows an authorized attacker to elevate privileges locally",
      "products": [
-      "windows server 2016",
-      "windows server 2019",
-      "windows server 2022",
-      "windows server 2025"
-     ],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.8",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.008,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105534",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-108401",
-     "headline": "Heap-based buffer overflow in Windows Remote Desktop Services allows an authorized attacker to execute code over a network",
-     "products": [
-      "windows 10 1607",
       "windows 10 1809",
       "windows 10 21h2",
-      "windows 10 22h2"
+      "windows 10 22h2",
+      "windows 11 23h2"
      ],
      "score": 39,
      "factors": [
@@ -545,7 +549,7 @@
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.01",
+       "label": "Exploit likelihood 0.00",
        "points": 0
       },
       {
@@ -555,19 +559,20 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.01,
+     "epss": 0.003,
      "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108401",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105021",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2026-109493",
-     "headline": "Heap-based buffer overflow in Microsoft Office Access allows an unauthorized attacker to execute code over a network",
+     "id": "CVE-2026-105023",
+     "headline": "Heap-based buffer overflow in Windows Advanced Rasterization Platform allows an authorized attacker to elevate privileges locally",
      "products": [
-      "365 apps",
-      "office 2021",
-      "office 2024"
+      "windows 10 1809",
+      "windows 10 21h2",
+      "windows 10 22h2",
+      "windows 11 23h2"
      ],
      "score": 39,
      "factors": [
@@ -576,7 +581,7 @@
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.01",
+       "label": "Exploit likelihood 0.00",
        "points": 0
       },
       {
@@ -586,19 +591,20 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.009,
+     "epss": 0.003,
      "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109493",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105023",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2026-109494",
-     "headline": "Heap-based buffer overflow in Microsoft Office Visio allows an unauthorized attacker to execute code over a network",
+     "id": "CVE-2026-105026",
+     "headline": "Heap-based buffer overflow in Windows Advanced Rasterization Platform allows an authorized attacker to elevate privileges locally",
      "products": [
-      "365 apps",
-      "office 2021",
-      "office 2024"
+      "windows 10 1809",
+      "windows 10 21h2",
+      "windows 10 22h2",
+      "windows 11 23h2"
      ],
      "score": 39,
      "factors": [
@@ -607,7 +613,7 @@
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.01",
+       "label": "Exploit likelihood 0.00",
        "points": 0
       },
       {
@@ -617,19 +623,20 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.008,
+     "epss": 0.003,
      "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109494",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105026",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2026-109496",
-     "headline": "Heap-based buffer overflow in Microsoft Office Visio allows an unauthorized attacker to execute code over a network",
+     "id": "CVE-2026-105490",
+     "headline": "Stack-based buffer overflow in Windows Advanced Rasterization Platform allows an authorized attacker to elevate privileges locally",
      "products": [
-      "365 apps",
-      "office 2021",
-      "office 2024"
+      "windows 10 1809",
+      "windows 10 21h2",
+      "windows 10 22h2",
+      "windows 11 23h2"
      ],
      "score": 39,
      "factors": [
@@ -638,7 +645,7 @@
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.01",
+       "label": "Exploit likelihood 0.00",
        "points": 0
       },
       {
@@ -648,20 +655,20 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.009,
+     "epss": 0.003,
      "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109496",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105490",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2026-109501",
-     "headline": "Out-of-bounds read in Microsoft Office Word allows an unauthorized attacker to execute code over a network",
+     "id": "CVE-2026-105491",
+     "headline": "Heap-based buffer overflow in Windows Advanced Rasterization Platform allows an authorized attacker to elevate privileges locally",
      "products": [
-      "365 apps",
-      "microsoft 365",
-      "office 2021",
-      "office 2024"
+      "windows 10 1809",
+      "windows 10 21h2",
+      "windows 10 22h2",
+      "windows 11 23h2"
      ],
      "score": 39,
      "factors": [
@@ -670,7 +677,7 @@
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.01",
+       "label": "Exploit likelihood 0.00",
        "points": 0
       },
       {
@@ -680,20 +687,20 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.009,
+     "epss": 0.003,
      "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109501",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105491",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2026-109503",
-     "headline": "Double free in Microsoft Office Word allows an unauthorized attacker to execute code over a network",
+     "id": "CVE-2026-105493",
+     "headline": "Stack-based buffer overflow in Windows Advanced Rasterization Platform allows an authorized attacker to elevate privileges locally",
      "products": [
-      "365 apps",
-      "microsoft 365",
-      "office 2021",
-      "office 2024"
+      "windows 10 1809",
+      "windows 10 21h2",
+      "windows 10 22h2",
+      "windows 11 23h2"
      ],
      "score": 39,
      "factors": [
@@ -702,7 +709,7 @@
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.01",
+       "label": "Exploit likelihood 0.00",
        "points": 0
       },
       {
@@ -712,14 +719,14 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.009,
+     "epss": 0.003,
      "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109503",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105493",
      "take": "",
      "action": ""
     }
    ],
-   "above": 0
+   "above": 1
   },
   "virtualization": {
    "label": "Virtualization & hypervisor",
@@ -1231,6 +1238,33 @@
      "action": ""
     },
     {
+     "id": "CVE-2026-127021",
+     "headline": "The Flamix: Bitrix24 and WooCommerce Products Sync WordPress plugin before 1.7.0 does not restrict or validate an unauthenticated file-exchange request, allo...",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.002,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-127021",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2026-127048",
      "headline": "The Custom Block Builder  WordPress plugin before 3.0.0 does not properly deny unauthorised requests to its REST routes, as its permission checks return a no...",
      "products": [],
@@ -1254,6 +1288,33 @@
      "epss": 0.004,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-127048",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-128851",
+     "headline": "The Probono Form Basic WordPress plugin before 1.3.3 does not validate the real type of files uploaded through its public form, trusting the client-declared ...",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.002,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-128851",
      "take": "",
      "action": ""
     },
@@ -1335,60 +1396,6 @@
      "epss": 0.003,
      "cvss": 8.7,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108153",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-116528",
-     "headline": "The Chargely Free Subscriptions For Woocommernce WordPress plugin through 1.0 does not perform any authorization check on a REST API route that returns its s...",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.1",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.003,
-     "cvss": 9.1,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116528",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-119615",
-     "headline": "The Reset Database plugin for WordPress is vulnerable to privilege escalation in versions up to, and including, 1.1.3",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.8",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.005,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119615",
      "take": "",
      "action": ""
     }
