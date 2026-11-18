@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-17T20:39:44+00:00",
+ "generated": "2026-11-18T18:32:09+00:00",
  "window_hours": 72,
- "scanned": 2367,
+ "scanned": 4439,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
@@ -385,6 +385,276 @@
      "action": ""
     },
     {
+     "id": "CVE-2026-114824",
+     "headline": "Vulnerability in the Oracle Platform Security for Java product of Oracle Fusion Middleware (component: Centralized Thirdparty Jars)",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 10.0",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.005,
+     "cvss": 10.0,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114824",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2015-20122",
+     "headline": "Seeyon A6 collaborative office automation platform contains an unauthenticated SQL injection vulnerability in the attach_ids parameter of the file attachment...",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.7",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.005,
+     "cvss": 8.7,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-20122",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2023-54400",
+     "headline": "Fumasoft Fumeng Cloud contains a SQL injection vulnerability in the AjaxMethod.ashx endpoint that allows unauthenticated remote attackers to inject arbitrary...",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.3",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.006,
+     "cvss": 9.3,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-54400",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-105518",
+     "headline": "Use after free in Windows iSCSI allows an unauthorized attacker to execute code over a network",
+     "products": [
+      "windows 10 1607",
+      "windows 10 1809",
+      "windows 10 21h2",
+      "windows 10 22h2"
+     ],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.007,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105518",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-105534",
+     "headline": "Heap-based buffer overflow in Windows Storage allows an unauthorized attacker to execute code over a network",
+     "products": [
+      "windows server 2016",
+      "windows server 2019",
+      "windows server 2022",
+      "windows server 2025"
+     ],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.008,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105534",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-108401",
+     "headline": "Heap-based buffer overflow in Windows Remote Desktop Services allows an authorized attacker to execute code over a network",
+     "products": [
+      "windows 10 1607",
+      "windows 10 1809",
+      "windows 10 21h2",
+      "windows 10 22h2"
+     ],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.01,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108401",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-109493",
+     "headline": "Heap-based buffer overflow in Microsoft Office Access allows an unauthorized attacker to execute code over a network",
+     "products": [
+      "365 apps",
+      "office 2021",
+      "office 2024"
+     ],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.009,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109493",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-109494",
+     "headline": "Heap-based buffer overflow in Microsoft Office Visio allows an unauthorized attacker to execute code over a network",
+     "products": [
+      "365 apps",
+      "office 2021",
+      "office 2024"
+     ],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.008,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109494",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-109496",
+     "headline": "Heap-based buffer overflow in Microsoft Office Visio allows an unauthorized attacker to execute code over a network",
+     "products": [
+      "365 apps",
+      "office 2021",
+      "office 2024"
+     ],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.009,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109496",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2026-109501",
      "headline": "Out-of-bounds read in Microsoft Office Word allows an unauthorized attacker to execute code over a network",
      "products": [
@@ -447,293 +717,6 @@
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109503",
      "take": "",
      "action": ""
-    },
-    {
-     "id": "CVE-2026-109505",
-     "headline": "Stack-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network",
-     "products": [
-      "365 apps",
-      "microsoft 365",
-      "office 2021",
-      "office 2024"
-     ],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.8",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.009,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109505",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-110043",
-     "headline": "Heap-based buffer overflow in Microsoft Office Outlook allows an unauthorized attacker to execute code over a network",
-     "products": [
-      "365 apps",
-      "office 2021",
-      "office 2024"
-     ],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.8",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.011,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110043",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-110047",
-     "headline": "Use after free in Microsoft Office Word allows an unauthorized attacker to execute code over a network",
-     "products": [
-      "365 apps",
-      "microsoft 365",
-      "office 2021",
-      "office 2024"
-     ],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.8",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.011,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110047",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-110048",
-     "headline": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network",
-     "products": [
-      "365 apps",
-      "microsoft 365",
-      "office 2021",
-      "office 2024"
-     ],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.8",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.009,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110048",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-110050",
-     "headline": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network",
-     "products": [
-      "365 apps",
-      "microsoft 365",
-      "office 2021",
-      "office 2024"
-     ],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.8",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.009,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110050",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-110054",
-     "headline": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network",
-     "products": [
-      "365 apps",
-      "microsoft 365",
-      "office 2021",
-      "office 2024"
-     ],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.8",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.009,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110054",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-110055",
-     "headline": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network",
-     "products": [
-      "365 apps",
-      "microsoft 365",
-      "office 2021",
-      "office 2024"
-     ],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.8",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.009,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110055",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-110061",
-     "headline": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network",
-     "products": [
-      "365 apps",
-      "microsoft 365",
-      "office 2021",
-      "office 2024"
-     ],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.8",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.009,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110061",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-110062",
-     "headline": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network",
-     "products": [
-      "365 apps",
-      "microsoft 365",
-      "office 2021",
-      "office 2024"
-     ],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.8",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.009,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110062",
-     "take": "",
-     "action": ""
     }
    ],
    "above": 0
@@ -755,6 +738,63 @@
    "blurb": "RMM and remote-support platforms with reach into every client.",
    "items": [
     {
+     "id": "CVE-2016-15047",
+     "headline": "AVTECH devices that include the CloudSetup.cgi management endpoint are vulnerable to authenticated OS command injection",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.04",
+       "points": 1
+      },
+      {
+       "label": "Severity 8.7",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.038,
+     "cvss": 8.7,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2016-15047",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2025-34204",
+     "headline": "Vasion Print (formerly PrinterLogic) Virtual Appliance Host and Application (VA and SaaS deployments) contains multiple Docker containers that run primary ap...",
+     "products": [
+      "virtual appliance application",
+      "virtual appliance host"
+     ],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.7",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.007,
+     "cvss": 8.7,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-34204",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2026-129272",
      "headline": "N-able N-central before 2026.4.1 HF3 uses a predictable credential to authenticate appliances to an agent-facing API",
      "products": [],
@@ -765,13 +805,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
        "label": "Severity 9.3",
        "points": 9
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.005,
      "cvss": 9.3,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129272",
      "take": "",
@@ -788,13 +832,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
        "label": "Severity 8.6",
        "points": 9
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.006,
      "cvss": 8.6,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129273",
      "take": "",
@@ -811,13 +859,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
        "label": "Severity 8.7",
        "points": 9
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.007,
      "cvss": 8.7,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129274",
      "take": "",
@@ -834,13 +886,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
        "label": "Severity 9.3",
        "points": 9
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.007,
      "cvss": 9.3,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129280",
      "take": "",
@@ -857,13 +913,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
        "label": "Severity 8.7",
        "points": 9
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.004,
      "cvss": 8.7,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129282",
      "take": "",
@@ -880,15 +940,49 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
        "label": "Severity 9.2",
        "points": 9
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.004,
      "cvss": 9.2,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129286",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2025-34201",
+     "headline": "Vasion Print (formerly PrinterLogic) Virtual Appliance Host and Application (VA and SaaS deployments) run many Docker containers on shared internal networks ...",
+     "products": [
+      "virtual appliance application",
+      "virtual appliance host"
+     ],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.5",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.003,
+     "cvss": 8.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-34201",
      "take": "",
      "action": ""
     },
@@ -930,13 +1024,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
        "label": "Severity 8.2",
        "points": 8
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.007,
      "cvss": 8.2,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129275",
      "take": "",
@@ -953,88 +1051,19 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
        "label": "Severity 8.5",
        "points": 8
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.004,
      "cvss": 8.5,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129281",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-129287",
-     "headline": "N-able N-central before 2026.4.1 HF3 processes XML external entities in software repository files",
-     "products": [],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Severity 8.3",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.0,
-     "cvss": 8.3,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129287",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-129690",
-     "headline": "The\nvulnerability enables any attacker with admin access to dump credentials of all\naccounts stored on the device, which can then be reused for lateral movem...",
-     "products": [],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.2",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.002,
-     "cvss": 8.2,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129690",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-129276",
-     "headline": "N-able N-central before 2026.4.1 HF3 does not authenticate callers of the ServerMMS2 AssetDiscoSimplifiedInfoSubmit operation",
-     "products": [],
-     "score": 37,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Severity 6.9",
-       "points": 7
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.0,
-     "cvss": 6.9,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129276",
      "take": "",
      "action": ""
     }
@@ -1051,6 +1080,52 @@
    "label": "Developer & collaboration stack",
    "blurb": "Confluence, Jenkins, GitLab, and the internal tools nobody patches.",
    "items": [
+    {
+     "id": "CVE-2026-110009",
+     "headline": "The Unzer Payments plugin for WordPress is vulnerable to Authentication Bypass leading to Account Takeover in all versions up to, and including, 2.2.1",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110009",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-110811",
+     "headline": "The Trust Payments Gateway for WooCommerce (JavaScript Library) plugin for WordPress is vulnerable to Authentication Bypass in all versions up to, and includ...",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110811",
+     "take": "",
+     "action": ""
+    },
     {
      "id": "CVE-2026-110960",
      "headline": "The Auth Armor  WordPress plugin through 1.0.3 does not require authentication on several handlers available to logged-out users, which leak the site's store...",
@@ -1102,6 +1177,29 @@
      "epss": 0.008,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120522",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-124990",
+     "headline": "The Masteriyo LMS \u2013 LMS Course Builder, Quizzes & Certificates plugin for WordPress is vulnerable to PHP Object Injection in versions up to, and including, 3...",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124990",
      "take": "",
      "action": ""
     },
@@ -1291,83 +1389,6 @@
      "epss": 0.005,
      "cvss": 8.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119615",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-12239",
-     "headline": "The WP Abstracts plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 2.7.6",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Severity 8.8",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.0,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12239",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-123046",
-     "headline": "The SEOJuice WordPress plugin before 2.12.0 does not correctly restrict a REST API authentication filter, disabling WordPress's REST nonce protection for the...",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.8",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.001,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123046",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-123122",
-     "headline": "The Checkout Files Upload for WooCommerce WordPress plugin before 2.4.1 does not verify that a file uploaded at checkout is really one of its allowed image t...",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.8",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.003,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123122",
      "take": "",
      "action": ""
     }
