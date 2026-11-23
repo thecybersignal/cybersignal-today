@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-23T21:50:50+00:00",
+ "generated": "2026-11-23T23:38:07+00:00",
  "window_hours": 72,
- "scanned": 2465,
+ "scanned": 2531,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
@@ -48,6 +48,52 @@
    "blurb": "Windows Server, Exchange, Entra, and the Microsoft 365 estate.",
    "items": [
     {
+     "id": "CVE-2026-118285",
+     "headline": "Server-side request forgery in Azure Machine Learning allows an authorized attacker to elevate privileges over a network",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 9.6",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 9.6,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118285",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-62841",
+     "headline": "Improper authentication in Azure Event Grid allows an unauthorized attacker to elevate privileges over a network",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 10.0",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 10.0,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62841",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2026-70096",
      "headline": "Heap-based buffer overflow in Windows Rich Text Edit Control allows an unauthorized attacker to execute code over a network",
      "products": [
@@ -76,6 +122,52 @@
      "epss": 0.011,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70096",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-70193",
+     "headline": "Improper limitation of a pathname to a restricted directory ('path traversal') in Microsoft Office SharePoint allows an authorized attacker to execute code o...",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 9.9",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 9.9,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70193",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-70305",
+     "headline": "Improper neutralization of input during web page generation ('cross-site scripting') in Azure Portal allows an unauthorized attacker to perform spoofing over...",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 9.6",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 9.6,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70305",
      "take": "",
      "action": ""
     },
@@ -176,6 +268,52 @@
      "action": ""
     },
     {
+     "id": "CVE-2026-113824",
+     "headline": "Authorization bypass through user-controlled key in Microsoft Clarity allows an unauthorized attacker to elevate privileges over a network",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 9.1",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 9.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-113824",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-118286",
+     "headline": "Improper access control in Azure Site Recovery allows an unauthorized attacker to elevate privileges over a network",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 9.1",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 9.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118286",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2026-135163",
      "headline": "Okou API before 1.762.0 contains a missing authentication vulnerability in its Microsoft Teams, legacy Slack, and GitHub App integration OAuth flows that tru...",
      "products": [],
@@ -199,221 +337,25 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-88222",
-     "headline": "Heap-based buffer overflow in Microsoft WDAC OLE DB provider for SQL allows an unauthorized attacker to execute code over a network",
-     "products": [
-      "windows 10 1607",
-      "windows 10 1809",
-      "windows 10 21h2",
-      "windows 10 22h2"
-     ],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.8",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.006,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88222",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-96064",
-     "headline": "Heap-based buffer overflow in DNS Server allows an authorized attacker to execute code over a network",
-     "products": [
-      "windows server 2016",
-      "windows server 2019",
-      "windows server 2022",
-      "windows server 2025"
-     ],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.8",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.007,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96064",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-96202",
-     "headline": "Heap-based buffer overflow in Windows Raw Image Extension allows an unauthorized attacker to execute code over a network",
-     "products": [
-      "edge chromium",
-      "raw image extension",
-      "windows 10 1507",
-      "windows 10 1607"
-     ],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.8",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.009,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96202",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-55216",
-     "headline": "Logto is the modern, open-source auth infrastructure for SaaS and AI apps",
+     "id": "CVE-2026-69437",
+     "headline": "Missing authorization in Azure AI Foundry allows an unauthorized attacker to disclose information over a network",
      "products": [],
-     "score": 38,
+     "score": 39,
      "factors": [
       {
        "label": "Runs in this environment",
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.1",
-       "points": 8
+       "label": "Severity 8.6",
+       "points": 9
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.003,
-     "cvss": 8.1,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55216",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-85925",
-     "headline": "Improper restriction of communication channel to intended endpoints in Azure Key Vault allows an authorized attacker to elevate privileges over a network",
-     "products": [
-      "azure key vault certificate",
-      "azure key vault key",
-      "azure key vault secret",
-      "azure keyvault administration"
-     ],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.2",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.005,
-     "cvss": 8.2,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85925",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-88230",
-     "headline": "Heap-based buffer overflow in Windows LUAFV allows an authorized attacker to elevate privileges locally",
-     "products": [
-      "windows 10 1607",
-      "windows 10 1809",
-      "windows 10 21h2",
-      "windows 10 22h2"
-     ],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 7.8",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.005,
-     "cvss": 7.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88230",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-88232",
-     "headline": "Use after free in Windows Camera Frame Server Monitor allows an authorized attacker to elevate privileges locally",
-     "products": [
-      "windows 11 24h2",
-      "windows 11 25h2",
-      "windows 11 26h1",
-      "windows 11 26h2"
-     ],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 7.8",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.003,
-     "cvss": 7.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88232",
+     "epss": 0.0,
+     "cvss": 8.6,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69437",
      "take": "",
      "action": ""
     }
@@ -893,6 +835,29 @@
      "action": ""
     },
     {
+     "id": "CVE-2026-122090",
+     "headline": "Pelican 4.12.0 contains an OS command injection vulnerability in pelican-import",
+     "products": [],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 8.4",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 8.4,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122090",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2026-123086",
      "headline": "The PublishPress Revisions: Duplicate Posts, Submit, Approve and Schedule Content Changes plugin for WordPress is vulnerable to authorization bypass in all v...",
      "products": [],
@@ -943,33 +908,6 @@
      "epss": 0.004,
      "cvss": 7.5,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125695",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-134827",
-     "headline": "Lightdash before 3.212.0 contains an insufficiently protected credentials vulnerability in getGitlabInstallationRepoReadAccess that sends the organization Gi...",
-     "products": [],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.3",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.004,
-     "cvss": 8.3,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134827",
      "take": "",
      "action": ""
     }
