@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-20T19:48:46+00:00",
+ "generated": "2026-11-23T21:50:50+00:00",
  "window_hours": 72,
- "scanned": 5276,
+ "scanned": 2465,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
@@ -9,20 +9,16 @@
    "blurb": "VPN concentrators, SSL gateways, and anything you publish to the internet.",
    "items": [
     {
-     "id": "CVE-2026-109618",
-     "headline": "PHP uses longjmp() for out-of-memory (OOM) errors to exit the current context and abort handling of the request",
+     "id": "CVE-2024-6387",
+     "headline": "A security regression (CVE-2006-5051) was discovered in OpenSSH's server (sshd)",
      "products": [
-      "pan-os",
-      "panorama m-200",
-      "panorama m-300",
-      "panorama m-500"
+      "almalinux",
+      "amazon linux",
+      "eos",
+      "macos"
      ],
-     "score": 99,
+     "score": 58,
      "factors": [
-      {
-       "label": "Listed as actively exploited",
-       "points": 40
-      },
       {
        "label": "Runs in this environment",
        "points": 30
@@ -32,403 +28,34 @@
        "points": 20
       },
       {
-       "label": "Severity 9.2",
-       "points": 9
-      }
-     ],
-     "kev": true,
-     "ransomware": false,
-     "epss": 1.0,
-     "cvss": 9.2,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109618",
-     "take": "",
-     "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
-    },
-    {
-     "id": "CVE-2026-109619",
-     "headline": "PHP has various global state that temporarily points into request memory",
-     "products": [
-      "pan-os",
-      "panorama m-200",
-      "panorama m-300",
-      "panorama m-500"
-     ],
-     "score": 99,
-     "factors": [
-      {
-       "label": "Listed as actively exploited",
-       "points": 40
-      },
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 1.00",
-       "points": 20
-      },
-      {
-       "label": "Severity 9.2",
-       "points": 9
-      }
-     ],
-     "kev": true,
-     "ransomware": false,
-     "epss": 1.0,
-     "cvss": 9.2,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109619",
-     "take": "",
-     "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
-    },
-    {
-     "id": "CVE-2026-107410",
-     "headline": "Memory overflow in NetScaler Push can lead to unpredictable or erroneous behavior or Denial of Service in Citrix NetScaler",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.3",
-       "points": 9
+       "label": "Severity 8.1",
+       "points": 8
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.004,
-     "cvss": 9.3,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107410",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-107415",
-     "headline": "Memory overflow in Email OTP authentication can lead to unpredictable or erroneous behavior or Denial of Service in Citrix NetScaler ADC and Citrix NetScaler...",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.3",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.003,
-     "cvss": 9.3,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107415",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-111334",
-     "headline": "Memory overflow in Endpoint Analysis (EPA/EPAS) can lead to unpredictable or erroneous behavior or a Denial of Service in Citrix NetScaler ADC and Citrix Net...",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.3",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.003,
-     "cvss": 9.3,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111334",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-111333",
-     "headline": "Memory overflow in an authentication request can lead to unpredictable or erroneous behavior or Denial of Service in Citrix NetScaler ADC and Citrix NetScale...",
-     "products": [],
-     "score": 37,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 6.9",
-       "points": 7
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.001,
-     "cvss": 6.9,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111333",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-111339",
-     "headline": "Memory overflow in Application Firewall data decompression/inspection can lead to unpredictable or erroneous behavior or Denial of Service in Citrix NetScale...",
-     "products": [],
-     "score": 37,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 6.9",
-       "points": 7
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.001,
-     "cvss": 6.9,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111339",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-126211",
-     "headline": "A improper privilege management vulnerability in Fortinet FortiAnalyzer 8.0.0 through 8.0.1, FortiAnalyzer 7.6.1 through 7.6.7, FortiAnalyzer Cloud 8.0.0 thr...",
-     "products": [],
-     "score": 37,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 7.2",
-       "points": 7
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.005,
-     "cvss": 7.2,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126211",
+     "epss": 0.995,
+     "cvss": 8.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-6387",
      "take": "",
      "action": ""
     }
    ],
-   "above": 2
+   "above": 0
   },
   "microsoft-smb": {
    "label": "Microsoft-first shop",
    "blurb": "Windows Server, Exchange, Entra, and the Microsoft 365 estate.",
    "items": [
     {
-     "id": "CVE-2026-111497",
-     "headline": "A buffer overflow vulnerability in the Brotli decoder (c/dec/decode.c) in Google Brotli versions 1.0.3 through 1.2.0 on all platforms allows a remote unauthe...",
+     "id": "CVE-2026-70096",
+     "headline": "Heap-based buffer overflow in Windows Rich Text Edit Control allows an unauthorized attacker to execute code over a network",
      "products": [
-      "arrow",
-      "brotli",
-      "bun",
-      "p7zip"
+      "365 apps",
+      "microsoft 365",
+      "office 2021",
+      "office 2024"
      ],
-     "score": 95,
-     "factors": [
-      {
-       "label": "Listed as actively exploited",
-       "points": 40
-      },
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.82",
-       "points": 16
-      },
-      {
-       "label": "Severity 9.2",
-       "points": 9
-      }
-     ],
-     "kev": true,
-     "ransomware": false,
-     "epss": 0.824,
-     "cvss": 9.2,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111497",
-     "take": "",
-     "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
-    },
-    {
-     "id": "CVE-2026-95645",
-     "headline": "Zohocorp Manageengine DDI Central build below\u00a06500 are affected by\u00a0a authenticated command injection vulnerability in the Windows DDI Agent's clear_blocked_d...",
-     "products": [],
-     "score": 44,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.26",
-       "points": 5
-      },
-      {
-       "label": "Severity 9.1",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.257,
-     "cvss": 9.1,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-95645",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-95643",
-     "headline": "Zohocorp Manageengine DDI Central build below\u00a06500 are affected by\u00a0a authenticated\u00a0PowerShell command injection vulnerability in the Telnet connectivity feat...",
-     "products": [],
-     "score": 43,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.22",
-       "points": 4
-      },
-      {
-       "label": "Severity 9.1",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.217,
-     "cvss": 9.1,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-95643",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-114824",
-     "headline": "Vulnerability in the Oracle Platform Security for Java product of Oracle Fusion Middleware (component: Centralized Thirdparty Jars)",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 10.0",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.004,
-     "cvss": 10.0,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114824",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-130968",
-     "headline": "Use after free in Views in Google Chrome on on Windows prior to 158.0.8127.36 allowed a remote attacker leveraging social engineering to execute arbitrary co...",
-     "products": [
-      "chrome",
-      "windows"
-     ],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.6",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.003,
-     "cvss": 9.6,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130968",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-68791",
-     "headline": "Incorrect authorization in Azure Machine Learning allows an unauthorized attacker to disclose information over a network",
-     "products": [
-      "azure machine learning"
-     ],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 10.0",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.008,
-     "cvss": 10.0,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-68791",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-84236",
-     "headline": "IBM Guardium Data Protection 12.2 is vulnerable to insecure deserialization in the SharePoint Tap MulticastTransceiver component",
-     "products": [],
      "score": 40,
      "factors": [
       {
@@ -446,15 +73,47 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.006,
+     "epss": 0.011,
      "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84236",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70096",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2026-96157",
-     "headline": "Heap-based buffer overflow in Microsoft Windows Media Foundation allows an unauthorized attacker to execute code over a network",
+     "id": "CVE-2026-88234",
+     "headline": "Release of invalid pointer or reference in Windows iSCSI allows an unauthorized attacker to execute code over a network",
+     "products": [
+      "windows server 2016",
+      "windows server 2019",
+      "windows server 2022",
+      "windows server 2025"
+     ],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.009,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88234",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-96067",
+     "headline": "Integer overflow or wraparound in Microsoft Color Management allows an unauthorized attacker to execute code over a network",
      "products": [
       "windows 10 1607",
       "windows 10 1809",
@@ -480,145 +139,21 @@
      "ransomware": false,
      "epss": 0.009,
      "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96157",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96067",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2015-20122",
-     "headline": "Seeyon A6 collaborative office automation platform contains an unauthenticated SQL injection vulnerability in the attach_ids parameter of the file attachment...",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.7",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.005,
-     "cvss": 8.7,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-20122",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2023-54400",
-     "headline": "Fumasoft Fumeng Cloud contains a SQL injection vulnerability in the AjaxMethod.ashx endpoint that allows unauthenticated remote attackers to inject arbitrary...",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.3",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.006,
-     "cvss": 9.3,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-54400",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-105020",
-     "headline": "Heap-based buffer overflow in Windows Advanced Rasterization Platform allows an authorized attacker to elevate privileges locally",
+     "id": "CVE-2026-96078",
+     "headline": "Heap-based buffer overflow in Microsoft Color Management allows an unauthorized attacker to execute code over a network",
      "products": [
+      "windows 10 1607",
       "windows 10 1809",
       "windows 10 21h2",
-      "windows 10 22h2",
-      "windows 11 23h2"
+      "windows 10 22h2"
      ],
-     "score": 39,
+     "score": 40,
      "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.8",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.003,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105020",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-105021",
-     "headline": "Heap-based buffer overflow in Windows Advanced Rasterization Platform allows an authorized attacker to elevate privileges locally",
-     "products": [
-      "windows 10 1809",
-      "windows 10 21h2",
-      "windows 10 22h2",
-      "windows 11 23h2"
-     ],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.8",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.003,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105021",
-     "take": "",
-     "action": ""
-    }
-   ],
-   "above": 1
-  },
-  "virtualization": {
-   "label": "Virtualization & hypervisor",
-   "blurb": "VMware, Proxmox, and the layer everything else runs on.",
-   "items": [
-    {
-     "id": "CVE-2026-123890",
-     "headline": "VMware vCenter contains an authentication bypass vulnerability in the VMware Directory Service.\nAffected versions: 9.1.x (fixed in 9.1.1.0200); 9.0.x (fixed ...",
-     "products": [],
-     "score": 80,
-     "factors": [
-      {
-       "label": "Listed as actively exploited",
-       "points": 40
-      },
       {
        "label": "Runs in this environment",
        "points": 30
@@ -632,13 +167,353 @@
        "points": 10
       }
      ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.01,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96078",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-135163",
+     "headline": "Okou API before 1.762.0 contains a missing authentication vulnerability in its Microsoft Teams, legacy Slack, and GitHub App integration OAuth flows that tru...",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 9.1",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 9.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135163",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-88222",
+     "headline": "Heap-based buffer overflow in Microsoft WDAC OLE DB provider for SQL allows an unauthorized attacker to execute code over a network",
+     "products": [
+      "windows 10 1607",
+      "windows 10 1809",
+      "windows 10 21h2",
+      "windows 10 22h2"
+     ],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.006,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88222",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-96064",
+     "headline": "Heap-based buffer overflow in DNS Server allows an authorized attacker to execute code over a network",
+     "products": [
+      "windows server 2016",
+      "windows server 2019",
+      "windows server 2022",
+      "windows server 2025"
+     ],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.007,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96064",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-96202",
+     "headline": "Heap-based buffer overflow in Windows Raw Image Extension allows an unauthorized attacker to execute code over a network",
+     "products": [
+      "edge chromium",
+      "raw image extension",
+      "windows 10 1507",
+      "windows 10 1607"
+     ],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.009,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96202",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-55216",
+     "headline": "Logto is the modern, open-source auth infrastructure for SaaS and AI apps",
+     "products": [],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.1",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.003,
+     "cvss": 8.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55216",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-85925",
+     "headline": "Improper restriction of communication channel to intended endpoints in Azure Key Vault allows an authorized attacker to elevate privileges over a network",
+     "products": [
+      "azure key vault certificate",
+      "azure key vault key",
+      "azure key vault secret",
+      "azure keyvault administration"
+     ],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.2",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.005,
+     "cvss": 8.2,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85925",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-88230",
+     "headline": "Heap-based buffer overflow in Windows LUAFV allows an authorized attacker to elevate privileges locally",
+     "products": [
+      "windows 10 1607",
+      "windows 10 1809",
+      "windows 10 21h2",
+      "windows 10 22h2"
+     ],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.8",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.005,
+     "cvss": 7.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88230",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-88232",
+     "headline": "Use after free in Windows Camera Frame Server Monitor allows an authorized attacker to elevate privileges locally",
+     "products": [
+      "windows 11 24h2",
+      "windows 11 25h2",
+      "windows 11 26h1",
+      "windows 11 26h2"
+     ],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.8",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.003,
+     "cvss": 7.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88232",
+     "take": "",
+     "action": ""
+    }
+   ],
+   "above": 0
+  },
+  "virtualization": {
+   "label": "Virtualization & hypervisor",
+   "blurb": "VMware, Proxmox, and the layer everything else runs on.",
+   "items": [
+    {
+     "id": "CVE-2026-123890",
+     "headline": "VMware vCenter contains an authentication bypass vulnerability in the VMware Directory Service.\nAffected versions: 9.1.x (fixed in 9.1.1.0200); 9.0.x (fixed ...",
+     "products": [
+      "cloud foundation",
+      "telco cloud infrastructure",
+      "telco cloud platform",
+      "vcenter server"
+     ],
+     "score": 81,
+     "factors": [
+      {
+       "label": "Listed as actively exploited",
+       "points": 40
+      },
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.04",
+       "points": 1
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
      "kev": true,
      "ransomware": false,
-     "epss": 0.008,
+     "epss": 0.035,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123890",
      "take": "",
      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines"
+    },
+    {
+     "id": "CVE-2026-133469",
+     "headline": "XO (Xen Orchestra) is a solution to visualize, manage, backup and delegate your XCP-ng (or XenServer) infrastructure",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133469",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2023-5633",
+     "headline": "The reference count changes made as part of the CVE-2023-33951 and CVE-2023-33952 fixes exposed a use-after-free flaw in the way memory objects were handled ...",
+     "products": [
+      "codeready linux builder",
+      "codeready linux builder eus",
+      "codeready linux builder for arm64",
+      "linux kernel"
+     ],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.8",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.003,
+     "cvss": 7.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-5633",
+     "take": "",
+     "action": ""
     },
     {
      "id": "CVE-2026-123894",
@@ -668,8 +543,8 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-133045",
-     "headline": "In JetBrains TeamCity before 2026.2.1 stored XSS in VMware vSphere cloud profile settings was possible",
+     "id": "CVE-2026-99744",
+     "headline": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: atl1c: drop oversized RX frames instead of panicking\n\natl1c sizes its receive buffe...",
      "products": [],
      "score": 37,
      "factors": [
@@ -682,33 +557,14 @@
        "points": 0
       },
       {
-       "label": "Severity 6.8",
+       "label": "Severity 7.1",
        "points": 7
       }
      ],
      "kev": false,
      "ransomware": false,
      "epss": 0.003,
-     "cvss": 6.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133045",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-99744",
-     "headline": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: atl1c: drop oversized RX frames instead of panicking\n\natl1c sizes its receive buffe...",
-     "products": [],
-     "score": 30,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.0,
-     "cvss": 0.0,
+     "cvss": 7.1,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-99744",
      "take": "",
      "action": ""
@@ -727,37 +583,41 @@
    "blurb": "RMM and remote-support platforms with reach into every client.",
    "items": [
     {
-     "id": "CVE-2016-15047",
-     "headline": "AVTECH devices that include the CloudSetup.cgi management endpoint are vulnerable to authenticated OS command injection",
+     "id": "CVE-2026-134624",
+     "headline": "N-able MailAssure (SpamExperts) before 20261121.1943 does not restrict the destination of the LDAP synchronisation connection check performed when a relay is...",
      "products": [],
-     "score": 40,
+     "score": 79,
      "factors": [
+      {
+       "label": "Listed as actively exploited",
+       "points": 40
+      },
       {
        "label": "Runs in this environment",
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.04",
-       "points": 1
+       "label": "Exploit likelihood 0.00",
+       "points": 0
       },
       {
-       "label": "Severity 8.7",
+       "label": "Severity 9.3",
        "points": 9
       }
      ],
-     "kev": false,
+     "kev": true,
      "ransomware": false,
-     "epss": 0.038,
-     "cvss": 8.7,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2016-15047",
+     "epss": 0.004,
+     "cvss": 9.3,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134624",
      "take": "",
-     "action": ""
+     "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
     },
     {
-     "id": "CVE-2026-18948",
-     "headline": "A flaw was found in Feast",
+     "id": "CVE-2026-131610",
+     "headline": "In ConnectWise Automate versions prior to\n2026.11, a condition in Web Control Center (WCC2) authorization handling could\nallow an authenticated contact user ...",
      "products": [],
-     "score": 40,
+     "score": 36,
      "factors": [
       {
        "label": "Runs in this environment",
@@ -768,296 +628,20 @@
        "points": 0
       },
       {
-       "label": "Severity 9.9",
-       "points": 10
+       "label": "Severity 6.5",
+       "points": 6
       }
      ],
      "kev": false,
      "ransomware": false,
      "epss": 0.011,
-     "cvss": 9.9,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18948",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2025-34204",
-     "headline": "Vasion Print (formerly PrinterLogic) Virtual Appliance Host and Application (VA and SaaS deployments) contains multiple Docker containers that run primary ap...",
-     "products": [
-      "virtual appliance application",
-      "virtual appliance host"
-     ],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.7",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.007,
-     "cvss": 8.7,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-34204",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-129272",
-     "headline": "N-able N-central before 2026.4.1 HF3 uses a predictable credential to authenticate appliances to an agent-facing API",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.3",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.006,
-     "cvss": 9.3,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129272",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-129273",
-     "headline": "N-able N-central before 2026.4.1 HF3 does not neutralise control characters in an Audit Export setting before writing it to the system logging configuration",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.6",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.005,
-     "cvss": 8.6,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129273",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-129274",
-     "headline": "N-able N-central before 2026.4.1 HF3 does not authenticate callers of the ServerMMS2 RemoteExecutionTaskSubmit operation or verify task ownership",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.7",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.006,
-     "cvss": 8.7,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129274",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-129280",
-     "headline": "Multiple ServerUI and ServerUI2 SOAP operations in N-able N-central before 2026.4.1 HF3 do not verify the caller's session, permissions or customer scope",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.3",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.006,
-     "cvss": 9.3,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129280",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-129282",
-     "headline": "The test email delivery function in N-able N-central before 2026.4.1 HF3 does not check permissions, lacks CSRF protection, and passes sender and recipient v...",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.7",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.004,
-     "cvss": 8.7,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129282",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-129286",
-     "headline": "N-able N-central before 2026.4.1 HF3 does not validate version values and download locations in software update metadata",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.2",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.005,
-     "cvss": 9.2,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129286",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2025-34201",
-     "headline": "Vasion Print (formerly PrinterLogic) Virtual Appliance Host and Application (VA and SaaS deployments) run many Docker containers on shared internal networks ...",
-     "products": [
-      "virtual appliance application",
-      "virtual appliance host"
-     ],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.5",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.003,
-     "cvss": 8.5,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-34201",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-129275",
-     "headline": "N-able N-central before 2026.4.1 HF3 allows the repositoryItemGet operation to be called without authentication",
-     "products": [],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.2",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.006,
-     "cvss": 8.2,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129275",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-129281",
-     "headline": "N-able N-central before 2026.4.1 HF3 checks only a view permission for ServerII2 operations that write device execution configuration",
-     "products": [],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.5",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.004,
-     "cvss": 8.5,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129281",
+     "cvss": 6.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131610",
      "take": "",
      "action": ""
     }
    ],
-   "above": 0
+   "above": 1
   },
   "file-transfer": {
    "label": "Managed file transfer",
@@ -1070,8 +654,8 @@
    "blurb": "Confluence, Jenkins, GitLab, and the internal tools nobody patches.",
    "items": [
     {
-     "id": "CVE-2026-110009",
-     "headline": "The Unzer Payments plugin for WordPress is vulnerable to Authentication Bypass leading to Account Takeover in all versions up to, and including, 2.2.1",
+     "id": "CVE-2026-120539",
+     "headline": "The Restrictions for BuddyPress plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 1.5.4 This is due to the pl...",
      "products": [],
      "score": 40,
      "factors": [
@@ -1080,7 +664,7 @@
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.01",
+       "label": "Exploit likelihood 0.02",
        "points": 0
       },
       {
@@ -1090,36 +674,9 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.005,
+     "epss": 0.022,
      "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110009",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-110811",
-     "headline": "The Trust Payments Gateway for WooCommerce (JavaScript Library) plugin for WordPress is vulnerable to Authentication Bypass in all versions up to, and includ...",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.005,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110811",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120539",
      "take": "",
      "action": ""
     },
@@ -1134,7 +691,7 @@
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.00",
+       "label": "Exploit likelihood 0.01",
        "points": 0
       },
       {
@@ -1144,15 +701,42 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.002,
+     "epss": 0.006,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121385",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2026-124990",
-     "headline": "The Masteriyo LMS \u2013 LMS Course Builder, Quizzes & Certificates plugin for WordPress is vulnerable to PHP Object Injection in versions up to, and including, 3...",
+     "id": "CVE-2026-125294",
+     "headline": "The Nexter Blocks Pro plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 5.0.10 via the `tpgb_ajax_register_use...",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.008,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125294",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-131782",
+     "headline": "Deserialization of Untrusted Data vulnerability in mra13 / Team Tips and Tricks HQ Simple Shopping Cart wordpress-simple-paypal-shopping-cart allows Object I...",
      "products": [],
      "score": 40,
      "factors": [
@@ -1173,69 +757,15 @@
      "ransomware": false,
      "epss": 0.006,
      "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124990",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131782",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2026-127021",
-     "headline": "The Flamix: Bitrix24 and WooCommerce Products Sync WordPress plugin before 1.7.0 does not restrict or validate an unauthenticated file-exchange request, allo...",
+     "id": "CVE-2026-129220",
+     "headline": "The Everest Forms \u2013 Contact Form, Payment Form, Quiz, Survey & Custom Form Builder with AI plugin for WordPress is vulnerable to Missing Authorization in all...",
      "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.003,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-127021",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-128851",
-     "headline": "The Probono Form Basic WordPress plugin before 1.3.3 does not validate the real type of files uploaded through its public form, trusting the client-declared ...",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.003,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-128851",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-14492",
-     "headline": "The WP Duplicate \u2013 WordPress Migration Plugin plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 1.1.11 via th...",
-     "products": [],
-     "score": 40,
+     "score": 39,
      "factors": [
       {
        "label": "Runs in this environment",
@@ -1246,54 +776,27 @@
        "points": 0
       },
       {
-       "label": "Severity 9.8",
-       "points": 10
+       "label": "Severity 8.8",
+       "points": 9
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.012,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14492",
+     "epss": 0.007,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129220",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2026-80188",
-     "headline": "The BuddyBoss Addons plugin for WordPress is vulnerable to Authentication Bypass leading to Account Takeover in versions up to, and including, 1.2.1",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.0,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-80188",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-105739",
-     "headline": "GitLab has remediated an issue in GitLab CE/EE affecting all versions from 17.2 before 19.3.9, 19.4 before 19.4.8, and 19.5 before 19.5.6 that under certain ...",
+     "id": "CVE-2026-135446",
+     "headline": "Bold pagos en linea WordPress plugin before 3.5.1 contains an improper signature verification vulnerability in the bold_co webhook that allows unauthenticate...",
      "products": [],
      "score": 39,
      "factors": [
       {
        "label": "Runs in this environment",
        "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
       },
       {
        "label": "Severity 8.7",
@@ -1302,65 +805,15 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.003,
-     "cvss": 8.7,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105739",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-108153",
-     "headline": "GitLab has remediated an issue in GitLab CE/EE affecting all versions from 16.1 before 19.3.9, 19.4 before 19.4.8, and 19.5 before 19.5.6 that under certain ...",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.7",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.003,
-     "cvss": 8.7,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108153",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-120681",
-     "headline": "The Mang Board plugin for WordPress is vulnerable to authorization bypass in all versions up to, and including, 2.4.7",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Severity 9.1",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
      "epss": 0.0,
-     "cvss": 9.1,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120681",
+     "cvss": 8.7,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135446",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2026-123132",
-     "headline": "The Otter Blocks  WordPress plugin before 3.2.10 does not use URL-aware escaping when it resolves its dynamic data tags inside HTML attributes, which could a...",
+     "id": "CVE-2026-19793",
+     "headline": "The WP Import Export Lite plugin for WordPress is vulnerable to Limited Code Injection in all versions up to, and including, 3.9.32 via the 'comment' parameter",
      "products": [],
      "score": 39,
      "factors": [
@@ -1369,7 +822,7 @@
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.00",
+       "label": "Exploit likelihood 0.01",
        "points": 0
       },
       {
@@ -1379,9 +832,144 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.003,
+     "epss": 0.008,
      "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123132",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19793",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-107654",
+     "headline": "The One to one user Chat by WPGuppy plugin for WordPress is vulnerable to generic SQL Injection via the 'userId' parameter in all versions up to, and includi...",
+     "products": [],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.5",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.003,
+     "cvss": 7.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107654",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-118049",
+     "headline": "The Tutor LMS \u2013 eLearning and online course solution plugin for WordPress is vulnerable to authorization bypass in all versions up to, and including, 4.2.0 T...",
+     "products": [],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.1",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.007,
+     "cvss": 8.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118049",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-123086",
+     "headline": "The PublishPress Revisions: Duplicate Posts, Submit, Approve and Schedule Content Changes plugin for WordPress is vulnerable to authorization bypass in all v...",
+     "products": [],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.1",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.007,
+     "cvss": 8.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123086",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-125695",
+     "headline": "The Lightbox with PhotoSwipe WordPress plugin before 5.19.0 does not escape image link URLs before outputting them in the attributes of the lightbox share me...",
+     "products": [],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.5",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.004,
+     "cvss": 7.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125695",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-134827",
+     "headline": "Lightdash before 3.212.0 contains an insufficiently protected credentials vulnerability in getGitlabInstallationRepoReadAccess that sends the organization Gi...",
+     "products": [],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.3",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.004,
+     "cvss": 8.3,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134827",
      "take": "",
      "action": ""
     }
