@@ -1,13 +1,85 @@
 {
- "generated": "2026-11-23T23:38:07+00:00",
+ "generated": "2026-11-24T20:27:22+00:00",
  "window_hours": 72,
- "scanned": 2531,
+ "scanned": 4015,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
    "label": "Edge & remote access",
    "blurb": "VPN concentrators, SSL gateways, and anything you publish to the internet.",
    "items": [
+    {
+     "id": "CVE-2026-109618",
+     "headline": "PHP uses longjmp() for out-of-memory (OOM) errors to exit the current context and abort handling of the request",
+     "products": [
+      "pan-os",
+      "panorama m-200",
+      "panorama m-300",
+      "panorama m-500"
+     ],
+     "score": 99,
+     "factors": [
+      {
+       "label": "Listed as actively exploited",
+       "points": 40
+      },
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 1.00",
+       "points": 20
+      },
+      {
+       "label": "Severity 9.2",
+       "points": 9
+      }
+     ],
+     "kev": true,
+     "ransomware": false,
+     "epss": 1.0,
+     "cvss": 9.2,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109618",
+     "take": "",
+     "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+    },
+    {
+     "id": "CVE-2026-109619",
+     "headline": "PHP has various global state that temporarily points into request memory",
+     "products": [
+      "pan-os",
+      "panorama m-200",
+      "panorama m-300",
+      "panorama m-500"
+     ],
+     "score": 99,
+     "factors": [
+      {
+       "label": "Listed as actively exploited",
+       "points": 40
+      },
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 1.00",
+       "points": 20
+      },
+      {
+       "label": "Severity 9.2",
+       "points": 9
+      }
+     ],
+     "kev": true,
+     "ransomware": false,
+     "epss": 1.0,
+     "cvss": 9.2,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109619",
+     "take": "",
+     "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+    },
     {
      "id": "CVE-2024-6387",
      "headline": "A security regression (CVE-2006-5051) was discovered in OpenSSH's server (sshd)",
@@ -39,40 +111,161 @@
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-6387",
      "take": "",
      "action": ""
-    }
-   ],
-   "above": 0
-  },
-  "microsoft-smb": {
-   "label": "Microsoft-first shop",
-   "blurb": "Windows Server, Exchange, Entra, and the Microsoft 365 estate.",
-   "items": [
+    },
     {
-     "id": "CVE-2026-118285",
-     "headline": "Server-side request forgery in Azure Machine Learning allows an authorized attacker to elevate privileges over a network",
+     "id": "CVE-2026-126180",
+     "headline": "A improper neutralization of special elements used in a template engine vulnerability in Fortinet FortiManager 8.0.0 through 8.0.1, FortiManager 7.6.0 throug...",
      "products": [],
-     "score": 40,
+     "score": 38,
      "factors": [
       {
        "label": "Runs in this environment",
        "points": 30
       },
       {
-       "label": "Severity 9.6",
-       "points": 10
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.4",
+       "points": 8
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
-     "cvss": 9.6,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118285",
+     "epss": 0.004,
+     "cvss": 8.4,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126180",
      "take": "",
      "action": ""
     },
     {
-     "id": "CVE-2026-62841",
-     "headline": "Improper authentication in Azure Event Grid allows an unauthorized attacker to elevate privileges over a network",
+     "id": "CVE-2026-126232",
+     "headline": "A improper certificate validation vulnerability in Fortinet FortiAnalyzer 8.0.0 through 8.0.1, FortiAnalyzer 7.6.0 through 7.6.7, FortiAnalyzer 7.4.0 through...",
+     "products": [],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.5",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.001,
+     "cvss": 7.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126232",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-126231",
+     "headline": "A improper neutralization of special elements used in an os command ('os command injection') vulnerability in Fortinet FortiAnalyzer 8.0.0, FortiAnalyzer 7.6...",
+     "products": [],
+     "score": 37,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.2",
+       "points": 7
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.011,
+     "cvss": 7.2,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126231",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-126256",
+     "headline": "A out-of-bounds read vulnerability in Fortinet FortiOS 8.0.0 through 8.0.1, FortiOS 7.6.0 through 7.6.7, FortiOS 7.4.0 through 7.4.13, FortiOS 7.2 all versio...",
+     "products": [],
+     "score": 37,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.4",
+       "points": 7
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.005,
+     "cvss": 7.4,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126256",
+     "take": "",
+     "action": ""
+    }
+   ],
+   "above": 2
+  },
+  "microsoft-smb": {
+   "label": "Microsoft-first shop",
+   "blurb": "Windows Server, Exchange, Entra, and the Microsoft 365 estate.",
+   "items": [
+    {
+     "id": "CVE-2026-111497",
+     "headline": "A buffer overflow vulnerability in the Brotli decoder (c/dec/decode.c) in Google Brotli versions 1.0.3 through 1.2.0 on all platforms allows a remote unauthe...",
+     "products": [
+      "arrow",
+      "brotli",
+      "bun",
+      "p7zip"
+     ],
+     "score": 99,
+     "factors": [
+      {
+       "label": "Listed as actively exploited",
+       "points": 40
+      },
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 1.00",
+       "points": 20
+      },
+      {
+       "label": "Severity 9.2",
+       "points": 9
+      }
+     ],
+     "kev": true,
+     "ransomware": false,
+     "epss": 1.0,
+     "cvss": 9.2,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111497",
+     "take": "",
+     "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+    },
+    {
+     "id": "CVE-2026-109484",
+     "headline": "Failure to sanitize special elements into a different plane (special element injection) in Azure App Service allows an unauthorized attacker to elevate privi...",
      "products": [],
      "score": 40,
      "factors": [
@@ -88,6 +281,112 @@
      "kev": false,
      "ransomware": false,
      "epss": 0.0,
+     "cvss": 10.0,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109484",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-112732",
+     "headline": "Double free in Microsoft Office Visio allows an unauthorized attacker to execute code over a network",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112732",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-118285",
+     "headline": "Server-side request forgery in Azure Machine Learning allows an authorized attacker to elevate privileges over a network",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.6",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.007,
+     "cvss": 9.6,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118285",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-120002",
+     "headline": "Incorrect authorization in Microsoft Office SharePoint allows an authorized attacker to elevate privileges over a network",
+     "products": [
+      "sharepoint server"
+     ],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.9",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.009,
+     "cvss": 9.9,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120002",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-62841",
+     "headline": "Improper authentication in Azure Event Grid allows an unauthorized attacker to elevate privileges over a network",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 10.0",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.009,
      "cvss": 10.0,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62841",
      "take": "",
@@ -136,13 +435,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
        "label": "Severity 9.9",
        "points": 10
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.01,
      "cvss": 9.9,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70193",
      "take": "",
@@ -159,13 +462,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
        "label": "Severity 9.6",
        "points": 10
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.009,
      "cvss": 9.6,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70305",
      "take": "",
@@ -197,7 +504,7 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.009,
+     "epss": 0.008,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88234",
      "take": "",
@@ -266,142 +573,14 @@
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96078",
      "take": "",
      "action": ""
-    },
-    {
-     "id": "CVE-2026-113824",
-     "headline": "Authorization bypass through user-controlled key in Microsoft Clarity allows an unauthorized attacker to elevate privileges over a network",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Severity 9.1",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.0,
-     "cvss": 9.1,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-113824",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-118286",
-     "headline": "Improper access control in Azure Site Recovery allows an unauthorized attacker to elevate privileges over a network",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Severity 9.1",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.0,
-     "cvss": 9.1,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118286",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-135163",
-     "headline": "Okou API before 1.762.0 contains a missing authentication vulnerability in its Microsoft Teams, legacy Slack, and GitHub App integration OAuth flows that tru...",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Severity 9.1",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.0,
-     "cvss": 9.1,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135163",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-69437",
-     "headline": "Missing authorization in Azure AI Foundry allows an unauthorized attacker to disclose information over a network",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Severity 8.6",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.0,
-     "cvss": 8.6,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69437",
-     "take": "",
-     "action": ""
     }
    ],
-   "above": 0
+   "above": 1
   },
   "virtualization": {
    "label": "Virtualization & hypervisor",
    "blurb": "VMware, Proxmox, and the layer everything else runs on.",
    "items": [
-    {
-     "id": "CVE-2026-123890",
-     "headline": "VMware vCenter contains an authentication bypass vulnerability in the VMware Directory Service.\nAffected versions: 9.1.x (fixed in 9.1.1.0200); 9.0.x (fixed ...",
-     "products": [
-      "cloud foundation",
-      "telco cloud infrastructure",
-      "telco cloud platform",
-      "vcenter server"
-     ],
-     "score": 81,
-     "factors": [
-      {
-       "label": "Listed as actively exploited",
-       "points": 40
-      },
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.04",
-       "points": 1
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": true,
-     "ransomware": false,
-     "epss": 0.035,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123890",
-     "take": "",
-     "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines"
-    },
     {
      "id": "CVE-2026-133469",
      "headline": "XO (Xen Orchestra) is a solution to visualize, manage, backup and delegate your XCP-ng (or XenServer) infrastructure",
@@ -413,13 +592,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
        "label": "Severity 9.8",
        "points": 10
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.008,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133469",
      "take": "",
@@ -454,6 +637,75 @@
      "epss": 0.003,
      "cvss": 7.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-5633",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-82168",
+     "headline": "Dell Virtual Storage Integrator for VMware vSphere Web Client, versions prior to 10.12.0.0, contains a Use of Hard-coded Credentials vulnerability in ssl_con...",
+     "products": [],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 7.7",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 7.7,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82168",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-82169",
+     "headline": "Dell Virtual Storage Integrator for VMware vSphere Web Client, versions prior to 10.12.0.0, contains an OS Command Injection \u2013 confirm single CWE vulnerabili...",
+     "products": [],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 8.3",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 8.3,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82169",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-82170",
+     "headline": "Dell Virtual Storage Integrator for VMware vSphere Web Client, versions prior to 10.12.0.0, contains a Server-Side Request Forgery SSRF vulnerability in http...",
+     "products": [],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 7.7",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 7.7,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82170",
      "take": "",
      "action": ""
     },
@@ -512,7 +764,7 @@
      "action": ""
     }
    ],
-   "above": 1
+   "above": 0
   },
   "backup": {
    "label": "Backup & recovery",
@@ -527,7 +779,9 @@
     {
      "id": "CVE-2026-134624",
      "headline": "N-able MailAssure (SpamExperts) before 20261121.1943 does not restrict the destination of the LDAP synchronisation connection check performed when a relay is...",
-     "products": [],
+     "products": [
+      "mail assure"
+     ],
      "score": 79,
      "factors": [
       {
@@ -539,7 +793,7 @@
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.00",
+       "label": "Exploit likelihood 0.01",
        "points": 0
       },
       {
@@ -549,36 +803,262 @@
      ],
      "kev": true,
      "ransomware": false,
-     "epss": 0.004,
+     "epss": 0.006,
      "cvss": 9.3,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134624",
      "take": "",
      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
     },
     {
-     "id": "CVE-2026-131610",
-     "headline": "In ConnectWise Automate versions prior to\n2026.11, a condition in Web Control Center (WCC2) authorization handling could\nallow an authenticated contact user ...",
+     "id": "CVE-2026-123167",
+     "headline": "SolarWinds Serv-U is affected by a privilege escalation vulnerability that, when exploited, can allow a domain administrator to access files that otherwise w...",
      "products": [],
-     "score": 36,
+     "score": 39,
      "factors": [
       {
        "label": "Runs in this environment",
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 6.5",
-       "points": 6
+       "label": "Severity 9.1",
+       "points": 9
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.011,
-     "cvss": 6.5,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131610",
+     "epss": 0.0,
+     "cvss": 9.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123167",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-123168",
+     "headline": "SolarWinds Serv-U is affected by an insufficient \nvalidation vulnerability that, when exploited, could lead \nto privilege escalation into the root user in Li...",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 9.1",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 9.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123168",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-123172",
+     "headline": "Solarwinds Serv-U is affected by a privilege escalation vulnerability that, when exploited, could lead to the escalation of privileges to root for Linux inst...",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 9.1",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 9.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123172",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-82315",
+     "headline": "SolarWinds Serv-U is affected by another Time-of-Check \nto Time-of-Use (TOCTOU) vulnerability",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 9.1",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 9.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82315",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-82316",
+     "headline": "SolarWinds Serv-U is affected by a Time-of-Check to \nTime-of-Use (TOCTOU) vulnerability",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 9.1",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 9.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82316",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-82319",
+     "headline": "SolarWinds Serv-U is affected by a time-of-check to time-of-use (TOCTOU) vulnerability",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 9.1",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 9.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82319",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-82320",
+     "headline": "SolarWinds Serv-U was found to be affected by another \ntype confusion vulnerability that may allow domain \nadministrators to escalate privileges to that of a...",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 9.1",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 9.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82320",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-82321",
+     "headline": "SolarWinds Serv-U was found to be affected by a type \nconfusion vulnerability that may allow domain \nadministrators to escalate privileges to that of a syste...",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 9.1",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 9.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82321",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-82322",
+     "headline": "SolarWinds Serv-U is affected by an Insecure Direct Object Reference (IDOR) vulnerability that allows a domain group administrator to bypass restrictions and...",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 9.1",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 9.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82322",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-82313",
+     "headline": "SolarWinds Serv-U is affected by a business logic \nvulnerability that may allow access to a higher privileged\naccount, which can then be used to execute comm...",
+     "products": [],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 8.4",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 8.4,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82313",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-123166",
+     "headline": "SolarWinds Serv-U fails to properly sanitize user-controlled arguments, which could allow the injection of \ncommands",
+     "products": [],
+     "score": 37,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 7.2",
+       "points": 7
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 7.2,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123166",
      "take": "",
      "action": ""
     }
@@ -588,7 +1068,284 @@
   "file-transfer": {
    "label": "Managed file transfer",
    "blurb": "The category with the worst mass-extortion track record in the business.",
-   "items": [],
+   "items": [
+    {
+     "id": "CVE-2026-123167",
+     "headline": "SolarWinds Serv-U is affected by a privilege escalation vulnerability that, when exploited, can allow a domain administrator to access files that otherwise w...",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 9.1",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 9.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123167",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-123168",
+     "headline": "SolarWinds Serv-U is affected by an insufficient \nvalidation vulnerability that, when exploited, could lead \nto privilege escalation into the root user in Li...",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 9.1",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 9.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123168",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-123172",
+     "headline": "Solarwinds Serv-U is affected by a privilege escalation vulnerability that, when exploited, could lead to the escalation of privileges to root for Linux inst...",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 9.1",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 9.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123172",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-82315",
+     "headline": "SolarWinds Serv-U is affected by another Time-of-Check \nto Time-of-Use (TOCTOU) vulnerability",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 9.1",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 9.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82315",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-82316",
+     "headline": "SolarWinds Serv-U is affected by a Time-of-Check to \nTime-of-Use (TOCTOU) vulnerability",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 9.1",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 9.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82316",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-82319",
+     "headline": "SolarWinds Serv-U is affected by a time-of-check to time-of-use (TOCTOU) vulnerability",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 9.1",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 9.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82319",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-82320",
+     "headline": "SolarWinds Serv-U was found to be affected by another \ntype confusion vulnerability that may allow domain \nadministrators to escalate privileges to that of a...",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 9.1",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 9.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82320",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-82321",
+     "headline": "SolarWinds Serv-U was found to be affected by a type \nconfusion vulnerability that may allow domain \nadministrators to escalate privileges to that of a syste...",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 9.1",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 9.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82321",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-82322",
+     "headline": "SolarWinds Serv-U is affected by an Insecure Direct Object Reference (IDOR) vulnerability that allows a domain group administrator to bypass restrictions and...",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 9.1",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 9.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82322",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-82313",
+     "headline": "SolarWinds Serv-U is affected by a business logic \nvulnerability that may allow access to a higher privileged\naccount, which can then be used to execute comm...",
+     "products": [],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 8.4",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 8.4,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82313",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-123166",
+     "headline": "SolarWinds Serv-U fails to properly sanitize user-controlled arguments, which could allow the injection of \ncommands",
+     "products": [],
+     "score": 37,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 7.2",
+       "points": 7
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 7.2,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123166",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-123173",
+     "headline": "SolarWinds Serv-U is affected by an out-of-bounds \nmemory read that could allow an attacker to disclose \ndata from server memory",
+     "products": [],
+     "score": 37,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 6.8",
+       "points": 7
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 6.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123173",
+     "take": "",
+     "action": ""
+    }
+   ],
    "above": 0
   },
   "devstack": {
@@ -704,6 +1461,33 @@
      "action": ""
     },
     {
+     "id": "CVE-2026-135202",
+     "headline": "Several plugins for WordPress published by WP connect (Orders Sync to Airtable for WooCommerce, Add-On for Contact Form 7 to Notion, WP Sync for Notion \u2013 Not...",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.006,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135202",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2026-129220",
      "headline": "The Everest Forms \u2013 Contact Form, Payment Form, Quiz, Survey & Custom Form Builder with AI plugin for WordPress is vulnerable to Missing Authorization in all...",
      "products": [],
@@ -741,13 +1525,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
        "label": "Severity 8.7",
        "points": 9
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.003,
      "cvss": 8.7,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135446",
      "take": "",
@@ -781,35 +1569,8 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-107654",
-     "headline": "The One to one user Chat by WPGuppy plugin for WordPress is vulnerable to generic SQL Injection via the 'userId' parameter in all versions up to, and includi...",
-     "products": [],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 7.5",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.003,
-     "cvss": 7.5,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107654",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-118049",
-     "headline": "The Tutor LMS \u2013 eLearning and online course solution plugin for WordPress is vulnerable to authorization bypass in all versions up to, and including, 4.2.0 T...",
+     "id": "CVE-2025-14071",
+     "headline": "The Live Composer \u2013 Free WordPress Website Builder plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 2.0.2 via...",
      "products": [],
      "score": 38,
      "factors": [
@@ -822,15 +1583,15 @@
        "points": 0
       },
       {
-       "label": "Severity 8.1",
+       "label": "Severity 7.5",
        "points": 8
       }
      ],
      "kev": false,
      "ransomware": false,
      "epss": 0.007,
-     "cvss": 8.1,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118049",
+     "cvss": 7.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-14071",
      "take": "",
      "action": ""
     },
@@ -845,13 +1606,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
        "label": "Severity 8.4",
        "points": 8
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.011,
      "cvss": 8.4,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122090",
      "take": "",
