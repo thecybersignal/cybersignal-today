@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-24T20:27:22+00:00",
+ "generated": "2026-11-24T22:08:34+00:00",
  "window_hours": 72,
- "scanned": 4015,
+ "scanned": 4231,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
@@ -1488,6 +1488,60 @@
      "action": ""
     },
     {
+     "id": "CVE-2026-127215",
+     "headline": "Kanbanz by Softaculous plugin for WordPress before 1.0.3 contains a broken access control vulnerability that allows authenticated Kanban Staff users to acces...",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.6",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.003,
+     "cvss": 8.6,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-127215",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-129167",
+     "headline": "Seafile SeaDoc converter 2.0.4 before 2.0.11 and 3.0.0 before 3.0.8 contains an absolute path traversal vulnerability that allows unauthenticated attackers h...",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.2",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.007,
+     "cvss": 9.2,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129167",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2026-129220",
      "headline": "The Everest Forms \u2013 Contact Form, Payment Form, Quiz, Survey & Custom Form Builder with AI plugin for WordPress is vulnerable to Missing Authorization in all...",
      "products": [],
@@ -1619,60 +1673,6 @@
      "epss": 0.011,
      "cvss": 8.4,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122090",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-123086",
-     "headline": "The PublishPress Revisions: Duplicate Posts, Submit, Approve and Schedule Content Changes plugin for WordPress is vulnerable to authorization bypass in all v...",
-     "products": [],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.1",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.007,
-     "cvss": 8.1,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123086",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-125695",
-     "headline": "The Lightbox with PhotoSwipe WordPress plugin before 5.19.0 does not escape image link URLs before outputting them in the attributes of the lightbox share me...",
-     "products": [],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 7.5",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.004,
-     "cvss": 7.5,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125695",
      "take": "",
      "action": ""
     }
