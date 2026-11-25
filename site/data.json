@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-25T19:41:38+00:00",
+ "generated": "2026-11-25T21:24:43+00:00",
  "window_hours": 72,
- "scanned": 5216,
+ "scanned": 5310,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
@@ -591,9 +591,16 @@
     {
      "id": "CVE-2026-133469",
      "headline": "XO (Xen Orchestra) is a solution to visualize, manage, backup and delegate your XCP-ng (or XenServer) infrastructure",
-     "products": [],
-     "score": 40,
+     "products": [
+      "xen orchestra",
+      "xen orchestra server"
+     ],
+     "score": 80,
      "factors": [
+      {
+       "label": "Listed as actively exploited",
+       "points": 40
+      },
       {
        "label": "Runs in this environment",
        "points": 30
@@ -607,13 +614,13 @@
        "points": 10
       }
      ],
-     "kev": false,
+     "kev": true,
      "ransomware": false,
      "epss": 0.011,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133469",
      "take": "",
-     "action": ""
+     "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
     },
     {
      "id": "CVE-2023-5633",
@@ -783,7 +790,7 @@
      "action": ""
     }
    ],
-   "above": 0
+   "above": 1
   },
   "backup": {
    "label": "Backup & recovery",
