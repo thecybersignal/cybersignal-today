@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-25T21:24:43+00:00",
+ "generated": "2026-11-26T19:22:00+00:00",
  "window_hours": 72,
- "scanned": 5310,
+ "scanned": 4430,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
@@ -79,38 +79,6 @@
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109619",
      "take": "",
      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
-    },
-    {
-     "id": "CVE-2024-6387",
-     "headline": "A security regression (CVE-2006-5051) was discovered in OpenSSH's server (sshd)",
-     "products": [
-      "almalinux",
-      "amazon linux",
-      "eos",
-      "macos"
-     ],
-     "score": 50,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.61",
-       "points": 12
-      },
-      {
-       "label": "Severity 8.1",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.605,
-     "cvss": 8.1,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-6387",
-     "take": "",
-     "action": ""
     },
     {
      "id": "CVE-2026-126180",
@@ -457,41 +425,9 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.014,
+     "epss": 0.013,
      "cvss": 10.0,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62841",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-70096",
-     "headline": "Heap-based buffer overflow in Windows Rich Text Edit Control allows an unauthorized attacker to execute code over a network",
-     "products": [
-      "365 apps",
-      "microsoft 365",
-      "office 2021",
-      "office 2024"
-     ],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.01,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70096",
      "take": "",
      "action": ""
     },
@@ -550,13 +486,13 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-88234",
-     "headline": "Release of invalid pointer or reference in Windows iSCSI allows an unauthorized attacker to execute code over a network",
+     "id": "CVE-2026-95882",
+     "headline": "Stack-based buffer overflow in Windows Microsoft DirectMusic allows an unauthorized attacker to execute code over a network",
      "products": [
-      "windows server 2016",
-      "windows server 2019",
-      "windows server 2022",
-      "windows server 2025"
+      "windows 10 1607",
+      "windows 10 1809",
+      "windows 10 21h2",
+      "windows 10 22h2"
      ],
      "score": 40,
      "factors": [
@@ -577,7 +513,39 @@
      "ransomware": false,
      "epss": 0.01,
      "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88234",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-95882",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-95901",
+     "headline": "Double free in Windows Microsoft DirectMusic allows an unauthorized attacker to execute code over a network",
+     "products": [
+      "windows 10 1607",
+      "windows 10 1809",
+      "windows 10 21h2",
+      "windows 10 22h2"
+     ],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.01,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-95901",
      "take": "",
      "action": ""
     }
@@ -595,12 +563,39 @@
       "xen orchestra",
       "xen orchestra server"
      ],
-     "score": 80,
+     "score": 86,
      "factors": [
       {
        "label": "Listed as actively exploited",
        "points": 40
       },
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.32",
+       "points": 6
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": true,
+     "ransomware": false,
+     "epss": 0.318,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133469",
+     "take": "",
+     "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+    },
+    {
+     "id": "CVE-2026-123903",
+     "headline": "VMware vCenter contains an authentication bypass vulnerability in the VMware Directory Service",
+     "products": [],
+     "score": 40,
+     "factors": [
       {
        "label": "Runs in this environment",
        "points": 30
@@ -614,13 +609,94 @@
        "points": 10
       }
      ],
-     "kev": true,
+     "kev": false,
      "ransomware": false,
-     "epss": 0.011,
+     "epss": 0.006,
      "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133469",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123903",
      "take": "",
-     "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-123910",
+     "headline": "ESX contains a heap out-of-bounds write vulnerability in the I/O filter service",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.004,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123910",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-123911",
+     "headline": "ESX contains a use-after-free vulnerability in the I/O filter service",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.004,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123911",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-123912",
+     "headline": "VMware ESXi, Workstation, and Fusion contain an out-of-bounds write vulnerability in the XHCI USB controller",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.3",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.004,
+     "cvss": 9.3,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123912",
+     "take": "",
+     "action": ""
     },
     {
      "id": "CVE-2023-5633",
@@ -655,6 +731,141 @@
      "action": ""
     },
     {
+     "id": "CVE-2026-123904",
+     "headline": "VMware vCenter contains an arbitrary file write vulnerability while processing certain archives",
+     "products": [],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.5",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.003,
+     "cvss": 7.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123904",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-123905",
+     "headline": "VMware vCenter contains multiple denial-of-service vulnerabilities in the VMware Directory Service",
+     "products": [],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.5",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.003,
+     "cvss": 7.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123905",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-123906",
+     "headline": "VMware vCenter contains multiple denial-of-service vulnerabilities in the VMware Directory Service",
+     "products": [],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.5",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.003,
+     "cvss": 7.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123906",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-123907",
+     "headline": "VMware vCenter contains multiple denial-of-service vulnerabilities in the VMware Directory Service",
+     "products": [],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 7.5",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.003,
+     "cvss": 7.5,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123907",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-123913",
+     "headline": "VMware ESX contains a stack-based buffer-overflow vulnerability in the VMkernel",
+     "products": [],
+     "score": 38,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.2",
+       "points": 8
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.003,
+     "cvss": 8.2,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123913",
+     "take": "",
+     "action": ""
+    },
+    {
      "id": "CVE-2026-82168",
      "headline": "Dell Virtual Storage Integrator for VMware vSphere Web Client, versions prior to 10.12.0.0, contains a Use of Hard-coded Credentials vulnerability in ssl_con...",
      "products": [],
@@ -680,114 +891,6 @@
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82168",
      "take": "",
      "action": ""
-    },
-    {
-     "id": "CVE-2026-82169",
-     "headline": "Dell Virtual Storage Integrator for VMware vSphere Web Client, versions prior to 10.12.0.0, contains an OS Command Injection \u2013 confirm single CWE vulnerabili...",
-     "products": [],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.02",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.3",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.016,
-     "cvss": 8.3,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82169",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-82170",
-     "headline": "Dell Virtual Storage Integrator for VMware vSphere Web Client, versions prior to 10.12.0.0, contains a Server-Side Request Forgery SSRF vulnerability in http...",
-     "products": [],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 7.7",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.006,
-     "cvss": 7.7,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82170",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-123894",
-     "headline": "VMware Tools for Windows contains a SAML token signature bypass vulnerability.\nAffected versions: 13.x.x.x (fixed in 13.1.5.0); 12.3.x (fixed in 12.5.5)",
-     "products": [],
-     "score": 37,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 6.7",
-       "points": 7
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.001,
-     "cvss": 6.7,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123894",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-99744",
-     "headline": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: atl1c: drop oversized RX frames instead of panicking\n\natl1c sizes its receive buffe...",
-     "products": [],
-     "score": 37,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 7.1",
-       "points": 7
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.004,
-     "cvss": 7.1,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-99744",
-     "take": "",
-     "action": ""
     }
    ],
    "above": 1
@@ -807,13 +910,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
        "label": "Severity 7.1",
        "points": 7
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.007,
      "cvss": 7.1,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81405",
      "take": "",
@@ -1522,8 +1629,8 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-120539",
-     "headline": "The Restrictions for BuddyPress plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 1.5.4 This is due to the pl...",
+     "id": "CVE-2026-104998",
+     "headline": "The Product Input Fields for WooCommerce plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 2.1.0 via the proc...",
      "products": [],
      "score": 40,
      "factors": [
@@ -1532,100 +1639,15 @@
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
        "label": "Severity 9.8",
        "points": 10
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.014,
+     "epss": 0.0,
      "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120539",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-121385",
-     "headline": "The User Registration Aide WordPress plugin through 1.5.3.8 does not verify the current password or a reset token before changing a user's password, allowing...",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.005,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121385",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-125294",
-     "headline": "The Nexter Blocks Pro plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 5.0.10 via the `tpgb_ajax_register_use...",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.006,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125294",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-131782",
-     "headline": "Deserialization of Untrusted Data vulnerability in mra13 / Team Tips and Tricks HQ Simple Shopping Cart wordpress-simple-paypal-shopping-cart allows Object I...",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.006,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131782",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104998",
      "take": "",
      "action": ""
     },
@@ -1640,13 +1662,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
        "label": "Severity 9.9",
        "points": 10
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.013,
      "cvss": 9.9,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136835",
      "take": "",
@@ -1707,8 +1733,100 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-129220",
-     "headline": "The Everest Forms \u2013 Contact Form, Payment Form, Quiz, Survey & Custom Form Builder with AI plugin for WordPress is vulnerable to Missing Authorization in all...",
+     "id": "CVE-2026-133951",
+     "headline": "The Simple Membership plugin for WordPress is vulnerable to Privilege Escalation in versions up to, and including, 4.8.9 This is due to the site-wide signing...",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 9.1",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 9.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133951",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-134173",
+     "headline": "The WordPress File Upload plugin for WordPress is vulnerable to Arbitrary File Deletion in versions up to, and including, 5.3.1 via the 'wfu_ajax_action_hand...",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 9.1",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 9.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134173",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-135641",
+     "headline": "The WP Job Portal \u2013 AI-Powered Recruitment System for Company or Job Board website plugin for WordPress is vulnerable to Authentication Bypass leading to Acc...",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 9.1",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 9.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135641",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-136240",
+     "headline": "The PDF Invoice for WooCommerce + Drag and Drop Template Builder plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and includ...",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 9.1",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 9.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136240",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-136834",
+     "headline": "Sandbox protection in Jenkins Pipeline: Groovy Plugin 4403.v471713a_cea_19 and earlier can be circumvented through interface field initializers, allowing att...",
      "products": [],
      "score": 39,
      "factors": [
@@ -1727,57 +1845,7 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.006,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129220",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-135446",
-     "headline": "Bold pagos en linea WordPress plugin before 3.5.1 contains an improper signature verification vulnerability in the bold_co webhook that allows unauthenticate...",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.7",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.003,
-     "cvss": 8.7,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135446",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-136834",
-     "headline": "Sandbox protection in Jenkins Pipeline: Groovy Plugin 4403.v471713a_cea_19 and earlier can be circumvented through interface field initializers, allowing att...",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Severity 8.8",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.01,
      "cvss": 8.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136834",
      "take": "",
@@ -1794,6 +1862,33 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.012,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136837",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-76075",
+     "headline": "The Warehouse Cargo theme for WordPress is vulnerable to Arbitrary File Upload in versions up to, and including, 2.7.4 via the warehouse_cargo_install_and_ac...",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
        "label": "Severity 8.8",
        "points": 9
       }
@@ -1802,7 +1897,7 @@
      "ransomware": false,
      "epss": 0.0,
      "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136837",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76075",
      "take": "",
      "action": ""
     }
