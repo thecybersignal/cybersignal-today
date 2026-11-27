@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-27T19:17:42+00:00",
+ "generated": "2026-11-27T20:54:53+00:00",
  "window_hours": 72,
- "scanned": 3374,
+ "scanned": 2959,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
@@ -192,35 +192,6 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-120002",
-     "headline": "Incorrect authorization in Microsoft Office SharePoint allows an authorized attacker to elevate privileges over a network",
-     "products": [
-      "sharepoint server"
-     ],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.9",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.008,
-     "cvss": 9.9,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120002",
-     "take": "",
-     "action": ""
-    },
-    {
      "id": "CVE-2026-50691",
      "headline": "Improper authorization in M365 Copilot allows an authorized attacker to elevate privileges over a network",
      "products": [
@@ -370,11 +341,9 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-109454",
-     "headline": "Improper neutralization of input during web page generation ('cross-site scripting') in Microsoft Office SharePoint allows an authorized attacker to perform ...",
-     "products": [
-      "sharepoint server"
-     ],
+     "id": "CVE-2026-113824",
+     "headline": "Authorization bypass through user-controlled key in Microsoft Clarity allows an unauthorized attacker to elevate privileges over a network",
+     "products": [],
      "score": 39,
      "factors": [
       {
@@ -386,15 +355,42 @@
        "points": 0
       },
       {
-       "label": "Severity 9.0",
+       "label": "Severity 9.1",
        "points": 9
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.008,
-     "cvss": 9.0,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109454",
+     "epss": 0.012,
+     "cvss": 9.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-113824",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-118286",
+     "headline": "Improper access control in Azure Site Recovery allows an unauthorized attacker to elevate privileges over a network",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.1",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.012,
+     "cvss": 9.1,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118286",
      "take": "",
      "action": ""
     }
@@ -1580,60 +1576,6 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-127215",
-     "headline": "Kanbanz by Softaculous plugin for WordPress before 1.0.3 contains a broken access control vulnerability that allows authenticated Kanban Staff users to acces...",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.6",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.004,
-     "cvss": 8.6,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-127215",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-129167",
-     "headline": "Seafile SeaDoc converter 2.0.4 before 2.0.11 and 3.0.0 before 3.0.8 contains an absolute path traversal vulnerability that allows unauthenticated attackers h...",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.2",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.007,
-     "cvss": 9.2,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129167",
-     "take": "",
-     "action": ""
-    },
-    {
      "id": "CVE-2026-133951",
      "headline": "The Simple Membership plugin for WordPress is vulnerable to Privilege Escalation in versions up to, and including, 4.8.9 This is due to the site-wide signing...",
      "products": [],
@@ -1761,6 +1703,60 @@
      "epss": 0.01,
      "cvss": 9.1,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136240",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-136834",
+     "headline": "Sandbox protection in Jenkins Pipeline: Groovy Plugin 4403.v471713a_cea_19 and earlier can be circumvented through interface field initializers, allowing att...",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.01,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136834",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-136837",
+     "headline": "Jenkins Warnings Plugin 13.10251.va_452d3553728 through 13.10365.v85cd7a_c8110b_ (both inclusive) allows defining inline Groovy parsers whose Groovy scripts ...",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.011,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136837",
      "take": "",
      "action": ""
     }
