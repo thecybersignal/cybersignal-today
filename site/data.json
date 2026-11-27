@@ -1,166 +1,13 @@
 {
- "generated": "2026-11-26T21:11:20+00:00",
+ "generated": "2026-11-27T19:17:42+00:00",
  "window_hours": 72,
- "scanned": 4412,
+ "scanned": 3374,
  "cutline": 60,
  "segments": {
   "edge-vpn": {
    "label": "Edge & remote access",
    "blurb": "VPN concentrators, SSL gateways, and anything you publish to the internet.",
    "items": [
-    {
-     "id": "CVE-2026-109618",
-     "headline": "PHP uses longjmp() for out-of-memory (OOM) errors to exit the current context and abort handling of the request",
-     "products": [
-      "pan-os",
-      "panorama m-200",
-      "panorama m-300",
-      "panorama m-500"
-     ],
-     "score": 88,
-     "factors": [
-      {
-       "label": "Listed as actively exploited",
-       "points": 40
-      },
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.45",
-       "points": 9
-      },
-      {
-       "label": "Severity 9.2",
-       "points": 9
-      }
-     ],
-     "kev": true,
-     "ransomware": false,
-     "epss": 0.451,
-     "cvss": 9.2,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109618",
-     "take": "",
-     "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
-    },
-    {
-     "id": "CVE-2026-109619",
-     "headline": "PHP has various global state that temporarily points into request memory",
-     "products": [
-      "pan-os",
-      "panorama m-200",
-      "panorama m-300",
-      "panorama m-500"
-     ],
-     "score": 83,
-     "factors": [
-      {
-       "label": "Listed as actively exploited",
-       "points": 40
-      },
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.21",
-       "points": 4
-      },
-      {
-       "label": "Severity 9.2",
-       "points": 9
-      }
-     ],
-     "kev": true,
-     "ransomware": false,
-     "epss": 0.208,
-     "cvss": 9.2,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109619",
-     "take": "",
-     "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
-    },
-    {
-     "id": "CVE-2026-126180",
-     "headline": "A improper neutralization of special elements used in a template engine vulnerability in Fortinet FortiManager 8.0.0 through 8.0.1, FortiManager 7.6.0 throug...",
-     "products": [],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.4",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.004,
-     "cvss": 8.4,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126180",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-126232",
-     "headline": "A improper certificate validation vulnerability in Fortinet FortiAnalyzer 8.0.0 through 8.0.1, FortiAnalyzer 7.6.0 through 7.6.7, FortiAnalyzer 7.4.0 through...",
-     "products": [],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 7.5",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.001,
-     "cvss": 7.5,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126232",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-126231",
-     "headline": "A improper neutralization of special elements used in an os command ('os command injection') vulnerability in Fortinet FortiAnalyzer 8.0.0, FortiAnalyzer 7.6...",
-     "products": [],
-     "score": 37,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.02",
-       "points": 0
-      },
-      {
-       "label": "Severity 7.2",
-       "points": 7
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.016,
-     "cvss": 7.2,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126231",
-     "take": "",
-     "action": ""
-    },
     {
      "id": "CVE-2026-126256",
      "headline": "A out-of-bounds read vulnerability in Fortinet FortiOS 8.0.0 through 8.0.2, FortiOS 7.6.0 through 7.6.8, FortiOS 7.4.0 through 7.4.13, FortiOS 7.2 all versio...",
@@ -189,7 +36,7 @@
      "action": ""
     }
    ],
-   "above": 2
+   "above": 0
   },
   "microsoft-smb": {
    "label": "Microsoft-first shop",
@@ -204,7 +51,7 @@
       "bun",
       "p7zip"
      ],
-     "score": 86,
+     "score": 99,
      "factors": [
       {
        "label": "Listed as actively exploited",
@@ -215,8 +62,8 @@
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.33",
-       "points": 7
+       "label": "Exploit likelihood 1.00",
+       "points": 20
       },
       {
        "label": "Severity 9.2",
@@ -225,7 +72,7 @@
      ],
      "kev": true,
      "ransomware": false,
-     "epss": 0.33,
+     "epss": 1.0,
      "cvss": 9.2,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111497",
      "take": "",
@@ -459,33 +306,6 @@
      "action": ""
     },
     {
-     "id": "CVE-2026-70305",
-     "headline": "Improper neutralization of input during web page generation ('cross-site scripting') in Azure Portal allows an unauthorized attacker to perform spoofing over...",
-     "products": [],
-     "score": 40,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.6",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.009,
-     "cvss": 9.6,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70305",
-     "take": "",
-     "action": ""
-    },
-    {
      "id": "CVE-2026-95882",
      "headline": "Stack-based buffer overflow in Windows Microsoft DirectMusic allows an unauthorized attacker to execute code over a network",
      "products": [
@@ -548,6 +368,35 @@
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-95901",
      "take": "",
      "action": ""
+    },
+    {
+     "id": "CVE-2026-109454",
+     "headline": "Improper neutralization of input during web page generation ('cross-site scripting') in Microsoft Office SharePoint allows an authorized attacker to perform ...",
+     "products": [
+      "sharepoint server"
+     ],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.0",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.008,
+     "cvss": 9.0,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109454",
+     "take": "",
+     "action": ""
     }
    ],
    "above": 1
@@ -601,7 +450,7 @@
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.01",
+       "label": "Exploit likelihood 0.02",
        "points": 0
       },
       {
@@ -611,7 +460,7 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.006,
+     "epss": 0.024,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123903",
      "take": "",
@@ -628,7 +477,7 @@
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.00",
+       "label": "Exploit likelihood 0.01",
        "points": 0
       },
       {
@@ -638,7 +487,7 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.004,
+     "epss": 0.014,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123910",
      "take": "",
@@ -655,7 +504,7 @@
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.00",
+       "label": "Exploit likelihood 0.01",
        "points": 0
       },
       {
@@ -665,9 +514,36 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.004,
+     "epss": 0.013,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123911",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-105917",
+     "headline": "File Permission Vulnerability in RV3000 Log Monitor for VMware.\n\nThis issue affects RV3000 Log Monitor for VMware(CIM): before 98-09; RV3000 Log Monitor for ...",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.00",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.002,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105917",
      "take": "",
      "action": ""
     },
@@ -682,7 +558,7 @@
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.00",
+       "label": "Exploit likelihood 0.01",
        "points": 0
       },
       {
@@ -692,7 +568,7 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.004,
+     "epss": 0.005,
      "cvss": 9.3,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123912",
      "take": "",
@@ -741,7 +617,7 @@
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.00",
+       "label": "Exploit likelihood 0.01",
        "points": 0
       },
       {
@@ -751,7 +627,7 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.003,
+     "epss": 0.012,
      "cvss": 7.5,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123904",
      "take": "",
@@ -768,7 +644,7 @@
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.00",
+       "label": "Exploit likelihood 0.01",
        "points": 0
       },
       {
@@ -778,7 +654,7 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.003,
+     "epss": 0.012,
      "cvss": 7.5,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123905",
      "take": "",
@@ -795,7 +671,7 @@
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.00",
+       "label": "Exploit likelihood 0.01",
        "points": 0
       },
       {
@@ -805,7 +681,7 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.003,
+     "epss": 0.012,
      "cvss": 7.5,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123906",
      "take": "",
@@ -822,7 +698,7 @@
        "points": 30
       },
       {
-       "label": "Exploit likelihood 0.00",
+       "label": "Exploit likelihood 0.01",
        "points": 0
       },
       {
@@ -832,7 +708,7 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.003,
+     "epss": 0.012,
      "cvss": 7.5,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123907",
      "take": "",
@@ -859,36 +735,9 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.003,
+     "epss": 0.004,
      "cvss": 8.2,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123913",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-82168",
-     "headline": "Dell Virtual Storage Integrator for VMware vSphere Web Client, versions prior to 10.12.0.0, contains a Use of Hard-coded Credentials vulnerability in ssl_con...",
-     "products": [],
-     "score": 38,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.00",
-       "points": 0
-      },
-      {
-       "label": "Severity 7.7",
-       "points": 8
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.002,
-     "cvss": 7.7,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82168",
      "take": "",
      "action": ""
     }
@@ -933,39 +782,6 @@
    "label": "MSP tooling",
    "blurb": "RMM and remote-support platforms with reach into every client.",
    "items": [
-    {
-     "id": "CVE-2026-134624",
-     "headline": "N-able MailAssure (SpamExperts) before 20261121.1943 does not restrict the destination of the LDAP synchronisation connection check performed when a relay is...",
-     "products": [
-      "mail assure"
-     ],
-     "score": 79,
-     "factors": [
-      {
-       "label": "Listed as actively exploited",
-       "points": 40
-      },
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.02",
-       "points": 0
-      },
-      {
-       "label": "Severity 9.3",
-       "points": 9
-      }
-     ],
-     "kev": true,
-     "ransomware": false,
-     "epss": 0.018,
-     "cvss": 9.3,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134624",
-     "take": "",
-     "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines."
-    },
     {
      "id": "CVE-2026-123167",
      "headline": "SolarWinds Serv-U is affected by a privilege escalation vulnerability that, when exploited, can allow a domain administrator to access files that otherwise w...",
@@ -1262,9 +1078,36 @@
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123166",
      "take": "",
      "action": ""
+    },
+    {
+     "id": "CVE-2026-123173",
+     "headline": "SolarWinds Serv-U is affected by an out-of-bounds \nmemory read that could allow an attacker to disclose \ndata from server memory",
+     "products": [],
+     "score": 37,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 6.8",
+       "points": 7
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.007,
+     "cvss": 6.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123173",
+     "take": "",
+     "action": ""
     }
    ],
-   "above": 1
+   "above": 0
   },
   "file-transfer": {
    "label": "Managed file transfer",
@@ -1602,33 +1445,6 @@
    "blurb": "Confluence, Jenkins, GitLab, and the internal tools nobody patches.",
    "items": [
     {
-     "id": "CVE-2026-135202",
-     "headline": "Several plugins for WordPress published by WP connect (Orders Sync to Airtable for WooCommerce, Add-On for Contact Form 7 to Notion, WP Sync for Notion \u2013 Not...",
-     "products": [],
-     "score": 41,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.03",
-       "points": 1
-      },
-      {
-       "label": "Severity 9.8",
-       "points": 10
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.027,
-     "cvss": 9.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135202",
-     "take": "",
-     "action": ""
-    },
-    {
      "id": "CVE-2026-104998",
      "headline": "The Product Input Fields for WooCommerce plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 2.1.0 via the proc...",
      "products": [],
@@ -1639,15 +1455,73 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
        "label": "Severity 9.8",
        "points": 10
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.013,
      "cvss": 9.8,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104998",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-106125",
+     "headline": "The Sneeit Framework plugin for WordPress is vulnerable to Remote Code Execution in versions up to, and including, 8.7 via the 'callback' parameter of the sn...",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.012,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106125",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-115867",
+     "headline": "The Database for Contact Form 7, WPforms, Elementor forms plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 1...",
+     "products": [],
+     "score": 40,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 9.8",
+       "points": 10
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.009,
+     "cvss": 9.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115867",
      "take": "",
      "action": ""
     },
@@ -1672,9 +1546,36 @@
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.013,
+     "epss": 0.012,
      "cvss": 9.9,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136835",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-113774",
+     "headline": "The Schema & Structured Data for WP & AMP plugin for WordPress is vulnerable to PHP Object Injection in versions up to, and including, 1.68",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
+       "label": "Severity 8.8",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.005,
+     "cvss": 8.8,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-113774",
      "take": "",
      "action": ""
     },
@@ -1743,13 +1644,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
        "label": "Severity 9.1",
        "points": 9
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.007,
      "cvss": 9.1,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133951",
      "take": "",
@@ -1766,15 +1671,42 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.02",
+       "points": 0
+      },
+      {
        "label": "Severity 9.1",
        "points": 9
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.018,
      "cvss": 9.1,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134173",
+     "take": "",
+     "action": ""
+    },
+    {
+     "id": "CVE-2026-134987",
+     "headline": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in Nickboss WordPress File Upload wp-file-upload allows Path Tra...",
+     "products": [],
+     "score": 39,
+     "factors": [
+      {
+       "label": "Runs in this environment",
+       "points": 30
+      },
+      {
+       "label": "Severity 8.6",
+       "points": 9
+      }
+     ],
+     "kev": false,
+     "ransomware": false,
+     "epss": 0.0,
+     "cvss": 8.6,
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134987",
      "take": "",
      "action": ""
     },
@@ -1789,13 +1721,17 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
        "label": "Severity 9.1",
        "points": 9
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.009,
      "cvss": 9.1,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135641",
      "take": "",
@@ -1812,92 +1748,19 @@
        "points": 30
       },
       {
+       "label": "Exploit likelihood 0.01",
+       "points": 0
+      },
+      {
        "label": "Severity 9.1",
        "points": 9
       }
      ],
      "kev": false,
      "ransomware": false,
-     "epss": 0.0,
+     "epss": 0.01,
      "cvss": 9.1,
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136240",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-136834",
-     "headline": "Sandbox protection in Jenkins Pipeline: Groovy Plugin 4403.v471713a_cea_19 and earlier can be circumvented through interface field initializers, allowing att...",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.8",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.01,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136834",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-136837",
-     "headline": "Jenkins Warnings Plugin 13.10251.va_452d3553728 through 13.10365.v85cd7a_c8110b_ (both inclusive) allows defining inline Groovy parsers whose Groovy scripts ...",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Exploit likelihood 0.01",
-       "points": 0
-      },
-      {
-       "label": "Severity 8.8",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.012,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136837",
-     "take": "",
-     "action": ""
-    },
-    {
-     "id": "CVE-2026-76075",
-     "headline": "The Warehouse Cargo theme for WordPress is vulnerable to Arbitrary File Upload in versions up to, and including, 2.7.4 via the warehouse_cargo_install_and_ac...",
-     "products": [],
-     "score": 39,
-     "factors": [
-      {
-       "label": "Runs in this environment",
-       "points": 30
-      },
-      {
-       "label": "Severity 8.8",
-       "points": 9
-      }
-     ],
-     "kev": false,
-     "ransomware": false,
-     "epss": 0.0,
-     "cvss": 8.8,
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76075",
      "take": "",
      "action": ""
     }
